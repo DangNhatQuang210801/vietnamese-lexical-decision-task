@@ -1,0 +1,63 @@
+Current Study Setup (Locked So Far)
+
+Research Question
+How do word frequency and word length influence reaction times in a Vietnamese lexical decision task, and do these factors interact?
+
+Dependent Variable (DV)
+Reaction time (in milliseconds) measured from stimulus onset to participant response
+(Accuracy recorded as secondary measure)
+
+1. Processing level (DATA)
+split theo space
+→ “học sinh” = 2 syllables
+2. Measurement (VARIABLE)
+word length = number of syllables
+3. Lexical level (MEANING)
+“học sinh” vẫn là 1 word về mặt nghĩa
+
+Bạn đang test:
+
+👉 Người Việt đọc chữ như thế nào?
+
+Cụ thể:
+
+từ ngắn (1 syllable) → nhanh hơn?
+từ dài (3 syllables) → chậm hơn?
+từ phổ biến → nhanh hơn?
+từ hiếm → chậm hơn?
+
+Independent Variables (IVs)
+
+Word frequency (log-transformed, continuous)
+Word length (to be defined: letters OR syllables — not yet fixed)
+Interaction: frequency × length
+
+Methodology Overview
+
+Experimental design using a lexical decision task
+Participants: 40–60 native Vietnamese speakers
+Stimuli: ~200 real words + ~200 pseudowords
+Tool: PsychoPy
+Procedure: fixation cross → stimulus → key press (word / non-word)
+Analysis: linear mixed-effects model (lme4 in R)
+Fixed effects: frequency, length, interaction
+Random effects: participants, items
+Data preprocessing: remove incorrect responses, remove outliers, log-transform RT
+
+Language: Vietnamese (Chữ Quốc Ngữ)
+Task: visual lexical decision task
+DV: reaction time in milliseconds
+Secondary DV: accuracy
+IV1: log word frequency
+IV2: word length = number of syllables
+Interaction: frequency × syllable length
+Participants: 40–60 native Vietnamese speakers
+Stimuli: real words + pseudowords
+Tool: PsychoPy
+Analysis: linear mixed-effects model in R
+
+Simple reminder for syllable length
+
+nhà = 1 syllable
+học sinh = 2 syllables
+công nghệ thông tin = 4 syllables
