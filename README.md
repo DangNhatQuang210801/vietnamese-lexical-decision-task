@@ -61,15 +61,3 @@ Project setup and data preparation in progress.
   - Remove outliers
 
 ## Repository Structure
-vietnamese-lexical-decision-task/
-├── data/ # sample or cleaned corpus data
-├── experiment/ # PsychoPy experiment scripts
-├── analysis/ # R scripts (mixed-effects models)
-├── scripts/ # preprocessing and data handling
-├── results/ # outputs, figures, tables
-├── VietnameseCorpus.ipynb
-├── README.md
-└── .gitignore
-  - Log-transform reaction times
-
-## Repository Structure
