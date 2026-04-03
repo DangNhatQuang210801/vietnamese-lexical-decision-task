@@ -1,0 +1,55 @@
+Rulebook v1 — Selecting Vietnamese Lexical Stimuli
+
+Objective
+The goal is to select lexical items from a Vietnamese corpus for use as stimuli in a lexical decision task. The selected items must be meaningful, stable in form, and appropriate for a syllable-based writing system.
+Unit of analysis
+In this project, a “word” is operationalized as a high-frequency syllable n-gram that approximates a lexical unit.
+Only bigrams (two-syllable units) are used as primary stimuli. Trigrams are excluded due to segmentation noise.
+Data source
+The corpus is collected from online Vietnamese news articles.
+All texts are cleaned to remove HTML, metadata, and non-linguistic noise.
+Tokenization is performed at the syllable level, followed by n-gram generation.
+Selection criteria
+
+4.1 No stopwords
+An item must not contain function words such as conjunctions, particles, or grammatical markers.
+Examples to exclude: và, là, của, có, trong, khi, nếu.
+
+4.2 No boundary function words
+An item must not begin or end with a function word.
+Examples to exclude: sau khi, tuy nhiên.
+
+4.3 Clear lexical meaning
+An item must have a stable and independent lexical meaning.
+Examples to include: công ty, gia đình, thị trường.
+Examples to exclude: có thể, thực hiện (context-dependent or function-like expressions).
+
+4.4 Preference for noun or noun-like units
+To ensure consistency across stimuli, noun phrases or noun-like expressions are preferred.
+Examples to include: học sinh, cơ quan, thế giới.
+Verb phrases are excluded unless a broader design is explicitly justified.
+
+4.5 No fragmented sequences
+Items that are fragments of longer expressions must be excluded.
+Examples to exclude: đốc công ty, báo người lao.
+
+4.6 Frequency threshold
+Items must fall within a high-frequency range to ensure recognizability.
+Only items within a predefined top frequency band (e.g., top 500–2000) are selected.
+
+Exclusion categories
+The following categories are systematically removed:
+Function words
+Discourse markers (e.g., tuy nhiên, mặt khác)
+Verb phrases (if restricting to noun-based stimuli)
+Fragmented n-grams
+Optional: named entities, depending on experimental design
+Justification
+Vietnamese orthography separates syllables rather than words, which complicates word identification based on whitespace. High-frequency bigrams provide a practical approximation of lexical units. A rule-based filtering procedure ensures that selected items reflect meaningful and stable lexical representations suitable for psycholinguistic experiments.
+Final output
+The final stimulus set consists of approximately 120 to 160 bigrams.
+Each item includes the following attributes:
+lexical_item
+frequency
+log_frequency
+syllable_length (fixed at 2)
