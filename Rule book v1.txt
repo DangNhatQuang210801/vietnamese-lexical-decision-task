@@ -1,55 +1,252 @@
-Rulebook v1 — Selecting Vietnamese Lexical Stimuli
+﻿Rulebook v1 - Selecting Vietnamese Lexical Stimuli
 
-Objective
-The goal is to select lexical items from a Vietnamese corpus for use as stimuli in a lexical decision task. The selected items must be meaningful, stable in form, and appropriate for a syllable-based writing system.
-Unit of analysis
-In this project, a “word” is operationalized as a high-frequency syllable n-gram that approximates a lexical unit.
-Only bigrams (two-syllable units) are used as primary stimuli. Trigrams are excluded due to segmentation noise.
-Data source
+1. Objective
+
+The goal of this rule book is to guide the selection of Vietnamese lexical items from a corpus for use as real-word stimuli in a visual lexical decision task.
+
+The selected stimuli must be:
+- meaningful Vietnamese lexical items
+- stable in form and interpretation
+- appropriate for a syllable-based orthographic system
+- suitable for testing the effects of word frequency and word length on reaction time
+
+This project investigates how word frequency and word length, measured in syllables, influence reaction time in Vietnamese visual word recognition.
+
+2. Experimental Context
+
+Task: Lexical Decision Task (LDT)
+Tool: PsychoPy
+Participants: 40-60 native Vietnamese speakers
+
+In the experiment, participants decide whether a visually presented stimulus is a real Vietnamese word or a pseudoword. Reaction time is the main dependent variable, and accuracy is recorded as a secondary measure.
+
+3. Unit of Analysis
+
+Vietnamese orthography separates syllables with spaces, but a lexical word may contain one or more syllables.
+
+A lexical item is defined as a semantically coherent unit that can function as a word in isolation and has a stable meaning independent of context.
+
+Real-word stimuli must include lexical items with 1 to 4 syllables.
+
+Examples:
+- nhà = 1 syllable
+- học sinh = 2 syllables
+- nhà khoa học = 3 syllables
+- công nghệ thông tin = 4 syllables
+
+The exact lexical validity of each item must be checked manually, because whitespace-separated corpus n-grams do not always correspond to real lexical units.
+
+4. Word Length Definition
+
+Word length is defined as the number of syllables in a lexical item.
+
+Operationally, word length is counted using whitespace-separated units in Vietnamese.
+
+Examples:
+- "nhà" has syllable_length = 1
+- "học sinh" has syllable_length = 2
+- "nhà khoa học" has syllable_length = 3
+- "công nghệ thông tin" has syllable_length = 4
+
+Word length is not measured by number of letters.
+
+5. Data Source
+
 The corpus is collected from online Vietnamese news articles.
-All texts are cleaned to remove HTML, metadata, and non-linguistic noise.
-Tokenization is performed at the syllable level, followed by n-gram generation.
-Selection criteria
 
-4.1 No stopwords
-An item must not contain function words such as conjunctions, particles, or grammatical markers.
-Examples to exclude: và, là, của, có, trong, khi, nếu.
+All texts should be cleaned to remove:
+- HTML
+- metadata
+- duplicated text
+- non-linguistic noise
+- malformed strings
 
-4.2 No boundary function words
-An item must not begin or end with a function word.
-Examples to exclude: sau khi, tuy nhiên.
+Tokenization is performed at the syllable level. Frequency lists may be generated for unigrams, bigrams, trigrams, four-grams, or combined n-gram datasets.
 
-4.3 Clear lexical meaning
+6. Frequency Handling
+
+Each candidate lexical item must have a frequency value derived from the corpus.
+
+Frequency should be retained as a raw count for documentation, but the main frequency predictor used in analysis is log-transformed frequency.
+
+Each selected real-word item should include:
+- lexical_item
+- frequency
+- log_frequency
+- syllable_length
+
+Frequency is treated as a continuous independent variable in the statistical analysis.
+
+7. Stimulus Distribution
+
+The final real-word stimulus set should contain approximately 120 to 160 lexical items.
+
+Stimuli must be sampled across four syllable-length conditions:
+- 1 syllable
+- 2 syllables
+- 3 syllables
+- 4 syllables
+
+The design aims for approximately equal numbers of items per syllable-length condition (+/-5 items). Any deviation must be explicitly documented.
+
+In addition to balancing syllable-length conditions, care should be taken to avoid strong collinearity between word frequency and syllable length, so that their independent effects can be estimated reliably in the statistical model.
+
+For example, a 160-item set may include approximately 40 items per syllable-length condition.
+
+8. Selection Criteria
+
+All selection criteria are designed to ensure that stimuli are comparable, interpretable, and suitable for controlled psycholinguistic experimentation.
+
+8.1 No Stopwords
+
+An item must not be a function word by itself.
+
+Examples to exclude:
+- và
+- là
+- của
+- có
+- trong
+- khi
+- nếu
+
+8.2 No Boundary Function Words
+
+Multi-syllable items must not begin or end with a function word unless the full expression is clearly lexicalized and independently meaningful.
+
+Examples to exclude:
+- sau khi
+- tuy nhiên
+- của người
+
+8.3 Clear Lexical Meaning
+
 An item must have a stable and independent lexical meaning.
-Examples to include: công ty, gia đình, thị trường.
-Examples to exclude: có thể, thực hiện (context-dependent or function-like expressions).
 
-4.4 Preference for noun or noun-like units
-To ensure consistency across stimuli, noun phrases or noun-like expressions are preferred.
-Examples to include: học sinh, cơ quan, thế giới.
-Verb phrases are excluded unless a broader design is explicitly justified.
+Examples to include:
+- công ty
+- gia đình
+- thị trường
+- học sinh
 
-4.5 No fragmented sequences
-Items that are fragments of longer expressions must be excluded.
-Examples to exclude: đốc công ty, báo người lao.
+Examples to exclude:
+- có thể
+- thực hiện
+- đã được
 
-4.6 Frequency threshold
-Items must fall within a high-frequency range to ensure recognizability.
-Only items within a predefined top frequency band (e.g., top 500–2000) are selected.
+These excluded examples are common sequences, but they are function-like, context-dependent, or not ideal as lexical-decision stimuli.
 
-Exclusion categories
-The following categories are systematically removed:
-Function words
-Discourse markers (e.g., tuy nhiên, mặt khác)
-Verb phrases (if restricting to noun-based stimuli)
-Fragmented n-grams
-Optional: named entities, depending on experimental design
-Justification
-Vietnamese orthography separates syllables rather than words, which complicates word identification based on whitespace. High-frequency bigrams provide a practical approximation of lexical units. A rule-based filtering procedure ensures that selected items reflect meaningful and stable lexical representations suitable for psycholinguistic experiments.
-Final output
-The final stimulus set consists of approximately 120 to 160 bigrams.
-Each item includes the following attributes:
-lexical_item
-frequency
-log_frequency
-syllable_length (fixed at 2)
+8.4 Preference for Nouns or Noun-Like Units
+
+To improve stimulus consistency, nouns and noun-like expressions are preferred.
+
+Examples to include:
+- học sinh
+- cơ quan
+- thế giới
+- giáo dục
+
+Verb phrases should be excluded unless a broader design is explicitly justified.
+
+8.5 No Fragmented Sequences
+
+Items that appear to be fragments of longer expressions must be excluded.
+
+Examples to exclude:
+- đốc công ty
+- báo người lao
+- viện nghiên
+
+These strings may occur in corpus n-grams, but they do not function as stable lexical units.
+
+8.6 Frequency Range
+
+Items should fall within a frequency range that ensures recognizability while still allowing variation in frequency.
+
+The final stimulus set should not include only the highest-frequency items, because the experiment requires frequency variation.
+
+Each syllable-length condition must include a range of log frequency values to allow estimation of frequency effects within and across length conditions.
+
+9. Bigrams Note
+
+Bigrams may be used as a starting pool for stimulus extraction because many Vietnamese lexical items contain two syllables.
+
+However, bigrams must not constitute the entire dataset.
+
+Restricting all stimuli to bigrams would make syllable length constant, which would prevent the experiment from testing the effect of word length.
+
+10. Pseudoword Construction
+
+The final experiment also requires approximately 120 to 160 pseudowords.
+
+Pseudowords should:
+- be pronounceable in Vietnamese
+- follow Vietnamese phonotactic patterns
+- match the real-word stimuli as closely as possible in syllable length
+- not be real Vietnamese words
+- not be obvious malformed strings
+
+Pseudowords should be balanced across the same syllable-length categories as the real-word stimuli where possible.
+
+11. Exclusion Categories
+
+The following categories must be systematically removed:
+- function words
+- discourse markers
+- context-dependent phrases
+- verb phrases, if the design is restricted to noun-like stimuli
+- fragmented n-grams
+- malformed strings
+- duplicated items
+- named entities, unless explicitly included by design
+
+Named entities should generally be excluded because they may introduce uncontrolled familiarity effects.
+
+12. Experimental Validity
+
+Variation in syllable length is required for word length to function as an independent variable.
+
+Without this variation, the experimental design would be invalid for testing length effects.
+
+Therefore, the final stimulus set must include lexical items with different syllable lengths while retaining corpus-based frequency and log-transformed frequency values.
+
+13. Analysis Plan
+
+The planned analysis uses a linear mixed-effects model in R with lme4.
+
+Dependent variable:
+- log-transformed reaction time
+
+Fixed effects:
+- log frequency
+- syllable length
+- log frequency x syllable length interaction
+
+Random effects:
+- participants
+- items
+
+Preprocessing:
+- remove incorrect responses
+- remove extreme reaction-time outliers
+- log-transform reaction time
+
+14. Final Output
+
+The final real-word stimulus file should contain approximately 120 to 160 items.
+
+Each item must include:
+- lexical_item
+- frequency
+- log_frequency
+- syllable_length
+
+The final set should be suitable for PsychoPy experiment input and for later mixed-effects analysis in R.
+
+15. Summary
+
+This project uses corpus-derived Vietnamese lexical items to construct stimuli for a visual lexical decision task.
+
+Because Vietnamese is a syllable-based orthographic system, word length is defined as the number of syllables rather than the number of letters.
+
+The final stimulus set must include real lexical items with 1 to 4 syllables so that the experiment can test the effects of frequency, syllable length, and their interaction on reaction time.

@@ -1,0 +1,50 @@
+﻿1. Ý tưởng ban đầu
+
+RP2 nghiên cứu nhận diện từ tiếng Việt bằng lexical decision task.
+Biến chính: word frequency và word length.
+DV chính: reaction time.
+
+2. Giai đoạn đầu (thiết kế ban đầu)
+
+Đầu tiên, dự án thu thập corpus tiếng Việt từ văn bản tin tức.
+Dữ liệu được làm sạch để bỏ noise, metadata, số và ký hiệu không cần thiết.
+Pipeline ban đầu tạo unigram, bigram và trigram.
+Ban đầu dự định dùng bigrams làm stimuli chính.
+
+3. Vấn đề phát hiện
+
+Nếu chỉ dùng bigrams, tất cả stimuli đều có 2 âm tiết.
+Như vậy word length bị cố định.
+Khi word length không thay đổi, không thể test effect của word length.
+Thiết kế này sai về mặt logic experiment.
+
+4. Thay đổi quan trọng
+
+Dự án chuyển sang dùng syllable-based length, phù hợp với đặc trưng tiếng Việt.
+Rule book được cập nhật: stimuli phải có 1-4 âm tiết.
+Lý do: cần variation về syllable length để test effect của word length và interaction với frequency.
+
+5. Cập nhật pipeline
+
+Không viết lại workflow từ đầu.
+Giữ notebook cũ VietnameseCorpus.ipynb và mở rộng pipeline hiện có.
+Thêm bước tạo 4-gram.
+Xuất lại dữ liệu processed theo cấu trúc 1-4 syllables.
+
+6. Trạng thái hiện tại
+
+Hiện đã có candidate pool cho lexical items 1-4 âm tiết.
+Các file processed gồm các cột:
+- lexical_item
+- frequency
+- syllable_length
+- log_frequency
+
+Đã hoàn thành bước tạo dữ liệu ứng viên cho stimuli thật.
+
+7. Bước tiếp theo
+
+Review thủ công lexical items.
+Chia items theo số âm tiết.
+Đánh dấu từng item: keep / reject / unsure.
+Sau đó chọn tập stimuli cuối cho experiment.
