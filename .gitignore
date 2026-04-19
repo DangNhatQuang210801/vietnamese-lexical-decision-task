@@ -1,3 +1,5 @@
 .ipynb_checkpoints/
 archive/
 archive.zip
+__pycache__/
+*.pyc

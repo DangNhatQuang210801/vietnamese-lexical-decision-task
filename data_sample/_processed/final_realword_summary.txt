@@ -1,0 +1,24 @@
+﻿Final Vietnamese real-word candidate summary
+============================================
+
+Total selected items: 147
+
+Distribution and log_frequency range by syllable_length:
+- 1 syllable(s): 37 items; min=2.944, median=5.182, max=7.289
+- 2 syllable(s): 49 items; min=2.303, median=2.996, max=5.100
+- 3 syllable(s): 29 items; min=1.792, median=2.197, max=3.738
+- 4 syllable(s): 32 items; min=1.099, median=1.099, max=2.565
+
+Frequency-length association:
+- Pearson r = -0.857
+
+Warnings:
+- Syllable length 2 has 49 items; target is about 30-40.
+- Syllable length 3 has 29 items; target is about 30-40.
+- Group counts differ by 20; consider rebalancing.
+- syllable_length and log_frequency correlation is r=-0.857; consider adjusting items to reduce frequency-length imbalance.
+
+Suggestion:
+Use this output as a statistical check after human linguistic selection. If a group is under-filled, over-filled, or has a narrow frequency range, adjust the manual sheet and rerun this script. Do not use these diagnostics as a substitute for native-speaker lexical validation.
+
+Plot status: matplotlib not installed; skipped boxplot.
