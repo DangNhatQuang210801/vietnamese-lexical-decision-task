@@ -1,0 +1,41 @@
+﻿final_realword_candidates_v4 diagnostics
+
+Source file: final_realword_candidates_v3.csv
+Review file: proposed_4syllable_quality_replacements.csv
+Output file: final_realword_candidates_v4.csv
+
+Total item count: 147
+
+Item count, mean log_frequency, and median log_frequency by syllable_length:
+- syllable_length 1: n=37, mean_log_frequency=5.116, median_log_frequency=5.182
+- syllable_length 2: n=39, mean_log_frequency=3.109, median_log_frequency=2.944
+- syllable_length 3: n=39, mean_log_frequency=2.774, median_log_frequency=2.639
+- syllable_length 4: n=32, mean_log_frequency=1.796, median_log_frequency=1.609
+
+Correlation between syllable_length and log_frequency: r = -0.78
+
+Removed 4-syllable items:
+- cá rô tổng trường
+- công nghiệp tân tạo
+- máy sinh tố xay
+- thị trường kiểu dáng
+- đáp ứng nhu cầu
+- tốt nghiệp đại học
+- chống bán phá giá
+- dịch vụ tẩy lông
+- công ty mỹ phẩm
+- công ty sản xuất
+
+Added 4-syllable replacement items:
+- hạnh phúc gia đình
+- cuộc sống gia đình
+- điện thoại di động
+- trình độ học vấn
+- quan hệ vợ chồng
+- tình yêu đích thực
+- mái ấm gia đình
+- thực phẩm chế biến
+- mẹ chồng nàng dâu
+- chuyên viên tư vấn
+
+Note: v4 is the quality-polished final real-word stimulus set. It applies the approved 4-syllable quality replacements from the manual review, keeps the total item count unchanged, and preserves the syllable-length counts from v3.

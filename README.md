@@ -1,63 +1,45 @@
-# Vietnamese Lexical Decision Task
+# RP2 Vietnamese Lexical Decision Project
 
-## Overview
-This project investigates how word frequency and syllable-based word length influence reaction times in Vietnamese visual word recognition.
+This repository contains materials for Research Project 2 on Vietnamese visual word recognition, focusing on how word frequency and syllable-based word length affect lexical decision responses.
 
-The study is based on a lexical decision task (LDT), in which participants decide whether a presented stimulus is a real Vietnamese word or a pseudoword. Reaction times are used to understand how quickly lexical access occurs.
+## Current Status
 
-## Research Question
-How do word frequency and word length (measured in syllables) affect reaction times in Vietnamese, and do these factors interact?
+The real-word stimulus set is frozen at:
 
-## Motivation
-Most psycholinguistic research on visual word recognition has focused on Indo-European languages such as English. Vietnamese presents a different case due to its orthographic structure, where spaces often separate syllables rather than full lexical words.
+```text
+data/stimuli/final_realword_candidates_v4.csv
+```
 
-This project aims to test whether well-established effects (frequency and length) generalize to Vietnamese.
+This v4 file is the quality-polished final real-word set. The next step is pseudoword construction matched by `syllable_length`.
 
-## Notes
-- Large raw datasets are excluded from the repository.
-- Only sample or processed data is included for reproducibility.
+## Folder Structure
 
-## Status
-Project setup and data preparation in progress.
+- `docs/proposal_and_submission/`
+  - Proposal/submission-facing files and final real-word diagnostics.
+- `docs/personal_notes/`
+  - Personal notes, RP2 reference materials, rule book, and project organization notes.
+- `data/corpus/`
+  - Raw/extracted Vietnamese corpus materials.
+- `data/processed/`
+  - Processed corpus frequency tables.
+- `data/stimuli/`
+  - Final real-word stimuli and candidate pools needed for reproducibility or pseudoword construction.
+- `scripts/`
+  - Corpus processing and real-word stimulus-selection scripts/notebooks.
+- `archive/`
+  - Old intermediate stimulus-selection files, earlier final versions, review notes, and old diagnostics.
 
-## Methodology
+## Key Files
 
-### Experimental Design
-- Task: Lexical Decision Task
-- Language: Vietnamese (Chữ Quốc Ngữ)
-- Participants: 40–60 native speakers
+- Real-word stimuli for pseudoword construction:
+  `data/stimuli/final_realword_candidates_v4.csv`
+- Final real-word diagnostics:
+  `docs/proposal_and_submission/final_realword_candidates_v4_diagnostics.txt`
+- Candidate shortlist:
+  `data/stimuli/candidate_shortlist_by_length.csv`
+- Main corpus frequency table:
+  `data/processed/all_1to4gram_frequency.csv`
 
-### Stimuli
-- ~120–160 real words
-- ~120–160 pseudowords
-- Word frequency obtained from a Vietnamese corpus (log-transformed)
-- Word length measured as number of syllables
+## Next Step
 
-### Procedure
-- Fixation cross (≈500 ms)
-- Stimulus presentation
-- Participant response (word / non-word)
-- Reaction time and accuracy recorded
-
-## Variables
-
-### Dependent Variable
-- Reaction time (milliseconds)
-
-### Independent Variables
-- Word frequency (log-transformed)
-- Word length (number of syllables)
-
-### Interaction
-- Frequency × Length
-
-## Data Analysis
-- Linear mixed-effects models (R, lme4)
-- Random effects:
-  - Participants
-  - Items
-- Preprocessing:
-  - Remove incorrect responses
-  - Remove outliers
-
-## Repository Structure
+Construct pseudowords matched to the v4 real-word stimuli by `syllable_length`, while preserving the final real-word file unchanged.

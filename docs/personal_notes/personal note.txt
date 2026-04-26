@@ -1,0 +1,195 @@
+﻿1. Ý tưởng ban đầu
+
+RP2 nghiên cứu nhận diện từ tiếng Việt bằng lexical decision task.
+Biến chính: word frequency và word length.
+DV chính: reaction time.
+
+2. Giai đoạn đầu (thiết kế ban đầu)
+
+Đầu tiên, dự án thu thập corpus tiếng Việt từ văn bản tin tức.
+Dữ liệu được làm sạch để bỏ noise, metadata, số và ký hiệu không cần thiết.
+Pipeline ban đầu tạo unigram, bigram và trigram.
+Ban đầu dự định dùng bigrams làm stimuli chính.
+
+3. Vấn đề phát hiện
+
+Nếu chỉ dùng bigrams, tất cả stimuli đều có 2 âm tiết.
+Như vậy word length bị cố định.
+Khi word length không thay đổi, không thể test effect của word length.
+Thiết kế này sai về mặt logic experiment.
+
+4. Thay đổi quan trọng
+
+Dự án chuyển sang dùng syllable-based length, phù hợp với đặc trưng tiếng Việt.
+Rule book được cập nhật: stimuli phải có 1-4 âm tiết.
+Lý do: cần variation về syllable length để test effect của word length và interaction với frequency.
+
+5. Cập nhật pipeline
+
+Không viết lại workflow từ đầu.
+Giữ notebook cũ VietnameseCorpus.ipynb và mở rộng pipeline hiện có.
+Thêm bước tạo 4-gram.
+Xuất lại dữ liệu processed theo cấu trúc 1-4 syllables.
+
+6. Trạng thái hiện tại
+
+Hiện đã có candidate pool cho lexical items 1-4 âm tiết.
+Các file processed gồm các cột:
+- lexical_item
+- frequency
+- syllable_length
+- log_frequency
+
+Đã hoàn thành bước tạo dữ liệu ứng viên cho stimuli thật.
+
+7. Bước tiếp theo
+
+Review thủ công lexical items.
+Chia items theo số âm tiết.
+Đánh dấu từng item: keep / reject / unsure.
+Sau đó chọn tập stimuli cuối cho experiment.
+
+8. Cập nhật mới - giai đoạn stimulus selection
+
+Automatic filtering phase đã hoàn thành và không nên chạy lại nếu không cần.
+Các output quan trọng hiện nằm trong data_sample/_processed:
+- candidate_pool_filtered.csv
+- candidate_pool_kept_only.csv
+- candidate_pool_manual_review.csv
+- candidate_shortlist_by_length.csv
+- candidate_summary.txt
+
+Sau khi kiểm tra shortlist đầu tiên, phát hiện nhiều option vẫn còn yếu:
+- fragment
+- phrase-like expression
+- verb-like expression
+- context-dependent phrase
+- everyday relationship / family drama theme quá nhiều
+
+Vì vậy đã refresh trực tiếp manual_selection_sheet (chọn tay).csv.
+Mục tiêu refresh không phải tạo workflow mới, mà là giữ annotation cũ của người dùng, loại bớt option yếu, và thêm option tốt hơn từ candidate_pool_kept_only.csv.
+
+Trạng thái sau refresh:
+- manual_selection_sheet (chọn tay).csv hiện là file chính để review tiếp
+- giữ lại các lựa chọn keep == 1 nếu không quá tệ về lexical validity
+- thêm candidate mới noun-like / semantically stable hơn
+- hiện có 147 item đang được chọn
+
+Các file kiểm tra/final tạm thời đã tạo:
+- danh_sach_da_chon_tieng_viet.csv
+- final_selected_items (kiểm tra).csv
+- final_realword_candidates_v1.csv
+- final_realword_summary.txt
+
+9. Vấn đề còn thiếu trước khi finalize stimuli
+
+Final set hiện vẫn chưa hoàn toàn sẵn sàng cho experiment.
+Diagnostics gần nhất cho thấy:
+- total selected items: 147
+- 1 âm tiết: 37
+- 2 âm tiết: 49
+- 3 âm tiết: 29
+- 4 âm tiết: 32
+- correlation giữa syllable_length và log_frequency còn mạnh âm (khoảng r = -0.857)
+
+Điều này nghĩa là item dài vẫn có xu hướng frequency thấp hơn item ngắn.
+Cần chỉnh nhẹ trước khi finalize:
+- giảm bớt nhóm 2 âm tiết
+- bổ sung hoặc đổi vài item 3 âm tiết
+- nếu có thể, nâng frequency median của nhóm 4 âm tiết
+- tiếp tục loại fragment và phrase-like item trong review tay
+
+10. Ghi nhớ phương pháp
+
+Mục tiêu không phải chọn top-frequency words.
+Mục tiêu là final stimulus set có:
+- lexical validity
+- cân bằng 1-4 âm tiết
+- variation frequency trong từng nhóm length
+- giảm collinearity giữa length và frequency
+- đủ tốt để test frequency effect, length effect, và interaction.
+
+Sau khi real-word set ổn định, mới chuyển sang:
+- pseudoword construction
+- PsychoPy experiment setup
+- pilot test
+
+11. Cập nhật mới - review cân bằng 2 và 3 âm tiết
+
+Đã tạo review files riêng, chưa overwrite final_realword_candidates_v1.csv.
+Mục tiêu hiện tại là sửa imbalance giữa nhóm 2 âm tiết và 3 âm tiết:
+- nhóm 2 âm tiết đang dư
+- nhóm 3 âm tiết đang thiếu
+- correlation giữa syllable_length và log_frequency vẫn quá âm
+
+Các file review mới nằm trong data_sample/_processed:
+- proposed_2syllable_removals.csv
+- proposed_3syllable_additions.csv
+- rebalance_2_3_review_note.txt
+
+Đề xuất hiện tại nếu approve toàn bộ:
+- 2 âm tiết giảm từ 49 xuống 39 item
+- 3 âm tiết tăng từ 29 lên 39 item
+- total vẫn giữ 147 item
+
+Quan trọng: đề xuất này sửa count balance, nhưng chưa sửa được correlation.
+Mô phỏng cho thấy r có thể đi từ khoảng -0.857 thành khoảng -0.866, tức là hơi âm hơn.
+Lý do là các candidate 3 âm tiết còn lại trong shortlist có frequency thấp và nhiều item vẫn hơi phrase-like.
+
+Bước tiếp theo nên làm:
+- review thủ công 10 removal candidates và 10 addition candidates
+- chỉ approve các 3-syllable item thật sự stable và noun-like
+- nếu muốn giảm correlation mạnh hơn, cần tìm thêm 3-4 âm tiết frequency cao hơn hoặc quay lại candidate pool để tạo shortlist tốt hơn
+- chưa tạo pseudowords cho đến khi real-word set ổn định
+
+12. Cập nhật dọn folder / workflow
+
+Đã dọn workspace chính để workflow gọn hơn.
+Nguyên tắc dọn: không xóa vĩnh viễn file quan trọng; file cũ/tạm/trùng được chuyển vào archive.
+
+Các thay đổi chính:
+- Vietnamese Corpus Data.zip đã chuyển khỏi root vào archive/raw_sources
+- .ipynb_checkpoints đã được dọn khỏi root
+- processed output cũ trong data_sample/Doi song/_processed đã chuyển vào archive/cleanup_2026-04-26
+- proposal docx cũ Dang_NhatQuang_Proposal.docx đã chuyển vào archive/cleanup_2026-04-26/superseded_notes
+- duplicate final_selected_items (kiểm tra).csv đã chuyển vào archive/duplicates_2026-04-26
+
+Workspace chính hiện nên hiểu như sau:
+- scripts chứa workflow code
+- data_sample/_processed chứa output active của pipeline
+- data_sample/Doi song giữ raw sample text
+- Note and examples giữ proposal/rule/note đang dùng
+- archive chỉ là nơi lưu raw source, full corpus extract, duplicate, và bản cũ
+
+File active quan trọng nhất hiện tại:
+- data_sample/_processed/manual_selection_sheet (chọn tay).csv
+- data_sample/_processed/final_realword_candidates_v1.csv
+- data_sample/_processed/proposed_2syllable_removals.csv
+- data_sample/_processed/proposed_3syllable_additions.csv
+- data_sample/_processed/rebalance_2_3_review_note.txt
+
+13. Cập nhật setup R
+
+Đã cài và kiểm tra môi trường R cho RP2:
+- R for Windows 4.6.0
+- Rtools 4.5
+- RStudio 2026.04.0+526
+
+Repo hiện có:
+- .Rprofile để tự set CRAN mirror, UTF-8, Rtools PATH, và project library
+- .R/library chứa packages local cho project
+- scripts/setup_r_environment.R để cài/check packages
+- scripts/rp2_r_smoke_test.R để test đọc data và fit mixed model mẫu
+- R_SETUP.md ghi cách dùng
+- r_package_status.csv ghi trạng thái package
+
+Smoke test đã chạy thành công:
+- đọc được final_realword_candidates_v1.csv
+- summarize được syllable_length
+- fit được toy mixed model bằng lmerTest::lmer
+
+Các package chính đã sẵn sàng:
+- tidyverse/readr/readxl/writexl/data.table/janitor
+- ggplot2/patchwork/viridis/scales
+- lme4/lmerTest/emmeans/broom.mixed/performance/parameters/effectsize/sjPlot/car/afex
+- knitr/rmarkdown/pkgbuild

@@ -3,3 +3,6 @@ archive/
 archive.zip
 __pycache__/
 *.pyc
+.R/
+.Rhistory
+.RData
