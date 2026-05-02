@@ -4,13 +4,13 @@ This repository contains materials for Research Project 2 on Vietnamese visual w
 
 ## Current Status
 
-The real-word stimulus set is frozen at:
+The final stimulus deliverables are organized in:
 
 ```text
-data/stimuli/final_realword_candidates_v4.csv
+data/stimuli/final/
 ```
 
-This v4 file is the quality-polished final real-word set. The next step is pseudoword construction matched by `syllable_length`.
+The final real-word set, final pseudoword set, and combined PsychoPy-ready stimulus file are now frozen for experiment setup.
 
 ## Folder Structure
 
@@ -27,20 +27,25 @@ This v4 file is the quality-polished final real-word set. The next step is pseud
 - `data/processed/`
   - Processed corpus frequency tables.
 - `data/stimuli/`
-  - Frozen final real-word stimuli, diagnostics, and candidate pools needed for reproducibility or pseudoword construction.
+  - Stimulus-selection history, review files, candidate pools, and intermediate pseudoword materials.
+- `data/stimuli/final/`
+  - Final stimulus deliverables for the lexical decision experiment.
 - `scripts/`
   - Corpus processing and real-word stimulus-selection scripts/notebooks.
 - `archive/`
   - Old intermediate stimulus-selection files, earlier final versions, review notes, and old diagnostics.
 
-## Key Files
+## Final Stimulus Files
 
-- Real-word stimuli for pseudoword construction:
-  `data/stimuli/final_realword_candidates_v4.csv`
-  This is the frozen final real-word stimulus set.
-- Final real-word diagnostics:
-  `data/stimuli/final_realword_candidates_v4_diagnostics.txt`
-  Documents the final item counts, log-frequency summaries, and frequency-length correlation.
+- Frozen real-word set:
+  `data/stimuli/final/final_realword_candidates_v4.csv`
+- Frozen pseudoword set:
+  `data/stimuli/final/final_pseudoword_candidates_v2.csv`
+- Final combined PsychoPy-ready stimulus file:
+  `data/stimuli/final/final_ldt_stimuli_v1.csv`
+
+## Other Key Files
+
 - Candidate shortlist:
   `data/stimuli/candidate_shortlist_by_length.csv`
 - Main corpus frequency table:
@@ -48,4 +53,4 @@ This v4 file is the quality-polished final real-word set. The next step is pseud
 
 ## Next Step
 
-Construct pseudowords matched to the v4 real-word stimuli by `syllable_length`, while preserving the final real-word file unchanged.
+Use `data/stimuli/final/final_ldt_stimuli_v1.csv` as the PsychoPy conditions file.

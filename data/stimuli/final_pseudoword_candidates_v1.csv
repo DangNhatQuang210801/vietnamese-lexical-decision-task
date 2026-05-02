@@ -1,0 +1,148 @@
+﻿source_realword,pseudoword,syllable_length,modified_syllable_position,original_syllable,modified_syllable,modification_type,quality_flag,possible_meaning_warning,recommended_action,final_selected,manual_note
+biển,biểc,1,1,biển,biểc,final_consonant_change,high,none_detected_by_heuristic,keep_candidate,1,
+bàn,bàc,1,1,bàn,bàc,final_consonant_change,high,none_detected_by_heuristic,keep_candidate,1,
+bút,búc,1,1,bút,búc,final_consonant_change,high,none_detected_by_heuristic,keep_candidate,1,
+chợ,chá,1,1,chợ,chá,vowel_change,high,none_detected_by_heuristic,keep_candidate,1,
+cây,chây,1,1,cây,chây,onset_change,medium,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+cỏ,cở,1,1,cỏ,cở,vowel_change,high,none_detected_by_heuristic,review_carefully,1,
+cốc,côc,1,1,cốc,côc,vowel_change,high,none_detected_by_heuristic,review_carefully,1,
+cửa,bửa,1,1,cửa,bửa,onset_change,medium,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+dân,dản,1,1,dân,dản,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+ghế,ghể,1,1,ghế,ghể,vowel_change,high,none_detected_by_heuristic,review_carefully,1,
+giá,gá,1,1,giá,gá,onset_change,medium,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+gió,hó,1,1,gió,hó,onset_change,medium,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+hoa,đoa,1,1,hoa,đoa,onset_change,medium,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+hàng,hàc,1,1,hàng,hàc,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+luật,luậc,1,1,luật,luậc,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+lá,lâ,1,1,lá,lâ,vowel_change,high,none_detected_by_heuristic,review_carefully,1,
+lực,lủc,1,1,lực,lủc,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+mũ,mố,1,1,mũ,mố,vowel_change,high,none_detected_by_heuristic,keep_candidate,1,
+mắt,măt,1,1,mắt,măt,vowel_change,high,none_detected_by_heuristic,review_carefully,1,
+nhà,nhâ,1,1,nhà,nhâ,vowel_change,high,none_detected_by_heuristic,review_carefully,1,
+núi,búi,1,1,núi,búi,onset_change,medium,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+nước,nướm,1,1,nước,nướm,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+rừng,rúng,1,1,rừng,rúng,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+sách,sảch,1,1,sách,sảch,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+sông,sọng,1,1,sông,sọng,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+thuốc,thuốm,1,1,thuốc,thuốm,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+tin,týn,1,1,tin,týn,vowel_change,high,none_detected_by_heuristic,keep_candidate,1,
+tiền,tiềc,1,1,tiền,tiềc,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+trị,trý,1,1,trị,trý,vowel_change,high,none_detected_by_heuristic,keep_candidate,1,
+vải,bải,1,1,vải,bải,onset_change,medium,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+vật,vảt,1,1,vật,vảt,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+xe,xể,1,1,xe,xể,vowel_change,high,none_detected_by_heuristic,review_carefully,1,
+áo,kháo,1,1,áo,kháo,onset_change,medium,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+đá,đâ,1,1,đá,đâ,vowel_change,high,none_detected_by_heuristic,review_carefully,1,
+đèn,đén,1,1,đèn,đén,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+đường,đườc,1,1,đường,đườc,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+đất,đat,1,1,đất,đat,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+biện pháp,biệc pháp,2,1,biện,biệc,final_consonant_change,high,none_detected_by_heuristic,keep_candidate,1,
+bệnh viện,bệc viện,2,1,bệnh,bệc,final_consonant_change,high,none_detected_by_heuristic,keep_candidate,1,
+chén nước,chẹn nước,2,1,chén,chẹn,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+cây cảnh,cây cảc,2,2,cảnh,cảc,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+cây xanh,cây xạnh,2,2,xanh,xạnh,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+công nghiệp,côc nghiệp,2,1,công,côc,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+công ty,côc ty,2,1,công,côc,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+cửa hàng,cửa hàc,2,2,hàng,hàc,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+giá thành,giá thàc,2,2,thành,thàc,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+giá vé,giá vể,2,2,vé,vể,vowel_change,high,none_detected_by_heuristic,review_carefully,1,
+giáo dục,giáo dụn,2,2,dục,dụn,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+hơi nước,hơi nướm,2,2,nước,nướm,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+hệ thống,hệ thóng,2,2,thống,thóng,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+học thức,học thủc,2,2,thức,thủc,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+khoa học,khoa hỏc,2,2,học,hỏc,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+khách hàng,khách hàc,2,2,hàng,hàc,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+kinh tế,kinh té,2,2,tế,té,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+lao động,lao đơng,2,2,động,đơng,vowel_change,high,none_detected_by_heuristic,review_carefully,1,
+luật pháp,luật phạp,2,2,pháp,phạp,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+mái nhà,mái nhâ,2,2,nhà,nhâ,vowel_change,high,none_detected_by_heuristic,review_carefully,1,
+máy lạnh,máy lânh,2,2,lạnh,lânh,vowel_change,high,none_detected_by_heuristic,review_carefully,1,
+máy xay,báy xay,2,1,máy,báy,onset_change,medium,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+mức giá,mứm giá,2,1,mức,mứm,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+nghệ thuật,nghẻ thuật,2,1,nghệ,nghẻ,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+nhà cửa,nhâ cửa,2,1,nhà,nhâ,vowel_change,high,none_detected_by_heuristic,review_carefully,1,
+nhà hàng,nhà hàc,2,2,hàng,hàc,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+nước dừa,nướm dừa,2,1,nước,nướm,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+nước muối,nướm muối,2,1,nước,nướm,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+nước xốt,nước xọt,2,2,xốt,xọt,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+nước đường,nướm đường,2,1,nước,nướm,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+pháp luật,phạp luật,2,1,pháp,phạp,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+phương pháp,phương phạp,2,2,pháp,phạp,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+thị trường,thị trườc,2,2,trường,trườc,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+tinh tế,týnh tế,2,1,tinh,týnh,vowel_change,high,none_detected_by_heuristic,keep_candidate,1,
+truyền thống,truyền thóng,2,2,thống,thóng,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+văn hóa,vản hóa,2,1,văn,vản,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+xe đẩy,xể đẩy,2,1,xe,xể,vowel_change,high,none_detected_by_heuristic,review_carefully,1,
+đất nước,đat nước,2,1,đất,đat,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+đồng nghiệp,đồc nghiệp,2,1,đồng,đồc,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+chuyện tình cảm,chuyệc tình cảm,3,1,chuyện,chuyệc,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+chủ cửa hàng,chủ cửa hàc,3,3,hàng,hàc,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+cuộc hôn nhân,cuộc hôn nhâc,3,3,nhân,nhâc,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+cá thác lác,cá thác lảc,3,3,lác,lảc,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+cách cư xử,cách cư xụ,3,3,xử,xụ,tone_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+câu trả lời,câu tró lời,3,2,trả,tró,vowel_change,high,none_detected_by_heuristic,keep_candidate,1,
+dây ruy băng,dây ruy bạng,3,3,băng,bạng,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+dòng sản phẩm,dòng sản phám,3,3,phẩm,phám,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+hãng sản xuất,hãc sản xuất,3,1,hãng,hãc,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+hình chữ nhật,hình chụ nhật,3,2,chữ,chụ,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+khoảng thời gian,khoảc thời gian,3,1,khoảng,khoảc,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+kiến trúc sư,kiến trúc sủ,3,3,sư,sủ,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+loại sản phẩm,loại sản phám,3,3,phẩm,phám,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+loại thực phẩm,loại thủc phẩm,3,2,thực,thủc,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+lá đinh lăng,lá đic lăng,3,2,đinh,đic,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+lòng tự trọng,lòc tự trọng,3,1,lòng,lòc,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+muỗng cà phê,muỗng cà phé,3,3,phê,phé,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+máy hút bụi,máy hủt bụi,3,2,hút,hủt,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+máy hút khói,máy hủt khói,3,2,hút,hủt,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+máy nghe nhạc,máy nghe nhảc,3,3,nhạc,nhảc,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+máy nước nóng,máy nước nỏng,3,3,nóng,nỏng,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+máy vi tính,máy vi tíc,3,3,tính,tíc,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+máy điều hòa,báy điều hòa,3,1,máy,báy,onset_change,medium,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+mối quan hệ,mối quan hế,3,3,hệ,hế,vowel_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+mối tình đầu,mối tình khầu,3,3,đầu,khầu,onset_change,medium,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+nhà sản xuất,nhạ sản xuất,3,1,nhà,nhạ,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+nhà thiết kế,nhà thiết ké,3,3,kế,ké,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+niềm hạnh phúc,niềm hónh phúc,3,2,hạnh,hónh,vowel_change,high,none_detected_by_heuristic,keep_candidate,1,
+nét văn hóa,nét vản hóa,3,2,văn,vản,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+nước cốt dừa,nướm cốt dừa,3,1,nước,nướm,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+nước hoa hồng,nướm hoa hồng,3,1,nước,nướm,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+nước trái cây,nướm trái cây,3,1,nước,nướm,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+nước vo gạo,nước vọ gạo,3,2,vo,vọ,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+nồi áp suất,nồi ạp suất,3,2,áp,ạp,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+quán cà phê,quán cà phé,3,3,phê,phé,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+sức hấp dẫn,sủc hấp dẫn,3,1,sức,sủc,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+trường đại học,trường đại hỏc,3,3,học,hỏc,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+tâm lý học,tâm lỵ học,3,2,lý,lỵ,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+đồ nội thất,đồ nội thạt,3,3,thất,thạt,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+chuyên viên tư vấn,chuyên viên tư vản,4,4,vấn,vản,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+cuộc sống gia đình,cuộc sọng gia đình,4,2,sống,sọng,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+công nghệ thông tin,công nghẹ thông tin,4,2,nghệ,nghẹ,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+cơ sở sản xuất,cơ só sản xuất,4,2,sở,só,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+cửa hàng hoa tươi,cửa hàc hoa tươi,4,2,hàng,hàc,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+cửa hàng thực phẩm,cửa hàc thực phẩm,4,2,hàng,hàc,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+diễn đàn quốc tế,diễn đàn quốc té,4,4,tế,té,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+giám đốc công ty,giám đóc công ty,4,2,đốc,đóc,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+hoạt động xã hội,hoạc động xã hội,4,1,hoạt,hoạc,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+hạnh phúc gia đình,hónh phúc gia đình,4,1,hạnh,hónh,vowel_change,high,none_detected_by_heuristic,keep_candidate,1,
+mái ấm gia đình,mái ấc gia đình,4,2,ấm,ấc,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+máy pha cà phê,máy pha cà phé,4,4,phê,phé,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+máy xay sinh tố,máy xay sỉnh tố,4,3,sinh,sỉnh,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+máy đo huyết áp,máy đo huyết ạp,4,4,áp,ạp,tone_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+môi trường bên ngoài,môi trường bẹn ngoài,4,3,bên,bẹn,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+mẹ chồng nàng dâu,mẹ chồng nàng giâu,4,4,dâu,giâu,onset_change,medium,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+nghiên cứu khoa học,nghiên cứu khoa hỏc,4,4,học,hỏc,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+nước mắm nguyên chất,nước mạm nguyên chất,4,2,mắm,mạm,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+nước uống thể thao,nước uống thé thao,4,3,thể,thé,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+quan hệ vợ chồng,quan hệ vợ chọng,4,4,chồng,chọng,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+quan hệ xã hội,quan hế xã hội,4,2,hệ,hế,vowel_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+tai nạn lao động,tai nán lao động,4,2,nạn,nán,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+thị trường nội địa,thị trườc nội địa,4,2,trường,trườc,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+thủ công mỹ nghệ,thủ công mý nghệ,4,3,mỹ,mý,tone_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+thực phẩm chế biến,thủc phẩm chế biến,4,1,thực,thủc,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+trình độ học vấn,trính độ học vấn,4,1,trình,trính,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+tình yêu đích thực,tình yêu đich thực,4,3,đích,đich,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+văn hóa ẩm thực,văn hóa ẩm thủc,4,4,thực,thủc,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+điều kiện kinh tế,điều kiện kịnh tế,4,3,kinh,kịnh,tone_change,high,none_detected_by_heuristic,review_carefully,1,
+điện thoại di động,điệc thoại di động,4,1,điện,điệc,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+đánh mất lòng tin,đanh mất lòng tin,4,1,đánh,đanh,tone_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review
+định kiến xã hội,địc kiến xã hội,4,1,định,địc,final_consonant_change,high,none_detected_by_heuristic,candidate_pool_v4_supplement,1,supplemented from candidate_pool_v4; needs final native-speaker review

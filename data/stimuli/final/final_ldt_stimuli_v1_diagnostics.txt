@@ -1,0 +1,41 @@
+﻿Final LDT stimuli v1 diagnostics
+
+Input real-word file: data/stimuli/final_realword_candidates_v4.csv
+Input pseudoword file: data/stimuli/final_pseudoword_candidates_v2.csv
+Output file: data/stimuli/final_ldt_stimuli_v1.csv
+
+Note:
+final_ldt_stimuli_v1.csv is the experiment-ready stimulus file for PsychoPy.
+
+Total trial count: 294
+
+Word vs pseudoword count:
+- pseudoword: 147
+- word: 147
+
+Counts by condition and syllable_length:
+- pseudoword, 1 syllable(s): 37
+- pseudoword, 2 syllable(s): 39
+- pseudoword, 3 syllable(s): 39
+- pseudoword, 4 syllable(s): 32
+- word, 1 syllable(s): 37
+- word, 2 syllable(s): 39
+- word, 3 syllable(s): 39
+- word, 4 syllable(s): 32
+
+Duplicate stimulus count: 0
+Missing stimulus count: 0
+Missing correct_response count: 0
+Pseudowords match real words by syllable_length: yes
+
+Real-word syllable_length counts:
+- 1: 37
+- 2: 39
+- 3: 39
+- 4: 32
+
+Pseudoword syllable_length counts:
+- 1: 37
+- 2: 39
+- 3: 39
+- 4: 32

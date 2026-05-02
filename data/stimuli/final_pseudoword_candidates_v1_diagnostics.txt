@@ -1,0 +1,39 @@
+﻿Final pseudoword candidates v1 diagnostics
+
+Input shortlist: data/stimuli/pseudoword_final_shortlist_v1.csv
+Input candidate pool: data/stimuli/pseudoword_candidate_pool_v4.csv
+Input real-word file: data/stimuli/final_realword_candidates_v4.csv
+Output file: data/stimuli/final_pseudoword_candidates_v1.csv
+
+Total pseudoword count: 147
+
+Counts by syllable_length:
+- 1: 37
+- 2: 39
+- 3: 39
+- 4: 32
+
+Duplicate pseudoword count: 0
+Duplicate source_realword count: 0
+Source_realwords matched one-to-one: 147
+
+Candidates by selection source:
+- shortlist: 90
+- candidate_pool_v4: 57
+
+Modification_type counts:
+- tone_change: 67
+- final_consonant_change: 44
+- vowel_change: 24
+- onset_change: 12
+
+Recommended_action counts:
+- review_carefully: 77
+- candidate_pool_v4_supplement: 57
+- keep_candidate: 13
+
+Warnings / limitations:
+- This is the first final candidate set, not a completed native-speaker validation record.
+- Supplemented items from candidate_pool_v4 did not pass through the stricter shortlist ranking.
+- Exact-match filtering reduces risk but cannot prove that every pseudoword is absent from Vietnamese.
+- Final manual review should still check pronounceability, accidental meaning, humor, sensitivity, and visual oddness.

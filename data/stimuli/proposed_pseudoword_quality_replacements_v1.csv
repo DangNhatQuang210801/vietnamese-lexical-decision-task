@@ -1,0 +1,15 @@
+﻿source_realword,current_pseudoword,proposed_pseudoword,keep_current_or_replace,reason,syllable_length,modification_type
+cây,chây,khây,replace,Replace because chây is an existing Vietnamese-looking form; khây is still pronounceable and less semantically interpretable.,1,onset_change
+áo,kháo,máo,replace,Replace because kháo can look like a real Vietnamese word/phrase element; máo is less interpretable than kháo and avoids slangy ngáo.,1,onset_change
+gió,hó,hó,keep_current,Keep current because alternatives mó and thó look more like real Vietnamese words or colloquial forms.,1,onset_change
+hoa,đoa,đoa,keep_current,Keep current because candidate_pool_v4 provides no better same-source alternative.,1,onset_change
+công ty,côc ty,côm ty,replace,Replace because côc looks visually harsh and typo-like; côm is pronounceable and slightly less distracting than côc or cỏng.,2,final_consonant_change
+công nghiệp,côc nghiệp,côm nghiệp,replace,Replace because côc looks visually harsh and typo-like; côm is pronounceable and less distracting than côc or tone-only cỏng.,2,final_consonant_change
+máy xay,báy xay,báy xay,keep_current,Keep current because cáy is a real-word-looking form and giáy is name-like; báy remains the least problematic option.,2,onset_change
+mối tình đầu,mối tình khầu,mối tình khầu,keep_current,Keep current because nhầu and nầu are not clearly better and may be more interpretable or dialect-like.,3,onset_change
+mẹ chồng nàng dâu,mẹ chồng nàng giâu,mẹ chồng nàng hâu,replace,Replace because giâu looks like a simple d/gi spelling typo; hâu is pronounceable and less typo-like than giâu while avoiding funny gâu.,4,onset_change
+định kiến xã hội,địc kiến xã hội,địm kiến xã hội,replace,Replace because địc is visually distracting and may evoke a sensitive fragment; địm is pronounceable and less distracting.,4,final_consonant_change
+đường,đườc,đườm,replace,Replace because đườc is visually close to the common word được; đườm is pronounceable and less particle-like.,1,final_consonant_change
+thuốc,thuốm,thuốn,replace,Replace because thuốn is a smoother Vietnamese-like form than thuốm while remaining unattested in the project corpus.,1,final_consonant_change
+nước,nướm,nướp,replace,Replace because nướp is pronounceable and slightly less visually odd than nướm or nướn.,1,final_consonant_change
+máy điều hòa,báy điều hòa,báy điều hòa,keep_current,Keep current because cáy is real-word-like and giáy is name-like; báy remains the least problematic option.,3,onset_change

@@ -1,0 +1,23 @@
+﻿Proposed pseudoword quality replacements v1 note
+
+Reviewed pairs: 14
+Proposed replacements: 9
+Recommended to keep current: 5
+
+Counts by syllable_length and decision:
+- 1 syllable(s), keep_current: 2
+- 1 syllable(s), replace: 5
+- 2 syllable(s), keep_current: 1
+- 2 syllable(s), replace: 2
+- 3 syllable(s), keep_current: 2
+- 4 syllable(s), replace: 2
+
+Review logic:
+- Prefer alternatives from the same source_realword in pseudoword_candidate_pool_v4.
+- Keep the current item where alternatives look more real-word-like, slangy, name-like, funny, or no better candidate exists.
+- Proposed replacements keep syllable length unchanged and preserve one-to-one source matching if applied later.
+
+Important:
+- final_pseudoword_candidates_v1.csv was not overwritten.
+- No final_pseudoword_candidates_v2.csv was created.
+- These are proposal decisions only; final native-speaker review is still needed.

@@ -1,0 +1,169 @@
+Bước hiện tại: Xây thí nghiệm Lexical Decision Task bằng PsychoPy
+
+Ở các bước trước, mình đã chuẩn bị xong stimulus cho thí nghiệm:
+
+1. Danh sách từ thật tiếng Việt
+2. Danh sách pseudoword, tức là từ giả nhưng nhìn giống tiếng Việt
+3. File cuối cùng kết hợp cả hai loại stimulus
+
+File chính hiện tại là:
+
+data/stimuli/final/final_ldt_stimuli_v1.csv
+
+File này có tổng cộng 294 trials:
+
+147 từ thật
+147 pseudowords
+
+Mỗi dòng trong file là một stimulus sẽ được hiện ra cho người tham gia.
+
+Bước tiếp theo là dùng PsychoPy để biến file stimulus này thành một thí nghiệm thật.
+
+PsychoPy là gì?
+
+PsychoPy là công cụ dùng để tạo và chạy thí nghiệm tâm lý học hoặc ngôn ngữ học trên máy tính.
+
+Trong project này, PsychoPy sẽ làm những việc sau:
+
+1. Đọc file stimulus
+2. Hiện hướng dẫn cho người tham gia
+3. Hiện dấu cộng ở giữa màn hình
+4. Hiện từ hoặc pseudoword
+5. Chờ người tham gia bấm phím trả lời
+6. Ghi lại họ bấm phím nào
+7. Ghi lại họ mất bao lâu để bấm
+8. Kiểm tra họ trả lời đúng hay sai
+9. Lưu toàn bộ dữ liệu ra file để phân tích sau
+
+Một trial trong thí nghiệm sẽ chạy như sau:
+
+dấu + → stimulus → người tham gia bấm phím → lưu reaction time và accuracy
+
+Cụ thể:
+
+1. Dấu + hiện ra trong khoảng 500 ms
+
+Mục đích là để người tham gia nhìn vào giữa màn hình trước khi stimulus xuất hiện.
+
+2. Stimulus hiện ra
+
+Stimulus có thể là từ thật, ví dụ:
+
+công ty
+
+hoặc pseudoword, ví dụ:
+
+côm ty
+
+3. Người tham gia bấm phím
+
+Ví dụ thiết kế hiện tại:
+
+F = từ thật
+J = không phải từ
+
+4. Máy lưu dữ liệu
+
+PsychoPy sẽ lưu:
+
+stimulus là gì
+stimulus là từ thật hay pseudoword
+người tham gia bấm phím nào
+câu trả lời có đúng không
+reaction time là bao lâu
+
+Reaction time là gì?
+
+Reaction time, viết tắt là RT, là thời gian từ lúc stimulus xuất hiện đến lúc người tham gia bấm phím.
+
+Ví dụ:
+
+Nếu từ "công ty" hiện ra và người tham gia mất 0.72 giây để bấm F, thì:
+
+RT = 0.72 giây
+
+Accuracy là gì?
+
+Accuracy nghĩa là đúng hay sai.
+
+Ví dụ:
+
+stimulus = công ty
+đáp án đúng = word
+người tham gia bấm F
+accuracy = correct
+
+Nhưng nếu:
+
+stimulus = công ty
+đáp án đúng = word
+người tham gia bấm J
+accuracy = incorrect
+
+Bước này cần những gì?
+
+1. File stimulus cuối cùng
+
+data/stimuli/final/final_ldt_stimuli_v1.csv
+
+File này cần có các cột như:
+
+stimulus
+condition
+is_word
+syllable_length
+correct_response
+frequency
+log_frequency
+source_realword
+
+2. Script PsychoPy
+
+Script dự kiến:
+
+scripts/run_vietnamese_ldt_psychopy.py
+
+Script này sẽ chạy experiment.
+
+3. Folder để lưu kết quả
+
+Ví dụ:
+
+data/experiment_results/
+
+Sau khi participant làm xong task, dữ liệu của họ sẽ được lưu ở đây.
+
+Tại sao bước này quan trọng?
+
+Vì trước giờ mình mới chỉ chuẩn bị vật liệu cho thí nghiệm.
+
+Nhưng để trả lời research question, mình cần dữ liệu thật từ người tham gia.
+
+Research question của mình là:
+
+Word frequency và syllable length ảnh hưởng thế nào đến reaction time trong Vietnamese visual lexical decision task?
+
+Muốn trả lời câu hỏi này, mình cần đo reaction time.
+
+PsychoPy chính là công cụ giúp mình đo reaction time một cách có hệ thống.
+
+Sau khi có dữ liệu từ PsychoPy, mình sẽ phân tích bằng R.
+
+Phân tích sau này sẽ kiểm tra:
+
+1. Từ frequency cao có được nhận diện nhanh hơn không?
+2. Từ dài hơn, tức nhiều syllable hơn, có làm reaction time chậm hơn không?
+3. Frequency và syllable length có interaction không?
+
+Tóm lại:
+
+Stimulus file là danh sách những gì sẽ hiện ra.
+PsychoPy là chương trình chạy thí nghiệm.
+Participant là người làm task.
+Reaction time và accuracy là dữ liệu mình cần thu.
+R sẽ được dùng sau này để phân tích dữ liệu đó.
+
+Nói ngắn gọn:
+
+Mình đã chuẩn bị xong câu hỏi và vật liệu.
+Bây giờ mình xây thí nghiệm để thu câu trả lời từ người tham gia.

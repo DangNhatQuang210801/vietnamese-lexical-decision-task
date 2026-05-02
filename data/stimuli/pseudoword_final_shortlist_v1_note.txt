@@ -1,0 +1,27 @@
+﻿Pseudoword final shortlist v1 note
+
+Input file: data/stimuli/pseudoword_manual_review_helper_v1.csv
+Reference real-word file: data/stimuli/final_realword_candidates_v4.csv
+Output file: data/stimuli/pseudoword_final_shortlist_v1.csv
+
+Shortlist counts by syllable_length:
+- 1 syllable(s): 45
+- 2 syllable(s): 48
+- 3 syllable(s): 48
+- 4 syllable(s): 40
+
+Shortlist source counts by recommendation status:
+- 1 syllable(s): keep_candidate = 12, review_carefully = 33
+- 2 syllable(s): keep_candidate = 5, review_carefully = 43
+- 3 syllable(s): keep_candidate = 3, review_carefully = 45
+- 4 syllable(s): keep_candidate = 2, review_carefully = 38
+
+Common remaining concerns:
+- Many backup items are still tone-change forms and can look typo-like.
+- Some retained items may still feel visually odd or marginally interpretable.
+- Final native-speaker judgment is still needed for naturalness, distraction risk, and accidental meaning.
+
+Reminder:
+- This is still not the final pseudoword set.
+- Do not treat shortlist inclusion as final acceptance.
+- Final selection should still mark each item as keep / reject / unsure.
