@@ -1,0 +1,43 @@
+Pseudoword candidate pool v3 diagnostics
+
+Output files:
+- D:/vietnamese-lexical-decision-task/data/stimuli/pseudoword_candidate_pool_v3.csv
+- D:/vietnamese-lexical-decision-task/data/stimuli/pseudoword_candidate_pool_v3_diagnostics.txt
+
+Candidate counts by syllable_length:
+- 1 syllable(s): 80
+- 2 syllable(s): 100
+- 3 syllable(s): 100
+- 4 syllable(s): 80
+
+Quality flags in accepted pool:
+- high: 323
+- medium: 37
+- reject: 0
+
+Rejected counts by reason:
+- matched_corpus_candidate_or_final_realword: 53
+- missing_vietnamese_mark: 3
+- duplicate_generated_candidate: 3
+- contains_attested_adjacent_bigram: 2
+
+Examples of accepted high-quality candidates:
+- 1 syllable(s): phớ, gỏp, hẹm, lơc, đểnh, dởc, tửn, trớc
+- 2 syllable(s): họa bầu, tắc quấn, dưa thiếu, huế dẻo, lột nhồi, phê đắng, hột xuyên, dẻo đạo
+- 3 syllable(s): phồng vách thằng, lục húng tĩnh, kẹo trám chuối, đảm băn thuần, dạn dám đùi, nhịn xiên chờ, lặng thượng nỗi, đầm tàu lộn
+- 4 syllable(s): luyến lành ngược tiến, tải nén hờn đĩa, ngậy bày bạch tây, dừa đĩa nhọn bén, tơi luận cốt nửa, răm hiệu sạn chợt, bọc lẫn cặp nàn, tựa lập núi bưởi
+
+Examples of rejected artificial/suspicious candidates:
+- matched_corpus_candidate_or_final_realword: phản, lăng, tóm, sang, chú
+- missing_vietnamese_mark: loc, thot, tot
+- duplicate_generated_candidate: phớ, tỏn, đểnh
+- contains_attested_adjacent_bigram: nắp đậy thuần, cối đem cốm giây
+
+How v3 differs from v2:
+v2 mainly generated Vietnamese-marked syllables through onset-rime recombination, which could produce legal-looking but artificial forms. v3 uses real attested Vietnamese syllables for multi-syllable candidates and only requires the full recombined sequence to be unattested. For one-syllable candidates, v3 starts from real corpus syllables and applies small tone, vowel, or final-consonant changes.
+
+Limitations:
+- This is still a reviewable candidate pool, not a final pseudoword set.
+- Meaningfulness and named-entity status are screened heuristically and need manual review.
+- Exact-match filtering cannot detect rare real words absent from the input files.
+- Multi-syllable candidates are not yet individually matched to real words beyond syllable length.

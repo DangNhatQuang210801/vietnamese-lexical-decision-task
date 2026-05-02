@@ -1,0 +1,39 @@
+Pseudoword candidate pool v1 diagnostics
+
+Input real-word file: data/stimuli/final_realword_candidates_v4.csv
+Output candidate pool: data/stimuli/pseudoword_candidate_pool_v1.csv
+
+Generated candidate attempts by syllable_length:
+- 1 syllable(s): 80
+- 2 syllable(s): 110
+- 3 syllable(s): 110
+- 4 syllable(s): 90
+
+Removed candidates by syllable_length before acceptance:
+- 1 syllable(s): 0
+- 2 syllable(s): 0
+- 3 syllable(s): 0
+- 4 syllable(s): 0
+
+Removed candidates by reason:
+- none
+
+Exact-match removal note:
+- Exact corpus/real-word/candidate matches were pre-excluded when building the source syllable pool.
+- Exact matches removed during final candidate assembly: 0
+
+Remaining candidates by syllable_length:
+- 1 syllable(s): 80
+- 2 syllable(s): 110
+- 3 syllable(s): 110
+- 4 syllable(s): 90
+
+Generation method:
+A conservative Vietnamese onset-rime inventory was used to generate pronounceable-looking syllables. Candidate syllables were built primarily from simple Vietnamese rimes with Vietnamese-specific diacritics/letters to avoid foreign-looking forms and questionable tone placement, then recombined into 1-, 2-, 3-, and 4-syllable pseudowords. Candidates were screened for Vietnamese spelling constraints, offensive/near-profane fragments, duplicate generated forms, and exact matches against processed frequency tables, the frozen real-word stimuli, and existing candidate files.
+
+Warnings and limitations:
+- This is a reviewable candidate pool, not the final pseudoword set.
+- Automatic generation checks exact corpus/candidate matches only; rare real words absent from the corpus may remain.
+- Pronounceability and naturalness require manual/native-speaker review.
+- Multi-syllable candidates are matched by syllable_length, but not yet matched to individual real words by frequency, orthographic neighborhood, tone pattern, or other psycholinguistic controls.
+- Offensive/inappropriate screening used a small obvious-fragment blocklist and should be manually reviewed.

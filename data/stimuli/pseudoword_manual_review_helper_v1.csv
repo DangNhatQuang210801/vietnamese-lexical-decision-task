@@ -1,0 +1,206 @@
+﻿source_realword,pseudoword,syllable_length,modified_syllable_position,original_syllable,modified_syllable,modification_type,quality_flag,possible_meaning_warning,keep_manual,reject_manual,manual_note,final_selected,review_warning,recommended_action
+bút,bụt,1,1,bút,bụt,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+bút,bủt,1,1,bút,bủt,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+chợ,chọ,1,1,chợ,chọ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+cốc,cỏc,1,1,cốc,cỏc,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+dân,dản,1,1,dân,dản,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+lực,lủc,1,1,lực,lủc,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+mắt,mảt,1,1,mắt,mảt,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+nhà,nhá,1,1,nhà,nhá,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+nhà,nhạ,1,1,nhà,nhạ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+rừng,rúng,1,1,rừng,rúng,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+sách,sảch,1,1,sách,sảch,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+sông,sọng,1,1,sông,sọng,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+sông,sỏng,1,1,sông,sỏng,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+tin,tỉn,1,1,tin,tỉn,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+tin,tịn,1,1,tin,tịn,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+trị,trỉ,1,1,trị,trỉ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+vật,vảt,1,1,vật,vảt,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+đèn,đén,1,1,đèn,đén,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+đèn,đẹn,1,1,đèn,đẹn,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+đèn,đẻn,1,1,đèn,đẻn,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+đất,đat,1,1,đất,đat,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+đất,đảt,1,1,đất,đảt,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+chợ,chá,1,1,chợ,chá,vowel_change,high,none_detected_by_heuristic,,,,,none,keep_candidate
+cốc,côc,1,1,cốc,côc,vowel_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+ghế,ghể,1,1,ghế,ghể,vowel_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+mắt,măt,1,1,mắt,măt,vowel_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+mắt,mẩt,1,1,mắt,mẩt,vowel_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+nhà,nhâ,1,1,nhà,nhâ,vowel_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+tin,týn,1,1,tin,týn,vowel_change,high,none_detected_by_heuristic,,,,,none,keep_candidate
+trị,trý,1,1,trị,trý,vowel_change,high,none_detected_by_heuristic,,,,,none,keep_candidate
+trị,trế,1,1,trị,trế,vowel_change,high,none_detected_by_heuristic,,,,,none,keep_candidate
+mũ,mụ,1,1,mũ,mụ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+xe,xẹ,1,1,xe,xẹ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+đá,đạ,1,1,đá,đạ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+cỏ,cở,1,1,cỏ,cở,vowel_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+lá,lâ,1,1,lá,lâ,vowel_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+lá,lă,1,1,lá,lă,vowel_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+lá,lấ,1,1,lá,lấ,vowel_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+mũ,mư,1,1,mũ,mư,vowel_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+mũ,mố,1,1,mũ,mố,vowel_change,high,none_detected_by_heuristic,,,,,none,keep_candidate
+xe,xể,1,1,xe,xể,vowel_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+đá,đâ,1,1,đá,đâ,vowel_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+đá,đă,1,1,đá,đă,vowel_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+biển,biểc,1,1,biển,biểc,final_consonant_change,high,none_detected_by_heuristic,,,,,none,keep_candidate
+biển,biểm,1,1,biển,biểm,final_consonant_change,high,none_detected_by_heuristic,,,,,none,keep_candidate
+biển,biểng,1,1,biển,biểng,final_consonant_change,high,none_detected_by_heuristic,,,,,none,keep_candidate
+bàn,bàc,1,1,bàn,bàc,final_consonant_change,high,none_detected_by_heuristic,,,,,none,keep_candidate
+bàn,bàm,1,1,bàn,bàm,final_consonant_change,high,none_detected_by_heuristic,,,,,none,keep_candidate
+bàn,bàp,1,1,bàn,bàp,final_consonant_change,high,none_detected_by_heuristic,,,,,none,keep_candidate
+bút,búc,1,1,bút,búc,final_consonant_change,high,none_detected_by_heuristic,,,,,none,keep_candidate
+biện pháp,biện phạp,2,2,pháp,phạp,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+biện pháp,biện phảp,2,2,pháp,phảp,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+chén nước,chẹn nước,2,1,chén,chẹn,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+chén nước,chẻn nước,2,1,chén,chẻn,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+cây xanh,cây xánh,2,2,xanh,xánh,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+cây xanh,cây xạnh,2,2,xanh,xạnh,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+cây xanh,cây xảnh,2,2,xanh,xảnh,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+công nghiệp,cỏng nghiệp,2,1,công,cỏng,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+công ty,cỏng ty,2,1,công,cỏng,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+hệ thống,hệ thóng,2,2,thống,thóng,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+hệ thống,hệ thọng,2,2,thống,thọng,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+học thức,học thủc,2,2,thức,thủc,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+học thức,hỏc thức,2,1,học,hỏc,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+khoa học,khoa hỏc,2,2,học,hỏc,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+kinh tế,kịnh tế,2,1,kinh,kịnh,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+luật pháp,luật phạp,2,2,pháp,phạp,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+luật pháp,luật phảp,2,2,pháp,phảp,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+mái nhà,mái nhá,2,2,nhà,nhá,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+mái nhà,mái nhạ,2,2,nhà,nhạ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+mức giá,mủc giá,2,1,mức,mủc,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+nghệ thuật,nghẹ thuật,2,1,nghệ,nghẹ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+nghệ thuật,nghẻ thuật,2,1,nghệ,nghẻ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+nhà cửa,nhá cửa,2,1,nhà,nhá,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+nhà cửa,nhạ cửa,2,1,nhà,nhạ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+nước xốt,nước xọt,2,2,xốt,xọt,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+nước xốt,nước xỏt,2,2,xốt,xỏt,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+pháp luật,phạp luật,2,1,pháp,phạp,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+pháp luật,phảp luật,2,1,pháp,phảp,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+phương pháp,phương phạp,2,2,pháp,phạp,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+phương pháp,phương phảp,2,2,pháp,phảp,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+truyền thống,truyền thóng,2,2,thống,thóng,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+truyền thống,truyền thọng,2,2,thống,thọng,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+truyền thống,truyền thỏng,2,2,thống,thỏng,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+văn hóa,vản hóa,2,1,văn,vản,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+đất nước,đat nước,2,1,đất,đat,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+đất nước,đảt nước,2,1,đất,đảt,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+lao động,lao đơng,2,2,động,đơng,vowel_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+mái nhà,mái nhâ,2,2,nhà,nhâ,vowel_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+máy lạnh,máy lânh,2,2,lạnh,lânh,vowel_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+máy lạnh,máy lănh,2,2,lạnh,lănh,vowel_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+nhà cửa,nhâ cửa,2,1,nhà,nhâ,vowel_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+tinh tế,týnh tế,2,1,tinh,týnh,vowel_change,high,none_detected_by_heuristic,,,,,none,keep_candidate
+giá vé,giá vẹ,2,2,vé,vẹ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+hệ thống,hẻ thống,2,1,hệ,hẻ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+kinh tế,kinh té,2,2,tế,té,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+kinh tế,kinh tẹ,2,2,tế,tẹ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+tinh tế,tinh té,2,2,tế,té,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+tinh tế,tinh tẹ,2,2,tế,tẹ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+xe đẩy,xẹ đẩy,2,1,xe,xẹ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+giá vé,giá vể,2,2,vé,vể,vowel_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+xe đẩy,xể đẩy,2,1,xe,xể,vowel_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+biện pháp,biệc pháp,2,1,biện,biệc,final_consonant_change,high,none_detected_by_heuristic,,,,,none,keep_candidate
+bệnh viện,bệc viện,2,1,bệnh,bệc,final_consonant_change,high,none_detected_by_heuristic,,,,,none,keep_candidate
+bệnh viện,bệm viện,2,1,bệnh,bệm,final_consonant_change,high,none_detected_by_heuristic,,,,,none,keep_candidate
+bệnh viện,bện viện,2,1,bệnh,bện,final_consonant_change,high,none_detected_by_heuristic,,,,,none,keep_candidate
+cá thác lác,cá thác lảc,3,3,lác,lảc,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+cá thác lác,cá thảc lác,3,2,thác,thảc,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+câu trả lời,câu trạ lời,3,2,trả,trạ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+dây ruy băng,dây ruy bạng,3,3,băng,bạng,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+dòng sản phẩm,dòng sán phẩm,3,2,sản,sán,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+dòng sản phẩm,dòng sản phám,3,3,phẩm,phám,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+dòng sản phẩm,dọng sản phẩm,3,1,dòng,dọng,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+hình chữ nhật,hình chụ nhật,3,2,chữ,chụ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+hình chữ nhật,hính chữ nhật,3,1,hình,hính,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+hình chữ nhật,hịnh chữ nhật,3,1,hình,hịnh,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+kiến trúc sư,kiến trủc sư,3,2,trúc,trủc,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+loại sản phẩm,loại sán phẩm,3,2,sản,sán,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+loại sản phẩm,loại sản phám,3,3,phẩm,phám,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+loại thực phẩm,loại thủc phẩm,3,2,thực,thủc,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+loại thực phẩm,loại thực phám,3,3,phẩm,phám,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+muỗng cà phê,muỗng cà phé,3,3,phê,phé,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+muỗng cà phê,muỗng cà phẹ,3,3,phê,phẹ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+máy hút bụi,máy hủt bụi,3,2,hút,hủt,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+máy hút khói,máy hủt khói,3,2,hút,hủt,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+máy nghe nhạc,máy nghe nhảc,3,3,nhạc,nhảc,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+máy nghe nhạc,máy nghẹ nhạc,3,2,nghe,nghẹ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+máy nghe nhạc,máy nghẻ nhạc,3,2,nghe,nghẻ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+máy nước nóng,máy nước nỏng,3,3,nóng,nỏng,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+nhà sản xuất,nhà sán xuất,3,2,sản,sán,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+nhà sản xuất,nhá sản xuất,3,1,nhà,nhá,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+nhà sản xuất,nhạ sản xuất,3,1,nhà,nhạ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+nhà thiết kế,nhá thiết kế,3,1,nhà,nhá,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+nhà thiết kế,nhạ thiết kế,3,1,nhà,nhạ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+nét văn hóa,nét vản hóa,3,2,văn,vản,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+nét văn hóa,nẹt văn hóa,3,1,nét,nẹt,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+nét văn hóa,nẻt văn hóa,3,1,nét,nẻt,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+quán cà phê,quán cà phé,3,3,phê,phé,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+quán cà phê,quán cà phẹ,3,3,phê,phẹ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+sức hấp dẫn,sủc hấp dẫn,3,1,sức,sủc,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+sức hấp dẫn,sức háp dẫn,3,2,hấp,háp,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+sức hấp dẫn,sức hảp dẫn,3,2,hấp,hảp,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+trường đại học,trường đại hỏc,3,3,học,hỏc,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+tâm lý học,tảm lý học,3,1,tâm,tảm,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+đồ nội thất,đồ nội thạt,3,3,thất,thạt,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+đồ nội thất,đồ nội thảt,3,3,thất,thảt,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+câu trả lời,câu trâ lời,3,2,trả,trâ,vowel_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+câu trả lời,câu tró lời,3,2,trả,tró,vowel_change,high,none_detected_by_heuristic,,,,,none,keep_candidate
+niềm hạnh phúc,niềm hónh phúc,3,2,hạnh,hónh,vowel_change,high,none_detected_by_heuristic,,,,,none,keep_candidate
+niềm hạnh phúc,niềm hỏnh phúc,3,2,hạnh,hỏnh,vowel_change,high,none_detected_by_heuristic,,,,,none,keep_candidate
+cá thác lác,cạ thác lác,3,1,cá,cạ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+kiến trúc sư,kiến trúc sủ,3,3,sư,sủ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+muỗng cà phê,muỗng cạ phê,3,2,cà,cạ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+mối quan hệ,mối quan hẻ,3,3,hệ,hẻ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+nhà thiết kế,nhà thiết ké,3,3,kế,ké,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+nước vo gạo,nước vọ gạo,3,2,vo,vọ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+nồi áp suất,nồi ạp suất,3,2,áp,ạp,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+nồi áp suất,nồi ảp suất,3,2,áp,ảp,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+quán cà phê,quán cạ phê,3,2,cà,cạ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+tâm lý học,tâm lỵ học,3,2,lý,lỵ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+tâm lý học,tâm lỷ học,3,2,lý,lỷ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+chuyên viên tư vấn,chuyên viên tư vản,4,4,vấn,vản,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+cuộc sống gia đình,cuộc sọng gia đình,4,2,sống,sọng,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+cuộc sống gia đình,cuộc sỏng gia đình,4,2,sống,sỏng,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+công nghệ thông tin,công nghẹ thông tin,4,2,nghệ,nghẹ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+công nghệ thông tin,công nghẻ thông tin,4,2,nghệ,nghẻ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+công nghệ thông tin,cỏng nghệ thông tin,4,1,công,cỏng,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+giám đốc công ty,giám đóc công ty,4,2,đốc,đóc,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+giám đốc công ty,giám đỏc công ty,4,2,đốc,đỏc,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+giám đốc công ty,giám đốc cỏng ty,4,3,công,cỏng,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+máy pha cà phê,máy pha cà phé,4,4,phê,phé,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+máy pha cà phê,máy phạ cà phê,4,2,pha,phạ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+máy xay sinh tố,máy xay sính tố,4,3,sinh,sính,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+máy xay sinh tố,máy xay sỉnh tố,4,3,sinh,sỉnh,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+máy xay sinh tố,máy xay sịnh tố,4,3,sinh,sịnh,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+môi trường bên ngoài,môi trường bẹn ngoài,4,3,bên,bẹn,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+môi trường bên ngoài,môi trường bẻn ngoài,4,3,bên,bẻn,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+nghiên cứu khoa học,nghiên cứu khoa hỏc,4,4,học,hỏc,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+nước mắm nguyên chất,nước mám nguyên chất,4,2,mắm,mám,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+nước mắm nguyên chất,nước mạm nguyên chất,4,2,mắm,mạm,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+nước mắm nguyên chất,nước mảm nguyên chất,4,2,mắm,mảm,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+nước uống thể thao,nước uống thé thao,4,3,thể,thé,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+nước uống thể thao,nước uống thẹ thao,4,3,thể,thẹ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+quan hệ vợ chồng,quan hệ vợ chọng,4,4,chồng,chọng,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+tai nạn lao động,tai nán lao động,4,2,nạn,nán,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+thủ công mỹ nghệ,thủ cỏng mỹ nghệ,4,2,công,cỏng,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+thực phẩm chế biến,thủc phẩm chế biến,4,1,thực,thủc,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+thực phẩm chế biến,thực phám chế biến,4,2,phẩm,phám,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+thực phẩm chế biến,thực phẩm ché biến,4,3,chế,ché,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+trình độ học vấn,trính độ học vấn,4,1,trình,trính,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+trình độ học vấn,trỉnh độ học vấn,4,1,trình,trỉnh,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+tình yêu đích thực,tình yêu đich thực,4,3,đích,đich,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+tình yêu đích thực,tình yêu đích thủc,4,4,thực,thủc,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+tình yêu đích thực,tình yêu đỉch thực,4,3,đích,đỉch,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+văn hóa ẩm thực,văn hóa ẩm thủc,4,4,thực,thủc,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+văn hóa ẩm thực,vản hóa ẩm thực,4,1,văn,vản,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+điều kiện kinh tế,điều kiện kịnh tế,4,3,kinh,kịnh,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+hạnh phúc gia đình,hónh phúc gia đình,4,1,hạnh,hónh,vowel_change,high,none_detected_by_heuristic,,,,,none,keep_candidate
+hạnh phúc gia đình,hỏnh phúc gia đình,4,1,hạnh,hỏnh,vowel_change,high,none_detected_by_heuristic,,,,,none,keep_candidate
+cơ sở sản xuất,cơ só sản xuất,4,2,sở,só,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+cơ sở sản xuất,cơ sọ sản xuất,4,2,sở,sọ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+cơ sở sản xuất,cơ sỏ sản xuất,4,2,sở,sỏ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+diễn đàn quốc tế,diễn đàn quốc té,4,4,tế,té,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+diễn đàn quốc tế,diễn đàn quốc tẹ,4,4,tế,tẹ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+mái ấm gia đình,mái ạm gia đình,4,2,ấm,ạm,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully
+máy pha cà phê,máy pha cạ phê,4,3,cà,cạ,tone_change,high,none_detected_by_heuristic,,,,,looks_like_simple_tone_typo_or_spelling_variant,review_carefully

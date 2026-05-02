@@ -1,0 +1,15 @@
+Pseudoword manual review helper v1
+
+Input file: data/stimuli/pseudoword_manual_review_sheet_v2.csv
+Output file: data/stimuli/pseudoword_manual_review_helper_v1.csv
+
+Recommended action counts:
+- keep_candidate: 22
+- review_carefully: 183
+- likely_reject: 0
+
+Common warning reasons:
+- looks_like_simple_tone_typo_or_spelling_variant: 183
+
+Reminder:
+This helper sheet is stricter than the structural review sheet. It flags likely real words, common particles, simple tone/spelling-variant typos, visually strange forms, sensitive fragments, and named-entity-like sequences. Final pseudoword selection still requires native-speaker judgment; do not create the final pseudoword set automatically from these labels.

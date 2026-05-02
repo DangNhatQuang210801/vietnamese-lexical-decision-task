@@ -1,0 +1,32 @@
+Pseudoword manual review sheet v2
+
+Input files:
+- data/stimuli/pseudoword_candidate_pool_v4.csv
+- data/stimuli/final_realword_candidates_v4.csv
+
+This v2 review sheet is based on real-word-template substitution: each candidate preserves the source real-word syllable length and changes exactly one syllable.
+
+Prepared candidates by syllable length:
+- 1 syllable(s): 50 prepared for review
+- 2 syllable(s): 55 prepared for review
+- 3 syllable(s): 55 prepared for review
+- 4 syllable(s): 45 prepared for review
+
+Final selected counts must exactly match:
+- 1 syllable(s): 37 final pseudowords
+- 2 syllable(s): 39 final pseudowords
+- 3 syllable(s): 39 final pseudowords
+- 4 syllable(s): 32 final pseudowords
+
+Review guidance:
+Final pseudowords must be selected manually, ideally with native-speaker judgment. Prefer items that look pronounceable and Vietnamese-like, but are not real Vietnamese words or normal phrases. Reject items that look malformed, humorous, offensive, socially sensitive, name-like, visually strange, or too semantically interpretable.
+
+This file is a review sheet only. Do not treat it as the final pseudoword stimulus set.
+
+Prepared sheet summary:
+- quality_flag high: 205
+- quality_flag medium: 0
+- tone_change: 162
+- vowel_change: 32
+- onset_change: 0
+- final_consonant_change: 11

@@ -1,0 +1,25 @@
+Pseudoword manual review sheet v1
+
+Input files:
+- data/stimuli/pseudoword_candidate_pool_v3.csv
+- data/stimuli/final_realword_candidates_v4.csv
+
+Prepared candidates by syllable length:
+- 1 syllable(s): 50 prepared for review
+- 2 syllable(s): 55 prepared for review
+- 3 syllable(s): 55 prepared for review
+- 4 syllable(s): 45 prepared for review
+
+Final target counts to match real-word stimuli exactly:
+- 1 syllable(s): 37 final pseudowords needed
+- 2 syllable(s): 39 final pseudowords needed
+- 3 syllable(s): 39 final pseudowords needed
+- 4 syllable(s): 32 final pseudowords needed
+
+Why manual review is required:
+This sheet is an intermediate native-speaker review step. Automatic filters can remove exact corpus matches and obvious suspicious forms, but they cannot reliably judge whether a Vietnamese-looking sequence sounds meaningful, humorous, socially sensitive, distracting, name-like, or too artificial.
+
+Review instructions:
+Use keep_manual, reject_manual, manual_note, and final_selected during human review. Final pseudowords should be selected by native-speaker judgment. The final selected pseudoword set must match the real-word syllable counts exactly: 37 one-syllable, 39 two-syllable, 39 three-syllable, and 32 four-syllable items.
+
+Important: this file is not the final pseudoword stimulus set.

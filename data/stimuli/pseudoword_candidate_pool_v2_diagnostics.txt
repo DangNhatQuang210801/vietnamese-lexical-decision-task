@@ -1,0 +1,50 @@
+Pseudoword candidate pool v2 diagnostics
+
+Input files:
+- D:/vietnamese-lexical-decision-task/data/stimuli/final_realword_candidates_v4.csv
+- D:/vietnamese-lexical-decision-task/data/processed/all_1to4gram_frequency.csv
+- D:/vietnamese-lexical-decision-task/data/processed/unigrams_frequency.csv
+- D:/vietnamese-lexical-decision-task/data/processed/bigrams_frequency.csv
+- D:/vietnamese-lexical-decision-task/data/processed/trigrams_frequency.csv
+- D:/vietnamese-lexical-decision-task/data/processed/fourgrams_frequency.csv
+- D:/vietnamese-lexical-decision-task/data/stimuli/candidate_pool_kept_only.csv
+- D:/vietnamese-lexical-decision-task/data/stimuli/candidate_pool_filtered.csv
+
+Output files:
+- D:/vietnamese-lexical-decision-task/data/stimuli/pseudoword_candidate_pool_v2.csv
+- D:/vietnamese-lexical-decision-task/data/stimuli/pseudoword_candidate_pool_v2_diagnostics.txt
+
+Generated candidate attempts by syllable_length:
+- 1 syllable(s): 101
+- 2 syllable(s): 120
+- 3 syllable(s): 120
+- 4 syllable(s): 100
+
+Remaining candidates by syllable_length:
+- 1 syllable(s): 100
+- 2 syllable(s): 120
+- 3 syllable(s): 120
+- 4 syllable(s): 100
+
+Quality flags:
+- high: 316
+- medium: 119
+- low: 5
+
+Rejected generated candidates by reason:
+- duplicate_generated_candidate: 1
+
+Rejected source syllables by reason:
+- matched_existing_word_or_attested_syllable: 2467
+- failed_vietnamese_orthographic_screen: 2299
+- blocked_offensive_or_inappropriate_fragment: 28
+- implausible_syllable_length: 22
+
+Generation method:
+The v2 pool uses a conservative Vietnamese onset-rime inventory. Candidate syllables are built from common Vietnamese onset templates and relatively safe rime templates with Vietnamese-specific letters or tone marks. Candidates are combined into 1-, 2-, 3-, and 4-syllable forms and filtered against exact matches in processed frequency files, existing candidate pools, and the frozen final real-word stimuli.
+
+Warnings and limitations:
+- This is a reviewable candidate pool, not the final pseudoword set.
+- Exact-match filtering cannot catch rare Vietnamese words absent from the input files.
+- quality_flag is heuristic and should not replace manual/native-speaker review.
+- Items are matched by syllable_length only; final matching still needs psycholinguistic review.

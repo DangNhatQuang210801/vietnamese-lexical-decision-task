@@ -15,15 +15,19 @@ This v4 file is the quality-polished final real-word set. The next step is pseud
 ## Folder Structure
 
 - `docs/proposal_and_submission/`
-  - Proposal/submission-facing files and final real-word diagnostics.
+  - Proposal/submission-facing files.
 - `docs/personal_notes/`
   - Personal notes, RP2 reference materials, rule book, and project organization notes.
 - `data/corpus/`
-  - Raw/extracted Vietnamese corpus materials.
+  - Corpus materials organized by source state.
+- `data/corpus/raw/`
+  - Original compressed corpus archive.
+- `data/corpus/extracted/`
+  - Extracted corpus folders used by scripts.
 - `data/processed/`
   - Processed corpus frequency tables.
 - `data/stimuli/`
-  - Final real-word stimuli and candidate pools needed for reproducibility or pseudoword construction.
+  - Frozen final real-word stimuli, diagnostics, and candidate pools needed for reproducibility or pseudoword construction.
 - `scripts/`
   - Corpus processing and real-word stimulus-selection scripts/notebooks.
 - `archive/`
@@ -33,8 +37,10 @@ This v4 file is the quality-polished final real-word set. The next step is pseud
 
 - Real-word stimuli for pseudoword construction:
   `data/stimuli/final_realword_candidates_v4.csv`
+  This is the frozen final real-word stimulus set.
 - Final real-word diagnostics:
-  `docs/proposal_and_submission/final_realword_candidates_v4_diagnostics.txt`
+  `data/stimuli/final_realword_candidates_v4_diagnostics.txt`
+  Documents the final item counts, log-frequency summaries, and frequency-length correlation.
 - Candidate shortlist:
   `data/stimuli/candidate_shortlist_by_length.csv`
 - Main corpus frequency table:
