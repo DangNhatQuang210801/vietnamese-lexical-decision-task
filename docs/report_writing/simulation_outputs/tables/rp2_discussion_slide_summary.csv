@@ -1,0 +1,8 @@
+data_notice,slide_topic,concise_result
+SIMULATED DATA — NOT REAL PARTICIPANT DATA,Pilot seed data,"3 pilot participant IDs, 141 main-trial rows; used only to seed plausible RT/accuracy ranges."
+SIMULATED DATA — NOT REAL PARTICIPANT DATA,Synthetic sample size,36 simulated participants x 294 stimuli = 10584 simulated trials.
+SIMULATED DATA — NOT REAL PARTICIPANT DATA,RT frequency effect,Estimated log-frequency coefficient in simulated RT model: -0.02.
+SIMULATED DATA — NOT REAL PARTICIPANT DATA,RT syllable-length effect,Estimated syllable-length coefficient in simulated RT model: 0.088.
+SIMULATED DATA — NOT REAL PARTICIPANT DATA,RT pseudoword effect,Estimated pseudoword coefficient in simulated RT model: 0.123.
+SIMULATED DATA — NOT REAL PARTICIPANT DATA,Accuracy length effect,Estimated syllable-length coefficient in simulated accuracy model: -0.254.
+SIMULATED DATA — NOT REAL PARTICIPANT DATA,Interpretation limit,These are pipeline-testing results only; they should not be reported as real participant findings.

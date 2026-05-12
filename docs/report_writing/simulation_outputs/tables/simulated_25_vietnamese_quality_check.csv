@@ -1,0 +1,26 @@
+﻿data_notice,trial_id,stimulus,condition,syllable_length,computed_syllable_count,source_realword,encoding_ok,lexical_logic_ok,quality_note
+SIMULATED DATA — NOT REAL PARTICIPANT DATA,LDT_169,nước,word,1,1,nước,True,True,ok
+SIMULATED DATA — NOT REAL PARTICIPANT DATA,LDT_154,cốc,word,1,1,cốc,True,True,ok
+SIMULATED DATA — NOT REAL PARTICIPANT DATA,LDT_180,áo,word,1,1,áo,True,True,ok
+SIMULATED DATA — NOT REAL PARTICIPANT DATA,LDT_191,công ty,word,2,2,công ty,True,True,ok
+SIMULATED DATA — NOT REAL PARTICIPANT DATA,LDT_205,máy lạnh,word,2,2,máy lạnh,True,True,ok
+SIMULATED DATA — NOT REAL PARTICIPANT DATA,LDT_199,khoa học,word,2,2,khoa học,True,True,ok
+SIMULATED DATA — NOT REAL PARTICIPANT DATA,LDT_247,mối quan hệ,word,3,3,mối quan hệ,True,True,ok
+SIMULATED DATA — NOT REAL PARTICIPANT DATA,LDT_225,chủ cửa hàng,word,3,3,chủ cửa hàng,True,True,ok
+SIMULATED DATA — NOT REAL PARTICIPANT DATA,LDT_259,sức hấp dẫn,word,3,3,sức hấp dẫn,True,True,ok
+SIMULATED DATA — NOT REAL PARTICIPANT DATA,LDT_264,cuộc sống gia đình,word,4,4,cuộc sống gia đình,True,True,ok
+SIMULATED DATA — NOT REAL PARTICIPANT DATA,LDT_266,cơ sở sản xuất,word,4,4,cơ sở sản xuất,True,True,ok
+SIMULATED DATA — NOT REAL PARTICIPANT DATA,LDT_291,điều kiện kinh tế,word,4,4,điều kiện kinh tế,True,True,ok
+SIMULATED DATA — NOT REAL PARTICIPANT DATA,LDT_210,nhà hàng,word,2,2,nhà hàng,True,True,ok
+SIMULATED DATA — NOT REAL PARTICIPANT DATA,LDT_001,biểc,pseudoword,1,1,biển,True,True,ok
+SIMULATED DATA — NOT REAL PARTICIPANT DATA,LDT_004,chá,pseudoword,1,1,chợ,True,True,ok
+SIMULATED DATA — NOT REAL PARTICIPANT DATA,LDT_038,biệc pháp,pseudoword,2,2,biện pháp,True,True,ok
+SIMULATED DATA — NOT REAL PARTICIPANT DATA,LDT_040,chẹn nước,pseudoword,2,2,chén nước,True,True,ok
+SIMULATED DATA — NOT REAL PARTICIPANT DATA,LDT_077,chuyệc tình cảm,pseudoword,3,3,chuyện tình cảm,True,True,ok
+SIMULATED DATA — NOT REAL PARTICIPANT DATA,LDT_080,cá thác lảc,pseudoword,3,3,cá thác lác,True,True,ok
+SIMULATED DATA — NOT REAL PARTICIPANT DATA,LDT_116,chuyên viên tư vản,pseudoword,4,4,chuyên viên tư vấn,True,True,ok
+SIMULATED DATA — NOT REAL PARTICIPANT DATA,LDT_117,cuộc sọng gia đình,pseudoword,4,4,cuộc sống gia đình,True,True,ok
+SIMULATED DATA — NOT REAL PARTICIPANT DATA,LDT_118,công nghẹ thông tin,pseudoword,4,4,công nghệ thông tin,True,True,ok
+SIMULATED DATA — NOT REAL PARTICIPANT DATA,LDT_039,bệc viện,pseudoword,2,2,bệnh viện,True,True,ok
+SIMULATED DATA — NOT REAL PARTICIPANT DATA,LDT_078,chủ cửa hàc,pseudoword,3,3,chủ cửa hàng,True,True,ok
+SIMULATED DATA — NOT REAL PARTICIPANT DATA,LDT_119,cơ só sản xuất,pseudoword,4,4,cơ sở sản xuất,True,True,ok

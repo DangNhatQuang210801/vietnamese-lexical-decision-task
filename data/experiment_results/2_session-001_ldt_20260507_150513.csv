@@ -1,0 +1,44 @@
+﻿participant_id,block,trial_id,stimulus,condition,is_word,syllable_length,frequency,log_frequency,source_realword,correct_response,key_pressed,response_label,accuracy,rt
+2,practice,PRACTICE_002,mẻo,pseudoword,0,1,NA,NA,mèo,nonword,j,nonword,1,0.721842
+2,practice,PRACTICE_004,tủ lảnh,pseudoword,0,4,NA,NA,tủ lạnh,nonword,j,nonword,1,0.842711
+2,practice,PRACTICE_003,ghế đá,word,1,2,NA,NA,ghế đá,word,f,word,1,0.57079
+2,practice,PRACTICE_001,mèo,word,1,1,NA,NA,mèo,word,f,word,1,0.724296
+2,main,LDT_231,dòng sản phẩm,word,1,3,10,2.302585093,dòng sản phẩm,word,f,word,1,0.812813
+2,main,LDT_057,mái nhâ,pseudoword,0,2,NA,NA,mái nhà,nonword,j,nonword,1,0.927459
+2,main,LDT_008,bửa,pseudoword,0,1,NA,NA,cửa,nonword,j,nonword,1,0.78396
+2,main,LDT_283,quan hệ xã hội,word,1,4,4,1.386294361,quan hệ xã hội,word,f,word,1,0.676924
+2,main,LDT_072,truyền thóng,pseudoword,0,2,NA,NA,truyền thống,nonword,j,nonword,1,0.747486
+2,main,LDT_114,tâm lỵ học,pseudoword,0,3,NA,NA,tâm lý học,nonword,j,nonword,1,0.999165
+2,main,LDT_254,nước hoa hồng,word,1,3,8,2.079441542,nước hoa hồng,word,f,word,1,0.768228
+2,main,LDT_214,nước đường,word,1,2,17,2.833213344,nước đường,word,f,word,1,0.740377
+2,main,LDT_207,mức giá,word,1,2,16,2.772588722,mức giá,word,f,word,1,0.687581
+2,main,LDT_197,hệ thống,word,1,2,37,3.610917913,hệ thống,word,f,word,1,0.667123
+2,main,LDT_064,nướm dừa,pseudoword,0,2,NA,NA,nước dừa,nonword,j,nonword,1,0.757012
+2,main,LDT_126,mái ấc gia đình,pseudoword,0,4,NA,NA,mái ấm gia đình,nonword,j,nonword,1,0.818557
+2,main,LDT_094,máy hủt bụi,pseudoword,0,3,NA,NA,máy hút bụi,nonword,j,nonword,1,0.804574
+2,main,LDT_193,giá thành,word,1,2,16,2.772588722,giá thành,word,f,word,1,0.822232
+2,main,LDT_287,thực phẩm chế biến,word,1,4,7,1.9459101490553128,thực phẩm chế biến,word,f,word,1,0.72438
+2,main,LDT_146,đanh mất lòng tin,pseudoword,0,4,NA,NA,đánh mất lòng tin,nonword,f,word,0,1.080327
+2,main,LDT_203,luật pháp,word,1,2,26,3.258096538,luật pháp,word,f,word,1,0.73822
+2,main,LDT_228,cách cư xử,word,1,3,24,3.17805383034795,cách cư xử,word,f,word,1,0.854123
+2,main,LDT_151,chợ,word,1,1,108,4.682131227,chợ,word,f,word,1,0.73558
+2,main,LDT_070,thị trườc,pseudoword,0,2,NA,NA,thị trường,nonword,j,nonword,1,0.76844
+2,main,LDT_079,cuộc hôn nhâc,pseudoword,0,3,NA,NA,cuộc hôn nhân,nonword,j,nonword,1,0.938287
+2,main,LDT_217,thị trường,word,1,2,128,4.852030264,thị trường,word,f,word,1,0.666831
+2,main,LDT_174,tin,word,1,1,679,6.520621128,tin,word,f,word,1,0.630163
+2,main,LDT_258,quán cà phê,word,1,3,16,2.77258872223978,quán cà phê,word,f,word,1,0.831263
+2,main,LDT_251,niềm hạnh phúc,word,1,3,14,2.63905732961526,niềm hạnh phúc,word,f,word,1,0.861899
+2,main,LDT_050,hệ thóng,pseudoword,0,2,NA,NA,hệ thống,nonword,j,nonword,1,0.63099
+2,main,LDT_134,nước uống thé thao,pseudoword,0,4,NA,NA,nước uống thể thao,nonword,j,nonword,1,0.795847
+2,main,LDT_226,cuộc hôn nhân,word,1,3,46,3.8286413964891,cuộc hôn nhân,word,f,word,1,0.646023
+2,main,LDT_003,búc,pseudoword,0,1,NA,NA,bút,nonword,j,nonword,1,0.735297
+2,main,LDT_074,xể đẩy,pseudoword,0,2,NA,NA,xe đẩy,nonword,j,nonword,1,0.822268
+2,main,LDT_206,máy xay,word,1,2,18,2.890371758,máy xay,word,j,nonword,0,0.784601
+2,main,LDT_068,phạp luật,pseudoword,0,2,NA,NA,pháp luật,nonword,j,nonword,1,0.71912
+2,main,LDT_172,sông,word,1,1,60,4.094344562,sông,word,f,word,1,0.784663
+2,main,LDT_123,giám đóc công ty,pseudoword,0,4,NA,NA,giám đốc công ty,nonword,j,nonword,1,1.151867
+2,main,LDT_270,giám đốc công ty,word,1,4,5,1.609437912,giám đốc công ty,word,f,word,1,0.773543
+2,main,LDT_001,biểc,pseudoword,0,1,NA,NA,biển,nonword,j,nonword,1,0.6631
+2,main,LDT_060,mứm giá,pseudoword,0,2,NA,NA,mức giá,nonword,j,nonword,1,0.827275
+2,main,LDT_253,nước cốt dừa,word,1,3,18,2.890371758,nước cốt dừa,word,f,word,1,0.729603
+2,main,LDT_247,mối quan hệ,word,1,3,171,5.14166355650266,mối quan hệ,word,f,word,1,0.697379

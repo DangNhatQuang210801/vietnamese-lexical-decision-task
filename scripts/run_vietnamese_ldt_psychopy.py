@@ -31,6 +31,7 @@ RESULTS_DIR = ROOT / "data" / "experiment_results"
 FIXATION_SECONDS = 0.5
 TIMEOUT_SECONDS = 3.0
 RESPONSE_KEYS = {"f": "word", "j": "nonword"}
+SAVE_EXIT_KEYS = {"s"}
 QUIT_KEYS = {"escape"}
 
 OUTPUT_COLUMNS = [
@@ -99,6 +100,10 @@ PRACTICE_TRIALS = [
 ]
 
 
+class SaveAndExit(Exception):
+    """Raised when the participant chooses to save and stop the experiment."""
+
+
 def read_stimuli(path: Path) -> List[Dict[str, str]]:
     if not path.exists():
         raise FileNotFoundError(f"Missing stimulus file: {path}")
@@ -133,11 +138,34 @@ def safe_filename_part(text: str) -> str:
     return cleaned.strip("._") or "anonymous"
 
 
-def show_text(win: visual.Window, text: visual.TextStim, message: str, wait_keys: Optional[List[str]] = None) -> None:
+def show_text(
+    win: visual.Window,
+    text: visual.TextStim,
+    message: str,
+    wait_keys: Optional[List[str]] = None,
+    allow_save_exit: bool = True,
+) -> None:
+    if allow_save_exit:
+        message = f"{message}\n\nPress S to save and exit."
     text.text = message
     text.draw()
     win.flip()
-    event.waitKeys(keyList=wait_keys)
+    key_list = wait_keys
+    if wait_keys is not None:
+        key_list = list(dict.fromkeys(wait_keys + list(SAVE_EXIT_KEYS) + list(QUIT_KEYS)))
+    keys = event.waitKeys(keyList=key_list)
+    if keys:
+        if keys[0] in SAVE_EXIT_KEYS:
+            raise SaveAndExit
+        if keys[0] in QUIT_KEYS:
+            raise KeyboardInterrupt
+
+
+def show_timed_text(win: visual.Window, text: visual.TextStim, message: str, seconds: float = 1.5) -> None:
+    text.text = message
+    text.draw()
+    win.flip()
+    core.wait(seconds)
 
 
 def response_to_accuracy(response_label: str, correct_response: str) -> int:
@@ -148,6 +176,7 @@ def run_trial(
     win: visual.Window,
     fixation: visual.TextStim,
     stimulus_text: visual.TextStim,
+    exit_hint: visual.TextStim,
     trial: Dict[str, str],
     participant_id: str,
     block: str,
@@ -162,6 +191,7 @@ def run_trial(
     clock = core.Clock()
     stimulus_text.text = trial["stimulus"]
     stimulus_text.draw()
+    exit_hint.draw()
     win.flip()
 
     key_pressed = ""
@@ -170,11 +200,13 @@ def run_trial(
 
     keys = event.waitKeys(
         maxWait=TIMEOUT_SECONDS,
-        keyList=list(RESPONSE_KEYS.keys()) + list(QUIT_KEYS),
+        keyList=list(RESPONSE_KEYS.keys()) + list(SAVE_EXIT_KEYS) + list(QUIT_KEYS),
         timeStamped=clock,
     )
     if keys:
         key_pressed, rt_value = keys[0]
+        if key_pressed in SAVE_EXIT_KEYS:
+            raise SaveAndExit
         if key_pressed in QUIT_KEYS:
             raise KeyboardInterrupt
         response_label = RESPONSE_KEYS.get(key_pressed, "")
@@ -264,8 +296,17 @@ def main() -> int:
     )
     fixation = visual.TextStim(win, text="+", color="black", height=0.08, font="Arial")
     stimulus_text = visual.TextStim(win, text="", color="black", height=0.07, font="Arial")
+    exit_hint = visual.TextStim(
+        win,
+        text="Press S to save and exit.",
+        color="black",
+        height=0.025,
+        pos=(0, -0.42),
+        font="Arial",
+    )
 
     results: List[Dict[str, Any]] = []
+    saved = False
     try:
         show_text(
             win,
@@ -282,7 +323,7 @@ def main() -> int:
         )
 
         for trial in practice_trials:
-            result = run_trial(win, fixation, stimulus_text, trial, participant_id, "practice")
+            result = run_trial(win, fixation, stimulus_text, exit_hint, trial, participant_id, "practice")
             results.append(result)
             show_practice_feedback(win, instruction_text, result)
 
@@ -299,23 +340,38 @@ def main() -> int:
         )
 
         for trial in stimuli:
-            results.append(run_trial(win, fixation, stimulus_text, trial, participant_id, "main"))
+            results.append(run_trial(win, fixation, stimulus_text, exit_hint, trial, participant_id, "main"))
 
+        save_results(output_path, results)
+        saved = True
         show_text(
             win,
             instruction_text,
             "Cảm ơn bạn đã tham gia.\n\nDữ liệu đã được lưu.",
             wait_keys=["space", "return"],
+            allow_save_exit=False,
+        )
+    except SaveAndExit:
+        save_results(output_path, results)
+        saved = True
+        show_timed_text(
+            win,
+            instruction_text,
+            "Experiment stopped. Current data has been saved.",
         )
     except KeyboardInterrupt:
+        save_results(output_path, results)
+        saved = True
         show_text(
             win,
             instruction_text,
             "Thí nghiệm đã dừng.\n\nDữ liệu hiện có sẽ được lưu.",
             wait_keys=["space", "return"],
+            allow_save_exit=False,
         )
     finally:
-        save_results(output_path, results)
+        if not saved:
+            save_results(output_path, results)
         win.close()
         core.quit()
 
