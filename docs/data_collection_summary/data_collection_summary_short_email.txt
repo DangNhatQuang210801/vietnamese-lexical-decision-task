@@ -1,0 +1,18 @@
+Dear Professor Kiss,
+
+I would like to give a short update on the RP2 Vietnamese lexical decision task.
+
+I have implemented the final 3 x 4 real-word design in PsychoPy. The two independent variables are word frequency group (low, mid, high) and syllable length (1, 2, 3, and 4 syllables). The stimulus set contains 72 real words, with 6 items in each frequency x length cell, and 48 pseudoword controls balanced by syllable length. This gives 120 main trials per participant, plus 4 practice trials.
+
+I have collected 48 participant files in the current results folder. All 48 are structurally usable at this stage, with 120 main trials and 4 practice trials each. The current usable N after basic checks is 48. This gives 5760 main trials and 5715 valid RTs so far.
+
+The current data quality looks acceptable for ongoing collection. Overall main-trial accuracy is 90.2%, real-word accuracy is 95.7%, and pseudoword accuracy is 82.0%. The mean valid main-trial RT is 0.721 s and the median is 0.683 s. At this point, 0 participant(s) are flagged for exclusion by the basic rules.
+
+The expected descriptive patterns are broadly visible as a monitoring check: real words are faster than pseudowords, pseudoword accuracy is lower than real-word accuracy, and high-frequency real words are faster than low-frequency real words in the current summary. I am treating these only as preliminary checks, not as final results.
+
+I am continuing data collection toward the preferred range of 50-60 participants. Based on the current usable N, I need 2 more participant(s) to reach 50 and 12 more to reach 60.
+
+The main limitation is that data collection is still ongoing, so the current dataset should be treated as a progress update rather than final evidence. I will also keep checking encoding and item-level quality before the final analysis.
+
+Best regards,
+Dang Nhat Quang

@@ -1,0 +1,125 @@
+﻿participant_id,block,trial_id,stimulus,condition,is_word,syllable_length,frequency_group,frequency,log_frequency,source_realword,correct_response,key_pressed,response_label,accuracy,rt
+5,practice,PRACTICE_003,ghế đá,word,1,2,practice,NA,NA,ghế đá,word,f,word,1,0.674501
+5,practice,PRACTICE_002,mẻo,pseudoword,0,1,practice,NA,NA,mèo,nonword,j,nonword,1,0.67263
+5,practice,PRACTICE_004,tủ lảnh,pseudoword,0,2,practice,NA,NA,tủ lạnh,nonword,j,nonword,1,0.764585
+5,practice,PRACTICE_001,mèo,word,1,1,practice,NA,NA,mèo,word,f,word,1,0.858567
+5,main,LDT3X4_051,hó,pseudoword,0,1,control,NA,NA,gió,nonword,f,word,0,0.720361
+5,main,LDT3X4_040,măt,pseudoword,0,1,control,NA,NA,mắt,nonword,j,nonword,1,0.638439
+5,main,LDT3X4_041,công nghệ thông tin,word,1,4,mid,6,1.791759469,công nghệ thông tin,word,f,word,1,0.731666
+5,main,LDT3X4_065,bửa,pseudoword,0,1,control,NA,NA,cửa,nonword,j,nonword,1,0.665618
+5,main,LDT3X4_088,máy xay,word,1,2,mid,18,2.890371758,máy xay,word,f,word,1,0.457417
+5,main,LDT3X4_017,nước vọ gạo,pseudoword,0,3,control,NA,NA,nước vo gạo,nonword,j,nonword,1,0.912012
+5,main,LDT3X4_113,máy pha cà phé,pseudoword,0,4,control,NA,NA,máy pha cà phê,nonword,j,nonword,1,0.789741
+5,main,LDT3X4_007,mối quan hế,pseudoword,0,3,control,NA,NA,mối quan hệ,nonword,j,nonword,1,0.551711
+5,main,LDT3X4_063,bệnh viện,word,1,2,low,13,2.564949357,bệnh viện,word,f,word,1,0.607867
+5,main,LDT3X4_103,tiền,word,1,1,high,317,5.758901774,tiền,word,f,word,1,0.285
+5,main,LDT3X4_078,cá thác lác,word,1,3,mid,14,2.63905733,cá thác lác,word,f,word,1,1.097326
+5,main,LDT3X4_050,chợ,word,1,1,low,108,4.682131227,chợ,word,f,word,1,0.365313
+5,main,LDT3X4_074,thị trường,word,1,2,high,128,4.852030264,thị trường,word,f,word,1,0.374859
+5,main,LDT3X4_016,trị,word,1,1,low,91,4.510859507,trị,word,f,word,1,0.431358
+5,main,LDT3X4_028,nhâ cửa,pseudoword,0,2,control,NA,NA,nhà cửa,nonword,f,word,0,0.837869
+5,main,LDT3X4_030,lủc,pseudoword,0,1,control,NA,NA,lực,nonword,j,nonword,1,0.683167
+5,main,LDT3X4_105,học thủc,pseudoword,0,2,control,NA,NA,học thức,nonword,j,nonword,1,0.810361
+5,main,LDT3X4_060,quan hệ vợ chọng,pseudoword,0,4,control,NA,NA,quan hệ vợ chồng,nonword,f,word,0,1.097861
+5,main,LDT3X4_059,dân,word,1,1,mid,155,5.043425117,dân,word,f,word,1,0.393164
+5,main,LDT3X4_046,hoạt động xã hội,word,1,4,mid,5,1.609437912,hoạt động xã hội,word,f,word,1,0.682202
+5,main,LDT3X4_061,thủ công mỹ nghệ,word,1,4,mid,4,1.386294361,thủ công mỹ nghệ,word,f,word,1,0.749599
+5,main,LDT3X4_098,sọng,pseudoword,0,1,control,NA,NA,sông,nonword,f,word,0,0.583513
+5,main,LDT3X4_093,máy vi tính,word,1,3,mid,13,2.564949357,máy vi tính,word,f,word,1,0.489943
+5,main,LDT3X4_031,máy nghe nhảc,pseudoword,0,3,control,NA,NA,máy nghe nhạc,nonword,j,nonword,1,0.827026
+5,main,LDT3X4_083,giá,word,1,1,high,714,6.570882962,giá,word,f,word,1,0.291462
+5,main,LDT3X4_008,điện thoại di động,word,1,4,high,14,2.63905733,điện thoại di động,word,f,word,1,0.687662
+5,main,LDT3X4_055,máy điều hòa,word,1,3,low,10,2.302585093,máy điều hòa,word,f,word,1,0.938862
+5,main,LDT3X4_070,chuyện tình cảm,word,1,3,high,48,3.871201011,chuyện tình cảm,word,f,word,1,0.526483
+5,main,LDT3X4_037,đâ,pseudoword,0,1,control,NA,NA,đá,nonword,j,nonword,1,0.699513
+5,main,LDT3X4_036,khoa học,word,1,2,mid,20,2.995732274,khoa học,word,j,nonword,0,0.580435
+5,main,LDT3X4_022,trý,pseudoword,0,1,control,NA,NA,trị,nonword,f,word,0,0.737781
+5,main,LDT3X4_101,nhà thiết kế,word,1,3,low,9,2.197224577,nhà thiết kế,word,f,word,1,0.689382
+5,main,LDT3X4_048,diễn đàn quốc tế,word,1,4,low,4,1.386294361,diễn đàn quốc tế,word,j,nonword,0,1.080092
+5,main,LDT3X4_032,công ty,word,1,2,high,135,4.905274778,công ty,word,f,word,1,0.338885
+5,main,LDT3X4_042,mức giá,word,1,2,mid,16,2.772588722,mức giá,word,f,word,1,0.49776
+5,main,LDT3X4_025,môi trường bẹn ngoài,pseudoword,0,4,control,NA,NA,môi trường bên ngoài,nonword,j,nonword,1,0.87996
+5,main,LDT3X4_086,thị trường nội địa,word,1,4,mid,5,1.609437912,thị trường nội địa,word,f,word,1,0.784459
+5,main,LDT3X4_095,cây,word,1,1,mid,281,5.638354669,cây,word,f,word,1,0.419712
+5,main,LDT3X4_076,thị trườc nội địa,pseudoword,0,4,control,NA,NA,thị trường nội địa,nonword,j,nonword,1,1.335585
+5,main,LDT3X4_106,mũ,word,1,1,low,47,3.850147602,mũ,word,f,word,1,0.440266
+5,main,LDT3X4_108,tin,word,1,1,high,679,6.520621128,tin,word,f,word,1,0.387498
+5,main,LDT3X4_120,xe đẩy,word,1,2,mid,14,2.63905733,xe đẩy,word,f,word,1,0.495634
+5,main,LDT3X4_062,nướm đường,pseudoword,0,2,control,NA,NA,nước đường,nonword,f,word,0,0.825659
+5,main,LDT3X4_066,lá đic lăng,pseudoword,0,3,control,NA,NA,lá đinh lăng,nonword,j,nonword,1,0.780889
+5,main,LDT3X4_072,côc,pseudoword,0,1,control,NA,NA,cốc,nonword,j,nonword,1,0.628603
+5,main,LDT3X4_002,núi,word,1,1,low,31,3.433987204,núi,word,f,word,1,0.447309
+5,main,LDT3X4_038,sông,word,1,1,low,60,4.094344562,sông,word,f,word,1,0.418108
+5,main,LDT3X4_119,nước,word,1,1,high,1464,7.288927695,nước,word,f,word,1,0.445015
+5,main,LDT3X4_056,nước mắm nguyên chất,word,1,4,mid,6,1.791759469,nước mắm nguyên chất,word,f,word,1,0.776116
+5,main,LDT3X4_099,nước muối,word,1,2,low,11,2.397895273,nước muối,word,f,word,1,0.792043
+5,main,LDT3X4_082,công nghiệp,word,1,2,high,27,3.295836866,công nghiệp,word,f,word,1,0.460769
+5,main,LDT3X4_110,nhà thiết ké,pseudoword,0,3,control,NA,NA,nhà thiết kế,nonword,j,nonword,1,0.926337
+5,main,LDT3X4_044,câu trả lời,word,1,3,high,30,3.401197382,câu trả lời,word,f,word,1,0.500172
+5,main,LDT3X4_111,chủ cửa hàc,pseudoword,0,3,control,NA,NA,chủ cửa hàng,nonword,j,nonword,1,1.436603
+5,main,LDT3X4_097,côm ty,pseudoword,0,2,control,NA,NA,công ty,nonword,j,nonword,1,0.595965
+5,main,LDT3X4_003,cơ só sản xuất,pseudoword,0,4,control,NA,NA,cơ sở sản xuất,nonword,f,word,0,1.204614
+5,main,LDT3X4_104,văn hóa ẩm thực,word,1,4,low,3,1.098612289,văn hóa ẩm thực,word,f,word,1,0.931967
+5,main,LDT3X4_029,máy nước nóng,word,1,3,low,6,1.791759469,máy nước nóng,word,f,word,1,1.150267
+5,main,LDT3X4_067,vật,word,1,1,mid,252,5.529429088,vật,word,f,word,1,0.508517
+5,main,LDT3X4_091,mẹ chồng nàng hâu,pseudoword,0,4,control,NA,NA,mẹ chồng nàng dâu,nonword,j,nonword,1,1.049408
+5,main,LDT3X4_092,gió,word,1,1,mid,118,4.770684624,gió,word,f,word,1,0.494875
+5,main,LDT3X4_084,hơi nướm,pseudoword,0,2,control,NA,NA,hơi nước,nonword,j,nonword,1,0.75158
+5,main,LDT3X4_069,nước vo gạo,word,1,3,high,28,3.33220451,nước vo gạo,word,f,word,1,0.399385
+5,main,LDT3X4_100,luật pháp,word,1,2,mid,26,3.258096538,luật pháp,word,f,word,1,0.652609
+5,main,LDT3X4_023,địm kiến xã hội,pseudoword,0,4,control,NA,NA,định kiến xã hội,nonword,j,nonword,1,0.932935
+5,main,LDT3X4_033,đồng nghiệp,word,1,2,high,45,3.80666249,đồng nghiệp,word,f,word,1,0.428779
+5,main,LDT3X4_043,đất,word,1,1,mid,138,4.927253685,đất,word,f,word,1,1.321087
+5,main,LDT3X4_027,hình chữ nhật,word,1,3,high,20,2.995732274,hình chữ nhật,word,f,word,1,0.549303
+5,main,LDT3X4_081,nghiên cứu khoa học,word,1,4,low,3,1.098612289,nghiên cứu khoa học,word,f,word,1,0.6633
+5,main,LDT3X4_071,đồ nội thất,word,1,3,mid,18,2.890371758,đồ nội thất,word,f,word,1,0.325603
+5,main,LDT3X4_077,cửa hàc,pseudoword,0,2,control,NA,NA,cửa hàng,nonword,j,nonword,1,0.65958
+5,main,LDT3X4_015,hệ thống,word,1,2,high,37,3.610917913,hệ thống,word,f,word,1,0.402362
+5,main,LDT3X4_053,loại sản phám,pseudoword,0,3,control,NA,NA,loại sản phẩm,nonword,j,nonword,1,0.8451
+5,main,LDT3X4_045,hónh phúc gia đình,pseudoword,0,4,control,NA,NA,hạnh phúc gia đình,nonword,f,word,0,0.700574
+5,main,LDT3X4_026,lá,word,1,1,high,443,6.09356977,lá,word,f,word,1,0.355657
+5,main,LDT3X4_012,nước uống thé thao,pseudoword,0,4,control,NA,NA,nước uống thể thao,nonword,j,nonword,1,1.181275
+5,main,LDT3X4_058,cây xanh,word,1,2,low,12,2.48490665,cây xanh,word,f,word,1,0.350467
+5,main,LDT3X4_019,cốc,word,1,1,low,19,2.944438979,cốc,word,f,word,1,0.56035
+5,main,LDT3X4_052,nướp,pseudoword,0,1,control,NA,NA,nước,nonword,f,word,0,0.5812
+5,main,LDT3X4_039,hàc,pseudoword,0,1,control,NA,NA,hàng,nonword,j,nonword,1,0.774477
+5,main,LDT3X4_107,kiến trúc sủ,pseudoword,0,3,control,NA,NA,kiến trúc sư,nonword,j,nonword,1,0.788183
+5,main,LDT3X4_001,bệc viện,pseudoword,0,2,control,NA,NA,bệnh viện,nonword,j,nonword,1,0.89957
+5,main,LDT3X4_094,mái ấm gia đình,word,1,4,high,16,2.772588722,mái ấm gia đình,word,f,word,1,0.662747
+5,main,LDT3X4_049,văn hóa ẩm thủc,pseudoword,0,4,control,NA,NA,văn hóa ẩm thực,nonword,f,word,0,1.460065
+5,main,LDT3X4_079,định kiến xã hội,word,1,4,low,3,1.098612289,định kiến xã hội,word,f,word,1,0.904866
+5,main,LDT3X4_024,nước xọt,pseudoword,0,2,control,NA,NA,nước xốt,nonword,f,word,0,0.723644
+5,main,LDT3X4_005,loại sản phẩm,word,1,3,low,10,2.302585093,loại sản phẩm,word,f,word,1,0.784722
+5,main,LDT3X4_054,rúng,pseudoword,0,1,control,NA,NA,rừng,nonword,f,word,0,0.644128
+5,main,LDT3X4_115,biệc pháp,pseudoword,0,2,control,NA,NA,biện pháp,nonword,j,nonword,1,0.646485
+5,main,LDT3X4_020,lực,word,1,1,mid,199,5.293304825,lực,word,f,word,1,0.366531
+5,main,LDT3X4_014,máy đo huyết áp,word,1,4,low,3,1.098612289,máy đo huyết áp,word,f,word,1,0.556384
+5,main,LDT3X4_075,hơi nước,word,1,2,low,11,2.397895273,hơi nước,word,f,word,1,0.629636
+5,main,LDT3X4_034,vản hóa,pseudoword,0,2,control,NA,NA,văn hóa,nonword,j,nonword,1,0.84415
+5,main,LDT3X4_010,hệ thóng,pseudoword,0,2,control,NA,NA,hệ thống,nonword,j,nonword,1,0.77366
+5,main,LDT3X4_089,lâ,pseudoword,0,1,control,NA,NA,lá,nonword,f,word,0,0.723148
+5,main,LDT3X4_118,giám đóc công ty,pseudoword,0,4,control,NA,NA,giám đốc công ty,nonword,j,nonword,1,1.156324
+5,main,LDT3X4_047,mái nhà,word,1,2,low,14,2.63905733,mái nhà,word,f,word,1,0.486615
+5,main,LDT3X4_018,giáo dục,word,1,2,mid,23,3.135494216,giáo dục,word,f,word,1,0.454374
+5,main,LDT3X4_009,tâm lỵ học,pseudoword,0,3,control,NA,NA,tâm lý học,nonword,j,nonword,1,0.969989
+5,main,LDT3X4_064,nước xốt,word,1,2,low,12,2.48490665,nước xốt,word,f,word,1,0.65325
+5,main,LDT3X4_021,máy hủt bụi,pseudoword,0,3,control,NA,NA,máy hút bụi,nonword,f,word,0,0.900335
+5,main,LDT3X4_112,chuyên viên tư vấn,word,1,4,high,7,1.945910149,chuyên viên tư vấn,word,f,word,1,0.646681
+5,main,LDT3X4_080,loại thực phẩm,word,1,3,mid,13,2.564949357,loại thực phẩm,word,f,word,1,0.631227
+5,main,LDT3X4_087,cuộc hôn nhâc,pseudoword,0,3,control,NA,NA,cuộc hôn nhân,nonword,j,nonword,1,1.130956
+5,main,LDT3X4_035,nước uống thể thao,word,1,4,mid,4,1.386294361,nước uống thể thao,word,f,word,1,0.807201
+5,main,LDT3X4_096,nồi ạp suất,pseudoword,0,3,control,NA,NA,nồi áp suất,nonword,f,word,0,0.786898
+5,main,LDT3X4_117,cơ sở sản xuất,word,1,4,low,3,1.098612289,cơ sở sản xuất,word,f,word,1,0.667059
+5,main,LDT3X4_004,trính độ học vấn,pseudoword,0,4,control,NA,NA,trình độ học vấn,nonword,j,nonword,1,0.829266
+5,main,LDT3X4_013,kiến trúc sư,word,1,3,high,23,3.135494216,kiến trúc sư,word,f,word,1,0.531386
+5,main,LDT3X4_068,thực phẩm chế biến,word,1,4,high,7,1.945910149,thực phẩm chế biến,word,f,word,1,0.539792
+5,main,LDT3X4_109,giá thàc,pseudoword,0,2,control,NA,NA,giá thành,nonword,j,nonword,1,0.835243
+5,main,LDT3X4_085,nước cốt dừa,word,1,3,mid,18,2.890371758,nước cốt dừa,word,f,word,1,0.858724
+5,main,LDT3X4_090,văn hóa,word,1,2,high,28,3.33220451,văn hóa,word,f,word,1,0.445296
+5,main,LDT3X4_102,chủ cửa hàng,word,1,3,low,6,1.791759469,chủ cửa hàng,word,f,word,1,0.756078
+5,main,LDT3X4_011,sức hấp dẫn,word,1,3,mid,15,2.708050201,sức hấp dẫn,word,f,word,1,1.203795
+5,main,LDT3X4_057,tình yêu đích thực,word,1,4,high,23,3.135494216,tình yêu đích thực,word,f,word,1,0.691374
+5,main,LDT3X4_073,nước hoa hồng,word,1,3,low,8,2.079441542,nước hoa hồng,word,f,word,1,0.971032
+5,main,LDT3X4_116,hạnh phúc gia đình,word,1,4,high,44,3.784189634,hạnh phúc gia đình,word,f,word,1,0.599627
+5,main,LDT3X4_114,mối quan hệ,word,1,3,high,171,5.141663557,mối quan hệ,word,f,word,1,0.510473
+5,main,LDT3X4_006,đèn,word,1,1,high,306,5.723585102,đèn,word,f,word,1,0.404101

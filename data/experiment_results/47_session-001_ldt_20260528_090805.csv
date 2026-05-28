@@ -1,0 +1,126 @@
+participant_id,block,trial_id,stimulus,condition,is_word,syllable_length,frequency_group,frequency,log_frequency,source_realword,correct_response,key_pressed,response_label,accuracy,rt
+47,practice,PRACTICE_003,gh? dá,word,1,2,practice,NA,NA,gh? dá,word,f,word,1,0.825742
+47,practice,PRACTICE_002,m?o,pseudoword,0,1,practice,NA,NA,mèo,nonword,j,nonword,1,0.850417
+47,practice,PRACTICE_004,t? l?nh,pseudoword,0,2,practice,NA,NA,t? l?nh,nonword,j,nonword,1,0.983990
+47,practice,PRACTICE_001,mèo,word,1,1,practice,NA,NA,mèo,word,j,nonword,0,0.703759
+47,main,LDT3X4_018,giáo d?c,word,1,2,mid,23,3.135494216,giáo d?c,word,f,word,1,0.692652
+47,main,LDT3X4_024,nu?c x?t,pseudoword,0,2,control,NA,NA,nu?c x?t,nonword,j,nonword,1,0.820468
+47,main,LDT3X4_038,sông,word,1,1,low,60,4.094344562,sông,word,f,word,1,0.720493
+47,main,LDT3X4_082,công nghi?p,word,1,2,high,27,3.295836866,công nghi?p,word,f,word,1,0.488062
+47,main,LDT3X4_052,nu?p,pseudoword,0,1,control,NA,NA,nu?c,nonword,j,nonword,1,0.974406
+47,main,LDT3X4_037,dâ,pseudoword,0,1,control,NA,NA,dá,nonword,j,nonword,1,0.699174
+47,main,LDT3X4_067,v?t,word,1,1,mid,252,5.529429088,v?t,word,f,word,1,1.190655
+47,main,LDT3X4_027,hình ch? nh?t,word,1,3,high,20,2.99573227355399,hình ch? nh?t,word,f,word,1,0.547696
+47,main,LDT3X4_043,d?t,word,1,1,mid,138,4.927253685,d?t,word,f,word,1,0.497434
+47,main,LDT3X4_073,nu?c hoa h?ng,word,1,3,low,8,2.079441542,nu?c hoa h?ng,word,f,word,1,0.881374
+47,main,LDT3X4_010,h? thóng,pseudoword,0,2,control,NA,NA,h? th?ng,nonword,j,nonword,1,1.026117
+47,main,LDT3X4_008,di?n tho?i di d?ng,word,1,4,high,14,2.6390573296152584,di?n tho?i di d?ng,word,f,word,1,0.728190
+47,main,LDT3X4_045,hónh phúc gia dình,pseudoword,0,4,control,NA,NA,h?nh phúc gia dình,nonword,j,nonword,1,1.049273
+47,main,LDT3X4_115,bi?c pháp,pseudoword,0,2,control,NA,NA,bi?n pháp,nonword,j,nonword,1,0.945139
+47,main,LDT3X4_062,nu?m du?ng,pseudoword,0,2,control,NA,NA,nu?c du?ng,nonword,f,word,0,0.833575
+47,main,LDT3X4_026,lá,word,1,1,high,443,6.09356977,lá,word,f,word,1,0.275000
+47,main,LDT3X4_081,nghiên c?u khoa h?c,word,1,4,low,3,1.098612289,nghiên c?u khoa h?c,word,f,word,1,1.309933
+47,main,LDT3X4_099,nu?c mu?i,word,1,2,low,11,2.397895273,nu?c mu?i,word,f,word,1,0.619695
+47,main,LDT3X4_068,th?c ph?m ch? bi?n,word,1,4,high,7,1.9459101490553128,th?c ph?m ch? bi?n,word,f,word,1,0.957617
+47,main,LDT3X4_058,cây xanh,word,1,2,low,12,2.48490665,cây xanh,word,f,word,1,0.764194
+47,main,LDT3X4_074,th? tru?ng,word,1,2,high,128,4.852030264,th? tru?ng,word,f,word,1,0.536006
+47,main,LDT3X4_090,van hóa,word,1,2,high,28,3.33220451,van hóa,word,f,word,1,0.534395
+47,main,LDT3X4_042,m?c giá,word,1,2,mid,16,2.772588722,m?c giá,word,f,word,1,0.532213
+47,main,LDT3X4_077,c?a hàc,pseudoword,0,2,control,NA,NA,c?a hàng,nonword,j,nonword,1,0.904174
+47,main,LDT3X4_105,h?c th?c,pseudoword,0,2,control,NA,NA,h?c th?c,nonword,j,nonword,1,0.800896
+47,main,LDT3X4_028,nhâ c?a,pseudoword,0,2,control,NA,NA,nhà c?a,nonword,j,nonword,1,0.884986
+47,main,LDT3X4_030,l?c,pseudoword,0,1,control,NA,NA,l?c,nonword,j,nonword,1,0.577019
+47,main,LDT3X4_012,nu?c u?ng thé thao,pseudoword,0,4,control,NA,NA,nu?c u?ng th? thao,nonword,j,nonword,1,1.118080
+47,main,LDT3X4_035,nu?c u?ng th? thao,word,1,4,mid,4,1.386294361,nu?c u?ng th? thao,word,f,word,1,0.566405
+47,main,LDT3X4_017,nu?c v? g?o,pseudoword,0,3,control,NA,NA,nu?c vo g?o,nonword,j,nonword,1,1.105923
+47,main,LDT3X4_085,nu?c c?t d?a,word,1,3,mid,18,2.890371758,nu?c c?t d?a,word,f,word,1,0.686970
+47,main,LDT3X4_112,chuyên viên tu v?n,word,1,4,high,7,1.9459101490553128,chuyên viên tu v?n,word,f,word,1,0.470443
+47,main,LDT3X4_080,lo?i th?c ph?m,word,1,3,mid,13,2.564949357,lo?i th?c ph?m,word,f,word,1,0.746115
+47,main,LDT3X4_023,d?m ki?n xã h?i,pseudoword,0,4,control,NA,NA,d?nh ki?n xã h?i,nonword,j,nonword,1,1.236155
+47,main,LDT3X4_088,máy xay,word,1,2,mid,18,2.890371758,máy xay,word,f,word,1,0.724186
+47,main,LDT3X4_106,mu,word,1,1,low,47,3.850147602,mu,word,f,word,1,0.515352
+47,main,LDT3X4_053,lo?i s?n phám,pseudoword,0,3,control,NA,NA,lo?i s?n ph?m,nonword,j,nonword,1,0.908878
+47,main,LDT3X4_005,lo?i s?n ph?m,word,1,3,low,10,2.302585093,lo?i s?n ph?m,word,f,word,1,1.497279
+47,main,LDT3X4_101,nhà thi?t k?,word,1,3,low,9,2.197224577,nhà thi?t k?,word,f,word,1,0.774619
+47,main,LDT3X4_041,công ngh? thông tin,word,1,4,mid,6,1.791759469,công ngh? thông tin,word,f,word,1,0.688989
+47,main,LDT3X4_098,s?ng,pseudoword,0,1,control,NA,NA,sông,nonword,j,nonword,1,0.828624
+47,main,LDT3X4_071,d? n?i th?t,word,1,3,mid,18,2.89037175789616,d? n?i th?t,word,j,nonword,0,0.793613
+47,main,LDT3X4_006,dèn,word,1,1,high,306,5.723585102,dèn,word,f,word,1,0.477067
+47,main,LDT3X4_001,b?c vi?n,pseudoword,0,2,control,NA,NA,b?nh vi?n,nonword,j,nonword,1,0.880471
+47,main,LDT3X4_095,cây,word,1,1,mid,281,5.638354669,cây,word,f,word,1,0.499172
+47,main,LDT3X4_055,máy di?u hòa,word,1,3,low,10,2.302585093,máy di?u hòa,word,f,word,1,0.621120
+47,main,LDT3X4_057,tình yêu dích th?c,word,1,4,high,23,3.1354942159291497,tình yêu dích th?c,word,f,word,1,0.663181
+47,main,LDT3X4_022,trý,pseudoword,0,1,control,NA,NA,tr?,nonword,j,nonword,1,0.579938
+47,main,LDT3X4_063,b?nh vi?n,word,1,2,low,13,2.564949357,b?nh vi?n,word,f,word,1,0.651445
+47,main,LDT3X4_029,máy nu?c nóng,word,1,3,low,6,1.791759469,máy nu?c nóng,word,f,word,1,0.668736
+47,main,LDT3X4_107,ki?n trúc s?,pseudoword,0,3,control,NA,NA,ki?n trúc su,nonword,j,nonword,1,0.925626
+47,main,LDT3X4_048,di?n dàn qu?c t?,word,1,4,low,4,1.386294361,di?n dàn qu?c t?,word,f,word,1,0.996098
+47,main,LDT3X4_015,h? th?ng,word,1,2,high,37,3.610917913,h? th?ng,word,f,word,1,0.471339
+47,main,LDT3X4_031,máy nghe nh?c,pseudoword,0,3,control,NA,NA,máy nghe nh?c,nonword,j,nonword,1,0.807313
+47,main,LDT3X4_086,th? tru?ng n?i d?a,word,1,4,mid,5,1.609437912,th? tru?ng n?i d?a,word,f,word,1,0.784626
+47,main,LDT3X4_094,mái ?m gia dình,word,1,4,high,16,2.772588722239781,mái ?m gia dình,word,f,word,1,0.808305
+47,main,LDT3X4_078,cá thác lác,word,1,3,mid,14,2.63905732961526,cá thác lác,word,f,word,1,0.874958
+47,main,LDT3X4_036,khoa h?c,word,1,2,mid,20,2.995732274,khoa h?c,word,f,word,1,0.610124
+47,main,LDT3X4_004,trính d? h?c v?n,pseudoword,0,4,control,NA,NA,trình d? h?c v?n,nonword,j,nonword,1,1.955944
+47,main,LDT3X4_075,hoi nu?c,word,1,2,low,11,2.397895273,hoi nu?c,word,f,word,1,0.538743
+47,main,LDT3X4_079,d?nh ki?n xã h?i,word,1,4,low,3,1.098612289,d?nh ki?n xã h?i,word,f,word,1,0.985210
+47,main,LDT3X4_072,côc,pseudoword,0,1,control,NA,NA,c?c,nonword,j,nonword,1,0.757179
+47,main,LDT3X4_033,d?ng nghi?p,word,1,2,high,45,3.80666249,d?ng nghi?p,word,f,word,1,0.335132
+47,main,LDT3X4_092,gió,word,1,1,mid,118,4.770684624,gió,word,f,word,1,1.352480
+47,main,LDT3X4_032,công ty,word,1,2,high,135,4.905274778,công ty,word,f,word,1,0.422086
+47,main,LDT3X4_002,núi,word,1,1,low,31,3.433987204,núi,word,f,word,1,0.663305
+47,main,LDT3X4_013,ki?n trúc su,word,1,3,high,23,3.13549421592915,ki?n trúc su,word,f,word,1,0.621728
+47,main,LDT3X4_046,ho?t d?ng xã h?i,word,1,4,mid,5,1.609437912,ho?t d?ng xã h?i,word,f,word,1,0.622416
+47,main,LDT3X4_118,giám dóc công ty,pseudoword,0,4,control,NA,NA,giám d?c công ty,nonword,j,nonword,1,1.086390
+47,main,LDT3X4_064,nu?c x?t,word,1,2,low,12,2.48490665,nu?c x?t,word,f,word,1,0.476196
+47,main,LDT3X4_113,máy pha cà phé,pseudoword,0,4,control,NA,NA,máy pha cà phê,nonword,j,nonword,1,1.095826
+47,main,LDT3X4_093,máy vi tính,word,1,3,mid,13,2.564949357,máy vi tính,word,f,word,1,0.630274
+47,main,LDT3X4_021,máy h?t b?i,pseudoword,0,3,control,NA,NA,máy hút b?i,nonword,j,nonword,1,0.938773
+47,main,LDT3X4_009,tâm l? h?c,pseudoword,0,3,control,NA,NA,tâm lý h?c,nonword,j,nonword,1,1.146044
+47,main,LDT3X4_117,co s? s?n xu?t,word,1,4,low,3,1.098612289,co s? s?n xu?t,word,f,word,1,0.923450
+47,main,LDT3X4_091,m? ch?ng nàng hâu,pseudoword,0,4,control,NA,NA,m? ch?ng nàng dâu,nonword,j,nonword,1,1.083141
+47,main,LDT3X4_060,quan h? v? ch?ng,pseudoword,0,4,control,NA,NA,quan h? v? ch?ng,nonword,j,nonword,1,1.119921
+47,main,LDT3X4_066,lá dic lang,pseudoword,0,3,control,NA,NA,lá dinh lang,nonword,j,nonword,1,0.974646
+47,main,LDT3X4_061,th? công m? ngh?,word,1,4,mid,4,1.386294361,th? công m? ngh?,word,f,word,1,0.713183
+47,main,LDT3X4_040,mat,pseudoword,0,1,control,NA,NA,m?t,nonword,j,nonword,1,0.709720
+47,main,LDT3X4_087,cu?c hôn nhâc,pseudoword,0,3,control,NA,NA,cu?c hôn nhân,nonword,j,nonword,1,1.092249
+47,main,LDT3X4_120,xe d?y,word,1,2,mid,14,2.63905733,xe d?y,word,f,word,1,0.640267
+47,main,LDT3X4_065,b?a,pseudoword,0,1,control,NA,NA,c?a,nonword,j,nonword,1,0.721218
+47,main,LDT3X4_019,c?c,word,1,1,low,19,2.944438979,c?c,word,f,word,1,0.638017
+47,main,LDT3X4_116,h?nh phúc gia dình,word,1,4,high,44,3.784189633918261,h?nh phúc gia dình,word,f,word,1,0.586915
+47,main,LDT3X4_039,hàc,pseudoword,0,1,control,NA,NA,hàng,nonword,j,nonword,1,0.778169
+47,main,LDT3X4_096,n?i ?p su?t,pseudoword,0,3,control,NA,NA,n?i áp su?t,nonword,j,nonword,1,0.991339
+47,main,LDT3X4_103,ti?n,word,1,1,high,317,5.758901774,ti?n,word,f,word,1,0.563850
+47,main,LDT3X4_104,van hóa ?m th?c,word,1,4,low,3,1.098612289,van hóa ?m th?c,word,f,word,1,0.923135
+47,main,LDT3X4_083,giá,word,1,1,high,714,6.570882962,giá,word,f,word,1,0.360596
+47,main,LDT3X4_109,giá thàc,pseudoword,0,2,control,NA,NA,giá thành,nonword,j,nonword,1,0.899940
+47,main,LDT3X4_108,tin,word,1,1,high,679,6.520621128,tin,word,f,word,1,0.522524
+47,main,LDT3X4_056,nu?c m?m nguyên ch?t,word,1,4,mid,6,1.791759469,nu?c m?m nguyên ch?t,word,f,word,1,0.850819
+47,main,LDT3X4_007,m?i quan h?,pseudoword,0,3,control,NA,NA,m?i quan h?,nonword,j,nonword,1,0.981663
+47,main,LDT3X4_076,th? tru?c n?i d?a,pseudoword,0,4,control,NA,NA,th? tru?ng n?i d?a,nonword,j,nonword,1,1.179246
+47,main,LDT3X4_097,côm ty,pseudoword,0,2,control,NA,NA,công ty,nonword,j,nonword,1,1.006965
+47,main,LDT3X4_102,ch? c?a hàng,word,1,3,low,6,1.791759469,ch? c?a hàng,word,f,word,1,0.883538
+47,main,LDT3X4_084,hoi nu?m,pseudoword,0,2,control,NA,NA,hoi nu?c,nonword,j,nonword,1,0.835791
+47,main,LDT3X4_059,dân,word,1,1,mid,155,5.043425117,dân,word,f,word,1,0.545547
+47,main,LDT3X4_003,co só s?n xu?t,pseudoword,0,4,control,NA,NA,co s? s?n xu?t,nonword,j,nonword,1,1.021498
+47,main,LDT3X4_049,van hóa ?m th?c,pseudoword,0,4,control,NA,NA,van hóa ?m th?c,nonword,j,nonword,1,1.194448
+47,main,LDT3X4_069,nu?c vo g?o,word,1,3,high,28,3.33220451,nu?c vo g?o,word,f,word,1,0.804172
+47,main,LDT3X4_119,nu?c,word,1,1,high,1464,7.288927695,nu?c,word,f,word,1,0.416104
+47,main,LDT3X4_011,s?c h?p d?n,word,1,3,mid,15,2.70805020110221,s?c h?p d?n,word,f,word,1,0.727998
+47,main,LDT3X4_020,l?c,word,1,1,mid,199,5.293304825,l?c,word,f,word,1,0.500844
+47,main,LDT3X4_051,hó,pseudoword,0,1,control,NA,NA,gió,nonword,f,word,0,0.740772
+47,main,LDT3X4_047,mái nhà,word,1,2,low,14,2.63905733,mái nhà,word,j,nonword,0,0.610927
+47,main,LDT3X4_050,ch?,word,1,1,low,108,4.682131227,ch?,word,f,word,1,0.469408
+47,main,LDT3X4_089,lâ,pseudoword,0,1,control,NA,NA,lá,nonword,j,nonword,1,0.855373
+47,main,LDT3X4_110,nhà thi?t ké,pseudoword,0,3,control,NA,NA,nhà thi?t k?,nonword,j,nonword,1,1.019943
+47,main,LDT3X4_034,v?n hóa,pseudoword,0,2,control,NA,NA,van hóa,nonword,j,nonword,1,0.874087
+47,main,LDT3X4_016,tr?,word,1,1,low,91,4.510859507,tr?,word,f,word,1,0.584515
+47,main,LDT3X4_100,lu?t pháp,word,1,2,mid,26,3.258096538,lu?t pháp,word,f,word,1,0.492993
+47,main,LDT3X4_044,câu tr? l?i,word,1,3,high,30,3.40119738166216,câu tr? l?i,word,f,word,1,0.727878
+47,main,LDT3X4_014,máy do huy?t áp,word,1,4,low,3,1.098612289,máy do huy?t áp,word,f,word,1,0.814025
+47,main,LDT3X4_054,rúng,pseudoword,0,1,control,NA,NA,r?ng,nonword,j,nonword,1,0.686143
+47,main,LDT3X4_025,môi tru?ng b?n ngoài,pseudoword,0,4,control,NA,NA,môi tru?ng bên ngoài,nonword,j,nonword,1,0.943691
+47,main,LDT3X4_114,m?i quan h?,word,1,3,high,171,5.14166355650266,m?i quan h?,word,f,word,1,0.530175
+47,main,LDT3X4_111,ch? c?a hàc,pseudoword,0,3,control,NA,NA,ch? c?a hàng,nonword,,,0,
+47,main,LDT3X4_070,chuy?n tình c?m,word,1,3,high,48,3.87120101090789,chuy?n tình c?m,word,f,word,1,0.838799
+

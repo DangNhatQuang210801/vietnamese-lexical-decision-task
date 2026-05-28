@@ -1,0 +1,65 @@
+Final LDT stimuli 3x4 v1 diagnostics
+
+Input file: data\stimuli\final\final_ldt_stimuli_v1.csv
+Output file: data\stimuli\final\final_ldt_stimuli_3x4_v1.csv
+Selection seed: 20260522
+
+1. Total item count
+- Total items: 120
+
+2. Real-word count
+- Real words: 72
+
+3. Pseudoword count
+- Pseudowords: 48
+- Pseudoword frequency_group is coded as "control" because pseudowords are lexical-decision controls, not part of the frequency manipulation.
+
+4. Real-word frequency_group x syllable_length table
+frequency_group,1,2,3,4,total
+low,6,6,6,6,24
+mid,6,6,6,6,24
+high,6,6,6,6,24
+
+5. Pseudoword syllable_length table
+syllable_length,count
+1,12
+2,12
+3,12
+4,12
+
+6. Frequency/log_frequency ranges by frequency_group and syllable_length
+frequency_group,syllable_length,n,frequency_min,frequency_max,log_frequency_min,log_frequency_max
+low,1,6,19,108,2.944439,4.682131
+low,2,6,11,14,2.397895,2.639057
+low,3,6,6,10,1.791759,2.302585
+low,4,6,3,4,1.098612,1.386294
+mid,1,6,118,281,4.770685,5.638355
+mid,2,6,14,26,2.639057,3.258097
+mid,3,6,13,18,2.564949,2.890372
+mid,4,6,4,6,1.386294,1.791759
+high,1,6,306,1464,5.723585,7.288928
+high,2,6,27,135,3.295837,4.905275
+high,3,6,20,171,2.995732,5.141664
+high,4,6,7,44,1.945910,3.784190
+
+7. Duplicate check
+- Duplicate stimulus count: 0
+- Duplicate trial_id count: 0
+
+8. Missing value check
+- stimulus: all missing/NA=0; real=0; pseudoword=0
+- condition: all missing/NA=0; real=0; pseudoword=0
+- is_word: all missing/NA=0; real=0; pseudoword=0
+- syllable_length: all missing/NA=0; real=0; pseudoword=0
+- correct_response: all missing/NA=0; real=0; pseudoword=0
+- frequency: all missing/NA=48; real=0; pseudoword=48 (pseudoword missing/NA acceptable only if present by design)
+- log_frequency: all missing/NA=48; real=0; pseudoword=48 (pseudoword missing/NA acceptable only if present by design)
+
+9. Why frequency groups were defined within each length group
+- In the full real-word pool, syllable_length and log_frequency are strongly negatively related: shorter words tend to be more frequent and longer words tend to be less frequent.
+- Global tertiles would leave several frequency_group x syllable_length cells underfilled or empty.
+- Within-length tertiles create high/mid/low frequency groups separately inside each syllable length, allowing a balanced 3 x 4 design with 6 real words per cell.
+- This makes frequency and syllable length easier to separate experimentally, while raw frequency and log_frequency remain available for continuous analyses.
+
+10. Readiness summary
+- Ready for PsychoPy: yes

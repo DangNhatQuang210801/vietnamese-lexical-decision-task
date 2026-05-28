@@ -1,0 +1,11 @@
+﻿level_type,level,n_trials,valid_rt_trials,accuracy,mean_rt,median_rt
+overall,all,3720,3696,0.902957,0.695434,0.651662
+condition,word,2232,2224,0.963262,0.585098,0.553173
+condition,pseudoword,1488,1472,0.8125,0.862136,0.832723
+syllable_length,1,930,923,0.896774,0.513429,0.492507
+syllable_length,2,930,926,0.916129,0.627527,0.600028
+syllable_length,3,930,921,0.912903,0.784142,0.770089
+syllable_length,4,930,926,0.886022,0.856525,0.816576
+real_word_frequency_group,low,744,740,0.954301,0.646496,0.619973
+real_word_frequency_group,mid,744,742,0.97043,0.609066,0.576104
+real_word_frequency_group,high,744,742,0.965054,0.499898,0.486036

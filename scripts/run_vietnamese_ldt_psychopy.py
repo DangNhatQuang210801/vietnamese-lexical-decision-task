@@ -5,7 +5,7 @@ Run from the repository root:
     python scripts/run_vietnamese_ldt_psychopy.py
 
 Input:
-    data/stimuli/final/final_ldt_stimuli_v1.csv
+    data/stimuli/final/final_ldt_stimuli_3x4_v1.csv
 
 Output:
     data/experiment_results/<participant_id>_ldt_<timestamp>.csv
@@ -25,7 +25,7 @@ from psychopy import core, event, gui, visual
 
 
 ROOT = Path(__file__).resolve().parents[1]
-STIMULUS_FILE = ROOT / "data" / "stimuli" / "final" / "final_ldt_stimuli_v1.csv"
+STIMULUS_FILE = ROOT / "data" / "stimuli" / "final" / "final_ldt_stimuli_3x4_v1.csv"
 RESULTS_DIR = ROOT / "data" / "experiment_results"
 
 FIXATION_SECONDS = 0.5
@@ -42,6 +42,7 @@ OUTPUT_COLUMNS = [
     "condition",
     "is_word",
     "syllable_length",
+    "frequency_group",
     "frequency",
     "log_frequency",
     "source_realword",
@@ -62,6 +63,7 @@ PRACTICE_TRIALS = [
         "source_realword": "mèo",
         "frequency": "NA",
         "log_frequency": "NA",
+        "frequency_group": "practice",
         "syllable_length": "1",
     },
     {
@@ -73,6 +75,7 @@ PRACTICE_TRIALS = [
         "source_realword": "mèo",
         "frequency": "NA",
         "log_frequency": "NA",
+        "frequency_group": "practice",
         "syllable_length": "1",
     },
     {
@@ -84,6 +87,7 @@ PRACTICE_TRIALS = [
         "source_realword": "ghế đá",
         "frequency": "NA",
         "log_frequency": "NA",
+        "frequency_group": "practice",
         "syllable_length": "2",
     },
     {
@@ -95,13 +99,60 @@ PRACTICE_TRIALS = [
         "source_realword": "tủ lạnh",
         "frequency": "NA",
         "log_frequency": "NA",
-        "syllable_length": "4",
+        "frequency_group": "practice",
+        "syllable_length": "2",
     },
 ]
 
 
 class SaveAndExit(Exception):
     """Raised when the participant chooses to save and stop the experiment."""
+
+
+def is_missing(value: Any) -> bool:
+    return value is None or str(value).strip() in {"", "NA"}
+
+
+def validate_stimuli(rows: List[Dict[str, str]], path: Path) -> None:
+    required_columns = {
+        "trial_id",
+        "stimulus",
+        "condition",
+        "is_word",
+        "syllable_length",
+        "frequency_group",
+        "frequency",
+        "log_frequency",
+        "source_realword",
+        "correct_response",
+    }
+    missing_columns = required_columns - set(rows[0].keys())
+    if missing_columns:
+        missing = ", ".join(sorted(missing_columns))
+        raise ValueError(f"Stimulus file is missing required columns: {missing}")
+
+    required_values = [
+        "stimulus",
+        "condition",
+        "is_word",
+        "syllable_length",
+        "frequency_group",
+        "correct_response",
+    ]
+    problems: List[str] = []
+    for row_number, row in enumerate(rows, start=2):
+        for column in required_values:
+            if is_missing(row.get(column)):
+                problems.append(f"row {row_number}: missing {column}")
+        if row.get("condition") == "word":
+            for column in ["frequency", "log_frequency"]:
+                if is_missing(row.get(column)):
+                    problems.append(f"row {row_number}: real word missing {column}")
+
+    if problems:
+        preview = "; ".join(problems[:10])
+        more = "" if len(problems) <= 10 else f"; and {len(problems) - 10} more"
+        raise ValueError(f"Invalid stimulus file {path}: {preview}{more}")
 
 
 def read_stimuli(path: Path) -> List[Dict[str, str]]:
@@ -111,6 +162,7 @@ def read_stimuli(path: Path) -> List[Dict[str, str]]:
         rows = list(csv.DictReader(handle))
     if not rows:
         raise ValueError(f"Stimulus file is empty: {path}")
+    validate_stimuli(rows, path)
     return rows
 
 
@@ -223,6 +275,7 @@ def run_trial(
         "condition": trial["condition"],
         "is_word": trial["is_word"],
         "syllable_length": trial["syllable_length"],
+        "frequency_group": trial.get("frequency_group", "") or "",
         "frequency": trial.get("frequency", "NA") or "NA",
         "log_frequency": trial.get("log_frequency", "NA") or "NA",
         "source_realword": trial["source_realword"],

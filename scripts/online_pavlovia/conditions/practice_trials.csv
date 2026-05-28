@@ -1,0 +1,5 @@
+trial_id,stimulus,condition,is_word,correct_response,source_realword,frequency,log_frequency,frequency_group,syllable_length,modification_type,modified_syllable_position,original_syllable,modified_syllable
+PRACTICE_001,mèo,word,1,word,mèo,NA,NA,practice,1,practice,NA,NA,NA
+PRACTICE_002,mẻo,pseudoword,0,nonword,mèo,NA,NA,practice,1,practice,NA,mèo,mẻo
+PRACTICE_003,ghế đá,word,1,word,ghế đá,NA,NA,practice,2,practice,NA,NA,NA
+PRACTICE_004,tủ lảnh,pseudoword,0,nonword,tủ lạnh,NA,NA,practice,2,practice,NA,lạnh,lảnh
