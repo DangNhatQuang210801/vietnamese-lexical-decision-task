@@ -1,0 +1,19 @@
+RP2 clean data preparation log
+Step: analysis/01_prepare_clean_data.py
+Raw input folder: data\experiment_results
+Final stimulus reference: data\stimuli\final\final_ldt_stimuli_3x4_v1.csv
+Final stimulus encoding: utf-8-sig
+Files read: 48
+Unique participants: 48
+Participants flagged: 0
+All trials rows: 5952
+Main trial rows: 5760
+RT real-word correct rows: 3306
+Accuracy main trial rows: 5760
+All trial_id values have expected presentations: True
+Output cleaned data folder: analysis\outputs\cleaned_data
+Output QC folder: analysis\outputs\qc
+Minimum N=48 reached: True
+All stimulus validation checks passed: True
+Cleaned data ready for R analysis: True
+Raw data were not modified.

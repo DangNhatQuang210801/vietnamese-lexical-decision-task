@@ -1,0 +1,622 @@
+---
+title: "RP2 Analysis: Vietnamese Lexical Decision Task"
+author: "Dang Nhat Quang"
+output: html_document
+---
+
+This document is an analysis draft for the RP2 Vietnamese lexical decision task. The aim is to check the cleaned data, describe the main patterns, and fit the first mixed-effects models for reaction time. Python was used before this step only to create cleaned data files and quality-control outputs. The raw PsychoPy files are not edited here.
+
+To render from the project root, run:
+
+```{r eval=FALSE}
+rmarkdown::render(
+  "analysis/RP2_final_analysis_v2.Rmd",
+  output_file = "RP2_final_analysis_v2.html",
+  output_dir = "analysis/outputs/r_analysis"
+)
+```
+
+## Libraries and data
+
+The analysis uses `tidyverse` for data handling and plotting, `lme4` and `lmerTest` for mixed-effects models, `car` for VIF checks, and `knitr` for readable tables. Packages are checked first, but they are not installed automatically.
+
+```{r setup}
+# Check packages before running the analysis
+required_packages <- c("tidyverse", "lme4", "lmerTest", "car", "knitr")
+optional_packages <- c("broom.mixed")
+
+missing_required <- required_packages[
+  !vapply(required_packages, requireNamespace, logical(1), quietly = TRUE)
+]
+
+missing_optional <- optional_packages[
+  !vapply(optional_packages, requireNamespace, logical(1), quietly = TRUE)
+]
+
+if (length(missing_required) > 0) {
+  message("Missing required packages: ", paste(missing_required, collapse = ", "))
+}
+
+if (length(missing_optional) > 0) {
+  message("Missing optional packages: ", paste(missing_optional, collapse = ", "))
+}
+
+library(tidyverse)
+library(lme4)
+library(lmerTest)
+library(car)
+library(knitr)
+
+if (requireNamespace("broom.mixed", quietly = TRUE)) {
+  library(broom.mixed)
+}
+
+# Keep paths stable when knitting from different folders
+project_root <- if (file.exists("analysis/outputs/cleaned_data/rt_realword_correct.csv")) {
+  "."
+} else if (file.exists("outputs/cleaned_data/rt_realword_correct.csv")) {
+  ".."
+} else {
+  stop("Cleaned data files were not found. Run python analysis/01_prepare_clean_data.py first.")
+}
+
+project_path <- function(...) file.path(project_root, ...)
+
+table_dir <- project_path("analysis", "outputs", "r_analysis", "tables")
+figure_dir <- project_path("analysis", "outputs", "r_analysis", "figures")
+model_dir <- project_path("analysis", "outputs", "r_analysis", "models")
+
+dir.create(table_dir, recursive = TRUE, showWarnings = FALSE)
+dir.create(figure_dir, recursive = TRUE, showWarnings = FALSE)
+dir.create(model_dir, recursive = TRUE, showWarnings = FALSE)
+```
+
+## Read in data
+
+Three cleaned files are read. `rt_data` is the main file for RT modeling because it contains only correct real-word main trials with valid RTs. `acc_data` contains all main trials and is used for accuracy summaries. `main_data` is kept for general checking.
+
+```{r read-data}
+# Read cleaned analysis files
+rt_data <- readr::read_csv(
+  project_path("analysis", "outputs", "cleaned_data", "rt_realword_correct.csv"),
+  show_col_types = FALSE
+)
+
+acc_data <- readr::read_csv(
+  project_path("analysis", "outputs", "cleaned_data", "accuracy_main_trials.csv"),
+  show_col_types = FALSE
+)
+
+main_data <- readr::read_csv(
+  project_path("analysis", "outputs", "cleaned_data", "main_trials_clean.csv"),
+  show_col_types = FALSE
+)
+```
+
+```{r basic-structure}
+# Inspect the basic structure before modeling
+summary(rt_data)
+summary(acc_data)
+summary(main_data)
+```
+
+```{r prepare-data}
+# Prepare factors for the experimental design
+rt_data <- rt_data %>%
+  mutate(
+    participant_id = factor(participant_id),
+    trial_id = factor(trial_id),
+    item_id = factor(item_id),
+    frequency_group = factor(frequency_group, levels = c("low", "mid", "high")),
+    syllable_length = factor(syllable_length, levels = c("1", "2", "3", "4")),
+    log_rt = as.numeric(log_rt),
+    rt_numeric = as.numeric(rt_numeric)
+  )
+
+acc_data <- acc_data %>%
+  mutate(
+    participant_id = factor(participant_id),
+    trial_id = factor(trial_id),
+    item_id = factor(item_id),
+    condition = factor(condition),
+    frequency_group = factor(frequency_group, levels = c("low", "mid", "high", "control")),
+    syllable_length = factor(syllable_length, levels = c("1", "2", "3", "4")),
+    accuracy_numeric = as.numeric(accuracy_numeric)
+  )
+
+main_data <- main_data %>%
+  mutate(
+    participant_id = factor(participant_id),
+    trial_id = factor(trial_id),
+    item_id = factor(item_id),
+    condition = factor(condition),
+    frequency_group = factor(frequency_group, levels = c("low", "mid", "high", "control")),
+    syllable_length = factor(syllable_length, levels = c("1", "2", "3", "4")),
+    log_rt = as.numeric(log_rt),
+    rt_numeric = as.numeric(rt_numeric),
+    accuracy_numeric = as.numeric(accuracy_numeric)
+  )
+```
+
+## Why mixed-effects modeling is needed
+
+This experiment is a repeated-measures lexical decision task. Each participant responded to many items, and each item was seen by many participants. Therefore, observations are not fully independent. A simple linear model would ignore participant-level and item-level variability. Mixed-effects models are appropriate because they allow participants and items to be modeled as random effects (Baayen, Davidson, & Bates, 2008; Bates et al., 2015).
+
+## Why log RT is used
+
+Reaction-time data are usually right-skewed. For this reason, RT analyses often use transformed RTs or otherwise check distributional assumptions. In this project, `log_rt` is used as the dependent variable for the main RT models. This follows common practice in RT analysis, while the diagnostic plots below are still checked carefully (Baayen & Milin, 2010).
+
+## Summary of data
+
+Before modeling, I first check the number of participants, items, and observations. I also summarize RT and accuracy to make sure the cleaned data look plausible.
+
+```{r summary-data}
+# Summarise RT and accuracy data
+rt_summary <- rt_data %>%
+  summarise(
+    participants = n_distinct(participant_id),
+    items = n_distinct(trial_id),
+    observations = n(),
+    mean_rt = mean(rt_numeric, na.rm = TRUE),
+    median_rt = median(rt_numeric, na.rm = TRUE),
+    min_rt = min(rt_numeric, na.rm = TRUE),
+    max_rt = max(rt_numeric, na.rm = TRUE)
+  )
+
+accuracy_by_condition <- acc_data %>%
+  group_by(condition) %>%
+  summarise(
+    n = n(),
+    accuracy = mean(accuracy_numeric, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+accuracy_overall <- acc_data %>%
+  summarise(
+    n = n(),
+    accuracy = mean(accuracy_numeric, na.rm = TRUE),
+    participants = n_distinct(participant_id)
+  )
+
+kable(rt_summary)
+kable(accuracy_overall)
+kable(accuracy_by_condition)
+```
+
+## Descriptive tables
+
+The following tables summarize the main design variables. These tables are descriptive and should not be interpreted as final inferential results.
+
+```{r descriptive-tables}
+# Create descriptive tables for later reporting
+rt_by_frequency_group <- rt_data %>%
+  group_by(frequency_group) %>%
+  summarise(
+    n = n(),
+    mean_rt = mean(rt_numeric, na.rm = TRUE),
+    median_rt = median(rt_numeric, na.rm = TRUE),
+    mean_log_rt = mean(log_rt, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+rt_by_syllable_length <- rt_data %>%
+  group_by(syllable_length) %>%
+  summarise(
+    n = n(),
+    mean_rt = mean(rt_numeric, na.rm = TRUE),
+    median_rt = median(rt_numeric, na.rm = TRUE),
+    mean_log_rt = mean(log_rt, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+rt_by_frequency_group_x_syllable_length <- rt_data %>%
+  group_by(frequency_group, syllable_length) %>%
+  summarise(
+    n = n(),
+    mean_rt = mean(rt_numeric, na.rm = TRUE),
+    median_rt = median(rt_numeric, na.rm = TRUE),
+    mean_log_rt = mean(log_rt, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+accuracy_by_syllable_length <- acc_data %>%
+  group_by(syllable_length) %>%
+  summarise(
+    n = n(),
+    accuracy = mean(accuracy_numeric, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+accuracy_by_frequency_group_realwords <- acc_data %>%
+  filter(condition == "word") %>%
+  group_by(frequency_group) %>%
+  summarise(
+    n = n(),
+    accuracy = mean(accuracy_numeric, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+readr::write_csv(rt_by_frequency_group, file.path(table_dir, "rt_by_frequency_group_v2.csv"))
+readr::write_csv(rt_by_syllable_length, file.path(table_dir, "rt_by_syllable_length_v2.csv"))
+readr::write_csv(
+  rt_by_frequency_group_x_syllable_length,
+  file.path(table_dir, "rt_by_frequency_group_x_syllable_length_v2.csv")
+)
+readr::write_csv(accuracy_by_condition, file.path(table_dir, "accuracy_by_condition_v2.csv"))
+readr::write_csv(accuracy_by_syllable_length, file.path(table_dir, "accuracy_by_syllable_length_v2.csv"))
+readr::write_csv(
+  accuracy_by_frequency_group_realwords,
+  file.path(table_dir, "accuracy_by_frequency_group_realwords_v2.csv")
+)
+
+kable(rt_by_frequency_group)
+kable(rt_by_syllable_length)
+kable(rt_by_frequency_group_x_syllable_length)
+```
+
+## Exploring the data employing graphics
+
+The plots below follow the same general logic as the course examples. They are simple visual checks before modeling. They show whether the expected frequency and syllable-length patterns are visible descriptively.
+
+```{r descriptive-plots, fig.width=7, fig.height=5}
+# Plot RT and accuracy patterns
+p_rt_frequency <- ggplot(rt_data, aes(x = frequency_group, y = rt_numeric)) +
+  geom_boxplot() +
+  theme_bw() +
+  labs(x = "Frequency group", y = "Reaction time in seconds")
+
+p_rt_length <- ggplot(rt_data, aes(x = syllable_length, y = rt_numeric)) +
+  geom_boxplot() +
+  theme_bw() +
+  labs(x = "Syllable length", y = "Reaction time in seconds")
+
+p_rt_interaction <- ggplot(
+  rt_by_frequency_group_x_syllable_length,
+  aes(x = syllable_length, y = mean_rt, color = frequency_group, group = frequency_group)
+) +
+  geom_point() +
+  geom_line() +
+  theme_bw() +
+  labs(x = "Syllable length", y = "Mean reaction time", color = "Frequency group")
+
+p_accuracy_condition <- ggplot(accuracy_by_condition, aes(x = condition, y = accuracy)) +
+  geom_col() +
+  theme_bw() +
+  coord_cartesian(ylim = c(0, 1)) +
+  labs(x = "Condition", y = "Accuracy")
+
+ggsave(file.path(figure_dir, "rt_by_frequency_group_boxplot_v2.png"), p_rt_frequency, width = 7, height = 5, dpi = 300)
+ggsave(file.path(figure_dir, "rt_by_syllable_length_boxplot_v2.png"), p_rt_length, width = 7, height = 5, dpi = 300)
+ggsave(file.path(figure_dir, "rt_frequency_by_length_interaction_v2.png"), p_rt_interaction, width = 7, height = 5, dpi = 300)
+ggsave(file.path(figure_dir, "accuracy_by_condition_barplot_v2.png"), p_accuracy_condition, width = 7, height = 5, dpi = 300)
+
+p_rt_frequency
+p_rt_length
+p_rt_interaction
+p_accuracy_condition
+```
+
+## First model
+
+The first model is an intercept-only mixed-effects model. It is used as a baseline model with random intercepts for participants and items.
+
+```{r model0}
+# Fit baseline mixed model
+model0 <- lmerTest::lmer(
+  log_rt ~ 1 + (1 | participant_id) + (1 | trial_id),
+  data = rt_data,
+  REML = FALSE
+)
+
+summary(model0)
+isSingular(model0)
+```
+
+## Second model
+
+The second model adds `frequency_group`. This tests whether reaction time differs across low, mid, and high frequency words.
+
+```{r model1}
+# Add frequency group
+model1 <- lmerTest::lmer(
+  log_rt ~ frequency_group + (1 | participant_id) + (1 | trial_id),
+  data = rt_data,
+  REML = FALSE
+)
+
+summary(model1)
+isSingular(model1)
+```
+
+## Third model
+
+The third model adds `syllable_length`. This tests whether longer Vietnamese lexical items, measured by syllable count, are associated with slower responses.
+
+```{r model2}
+# Add syllable length
+model2 <- lmerTest::lmer(
+  log_rt ~ frequency_group + syllable_length + (1 | participant_id) + (1 | trial_id),
+  data = rt_data,
+  REML = FALSE
+)
+
+summary(model2)
+isSingular(model2)
+```
+
+## Fourth model interaction
+
+The fourth model adds the interaction between `frequency_group` and `syllable_length`. This tests whether the effect of frequency depends on syllable length. This is relevant because the research question asks not only about main effects, but also whether frequency and length work together in Vietnamese visual word recognition.
+
+```{r model3}
+# Add the frequency by length interaction
+model3 <- lmerTest::lmer(
+  log_rt ~ frequency_group * syllable_length + (1 | participant_id) + (1 | trial_id),
+  data = rt_data,
+  REML = FALSE
+)
+
+summary(model3)
+isSingular(model3)
+```
+
+```{r singularity-status}
+# Record singularity status
+singularity_status <- tibble(
+  model = c("model0", "model1", "model2", "model3"),
+  is_singular = c(
+    isSingular(model0),
+    isSingular(model1),
+    isSingular(model2),
+    isSingular(model3)
+  )
+)
+
+kable(singularity_status)
+
+capture.output(
+  singularity_status,
+  file = file.path(model_dir, "model_singularity_status_v2.txt")
+)
+```
+
+## Model comparison
+
+The models are compared with `anova()`. This checks whether adding predictors improves model fit. It does not prove causality. The comparison is used here to see whether frequency group, syllable length, and their interaction improve the model for log RT.
+
+```{r model-comparison}
+# Compare nested models
+model_comparison_rt <- anova(model0, model1, model2, model3)
+
+model_comparison_rt_df <- as.data.frame(model_comparison_rt) %>%
+  rownames_to_column("model")
+
+readr::write_csv(model_comparison_rt_df, file.path(table_dir, "model_comparison_rt_v2.csv"))
+
+kable(model_comparison_rt)
+```
+
+## Main model summary
+
+The interaction model is printed below because it directly corresponds to the full planned design. If the interaction model does not improve fit, the additive model may be easier to interpret.
+
+```{r main-model-summary}
+# Save the full model summary
+summary(model3)
+
+capture.output(
+  summary(model3),
+  file = file.path(model_dir, "model3_rt_summary_v2.txt")
+)
+```
+
+## Assumptions and diagnostics
+
+Mixed-effects model diagnostics are not identical to simple `lm()` diagnostics. However, residual plots are still useful for checking strong problems such as clear nonlinearity, heteroscedasticity, or non-normal residuals.
+
+```{r diagnostics, fig.width=7, fig.height=5}
+# Create residual diagnostics
+diag_data <- tibble(
+  fitted = fitted(model3),
+  residuals = resid(model3),
+  frequency_group = rt_data$frequency_group,
+  syllable_length = rt_data$syllable_length
+)
+
+p_resid_fitted <- ggplot(diag_data, aes(x = fitted, y = residuals)) +
+  geom_point(alpha = 0.35) +
+  geom_hline(yintercept = 0, linetype = "dashed") +
+  theme_bw() +
+  labs(x = "Fitted values", y = "Residuals")
+
+p_resid_hist <- ggplot(diag_data, aes(x = residuals)) +
+  geom_histogram(bins = 40) +
+  theme_bw() +
+  labs(x = "Residuals", y = "Count")
+
+p_resid_qq <- ggplot(diag_data, aes(sample = residuals)) +
+  stat_qq() +
+  stat_qq_line() +
+  theme_bw() +
+  labs(x = "Theoretical quantiles", y = "Sample quantiles")
+
+p_resid_length <- ggplot(diag_data, aes(x = syllable_length, y = residuals)) +
+  geom_boxplot() +
+  theme_bw() +
+  labs(x = "Syllable length", y = "Residuals")
+
+ggsave(file.path(figure_dir, "model3_residuals_vs_fitted_v2.png"), p_resid_fitted, width = 7, height = 5, dpi = 300)
+ggsave(file.path(figure_dir, "model3_residual_histogram_v2.png"), p_resid_hist, width = 7, height = 5, dpi = 300)
+ggsave(file.path(figure_dir, "model3_residual_qqplot_v2.png"), p_resid_qq, width = 7, height = 5, dpi = 300)
+ggsave(file.path(figure_dir, "model3_residuals_by_length_v2.png"), p_resid_length, width = 7, height = 5, dpi = 300)
+
+p_resid_fitted
+p_resid_hist
+p_resid_qq
+p_resid_length
+```
+
+```{r vif-check}
+# Check fixed effect collinearity with an lm approximation
+fixed_lm <- lm(log_rt ~ frequency_group * syllable_length, data = rt_data)
+vif_output <- car::vif(fixed_lm)
+
+capture.output(
+  vif_output,
+  file = file.path(model_dir, "vif_fixed_effects_v2.txt")
+)
+
+vif_output
+```
+
+## Random effects note
+
+Participants and items are included as random intercepts because both can introduce variability. Some participants are generally faster or slower, and some items are generally easier or harder. Including both random effects follows the logic of crossed random effects for subjects and items (Baayen et al., 2008).
+
+```{r random-effects}
+# Save random effects for inspection
+capture.output(
+  ranef(model3),
+  file = file.path(model_dir, "model3_random_effects_v2.txt")
+)
+
+VarCorr(model3)
+```
+
+## Interaction plotting
+
+The plot below shows fitted values from the interaction model without participant or item random effects. It helps visualize the fixed-effect pattern from the full model.
+
+```{r model-interaction-plot, fig.width=7, fig.height=5}
+# Plot fixed effect predictions from model3
+prediction_grid <- expand.grid(
+  frequency_group = levels(rt_data$frequency_group),
+  syllable_length = levels(rt_data$syllable_length)
+)
+
+prediction_grid$predicted_log_rt <- predict(
+  model3,
+  newdata = prediction_grid,
+  re.form = NA
+)
+
+prediction_grid$predicted_rt <- exp(prediction_grid$predicted_log_rt)
+
+p_model_interaction <- ggplot(
+  prediction_grid,
+  aes(x = syllable_length, y = predicted_rt, color = frequency_group, group = frequency_group)
+) +
+  geom_point() +
+  geom_line() +
+  theme_bw() +
+  labs(x = "Syllable length", y = "Predicted RT in seconds", color = "Frequency group")
+
+ggsave(file.path(figure_dir, "model3_predicted_interaction_v2.png"), p_model_interaction, width = 7, height = 5, dpi = 300)
+
+p_model_interaction
+```
+
+## Accuracy analysis
+
+Accuracy is not the main dependent variable, but it is important for checking whether participants performed the task seriously. I first keep this descriptive. A logistic mixed-effects model is included only as supplementary and exploratory.
+
+```{r accuracy-summary}
+# Summarise accuracy patterns
+accuracy_real_pseudo <- acc_data %>%
+  group_by(condition) %>%
+  summarise(
+    n = n(),
+    accuracy = mean(accuracy_numeric, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+accuracy_length <- acc_data %>%
+  group_by(syllable_length) %>%
+  summarise(
+    n = n(),
+    accuracy = mean(accuracy_numeric, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+accuracy_frequency_real <- acc_data %>%
+  filter(condition == "word") %>%
+  group_by(frequency_group) %>%
+  summarise(
+    n = n(),
+    accuracy = mean(accuracy_numeric, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+kable(accuracy_real_pseudo)
+kable(accuracy_length)
+kable(accuracy_frequency_real)
+```
+
+```{r accuracy-model-supplementary}
+# Fit exploratory accuracy model
+accuracy_model <- glmer(
+  accuracy_numeric ~ condition * syllable_length + (1 | participant_id) + (1 | trial_id),
+  data = acc_data,
+  family = binomial,
+  control = glmerControl(optimizer = "bobyqa")
+)
+
+summary(accuracy_model)
+isSingular(accuracy_model)
+
+capture.output(
+  summary(accuracy_model),
+  file = file.path(model_dir, "accuracy_model_supplementary_v2.txt")
+)
+```
+
+## Preliminary interpretation
+
+```{r preliminary-values}
+# Extract descriptive values for cautious interpretation
+high_mean <- rt_by_frequency_group %>%
+  filter(frequency_group == "high") %>%
+  pull(mean_rt)
+
+low_mean <- rt_by_frequency_group %>%
+  filter(frequency_group == "low") %>%
+  pull(mean_rt)
+
+length_means <- rt_by_syllable_length %>%
+  arrange(syllable_length)
+
+interaction_p <- model_comparison_rt_df %>%
+  filter(model == "model3") %>%
+  pull(`Pr(>Chisq)`)
+
+overall_accuracy <- accuracy_overall$accuracy
+
+kable(length_means)
+```
+
+Descriptively, high-frequency words appear faster than low-frequency words if the high-frequency mean RT is lower. In the current data, the high-frequency mean RT is `r round(high_mean, 3)` seconds and the low-frequency mean RT is `r round(low_mean, 3)` seconds.
+
+Descriptively, RT appears to increase with syllable length if the mean RTs rise from one to four syllables. This descriptive pattern should be checked together with the mixed-effects model.
+
+The interaction model is useful because it tests whether the frequency effect changes across syllable lengths. The model comparison table should be used to decide whether this additional complexity is justified. The interaction comparison p-value is `r ifelse(length(interaction_p) == 1, round(interaction_p, 4), NA)`.
+
+Accuracy is also part of the quality check. The overall accuracy is `r round(overall_accuracy, 3)`, which suggests that participants generally performed the lexical decision task seriously. This is still a preliminary analysis draft. Final report wording should be written only after reviewing the model output, residual plots, singularity status, and VIF results.
+
+## References
+
+Baayen, R. H., Davidson, D. J., & Bates, D. M. (2008). Mixed-effects modeling with crossed random effects for subjects and items. *Journal of Memory and Language, 59*(4), 390-412.
+
+Baayen, R. H., & Milin, P. (2010). Analyzing reaction times. *International Journal of Psychological Research, 3*(2), 12-28.
+
+Bates, D., Mächler, M., Bolker, B., & Walker, S. (2015). Fitting linear mixed-effects models using lme4. *Journal of Statistical Software, 67*(1), 1-48.
+
+Brysbaert, M., Mandera, P., & Keuleers, E. (2018). The word frequency effect in word processing. *Current Directions in Psychological Science, 27*(1), 45-50.
+
+Brysbaert, M., & Stevens, M. (2018). Power analysis and effect size in mixed effects models: A tutorial. *Journal of Cognition, 1*(1), Article 9.
+
+Forster, K. I., & Chambers, S. M. (1973). Lexical access and naming time. *Journal of Verbal Learning and Verbal Behavior, 12*(6), 627-635.
+
+Kuznetsova, A., Brockhoff, P. B., & Christensen, R. H. B. (2017). lmerTest package: Tests in linear mixed effects models. *Journal of Statistical Software, 82*(13), 1-26.
+
+New, B., Ferrand, L., Pallier, C., & Brysbaert, M. (2006). Reexamining the word length effect in visual word recognition: New evidence from the English Lexicon Project. *Psychonomic Bulletin & Review, 13*(1), 45-52.
+

@@ -1,0 +1,87 @@
+Linear mixed model fit by maximum likelihood . t-tests use Satterthwaite's
+  method [lmerModLmerTest]
+Formula: log_rt ~ frequency_group * syllable_length + (1 | participant_id) +  
+    (1 | trial_id)
+   Data: rt_data
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+   -511.9    -420.4     271.0    -541.9      3291 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-4.1769 -0.5776  0.0162  0.5265  5.2658 
+
+Random effects:
+ Groups         Name        Variance  Std.Dev.
+ trial_id       (Intercept) 0.0008439 0.02905 
+ participant_id (Intercept) 0.0148117 0.12170 
+ Residual                   0.0468832 0.21653 
+Number of obs: 3306, groups:  trial_id, 72; participant_id, 48
+
+Fixed effects:
+                                      Estimate Std. Error        df t value
+(Intercept)                           -0.78351    0.02489 108.85400 -31.484
+frequency_groupmid                    -0.02955    0.02487  70.67654  -1.188
+frequency_grouphigh                   -0.20041    0.02484  70.39404  -8.068
+syllable_length2                       0.25660    0.02492  71.22088  10.299
+syllable_length3                       0.47995    0.02490  71.07867  19.273
+syllable_length4                       0.58476    0.02505  72.70581  23.348
+frequency_groupmid:syllable_length2   -0.09460    0.03520  70.95810  -2.687
+frequency_grouphigh:syllable_length2  -0.11774    0.03517  70.66433  -3.348
+frequency_groupmid:syllable_length3   -0.05387    0.03525  71.31935  -1.528
+frequency_grouphigh:syllable_length3  -0.08525    0.03525  71.32342  -2.419
+frequency_groupmid:syllable_length4   -0.06983    0.03529  71.64272  -1.979
+frequency_grouphigh:syllable_length4  -0.06421    0.03528  71.61836  -1.820
+                                     Pr(>|t|)    
+(Intercept)                           < 2e-16 ***
+frequency_groupmid                    0.23862    
+frequency_grouphigh                  1.32e-11 ***
+syllable_length2                     9.50e-16 ***
+syllable_length3                      < 2e-16 ***
+syllable_length4                      < 2e-16 ***
+frequency_groupmid:syllable_length2   0.00896 ** 
+frequency_grouphigh:syllable_length2  0.00131 ** 
+frequency_groupmid:syllable_length3   0.13084    
+frequency_grouphigh:syllable_length3  0.01814 *  
+frequency_groupmid:syllable_length4   0.05168 .  
+frequency_grouphigh:syllable_length4  0.07295 .  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Correlation of Fixed Effects:
+               (Intr) frqncy_grpm frqncy_grph syll_2 syll_3 syll_4
+frqncy_grpm    -0.502                                             
+frqncy_grph    -0.503  0.503                                      
+syllbl_lng2    -0.501  0.502       0.502                          
+syllbl_lng3    -0.501  0.502       0.502       0.501              
+syllbl_lng4    -0.499  0.499       0.499       0.498  0.498       
+frqncy_grpm:_2  0.355 -0.706      -0.355      -0.708 -0.355 -0.353
+frqncy_grph:_2  0.355 -0.355      -0.706      -0.709 -0.355 -0.353
+frqncy_grpm:_3  0.354 -0.705      -0.355      -0.354 -0.707 -0.352
+frqncy_grph:_3  0.354 -0.354      -0.705      -0.354 -0.706 -0.352
+frqncy_grpm:_4  0.354 -0.705      -0.355      -0.354 -0.354 -0.710
+frqncy_grph:_4  0.354 -0.354      -0.704      -0.354 -0.354 -0.710
+               frqncy_grpm:_2 frqncy_grph:_2 frqncy_grpm:_3 frqncy_grph:_3
+frqncy_grpm                                                               
+frqncy_grph                                                               
+syllbl_lng2                                                               
+syllbl_lng3                                                               
+syllbl_lng4                                                               
+frqncy_grpm:_2                                                            
+frqncy_grph:_2  0.502                                                     
+frqncy_grpm:_3  0.498          0.251                                      
+frqncy_grph:_3  0.250          0.498          0.499                       
+frqncy_grpm:_4  0.498          0.250          0.497          0.250        
+frqncy_grph:_4  0.250          0.497          0.250          0.496        
+               frqncy_grpm:_4
+frqncy_grpm                  
+frqncy_grph                  
+syllbl_lng2                  
+syllbl_lng3                  
+syllbl_lng4                  
+frqncy_grpm:_2               
+frqncy_grph:_2               
+frqncy_grpm:_3               
+frqncy_grph:_3               
+frqncy_grpm:_4               
+frqncy_grph:_4  0.504        

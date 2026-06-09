@@ -1,0 +1,7 @@
+# A tibble: 4 × 2
+  model  is_singular
+  <chr>  <lgl>      
+1 model0 FALSE      
+2 model1 FALSE      
+3 model2 FALSE      
+4 model3 FALSE      

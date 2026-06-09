@@ -1,0 +1,108 @@
+GHI CHU VE FILE analysis\01_prepare_clean_data.py
+
+1. Muc dich cua file
+
+File analysis\01_prepare_clean_data.py la buoc xu ly du lieu chinh thuc dau tien truoc khi phan tich thong ke cho RP2. File nay doc cac file CSV ket qua tu thi nghiem PsychoPy, chuan bi du lieu cho phan tich, va tao cac bang kiem tra chat luong du lieu.
+
+Nguyen tac quan trong la du lieu raw khong bi thay doi. Script chi tao cac ban sao da lam sach va cac file tom tat QC rieng trong thu muc analysis\outputs.
+
+2. Vi sao can file nay
+
+Du an hien co nhieu file CSV cua nguoi tham gia. Mot so file co the dung encoding khac nhau, vi vay neu xu ly bang tay se de bi loi hoac khong nhat quan. Du lieu raw cung khong nen duoc mo va sua truc tiep trong Excel hay cac trinh soan thao khac.
+
+Vi vay can mot script co the chay lai de dam bao cung mot quy trinh doc file, kiem tra, lam sach ban sao, va luu ket qua QC. Dieu nay giup qua trinh phan tich minh bach hon va de kiem tra lai khi can.
+
+3. File nay lam gi
+
+Script thuc hien cac buoc chinh sau:
+
+- Doc tat ca file CSV trong data\experiment_results.
+- Thu cac encoding theo thu tu: utf-8-sig, utf-8, cp1258.
+- Ghi lai encoding nao doc duoc tung file.
+- Kiem tra participant_id co ton tai va co khop voi so o dau ten file hay khong.
+- Kiem tra so dong: 4 practice trials, 120 main trials, tong cong 124 dong.
+- Kiem tra cac cot can thiet co ton tai.
+- Kiem tra main trial_id khong bi trung trong tung participant.
+- Kiem tra mapping phan hoi: f = word, j = nonword.
+- Kiem tra response_label co khop voi key_pressed hay khong.
+- Kiem tra accuracy co khop voi response_label va correct_response hay khong.
+- Chuyen RT sang dang so trong cot rt_numeric.
+- Tao log_rt tu RT hop le.
+- Danh dau timeout hoac missing RT.
+- Tao cac cot metadata nhu source_file, source_encoding, row_in_file, item_id.
+- Doi chieu du lieu main trials voi file stimulus cuoi cung final_ldt_stimuli_3x4_v1.csv.
+- Kiem tra stimulus file co dung 120 item, 72 real words, 48 pseudowords hay khong.
+- Kiem tra thiet ke 3 x 4 cua real words: low/mid/high x 1/2/3/4 syllables, moi o co 6 item.
+- Kiem tra pseudowords co 12 item cho moi muc syllable_length.
+- Xac nhan 120 trial_id mong doi deu xuat hien trong du lieu.
+- Xac nhan moi trial_id xuat hien mot lan cho moi participant.
+- Tao cac file du lieu da lam sach.
+- Tao cac file QC cho participant, item, design, qua trinh doc file, va stimulus validation.
+
+4. Output files
+
+Script tao cac file sau:
+
+- analysis\outputs\cleaned_data\all_trials_clean.csv
+  Chua tat ca practice trials va main trials, kem cac cot metadata va cot da chuan hoa.
+
+- analysis\outputs\cleaned_data\main_trials_clean.csv
+  Chua main trials only. File nay dung cho tom tat du lieu chinh.
+
+- analysis\outputs\cleaned_data\rt_realword_correct.csv
+  Chua main trials only, condition = word, response dung, RT hop le, khong timeout. Day la file chinh cho phan tich RT sau nay trong R.
+
+- analysis\outputs\cleaned_data\accuracy_main_trials.csv
+  Chua tat ca main trials, bao gom ca word va pseudoword. File nay dung cho tom tat accuracy hoac mo hinh logistic neu can.
+
+- analysis\outputs\qc\participant_qc_summary.csv
+  Tom tat chat luong tung participant: so trial, accuracy, RT, missing RT, response bias, va cac flag QC.
+
+- analysis\outputs\qc\item_qc_by_trial_id.csv
+  Tom tat chat luong tung item dua tren trial_id: so lan xuat hien, accuracy, mean/median RT, missing RT, va flag item.
+
+- analysis\outputs\qc\design_level_summary.csv
+  Tom tat theo condition, syllable_length, frequency_group, va frequency_group x syllable_length.
+
+- analysis\outputs\qc\file_reading_summary.csv
+  Ghi lai file nao duoc doc bang encoding nao va co loi validation nao khong.
+
+- analysis\outputs\qc\stimulus_validation_summary.csv
+  Kiem tra stimulus file va doi chieu trial_id trong du lieu voi stimulus file cuoi cung.
+
+- analysis\outputs\qc\processing_log.txt
+  Ghi tom tat ngan gon sau khi script chay, gom so file, so participant, so trial, trang thai QC, va san sang cho buoc R hay chua.
+
+5. Nguon va co so ho tro
+
+Script nay duoc viet rieng cho dataset RP2 nay va khong phai la code sao chep tu mot nguon ben ngoai duy nhat. Quy trinh chung dua tren logic xu ly du lieu co tinh tai lap: giu raw data nguyen ven, tao ban sao cleaned data rieng, va luu cac bang QC de co the kiem tra lai.
+
+Cach to chuc cac buoc phan tich tiep theo co anh huong tu tai lieu hoc theo tung buoc cua Professor Kiss ve Levshina Chapter 7: doc du lieu, tom tat du lieu, truc quan hoa, mo hinh hoa, va kiem tra gia dinh cua mo hinh.
+
+Ly do thong ke phia sau viec chuan bi du lieu cho mixed-effects modeling duoc ho tro boi cac tai lieu nhu Baayen et al. (2008) va Bates et al. (2015). Phan trien khai xu ly du lieu su dung cac thu vien Python pho bien la pandas va numpy.
+
+Coding assistance duoc dung de ho tro phac thao, sap xep, va kiem tra workflow. Tuy nhien, script da duoc dieu chinh theo cau truc du lieu rieng cua du an nay va da duoc kiem tra bang cac file output tao ra.
+
+6. Dieu file nay khong lam
+
+File nay khong chay cac mo hinh thong ke cuoi cung. No khong sua cac file raw cua participant. No khong tu dong xoa hay loai participant. No khong thay doi stimulus file. No chi chuan bi du lieu va bao cao thong tin QC.
+
+7. Cach chay file
+
+Mo terminal va chay:
+
+cd /d "D:\Research 2"
+python analysis\01_prepare_clean_data.py
+
+8. Ghi chu cho phan tich tiep theo
+
+R se duoc dung sau nay cho descriptive analysis va mixed-effects modeling. Phan tich RT chinh nen dung file:
+
+analysis\outputs\cleaned_data\rt_realword_correct.csv
+
+File nay chi gom real-word main trials co response dung va RT hop le. File:
+
+analysis\outputs\cleaned_data\accuracy_main_trials.csv
+
+co the dung cho tom tat accuracy hoac logistic mixed-effects model neu can.
+

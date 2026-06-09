@@ -1,0 +1,68 @@
+﻿RP2 Markdown Archive Index
+Created: 2026-05-28
+Policy: raw data, scripts, stimulus files, proposal DOCX files, reference notes, professor materials, and core README files were not archived.
+
+CLASSIFICATION BEFORE MOVING
+archive	docs\data_collection_summary\data_collection_summary.md
+keep	docs\methodology_analysis_rulebook.md
+archive	docs\participant_quality_check\participant_quality_report.md
+archive	docs\personal_notes\file_organization_note.md
+archive	docs\personal_notes\project_map.md
+archive	docs\personal_notes\psychopy_experiment_design_note.md
+archive	docs\personal_notes\psychopy_setup_and_run_note.md
+keep	docs\professor_Kiss_materials\Levshina_Chap_7.md
+archive	docs\project_control\ANALYSIS_PLAN_DRAFT.md
+archive	docs\project_control\CHANGELOG.md
+archive	docs\project_control\DATA_COLLECTION_PROTOCOL.md
+archive	docs\project_control\DATA_DICTIONARY.md
+archive	docs\project_control\ENCODING_MANAGEMENT_PLAN.md
+archive	docs\project_control\FILE_INVENTORY.md
+archive	docs\project_control\ITEM_QC_RULES.md
+archive	docs\project_control\PARTICIPANT_QC_RULES.md
+archive	docs\project_control\README_PROJECT_STATUS.md
+archive	docs\project_control\WORKFLOW_OVERVIEW.md
+keep	docs\report_writing\references_ldt_visual_word_recognition_verified.md
+keep	docs\report_writing\references_methods_tools_verified.md
+keep	docs\report_writing\references_vietnamese_orthography_verified.md
+keep	README.md
+keep	scripts\online_pavlovia\docs\builder_construction_spec.md
+keep	scripts\online_pavlovia\docs\final_conversion_report.md
+keep	scripts\online_pavlovia\docs\validation_report.md
+keep	scripts\online_pavlovia\README_online_pavlovia.md
+
+MOVED FILES THIS PASS
+moved	docs\data_collection_summary\data_collection_summary.md	->	docs\_archive_codex_markdown_reports\docs\data_collection_summary\data_collection_summary.md
+moved	docs\participant_quality_check\participant_quality_report.md	->	docs\_archive_codex_markdown_reports\docs\participant_quality_check\participant_quality_report.md
+moved	docs\personal_notes\file_organization_note.md	->	docs\_archive_codex_markdown_reports\docs\personal_notes\file_organization_note.md
+moved	docs\personal_notes\project_map.md	->	docs\_archive_codex_markdown_reports\docs\personal_notes\project_map.md
+moved	docs\personal_notes\psychopy_experiment_design_note.md	->	docs\_archive_codex_markdown_reports\docs\personal_notes\psychopy_experiment_design_note.md
+moved	docs\personal_notes\psychopy_setup_and_run_note.md	->	docs\_archive_codex_markdown_reports\docs\personal_notes\psychopy_setup_and_run_note.md
+moved	docs\project_control\ANALYSIS_PLAN_DRAFT.md	->	docs\_archive_codex_markdown_reports\docs\project_control\ANALYSIS_PLAN_DRAFT.md
+moved	docs\project_control\CHANGELOG.md	->	docs\_archive_codex_markdown_reports\docs\project_control\CHANGELOG.md
+moved	docs\project_control\DATA_COLLECTION_PROTOCOL.md	->	docs\_archive_codex_markdown_reports\docs\project_control\DATA_COLLECTION_PROTOCOL.md
+moved	docs\project_control\DATA_DICTIONARY.md	->	docs\_archive_codex_markdown_reports\docs\project_control\DATA_DICTIONARY.md
+moved	docs\project_control\ENCODING_MANAGEMENT_PLAN.md	->	docs\_archive_codex_markdown_reports\docs\project_control\ENCODING_MANAGEMENT_PLAN.md
+moved	docs\project_control\FILE_INVENTORY.md	->	docs\_archive_codex_markdown_reports\docs\project_control\FILE_INVENTORY.md
+moved	docs\project_control\ITEM_QC_RULES.md	->	docs\_archive_codex_markdown_reports\docs\project_control\ITEM_QC_RULES.md
+moved	docs\project_control\PARTICIPANT_QC_RULES.md	->	docs\_archive_codex_markdown_reports\docs\project_control\PARTICIPANT_QC_RULES.md
+moved	docs\project_control\README_PROJECT_STATUS.md	->	docs\_archive_codex_markdown_reports\docs\project_control\README_PROJECT_STATUS.md
+moved	docs\project_control\WORKFLOW_OVERVIEW.md	->	docs\_archive_codex_markdown_reports\docs\project_control\WORKFLOW_OVERVIEW.md
+
+ALL MARKDOWN FILES CURRENTLY IN ARCHIVE
+archived	docs\data_collection_summary\data_collection_summary.md
+archived	docs\participant_quality_check\participant_quality_report.md
+archived	docs\personal_notes\file_organization_note.md
+archived	docs\personal_notes\project_map.md
+archived	docs\personal_notes\psychopy_experiment_design_note.md
+archived	docs\personal_notes\psychopy_setup_and_run_note.md
+archived	docs\project_control\ANALYSIS_PLAN_DRAFT.md
+archived	docs\project_control\CHANGELOG.md
+archived	docs\project_control\DATA_COLLECTION_PROTOCOL.md
+archived	docs\project_control\DATA_DICTIONARY.md
+archived	docs\project_control\ENCODING_MANAGEMENT_PLAN.md
+archived	docs\project_control\FILE_INVENTORY.md
+archived	docs\project_control\ITEM_QC_RULES.md
+archived	docs\project_control\latest_audit\latest_current_status_report.md
+archived	docs\project_control\PARTICIPANT_QC_RULES.md
+archived	docs\project_control\README_PROJECT_STATUS.md
+archived	docs\project_control\WORKFLOW_OVERVIEW.md

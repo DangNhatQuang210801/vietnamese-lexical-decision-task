@@ -1,0 +1,44 @@
+Generalized linear mixed model fit by maximum likelihood (Laplace
+  Approximation) [glmerMod]
+ Family: binomial  ( logit )
+Formula: 
+accuracy_numeric ~ condition * syllable_length + (1 | participant_id) +  
+    (1 | trial_id)
+   Data: acc_data
+Control: glmerControl(optimizer = "bobyqa")
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+   3357.0    3423.6   -1668.5    3337.0      5750 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-7.6590  0.1696  0.2243  0.3829  0.7338 
+
+Random effects:
+ Groups         Name        Variance Std.Dev.
+ trial_id       (Intercept) 0.0150   0.1225  
+ participant_id (Intercept) 0.2351   0.4848  
+Number of obs: 5760, groups:  trial_id, 120; participant_id, 48
+
+Fixed effects:
+                               Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                     1.43914    0.13221  10.885  < 2e-16 ***
+conditionword                   2.23107    0.23566   9.467  < 2e-16 ***
+syllable_length2                0.29039    0.16303   1.781 0.074887 .  
+syllable_length3                0.34443    0.16444   2.095 0.036210 *  
+syllable_length4                0.02227    0.15704   0.142 0.887238    
+conditionword:syllable_length2 -0.62216    0.31903  -1.950 0.051156 .  
+conditionword:syllable_length3 -1.07328    0.30493  -3.520 0.000432 ***
+conditionword:syllable_length4 -0.68221    0.30324  -2.250 0.024469 *  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Correlation of Fixed Effects:
+            (Intr) cndtnw syll_2 syll_3 syll_4 cnd:_2 cnd:_3
+conditinwrd -0.387                                          
+syllbl_lng2 -0.567  0.320                                   
+syllbl_lng3 -0.562  0.317  0.458                            
+syllbl_lng4 -0.591  0.331  0.479  0.475                     
+cndtnwrd:_2  0.289 -0.737 -0.511 -0.234 -0.245              
+cndtnwrd:_3  0.302 -0.772 -0.247 -0.539 -0.256  0.570       
+cndtnwrd:_4  0.305 -0.776 -0.248 -0.246 -0.518  0.573  0.599
