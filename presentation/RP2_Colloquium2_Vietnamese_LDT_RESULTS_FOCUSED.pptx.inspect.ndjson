@@ -1,0 +1,864 @@
+{"kind":"deck","id":"pr/a9qmz3","name":"Deck"}
+{"kind":"layout","layoutId":"7fadda48-b366-4eaf-8869-0cf701e21a81","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"782d1dcb-10f6-4c90-a950-886b4a13d26c","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/742g91","slide":1,"title":"Vietnamese Lexical","textShapes":9}
+{"kind":"shape","id":"sh/oj2t83it","slide":1,"bbox":[793,-18,78,88]}
+{"kind":"shape","id":"sh/vy90je9c","slide":1,"bbox":[836,0,112,116]}
+{"kind":"shape","id":"sh/6dcbulwv","slide":1,"bbox":[794,56,98,70]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":1,"text":"Vietnamese Lexical\nDecision Task","textPreview":"Vietnamese Lexical | Decision Task","textChars":32,"textLines":2,"bbox":[50,135,560,118]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":1,"text":"RP2 Colloquium 2 | frequency group x syllable length","textPreview":"RP2 Colloquium 2 | frequency group x syllable length","textChars":52,"textLines":1,"bbox":[53,272,570,24]}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":1,"text":"Dang Nhat Quang\nSupervisor: Prof. Dr. Tibor Kiss\nJune 2026","textPreview":"Dang Nhat Quang | Supervisor: Prof. Dr. Tibor Kiss | June 2026","textChars":58,"textLines":3,"bbox":[53,318,430,60]}
+{"kind":"shape","id":"sh/61032lsz","slide":1,"bbox":[52,410,128,70]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":1,"text":"48","textPreview":"48","textChars":2,"textLines":1,"bbox":[60,418,112,24]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":1,"text":"participants","textPreview":"participants","textChars":12,"textLines":1,"bbox":[60,445,112,18]}
+{"kind":"shape","id":"sh/mtwra5gb","slide":1,"bbox":[192,410,128,70]}
+{"kind":"textbox","id":"sh/fepkzupw","slide":1,"text":"120","textPreview":"120","textChars":3,"textLines":1,"bbox":[200,418,112,24]}
+{"kind":"textbox","id":"sh/4zidonyd","slide":1,"text":"main trials","textPreview":"main trials","textChars":11,"textLines":1,"bbox":[200,445,112,18]}
+{"kind":"shape","id":"sh/xkf6dcbu","slide":1,"bbox":[332,410,128,70]}
+{"kind":"textbox","id":"sh/mlkjm1cf","slide":1,"text":"3 x 4","textPreview":"3 x 4","textChars":5,"textLines":1,"bbox":[340,418,112,24]}
+{"kind":"textbox","id":"sh/f6dcbulw","slide":1,"text":"real-word design","textPreview":"real-word design","textChars":16,"textLines":1,"bbox":[340,445,112,18]}
+{"kind":"image","id":"im/7u54zido","slide":1,"name":"","alt":"LDSL logo","bbox":[833,494,70,27]}
+{"kind":"notes","id":"nt/742g91","slide":1,"text":"Open by framing the project as a controlled lexical-decision study in Vietnamese. The revised talk gives more space to preliminary results and model interpretation."}
+{"kind":"slide","id":"sl/6nq3dd","slide":2,"title":"02 | ROADMAP","textShapes":18}
+{"kind":"shape","id":"sh/mtwra5gb","slide":2,"bbox":[793,-18,78,88]}
+{"kind":"shape","id":"sh/xkf6dcbu","slide":2,"bbox":[836,0,112,116]}
+{"kind":"shape","id":"sh/4zidonyd","slide":2,"bbox":[794,56,98,70]}
+{"kind":"shape","id":"sh/f6dcbulw","slide":2,"bbox":[51,43,21,4]}
+{"kind":"textbox","id":"sh/mlkjm1cf","slide":2,"text":"02 | ROADMAP","textPreview":"02 | ROADMAP","textChars":12,"textLines":1,"bbox":[80,34,520,17]}
+{"kind":"textbox","id":"sh/xc3ylc7u","slide":2,"text":"The talk moves quickly from motivation to preliminary results.","textPreview":"The talk moves quickly from motivation to preliminary results.","textChars":62,"textLines":1,"bbox":[50,58,780,50]}
+{"kind":"textbox","id":"sh/4r65wjud","slide":2,"text":"Vietnamese LDT | RP2 Colloquium 2","textPreview":"Vietnamese LDT | RP2 Colloquium 2","textChars":33,"textLines":1,"bbox":[52,504,280,13]}
+{"kind":"shape","id":"sh/fu18jqh0","slide":2,"bbox":[50,486,820,1.5]}
+{"kind":"shape","id":"sh/sji5snel","slide":2,"bbox":[70,170,138,118]}
+{"kind":"textbox","id":"sh/h4byhgn2","slide":2,"text":"Problem","textPreview":"Problem","textChars":7,"textLines":1,"bbox":[82,179,114,18]}
+{"kind":"textbox","id":"sh/adsji5sn","slide":2,"text":"Vietnamese spacing separates syllables, not always lexical words.","textPreview":"Vietnamese spacing separates syllables, not always lexical words.","textChars":65,"textLines":1,"bbox":[82,201,114,82]}
+{"kind":"textbox","id":"sh/3ylc7u54","slide":2,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[213,212,20,22]}
+{"kind":"shape","id":"sh/s72x4nap","slide":2,"bbox":[234,170,138,118]}
+{"kind":"textbox","id":"sh/lszqtcj6","slide":2,"text":"Design","textPreview":"Design","textChars":6,"textLines":1,"bbox":[246,179,114,18]}
+{"kind":"textbox","id":"sh/a5gbq1or","slide":2,"text":"3 frequency groups x 4 syllable lengths, within participants.","textPreview":"3 frequency groups x 4 syllable lengths, within participants.","textChars":61,"textLines":1,"bbox":[246,201,114,82]}
+{"kind":"textbox","id":"sh/3m94fu18","slide":2,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[377,212,20,22]}
+{"kind":"shape","id":"sh/s36hcrmh","slide":2,"bbox":[398,170,138,118]}
+{"kind":"textbox","id":"sh/hoza1gvy","slide":2,"text":"QC","textPreview":"QC","textChars":2,"textLines":1,"bbox":[410,179,114,18]}
+{"kind":"textbox","id":"sh/lkjm1cfa","slide":2,"text":"48 participants, 5,760 main trials, validation passed.","textPreview":"48 participants, 5,760 main trials, validation passed.","textChars":54,"textLines":1,"bbox":[410,201,114,82]}
+{"kind":"textbox","id":"sh/szqtcj6t","slide":2,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[541,212,20,22]}
+{"kind":"shape","id":"sh/3ex0nuxc","slide":2,"bbox":[562,170,138,118]}
+{"kind":"textbox","id":"sh/at47y1kr","slide":2,"text":"Results","textPreview":"Results","textChars":7,"textLines":1,"bbox":[574,179,114,18]}
+{"kind":"textbox","id":"sh/l87ed8ba","slide":2,"text":"Frequency, length, interaction, accuracy, diagnostics.","textPreview":"Frequency, length, interaction, accuracy, diagnostics.","textChars":54,"textLines":1,"bbox":[574,201,114,82]}
+{"kind":"textbox","id":"sh/sneloj2t","slide":2,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[705,212,20,22]}
+{"kind":"shape","id":"sh/32lszqtc","slide":2,"bbox":[726,170,138,118]}
+{"kind":"textbox","id":"sh/ahoza1gv","slide":2,"text":"Next","textPreview":"Next","textChars":4,"textLines":1,"bbox":[738,179,114,18]}
+{"kind":"textbox","id":"sh/lwval87e","slide":2,"text":"Robustness checks and final interpretation.","textPreview":"Robustness checks and final interpretation.","textChars":43,"textLines":1,"bbox":[738,201,114,82]}
+{"kind":"shape","id":"sh/wb2hwfyx","slide":2,"bbox":[86,425,790,44]}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":2,"text":"Main purpose: make the preliminary RT pattern visible and statistically interpretable.","textPreview":"Main purpose: make the preliminary RT pattern visible and statistically interpretable.","textChars":86,"textLines":1,"bbox":[112,436,738,22]}
+{"kind":"image","id":"im/n29gr2p8","slide":2,"name":"","alt":"LDSL logo","bbox":[833,494,70,27]}
+{"kind":"notes","id":"nt/6nq3dd","slide":2,"text":"This roadmap tells the audience that the talk is results-focused. The early method slides are short, and the central section is analysis."}
+{"kind":"slide","id":"sl/jssgjc","slide":3,"title":"03 | WRITING HISTORY","textShapes":14}
+{"kind":"shape","id":"sh/crmhk3q5","slide":3,"bbox":[793,-18,78,88]}
+{"kind":"shape","id":"sh/j6tovaho","slide":3,"bbox":[836,0,112,116]}
+{"kind":"shape","id":"sh/ulwval87","slide":3,"bbox":[794,56,98,70]}
+{"kind":"shape","id":"sh/1kre1w7m","slide":3,"bbox":[51,43,21,4]}
+{"kind":"textbox","id":"sh/c3ylc7u5","slide":3,"text":"03 | WRITING HISTORY","textPreview":"03 | WRITING HISTORY","textChars":20,"textLines":1,"bbox":[80,34,520,17]}
+{"kind":"textbox","id":"sh/ji5snelo","slide":3,"text":"Modern Vietnamese script emerged through layered historical influences.","textPreview":"Modern Vietnamese script emerged through layered historical influences.","textChars":71,"textLines":1,"bbox":[50,58,780,50]}
+{"kind":"textbox","id":"sh/uxc3ylc7","slide":3,"text":"Vietnamese LDT | RP2 Colloquium 2","textPreview":"Vietnamese LDT | RP2 Colloquium 2","textChars":33,"textLines":1,"bbox":[52,504,280,13]}
+{"kind":"shape","id":"sh/1w7mp0bi","slide":3,"bbox":[50,486,820,1.5]}
+{"kind":"shape","id":"sh/ytsvu9kn","slide":3,"bbox":[140,236,650,3]}
+{"kind":"shape","id":"sh/neloj2t8","slide":3,"bbox":[129,148,54,34]}
+{"kind":"shape","id":"sh/czed8v6p","slide":3,"bbox":[131,150,50,30]}
+{"kind":"textbox","id":"sh/5kb6xkf6","slide":3,"text":"*","textPreview":"*","textChars":1,"textLines":1,"bbox":[137,151,14,14]}
+{"kind":"shape","id":"sh/u54zidon","slide":3,"bbox":[146,226,18,18]}
+{"kind":"shape","id":"sh/nqxs72x4","slide":3,"bbox":[82,268,148,94]}
+{"kind":"textbox","id":"sh/cbulwval","slide":3,"text":"Chữ Hán","textPreview":"Chữ Hán","textChars":7,"textLines":1,"bbox":[94,277,124,18]}
+{"kind":"textbox","id":"sh/5sneloj2","slide":3,"text":"Chinese characters\nadministration + scholarship","textPreview":"Chinese characters | administration + scholarship","textChars":47,"textLines":2,"bbox":[94,299,124,58]}
+{"kind":"shape","id":"sh/y90je9cv","slide":3,"bbox":[329,148,54,34]}
+{"kind":"shape","id":"sh/nuxc3ylc","slide":3,"bbox":[331,150,50,30]}
+{"kind":"textbox","id":"sh/fmlkjm1c","slide":3,"text":"*","textPreview":"*","textChars":1,"textLines":1,"bbox":[348,154,16,16]}
+{"kind":"shape","id":"sh/q1orytsv","slide":3,"bbox":[346,226,18,18]}
+{"kind":"shape","id":"sh/xs72x4na","slide":3,"bbox":[282,268,148,94]}
+{"kind":"textbox","id":"sh/87ed8bat","slide":3,"text":"Chữ Nôm","textPreview":"Chữ Nôm","textChars":7,"textLines":1,"bbox":[294,277,124,18]}
+{"kind":"textbox","id":"sh/je9cvixc","slide":3,"text":"vernacular Vietnamese\nadapted characters","textPreview":"vernacular Vietnamese | adapted characters","textChars":40,"textLines":2,"bbox":[294,299,124,58]}
+{"kind":"shape","id":"sh/qtcj6tov","slide":3,"bbox":[529,148,54,34]}
+{"kind":"shape","id":"sh/1gvy90je","slide":3,"bbox":[531,150,20,30]}
+{"kind":"shape","id":"sh/8z25kb6x","slide":3,"bbox":[551,150,30,30]}
+{"kind":"shape","id":"sh/fa9w3m94","slide":3,"bbox":[548,160,8,8]}
+{"kind":"shape","id":"sh/qpg3ex0n","slide":3,"bbox":[546,226,18,18]}
+{"kind":"shape","id":"sh/kzupwb2h","slide":3,"bbox":[482,268,148,94]}
+{"kind":"textbox","id":"sh/9knih4by","slide":3,"text":"Portuguese missionaries","textPreview":"Portuguese missionaries","textChars":23,"textLines":1,"bbox":[494,277,124,18]}
+{"kind":"textbox","id":"sh/2t83itgf","slide":3,"text":"early romanization\nJesuit influence","textPreview":"early romanization | Jesuit influence","textChars":35,"textLines":2,"bbox":[494,299,124,58]}
+{"kind":"shape","id":"sh/re1w7mp0","slide":3,"bbox":[729,148,54,34]}
+{"kind":"shape","id":"sh/kb6xkf6d","slide":3,"bbox":[731,150,16.7,30]}
+{"kind":"shape","id":"sh/9w3m94fu","slide":3,"bbox":[747.7,150,16.7,30]}
+{"kind":"shape","id":"sh/25kb6xkf","slide":3,"bbox":[764.4,150,16.6,30]}
+{"kind":"shape","id":"sh/rqd4vmtw","slide":3,"bbox":[746,226,18,18]}
+{"kind":"shape","id":"sh/kjm1cfa9","slide":3,"bbox":[682,268,148,94]}
+{"kind":"textbox","id":"sh/94fu18jq","slide":3,"text":"French colonial period","textPreview":"French colonial period","textChars":22,"textLines":1,"bbox":[694,277,124,18]}
+{"kind":"textbox","id":"sh/psfil0rq","slide":3,"text":"schooling + administration\nwider spread of Quốc ngữ","textPreview":"schooling + administration | wider spread of Quốc ngữ","textChars":51,"textLines":2,"bbox":[694,299,124,58]}
+{"kind":"shape","id":"sh/w7mp0bi9","slide":3,"bbox":[86,414,790,44]}
+{"kind":"textbox","id":"sh/7mp0bi9s","slide":3,"text":"Modern Vietnamese script developed gradually through multiple historical influences.","textPreview":"Modern Vietnamese script developed gradually through multiple historical influences.","textChars":84,"textLines":1,"bbox":[112,425,738,22]}
+{"kind":"image","id":"im/tgfmlkjm","slide":3,"name":"","alt":"LDSL logo","bbox":[833,494,70,27]}
+{"kind":"notes","id":"nt/jssgjc","slide":3,"text":"This replaces a dense clarification paragraph with a careful historical timeline. Avoid implying that Quốc ngữ was created by one person."}
+{"kind":"slide","id":"sl/cek7ma","slide":4,"title":"04 | TOKENIZATION PROBLEM","textShapes":22}
+{"kind":"shape","id":"sh/i5sneloj","slide":4,"bbox":[793,-18,78,88]}
+{"kind":"shape","id":"sh/pwb2hwfy","slide":4,"bbox":[836,0,112,116]}
+{"kind":"shape","id":"sh/0bi9s36h","slide":4,"bbox":[794,56,98,70]}
+{"kind":"shape","id":"sh/7y1kre1w","slide":4,"bbox":[51,43,21,4]}
+{"kind":"textbox","id":"sh/ed8v6psf","slide":4,"text":"04 | TOKENIZATION PROBLEM","textPreview":"04 | TOKENIZATION PROBLEM","textChars":25,"textLines":1,"bbox":[80,34,520,17]}
+{"kind":"textbox","id":"sh/p4r65wju","slide":4,"text":"Vietnamese orthographic spaces often mark syllables, while lexical words may contain several syllables.","textPreview":"Vietnamese orthographic spaces often mark syllables, while lexical words may contain several syllables.","textChars":103,"textLines":1,"bbox":[50,58,780,50]}
+{"kind":"textbox","id":"sh/wjudg7ad","slide":4,"text":"Vietnamese LDT | RP2 Colloquium 2","textPreview":"Vietnamese LDT | RP2 Colloquium 2","textChars":33,"textLines":1,"bbox":[52,504,280,13]}
+{"kind":"shape","id":"sh/72x4nap4","slide":4,"bbox":[50,486,820,1.5]}
+{"kind":"textbox","id":"sh/032lszqt","slide":4,"text":"sinh viên học tiếng Việt","textPreview":"sinh viên học tiếng Việt","textChars":24,"textLines":1,"bbox":[95,150,760,38]}
+{"kind":"shape","id":"sh/tovahoza","slide":4,"bbox":[105,210,102,58]}
+{"kind":"textbox","id":"sh/ixczed8v","slide":4,"text":"sinh","textPreview":"sinh","textChars":4,"textLines":1,"bbox":[117,219,78,18]}
+{"kind":"textbox","id":"sh/bi9s36hc","slide":4,"text":"orthographic token","textPreview":"orthographic token","textChars":18,"textLines":1,"bbox":[117,241,78,22]}
+{"kind":"shape","id":"sh/0fepkzup","slide":4,"bbox":[247,210,102,58]}
+{"kind":"textbox","id":"sh/p0bi9s36","slide":4,"text":"viên","textPreview":"viên","textChars":4,"textLines":1,"bbox":[259,219,78,18]}
+{"kind":"textbox","id":"sh/i9s36hcr","slide":4,"text":"orthographic token","textPreview":"orthographic token","textChars":18,"textLines":1,"bbox":[259,241,78,22]}
+{"kind":"shape","id":"sh/bulwval8","slide":4,"bbox":[389,210,102,58]}
+{"kind":"textbox","id":"sh/0je9cvix","slide":4,"text":"học","textPreview":"học","textChars":3,"textLines":1,"bbox":[401,219,78,18]}
+{"kind":"textbox","id":"sh/t47y1kre","slide":4,"text":"orthographic token","textPreview":"orthographic token","textChars":18,"textLines":1,"bbox":[401,241,78,22]}
+{"kind":"shape","id":"sh/xobm58z2","slide":4,"bbox":[531,210,102,58]}
+{"kind":"textbox","id":"sh/83itgfml","slide":4,"text":"tiếng","textPreview":"tiếng","textChars":5,"textLines":1,"bbox":[543,219,78,18]}
+{"kind":"textbox","id":"sh/fil0rqd4","slide":4,"text":"orthographic token","textPreview":"orthographic token","textChars":18,"textLines":1,"bbox":[543,241,78,22]}
+{"kind":"shape","id":"sh/qxs72x4n","slide":4,"bbox":[673,210,102,58]}
+{"kind":"textbox","id":"sh/x0nuxc3y","slide":4,"text":"Việt","textPreview":"Việt","textChars":4,"textLines":1,"bbox":[685,219,78,18]}
+{"kind":"textbox","id":"sh/4fu18jqh","slide":4,"text":"orthographic token","textPreview":"orthographic token","textChars":18,"textLines":1,"bbox":[685,241,78,22]}
+{"kind":"textbox","id":"sh/fu18jqh0","slide":4,"text":"↓ lexical interpretation","textPreview":"↓ lexical interpretation","textChars":24,"textLines":1,"bbox":[380,288,210,24]}
+{"kind":"shape","id":"sh/m94fu18j","slide":4,"bbox":[150,332,162,58]}
+{"kind":"textbox","id":"sh/xc3ylc7u","slide":4,"text":"sinh viên","textPreview":"sinh viên","textChars":9,"textLines":1,"bbox":[162,341,138,18]}
+{"kind":"textbox","id":"sh/4r65wjud","slide":4,"text":"lexical word / expression","textPreview":"lexical word / expression","textChars":25,"textLines":1,"bbox":[162,363,138,22]}
+{"kind":"shape","id":"sh/ih4byhgn","slide":4,"bbox":[382,332,162,58]}
+{"kind":"textbox","id":"sh/72x4nap4","slide":4,"text":"học","textPreview":"học","textChars":3,"textLines":1,"bbox":[394,341,138,18]}
+{"kind":"textbox","id":"sh/0nuxc3yl","slide":4,"text":"lexical word / expression","textPreview":"lexical word / expression","textChars":25,"textLines":1,"bbox":[394,363,138,22]}
+{"kind":"shape","id":"sh/p8nqxs72","slide":4,"bbox":[550,332,162,58]}
+{"kind":"textbox","id":"sh/itgfmlkj","slide":4,"text":"tiếng Việt","textPreview":"tiếng Việt","textChars":10,"textLines":1,"bbox":[562,341,138,18]}
+{"kind":"textbox","id":"sh/7ed8bat4","slide":4,"text":"lexical word / expression","textPreview":"lexical word / expression","textChars":25,"textLines":1,"bbox":[562,363,138,22]}
+{"kind":"shape","id":"sh/0z61032l","slide":4,"bbox":[86,425,790,44]}
+{"kind":"textbox","id":"sh/pkzupwb2","slide":4,"text":"Project scope: test lexical-decision response patterns, not solve Vietnamese word segmentation.","textPreview":"Project scope: test lexical-decision response patterns, not solve Vietnamese word segmentation.","textChars":95,"textLines":1,"bbox":[112,436,738,22]}
+{"kind":"image","id":"im/fu18jqh0","slide":4,"name":"","alt":"LDSL logo","bbox":[833,494,70,27]}
+{"kind":"notes","id":"nt/cek7ma","slide":4,"text":"Use the example to show why syllable length is theoretically relevant. Then narrow the scope to the lexical-decision experiment."}
+{"kind":"slide","id":"sl/fshqbr","slide":5,"title":"05 | STIMULUS DATA PIPELINE","textShapes":24}
+{"kind":"shape","id":"sh/6tovahoz","slide":5,"bbox":[793,-18,78,88]}
+{"kind":"shape","id":"sh/dg7adsji","slide":5,"bbox":[836,0,112,116]}
+{"kind":"shape","id":"sh/ovahoza1","slide":5,"bbox":[794,56,98,70]}
+{"kind":"shape","id":"sh/z25kb6xk","slide":5,"bbox":[51,43,21,4]}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":5,"text":"05 | STIMULUS DATA PIPELINE","textPreview":"05 | STIMULUS DATA PIPELINE","textChars":27,"textLines":1,"bbox":[80,34,520,17]}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":5,"text":"How corpus text became review data and final LDT stimuli.","textPreview":"How corpus text became review data and final LDT stimuli.","textChars":57,"textLines":1,"bbox":[50,58,780,50]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":5,"text":"Vietnamese LDT | RP2 Colloquium 2","textPreview":"Vietnamese LDT | RP2 Colloquium 2","textChars":33,"textLines":1,"bbox":[52,504,280,13]}
+{"kind":"shape","id":"sh/vy90je9c","slide":5,"bbox":[50,486,820,1.5]}
+{"kind":"shape","id":"sh/4zidonyd","slide":5,"bbox":[54,126,144,92]}
+{"kind":"textbox","id":"sh/xkf6dcbu","slide":5,"text":"Corpus text","textPreview":"Corpus text","textChars":11,"textLines":1,"bbox":[66,135,120,18]}
+{"kind":"textbox","id":"sh/mtwra5gb","slide":5,"text":"Vietnamese Corpus Data.zip","textPreview":"Vietnamese Corpus Data.zip","textChars":26,"textLines":1,"bbox":[66,157,120,56]}
+{"kind":"textbox","id":"sh/fepkzupw","slide":5,"text":"->","textPreview":"->","textChars":2,"textLines":1,"bbox":[202,158,24,24]}
+{"kind":"shape","id":"sh/4r65wjud","slide":5,"bbox":[230,126,144,92]}
+{"kind":"textbox","id":"sh/xc3ylc7u","slide":5,"text":"Frequency tables","textPreview":"Frequency tables","textChars":16,"textLines":1,"bbox":[242,135,120,18]}
+{"kind":"textbox","id":"sh/mlkjm1cf","slide":5,"text":"1- to 4-syllable n-grams","textPreview":"1- to 4-syllable n-grams","textChars":24,"textLines":1,"bbox":[242,157,120,56]}
+{"kind":"textbox","id":"sh/f6dcbulw","slide":5,"text":"->","textPreview":"->","textChars":2,"textLines":1,"bbox":[378,158,24,24]}
+{"kind":"shape","id":"sh/4fu18jqh","slide":5,"bbox":[406,126,144,92]}
+{"kind":"textbox","id":"sh/x0nuxc3y","slide":5,"text":"Candidate pool","textPreview":"Candidate pool","textChars":14,"textLines":1,"bbox":[418,135,120,18]}
+{"kind":"textbox","id":"sh/h4byhgn2","slide":5,"text":"frequency, log frequency, syllable length","textPreview":"frequency, log frequency, syllable length","textChars":41,"textLines":1,"bbox":[418,157,120,56]}
+{"kind":"textbox","id":"sh/sji5snel","slide":5,"text":"->","textPreview":"->","textChars":2,"textLines":1,"bbox":[554,158,24,24]}
+{"kind":"shape","id":"sh/3ylc7u54","slide":5,"bbox":[582,126,144,92]}
+{"kind":"textbox","id":"sh/adsji5sn","slide":5,"text":"Review / survey","textPreview":"Review / survey","textChars":15,"textLines":1,"bbox":[594,135,120,18]}
+{"kind":"textbox","id":"sh/lszqtcj6","slide":5,"text":"manual lexical validation before selection","textPreview":"manual lexical validation before selection","textChars":42,"textLines":1,"bbox":[594,157,120,56]}
+{"kind":"textbox","id":"sh/s72x4nap","slide":5,"text":"->","textPreview":"->","textChars":2,"textLines":1,"bbox":[730,158,24,24]}
+{"kind":"shape","id":"sh/3m94fu18","slide":5,"bbox":[758,126,144,92]}
+{"kind":"textbox","id":"sh/a5gbq1or","slide":5,"text":"Final stimuli","textPreview":"Final stimuli","textChars":13,"textLines":1,"bbox":[770,135,120,18]}
+{"kind":"textbox","id":"sh/hoza1gvy","slide":5,"text":"72 real words + 48 pseudowords","textPreview":"72 real words + 48 pseudowords","textChars":30,"textLines":1,"bbox":[770,157,120,56]}
+{"kind":"shape","id":"sh/s36hcrmh","slide":5,"bbox":[58,242,292,136]}
+{"kind":"textbox","id":"sh/2x4nap4r","slide":5,"text":"Dataset artifacts","textPreview":"Dataset artifacts","textChars":17,"textLines":1,"bbox":[70,251,268,18]}
+{"kind":"textbox","id":"sh/vixczed8","slide":5,"text":"data/processed/*grams_frequency.csv\ncandidate_shortlist_by_length.csv\nmanual_selection_sheet.csv\nfinal_ldt_stimuli_3x4_v1.csv","textPreview":"data/processed/*grams_frequency.csv | candidate_shortlist_by_length.csv | manual_selection_sheet.csv | final_ldt_stimuli_3x4_v1.csv","textChars":125,"textLines":4,"bbox":[70,273,268,100]}
+{"kind":"shape","id":"sh/k3q5o7qp","slide":5,"bbox":[58,395,292,54]}
+{"kind":"textbox","id":"sh/donyd0z6","slide":5,"text":"Key caution","textPreview":"Key caution","textChars":11,"textLines":1,"bbox":[70,404,268,18]}
+{"kind":"textbox","id":"sh/6psfil0r","slide":5,"text":"The n-gram step proposes candidates; it does not automatically solve Vietnamese word segmentation.","textPreview":"The n-gram step proposes candidates; it does not automatically solve Vietnamese word segmentation.","textChars":98,"textLines":1,"bbox":[70,426,268,18]}
+{"kind":"shape","id":"sh/val87ed8","slide":5,"bbox":[385,242,500,188]}
+{"kind":"textbox","id":"sh/kre1w7mp","slide":5,"text":"Python / pandas sketch used for stimulus data preparation","textPreview":"Python / pandas sketch used for stimulus data preparation","textChars":57,"textLines":1,"bbox":[402,256,460,18]}
+{"kind":"textbox","id":"sh/dcbulwva","slide":5,"text":"files = [\"unigrams\", \"bigrams\", \"trigrams\", \"fourgrams\"]\nfreq = pd.concat(pd.read_csv(f\"{f}_frequency.csv\") for f in files)\n\ncandidates = (freq\n  .assign(\n    lexical_item=lambda d: d.lexical_item.str.strip().str.lower(),\n    syllable_length=lambda d: d.lexical_item.str.split().str.len(),\n    log_frequency=lambda d: np.log(d.frequency)\n  )\n  .query(\"1 <= syllable_length <= 4\")\n  .drop_duplicates(\"lexical_item\"))\n\ncandidates[\"freq_bin\"] = candidates.groupby(\"syllable_length\")[\n  \"log_frequency\"].transform(lambda s: pd.qcut(s.rank(method=\"first\"), 8, labels=False))\nreview_sheet = candidates.sort_values([\"syllable_length\", \"freq_bin\"])","textPreview":"files = [\"unigrams\", \"bigrams\", \"trigrams\", \"fourgrams\"] | freq = pd.concat(pd.read_csv(f\"{f}_frequency.csv\") for f in files) |  | candid...","textChars":640,"textLines":15,"bbox":[404,282,458,138]}
+{"kind":"shape","id":"sh/2lszqtcj","slide":5,"bbox":[385,438,500,34]}
+{"kind":"textbox","id":"sh/v6psfil0","slide":5,"text":"Traceable dataset: corpus frequency -> filtered candidates -> review/survey -> final stimuli.","textPreview":"Traceable dataset: corpus frequency -> filtered candidates -> review/survey -> final stimuli.","textChars":93,"textLines":1,"bbox":[398,447,472,16]}
+{"kind":"image","id":"im/b2hwfyxo","slide":5,"name":"","alt":"LDSL logo","bbox":[833,494,70,27]}
+{"kind":"notes","id":"nt/fshqbr","slide":5,"text":"This slide answers where the dataset comes from. Explain that Vietnamese spacing gives syllable-based token sequences, so the project uses one- to four-gram frequency tables as candidate sources. The code is a simplified readable sketch of the actual scripts. The important academic point is that n-grams were not accepted as lexical words automatically; they became a review or survey sheet and were manually validated before the final PsychoPy stimulus file."}
+{"kind":"slide","id":"sl/coe110","slide":6,"title":"06 | RESEARCH QUESTION","textShapes":11}
+{"kind":"shape","id":"sh/54zidony","slide":6,"bbox":[793,-18,78,88]}
+{"kind":"shape","id":"sh/udg7adsj","slide":6,"bbox":[836,0,112,116]}
+{"kind":"shape","id":"sh/nyd0z610","slide":6,"bbox":[794,56,98,70]}
+{"kind":"shape","id":"sh/cvixczed","slide":6,"bbox":[51,43,21,4]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":6,"text":"06 | RESEARCH QUESTION","textPreview":"06 | RESEARCH QUESTION","textChars":22,"textLines":1,"bbox":[80,34,520,17]}
+{"kind":"textbox","id":"sh/upwb2hwf","slide":6,"text":"Do frequency group and syllable length predict Vietnamese lexical-decision response times?","textPreview":"Do frequency group and syllable length predict Vietnamese lexical-decision response times?","textChars":90,"textLines":1,"bbox":[50,58,780,50]}
+{"kind":"textbox","id":"sh/nap4r65w","slide":6,"text":"Vietnamese LDT | RP2 Colloquium 2","textPreview":"Vietnamese LDT | RP2 Colloquium 2","textChars":33,"textLines":1,"bbox":[52,504,280,13]}
+{"kind":"shape","id":"sh/c7u54zid","slide":6,"bbox":[50,486,820,1.5]}
+{"kind":"shape","id":"sh/l0rqd4vm","slide":6,"bbox":[75,134,810,72]}
+{"kind":"textbox","id":"sh/wfyxobm5","slide":6,"text":"Research question","textPreview":"Research question","textChars":17,"textLines":1,"bbox":[87,143,786,18]}
+{"kind":"textbox","id":"sh/7u54zido","slide":6,"text":"How do corpus frequency group and syllable length affect log reaction time for correct Vietnamese real-word responses?","textPreview":"How do corpus frequency group and syllable length affect log reaction time for correct Vietnamese real-word responses?","textChars":118,"textLines":1,"bbox":[87,165,786,36]}
+{"kind":"shape","id":"sh/ed8bat47","slide":6,"bbox":[90,250,230,126]}
+{"kind":"textbox","id":"sh/lc7u54zi","slide":6,"text":"H1: frequency","textPreview":"H1: frequency","textChars":13,"textLines":1,"bbox":[102,259,206,18]}
+{"kind":"textbox","id":"sh/wra5gbq1","slide":6,"text":"High-frequency words should be recognized faster than low-frequency words.","textPreview":"High-frequency words should be recognized faster than low-frequency words.","textChars":74,"textLines":1,"bbox":[102,281,206,90]}
+{"kind":"shape","id":"sh/36hcrmhk","slide":6,"bbox":[365,250,230,126]}
+{"kind":"textbox","id":"sh/eloj2t83","slide":6,"text":"H2: length","textPreview":"H2: length","textChars":10,"textLines":1,"bbox":[377,259,206,18]}
+{"kind":"textbox","id":"sh/pg3ex0nu","slide":6,"text":"Longer syllable length should increase RT because longer words require more visual/lexical processing.","textPreview":"Longer syllable length should increase RT because longer words require more visual/lexical processing.","textChars":102,"textLines":1,"bbox":[377,281,206,90]}
+{"kind":"shape","id":"sh/wval87ed","slide":6,"bbox":[640,250,230,126]}
+{"kind":"textbox","id":"sh/w3m94fu1","slide":6,"text":"H3: interaction","textPreview":"H3: interaction","textChars":15,"textLines":1,"bbox":[652,259,206,18]}
+{"kind":"textbox","id":"sh/loj2t83i","slide":6,"text":"Frequency may matter differently by length, but this is treated cautiously.","textPreview":"Frequency may matter differently by length, but this is treated cautiously.","textChars":75,"textLines":1,"bbox":[652,281,206,90]}
+{"kind":"image","id":"im/0bi9s36h","slide":6,"name":"","alt":"LDSL logo","bbox":[833,494,70,27]}
+{"kind":"notes","id":"nt/coe110","slide":6,"text":"State the hypotheses directionally. The interaction is exploratory and should not be overclaimed."}
+{"kind":"slide","id":"sl/y4dbyt","slide":7,"title":"07 | EXPERIMENTAL DESIGN","textShapes":33}
+{"kind":"shape","id":"sh/w3m94fu1","slide":7,"bbox":[793,-18,78,88]}
+{"kind":"shape","id":"sh/3itgfmlk","slide":7,"bbox":[836,0,112,116]}
+{"kind":"shape","id":"sh/ex0nuxc3","slide":7,"bbox":[794,56,98,70]}
+{"kind":"shape","id":"sh/lwval87e","slide":7,"bbox":[51,43,21,4]}
+{"kind":"textbox","id":"sh/wb2hwfyx","slide":7,"text":"07 | EXPERIMENTAL DESIGN","textPreview":"07 | EXPERIMENTAL DESIGN","textChars":24,"textLines":1,"bbox":[80,34,520,17]}
+{"kind":"textbox","id":"sh/3q5o7qpg","slide":7,"text":"The real-word design is balanced: 3 frequency groups x 4 syllable lengths.","textPreview":"The real-word design is balanced: 3 frequency groups x 4 syllable lengths.","textChars":74,"textLines":1,"bbox":[50,58,780,50]}
+{"kind":"textbox","id":"sh/e9cvixcz","slide":7,"text":"Vietnamese LDT | RP2 Colloquium 2","textPreview":"Vietnamese LDT | RP2 Colloquium 2","textChars":33,"textLines":1,"bbox":[52,504,280,13]}
+{"kind":"shape","id":"sh/l87ed8ba","slide":7,"bbox":[50,486,820,1.5]}
+{"kind":"shape","id":"sh/qd4vmtwr","slide":7,"bbox":[92,148,120,42]}
+{"kind":"textbox","id":"sh/fyxobm58","slide":7,"text":"Frequency","textPreview":"Frequency","textChars":9,"textLines":1,"bbox":[97,154,110,34]}
+{"kind":"shape","id":"sh/8jqh0fep","slide":7,"bbox":[212,148,95,42]}
+{"kind":"textbox","id":"sh/x4nap4r6","slide":7,"text":"1 syl.","textPreview":"1 syl.","textChars":6,"textLines":1,"bbox":[217,154,85,34]}
+{"kind":"shape","id":"sh/qpg3ex0n","slide":7,"bbox":[307,148,95,42]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":7,"text":"2 syl.","textPreview":"2 syl.","textChars":6,"textLines":1,"bbox":[312,154,85,34]}
+{"kind":"shape","id":"sh/8v6psfil","slide":7,"bbox":[402,148,95,42]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":7,"text":"3 syl.","textPreview":"3 syl.","textChars":6,"textLines":1,"bbox":[407,154,85,34]}
+{"kind":"shape","id":"sh/qtcj6tov","slide":7,"bbox":[497,148,95,42]}
+{"kind":"textbox","id":"sh/je9cvixc","slide":7,"text":"4 syl.","textPreview":"4 syl.","textChars":6,"textLines":1,"bbox":[502,154,85,34]}
+{"kind":"shape","id":"sh/rqd4vmtw","slide":7,"bbox":[92,190,120,42]}
+{"kind":"textbox","id":"sh/25kb6xkf","slide":7,"text":"low","textPreview":"low","textChars":3,"textLines":1,"bbox":[97,196,110,34]}
+{"kind":"shape","id":"sh/9w3m94fu","slide":7,"bbox":[212,190,95,42]}
+{"kind":"textbox","id":"sh/kb6xkf6d","slide":7,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[217,196,85,34]}
+{"kind":"shape","id":"sh/re1w7mp0","slide":7,"bbox":[307,190,95,42]}
+{"kind":"textbox","id":"sh/2t83itgf","slide":7,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[312,196,85,34]}
+{"kind":"shape","id":"sh/9knih4by","slide":7,"bbox":[402,190,95,42]}
+{"kind":"textbox","id":"sh/kzupwb2h","slide":7,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[407,196,85,34]}
+{"kind":"shape","id":"sh/ra5gbq1o","slide":7,"bbox":[497,190,95,42]}
+{"kind":"textbox","id":"sh/2p8nqxs7","slide":7,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[502,196,85,34]}
+{"kind":"shape","id":"sh/cj6tovah","slide":7,"bbox":[92,232,120,42]}
+{"kind":"textbox","id":"sh/54zidony","slide":7,"text":"mid","textPreview":"mid","textChars":3,"textLines":1,"bbox":[97,238,110,34]}
+{"kind":"shape","id":"sh/udg7adsj","slide":7,"bbox":[212,232,95,42]}
+{"kind":"textbox","id":"sh/nyd0z610","slide":7,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[217,238,85,34]}
+{"kind":"shape","id":"sh/cvixczed","slide":7,"bbox":[307,232,95,42]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":7,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[312,238,85,34]}
+{"kind":"shape","id":"sh/upwb2hwf","slide":7,"bbox":[402,232,95,42]}
+{"kind":"textbox","id":"sh/nap4r65w","slide":7,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[407,238,85,34]}
+{"kind":"shape","id":"sh/c7u54zid","slide":7,"bbox":[497,232,95,42]}
+{"kind":"textbox","id":"sh/1orytsvu","slide":7,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[502,238,85,34]}
+{"kind":"shape","id":"sh/hcrmhk3q","slide":7,"bbox":[92,274,120,42]}
+{"kind":"textbox","id":"sh/orytsvu9","slide":7,"text":"high","textPreview":"high","textChars":4,"textLines":1,"bbox":[97,280,110,34]}
+{"kind":"shape","id":"sh/z61032ls","slide":7,"bbox":[212,274,95,42]}
+{"kind":"textbox","id":"sh/al87ed8b","slide":7,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[217,280,85,34]}
+{"kind":"shape","id":"sh/h0fepkzu","slide":7,"bbox":[307,274,95,42]}
+{"kind":"textbox","id":"sh/sfil0rqd","slide":7,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[312,280,85,34]}
+{"kind":"shape","id":"sh/zupwb2hw","slide":7,"bbox":[402,274,95,42]}
+{"kind":"textbox","id":"sh/a9w3m94f","slide":7,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[407,280,85,34]}
+{"kind":"shape","id":"sh/hwfyxobm","slide":7,"bbox":[497,274,95,42]}
+{"kind":"textbox","id":"sh/obm58z25","slide":7,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[502,280,85,34]}
+{"kind":"shape","id":"sh/il0rqd4v","slide":7,"bbox":[675,132,150,70]}
+{"kind":"textbox","id":"sh/b6xkf6dc","slide":7,"text":"72","textPreview":"72","textChars":2,"textLines":1,"bbox":[683,140,134,24]}
+{"kind":"textbox","id":"sh/0rqd4vmt","slide":7,"text":"real words","textPreview":"real words","textChars":10,"textLines":1,"bbox":[683,167,134,18]}
+{"kind":"textbox","id":"sh/tcj6tova","slide":7,"text":"balanced","textPreview":"balanced","textChars":8,"textLines":1,"bbox":[683,185,134,12]}
+{"kind":"shape","id":"sh/idonyd0z","slide":7,"bbox":[675,220,150,70]}
+{"kind":"textbox","id":"sh/byhgn29g","slide":7,"text":"48","textPreview":"48","textChars":2,"textLines":1,"bbox":[683,228,134,24]}
+{"kind":"textbox","id":"sh/0je9cvix","slide":7,"text":"pseudowords","textPreview":"pseudowords","textChars":11,"textLines":1,"bbox":[683,255,134,18]}
+{"kind":"textbox","id":"sh/t47y1kre","slide":7,"text":"length matched","textPreview":"length matched","textChars":14,"textLines":1,"bbox":[683,273,134,12]}
+{"kind":"shape","id":"sh/i9s36hcr","slide":7,"bbox":[675,308,150,70]}
+{"kind":"textbox","id":"sh/bulwval8","slide":7,"text":"120","textPreview":"120","textChars":3,"textLines":1,"bbox":[683,316,134,24]}
+{"kind":"textbox","id":"sh/3itgfmlk","slide":7,"text":"main trials","textPreview":"main trials","textChars":11,"textLines":1,"bbox":[683,343,134,18]}
+{"kind":"textbox","id":"sh/ex0nuxc3","slide":7,"text":"randomized","textPreview":"randomized","textChars":10,"textLines":1,"bbox":[683,361,134,12]}
+{"kind":"shape","id":"sh/loj2t83i","slide":7,"bbox":[86,425,790,44]}
+{"kind":"textbox","id":"sh/w3m94fu1","slide":7,"text":"Every participant saw all main trials in randomized order.","textPreview":"Every participant saw all main trials in randomized order.","textChars":58,"textLines":1,"bbox":[112,436,738,22]}
+{"kind":"image","id":"im/d8v6psfi","slide":7,"name":"","alt":"LDSL logo","bbox":[833,494,70,27]}
+{"kind":"notes","id":"nt/y4dbyt","slide":7,"text":"This slide establishes design balance. It is short because the revised talk spends more time on results."}
+{"kind":"slide","id":"sl/qux40e","slide":8,"title":"08 | STIMULI","textShapes":10}
+{"kind":"shape","id":"sh/t47y1kre","slide":8,"bbox":[793,-18,78,88]}
+{"kind":"shape","id":"sh/idonyd0z","slide":8,"bbox":[836,0,112,116]}
+{"kind":"shape","id":"sh/byhgn29g","slide":8,"bbox":[794,56,98,70]}
+{"kind":"shape","id":"sh/0rqd4vmt","slide":8,"bbox":[51,43,21,4]}
+{"kind":"textbox","id":"sh/tcj6tova","slide":8,"text":"08 | STIMULI","textPreview":"08 | STIMULI","textChars":12,"textLines":1,"bbox":[80,34,520,17]}
+{"kind":"textbox","id":"sh/il0rqd4v","slide":8,"text":"Stimuli combine real words and pseudowords so participants must make a lexical decision.","textPreview":"Stimuli combine real words and pseudowords so participants must make a lexical decision.","textChars":88,"textLines":1,"bbox":[50,58,780,50]}
+{"kind":"textbox","id":"sh/b6xkf6dc","slide":8,"text":"Vietnamese LDT | RP2 Colloquium 2","textPreview":"Vietnamese LDT | RP2 Colloquium 2","textChars":33,"textLines":1,"bbox":[52,504,280,13]}
+{"kind":"shape","id":"sh/032lszqt","slide":8,"bbox":[50,486,820,1.5]}
+{"kind":"shape","id":"sh/l87ed8ba","slide":8,"bbox":[72,134,250,235]}
+{"kind":"textbox","id":"sh/sneloj2t","slide":8,"text":"Real words","textPreview":"Real words","textChars":10,"textLines":1,"bbox":[84,143,226,18]}
+{"kind":"textbox","id":"sh/32lszqtc","slide":8,"text":"72 items\n\nFrequency: low / mid / high\nLength: 1-4 syllables\n6 items per real-word cell","textPreview":"72 items |  | Frequency: low / mid / high | Length: 1-4 syllables | 6 items per real-word cell","textChars":86,"textLines":5,"bbox":[84,165,226,199]}
+{"kind":"shape","id":"sh/ahoza1gv","slide":8,"bbox":[355,134,250,235]}
+{"kind":"textbox","id":"sh/lkjm1cfa","slide":8,"text":"Pseudowords","textPreview":"Pseudowords","textChars":11,"textLines":1,"bbox":[367,143,226,18]}
+{"kind":"textbox","id":"sh/szqtcj6t","slide":8,"text":"48 items\n\nLength: 1-4 syllables\n12 items per length\nKeeps the task lexical","textPreview":"48 items |  | Length: 1-4 syllables | 12 items per length | Keeps the task lexical","textChars":74,"textLines":5,"bbox":[367,165,226,199]}
+{"kind":"shape","id":"sh/3ex0nuxc","slide":8,"bbox":[638,134,230,235]}
+{"kind":"textbox","id":"sh/at47y1kr","slide":8,"text":"Examples","textPreview":"Examples","textChars":8,"textLines":1,"bbox":[650,143,206,18]}
+{"kind":"textbox","id":"sh/loj2t83i","slide":8,"text":"Real-word side:\nngày, sinh viên, quê hương\n\nPseudoword side:\nconstructed to remain Vietnamese-like","textPreview":"Real-word side: | ngày, sinh viên, quê hương |  | Pseudoword side: | constructed to remain Vietnamese-like","textChars":98,"textLines":5,"bbox":[650,165,206,199]}
+{"kind":"shape","id":"sh/w3m94fu1","slide":8,"bbox":[86,425,790,44]}
+{"kind":"textbox","id":"sh/s72x4nap","slide":8,"text":"The contrast protects the task from becoming simple word reading.","textPreview":"The contrast protects the task from becoming simple word reading.","textChars":65,"textLines":1,"bbox":[112,436,738,22]}
+{"kind":"image","id":"im/gn29gr2p","slide":8,"name":"","alt":"LDSL logo","bbox":[833,494,70,27]}
+{"kind":"notes","id":"nt/qux40e","slide":8,"text":"Emphasize that pseudowords keep the task genuinely lexical and support the accuracy quality check."}
+{"kind":"slide","id":"sl/g7u4ux","slide":9,"title":"09 | TASK PROCEDURE","textShapes":19}
+{"kind":"shape","id":"sh/knih4byh","slide":9,"bbox":[793,-18,78,88]}
+{"kind":"shape","id":"sh/v6psfil0","slide":9,"bbox":[836,0,112,116]}
+{"kind":"shape","id":"sh/2lszqtcj","slide":9,"bbox":[794,56,98,70]}
+{"kind":"shape","id":"sh/d0z61032","slide":9,"bbox":[51,43,21,4]}
+{"kind":"textbox","id":"sh/kf6dcbul","slide":9,"text":"09 | TASK PROCEDURE","textPreview":"09 | TASK PROCEDURE","textChars":19,"textLines":1,"bbox":[80,34,520,17]}
+{"kind":"textbox","id":"sh/vu9knih4","slide":9,"text":"The procedure is short, randomized, and keyboard-based.","textPreview":"The procedure is short, randomized, and keyboard-based.","textChars":55,"textLines":1,"bbox":[50,58,780,50]}
+{"kind":"textbox","id":"sh/29gr2p8n","slide":9,"text":"Vietnamese LDT | RP2 Colloquium 2","textPreview":"Vietnamese LDT | RP2 Colloquium 2","textChars":33,"textLines":1,"bbox":[52,504,280,13]}
+{"kind":"shape","id":"sh/donyd0z6","slide":9,"bbox":[50,486,820,1.5]}
+{"kind":"shape","id":"sh/at47y1kr","slide":9,"bbox":[55,174,132,92]}
+{"kind":"textbox","id":"sh/3ex0nuxc","slide":9,"text":"Instructions","textPreview":"Instructions","textChars":12,"textLines":1,"bbox":[67,183,108,18]}
+{"kind":"textbox","id":"sh/szqtcj6t","slide":9,"text":"F = word\nJ = nonword","textPreview":"F = word | J = nonword","textChars":20,"textLines":2,"bbox":[67,205,108,56]}
+{"kind":"textbox","id":"sh/lkjm1cfa","slide":9,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[192,204,28,24]}
+{"kind":"shape","id":"sh/ahoza1gv","slide":9,"bbox":[227,174,132,92]}
+{"kind":"textbox","id":"sh/32lszqtc","slide":9,"text":"Practice","textPreview":"Practice","textChars":8,"textLines":1,"bbox":[239,183,108,18]}
+{"kind":"textbox","id":"sh/sneloj2t","slide":9,"text":"4 trials","textPreview":"4 trials","textChars":8,"textLines":1,"bbox":[239,205,108,56]}
+{"kind":"textbox","id":"sh/l87ed8ba","slide":9,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[364,204,28,24]}
+{"kind":"shape","id":"sh/e9cvixcz","slide":9,"bbox":[399,174,132,92]}
+{"kind":"textbox","id":"sh/3q5o7qpg","slide":9,"text":"Main task","textPreview":"Main task","textChars":9,"textLines":1,"bbox":[411,183,108,18]}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":9,"text":"120 trials\nrandomized","textPreview":"120 trials | randomized","textChars":21,"textLines":2,"bbox":[411,205,108,56]}
+{"kind":"textbox","id":"sh/61032lsz","slide":9,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[536,204,28,24]}
+{"kind":"shape","id":"sh/dsji5sne","slide":9,"bbox":[571,174,132,92]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":9,"text":"Response","textPreview":"Response","textChars":8,"textLines":1,"bbox":[583,183,108,18]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":9,"text":"keyboard RT\n+ accuracy","textPreview":"keyboard RT | + accuracy","textChars":22,"textLines":2,"bbox":[583,205,108,56]}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":9,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[708,204,28,24]}
+{"kind":"shape","id":"sh/d4vmtwra","slide":9,"bbox":[743,174,132,92]}
+{"kind":"textbox","id":"sh/oj2t83it","slide":9,"text":"Export","textPreview":"Export","textChars":6,"textLines":1,"bbox":[755,183,108,18]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":9,"text":"CSV files\nper participant","textPreview":"CSV files | per participant","textChars":25,"textLines":2,"bbox":[755,205,108,56]}
+{"kind":"shape","id":"sh/6hcrmhk3","slide":9,"bbox":[190,330,580,68]}
+{"kind":"textbox","id":"sh/gfmlkjm1","slide":9,"text":"Bias controls","textPreview":"Bias controls","textChars":13,"textLines":1,"bbox":[202,339,556,18]}
+{"kind":"textbox","id":"sh/90je9cvi","slide":9,"text":"Randomized trial order; balanced item cells; response mapping documented. These reduce common artifacts but do not remove every possible response bias.","textPreview":"Randomized trial order; balanced item cells; response mapping documented. These reduce common artifacts but do not remove every possible ...","textChars":151,"textLines":1,"bbox":[202,361,556,32]}
+{"kind":"image","id":"im/p4r65wju","slide":9,"name":"","alt":"LDSL logo","bbox":[833,494,70,27]}
+{"kind":"notes","id":"nt/g7u4ux","slide":9,"text":"Keep this slide practical. The task design is simple, but documented randomization and response mapping matter for interpretation."}
+{"kind":"slide","id":"sl/6em7bp","slide":10,"title":"10 | DATA COLLECTION + QC","textShapes":22}
+{"kind":"shape","id":"sh/r2p8nqxs","slide":10,"bbox":[793,-18,78,88]}
+{"kind":"shape","id":"sh/kjm1cfa9","slide":10,"bbox":[836,0,112,116]}
+{"kind":"shape","id":"sh/94fu18jq","slide":10,"bbox":[794,56,98,70]}
+{"kind":"shape","id":"sh/2p8nqxs7","slide":10,"bbox":[51,43,21,4]}
+{"kind":"textbox","id":"sh/ra5gbq1o","slide":10,"text":"10 | DATA COLLECTION + QC","textPreview":"10 | DATA COLLECTION + QC","textChars":25,"textLines":1,"bbox":[80,34,520,17]}
+{"kind":"textbox","id":"sh/gvy90je9","slide":10,"text":"The cleaned dataset passes participant, trial, and stimulus validation checks.","textPreview":"The cleaned dataset passes participant, trial, and stimulus validation checks.","textChars":78,"textLines":1,"bbox":[50,58,780,50]}
+{"kind":"textbox","id":"sh/9gr2p8nq","slide":10,"text":"Vietnamese LDT | RP2 Colloquium 2","textPreview":"Vietnamese LDT | RP2 Colloquium 2","textChars":33,"textLines":1,"bbox":[52,504,280,13]}
+{"kind":"shape","id":"sh/2t83itgf","slide":10,"bbox":[50,486,820,1.5]}
+{"kind":"shape","id":"sh/bulwval8","slide":10,"bbox":[76,138,140,70]}
+{"kind":"textbox","id":"sh/i9s36hcr","slide":10,"text":"48","textPreview":"48","textChars":2,"textLines":1,"bbox":[84,146,124,24]}
+{"kind":"textbox","id":"sh/p0bi9s36","slide":10,"text":"raw CSV files","textPreview":"raw CSV files","textChars":13,"textLines":1,"bbox":[84,173,124,18]}
+{"kind":"textbox","id":"sh/0fepkzup","slide":10,"text":"read successfully","textPreview":"read successfully","textChars":17,"textLines":1,"bbox":[84,191,124,12]}
+{"kind":"shape","id":"sh/bi9s36hc","slide":10,"bbox":[236,138,140,70]}
+{"kind":"textbox","id":"sh/ixczed8v","slide":10,"text":"48","textPreview":"48","textChars":2,"textLines":1,"bbox":[244,146,124,24]}
+{"kind":"textbox","id":"sh/tovahoza","slide":10,"text":"participants","textPreview":"participants","textChars":12,"textLines":1,"bbox":[244,173,124,18]}
+{"kind":"textbox","id":"sh/032lszqt","slide":10,"text":"0 flagged","textPreview":"0 flagged","textChars":9,"textLines":1,"bbox":[244,191,124,12]}
+{"kind":"shape","id":"sh/b6xkf6dc","slide":10,"bbox":[396,138,140,70]}
+{"kind":"textbox","id":"sh/il0rqd4v","slide":10,"text":"5,760","textPreview":"5,760","textChars":5,"textLines":1,"bbox":[404,146,124,24]}
+{"kind":"textbox","id":"sh/ulwval87","slide":10,"text":"main trials","textPreview":"main trials","textChars":11,"textLines":1,"bbox":[404,173,124,18]}
+{"kind":"textbox","id":"sh/j6tovaho","slide":10,"text":"analysis pool","textPreview":"analysis pool","textChars":13,"textLines":1,"bbox":[404,191,124,12]}
+{"kind":"shape","id":"sh/crmhk3q5","slide":10,"bbox":[556,138,140,70]}
+{"kind":"textbox","id":"sh/1cfa9w3m","slide":10,"text":"3,306","textPreview":"3,306","textChars":5,"textLines":1,"bbox":[564,146,124,24]}
+{"kind":"textbox","id":"sh/uxc3ylc7","slide":10,"text":"correct RTs","textPreview":"correct RTs","textChars":11,"textLines":1,"bbox":[564,173,124,18]}
+{"kind":"textbox","id":"sh/ji5snelo","slide":10,"text":"real-word model","textPreview":"real-word model","textChars":15,"textLines":1,"bbox":[564,191,124,12]}
+{"kind":"shape","id":"sh/c3ylc7u5","slide":10,"bbox":[716,138,140,70]}
+{"kind":"textbox","id":"sh/1kre1w7m","slide":10,"text":"45","textPreview":"45","textChars":2,"textLines":1,"bbox":[724,146,124,24]}
+{"kind":"textbox","id":"sh/q5o7qpg3","slide":10,"text":"timeouts","textPreview":"timeouts","textChars":8,"textLines":1,"bbox":[724,173,124,18]}
+{"kind":"textbox","id":"sh/jqh0fepk","slide":10,"text":"0.78%","textPreview":"0.78%","textChars":5,"textLines":1,"bbox":[724,191,124,12]}
+{"kind":"shape","id":"sh/p8nqxs72","slide":10,"bbox":[92,270,340,108]}
+{"kind":"textbox","id":"sh/0nuxc3yl","slide":10,"text":"QC status","textPreview":"QC status","textChars":9,"textLines":1,"bbox":[104,279,316,18]}
+{"kind":"textbox","id":"sh/72x4nap4","slide":10,"text":"Minimum N=48 reached\nAll stimulus validation checks passed\nAll expected item presentations present\nRaw data were not modified","textPreview":"Minimum N=48 reached | All stimulus validation checks passed | All expected item presentations present | Raw data were not modified","textChars":125,"textLines":4,"bbox":[104,301,316,72]}
+{"kind":"shape","id":"sh/ih4byhgn","slide":10,"bbox":[500,270,320,108]}
+{"kind":"textbox","id":"sh/pkzupwb2","slide":10,"text":"Current evidence base","textPreview":"Current evidence base","textChars":21,"textLines":1,"bbox":[512,279,296,18]}
+{"kind":"textbox","id":"sh/0z61032l","slide":10,"text":"RT model uses correct valid real-word responses. Accuracy is analyzed separately as task-quality evidence.","textPreview":"RT model uses correct valid real-word responses. Accuracy is analyzed separately as task-quality evidence.","textChars":106,"textLines":1,"bbox":[512,301,296,72]}
+{"kind":"image","id":"im/adsji5sn","slide":10,"name":"","alt":"LDSL logo","bbox":[833,494,70,27]}
+{"kind":"notes","id":"nt/6em7bp","slide":10,"text":"This is the defensibility slide. It shows the data are not just collected but checked before modeling."}
+{"kind":"slide","id":"sl/ygk534","slide":11,"title":"11 | ANALYSIS MODEL","textShapes":11}
+{"kind":"shape","id":"sh/vmtwra5g","slide":11,"bbox":[793,-18,78,88]}
+{"kind":"shape","id":"sh/o7qpg3ex","slide":11,"bbox":[836,0,112,116]}
+{"kind":"shape","id":"sh/dsji5sne","slide":11,"bbox":[794,56,98,70]}
+{"kind":"shape","id":"sh/6dcbulwv","slide":11,"bbox":[51,43,21,4]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":11,"text":"11 | ANALYSIS MODEL","textPreview":"11 | ANALYSIS MODEL","textChars":19,"textLines":1,"bbox":[80,34,520,17]}
+{"kind":"textbox","id":"sh/oj2t83it","slide":11,"text":"The main model estimates frequency, syllable length, and their interaction with crossed random intercepts.","textPreview":"The main model estimates frequency, syllable length, and their interaction with crossed random intercepts.","textChars":106,"textLines":1,"bbox":[50,58,780,50]}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":11,"text":"Vietnamese LDT | RP2 Colloquium 2","textPreview":"Vietnamese LDT | RP2 Colloquium 2","textChars":33,"textLines":1,"bbox":[52,504,280,13]}
+{"kind":"shape","id":"sh/6hcrmhk3","slide":11,"bbox":[50,486,820,1.5]}
+{"kind":"shape","id":"sh/vy90je9c","slide":11,"bbox":[94,150,772,88]}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":11,"text":"Main RT model","textPreview":"Main RT model","textChars":13,"textLines":1,"bbox":[106,159,748,18]}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":11,"text":"log_rt ~ frequency_group * syllable_length + (1 | participant_id) + (1 | trial_id)","textPreview":"log_rt ~ frequency_group * syllable_length + (1 | participant_id) + (1 | trial_id)","textChars":82,"textLines":1,"bbox":[106,181,748,52]}
+{"kind":"shape","id":"sh/oj2t83it","slide":11,"bbox":[108,285,230,92]}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":11,"text":"Fixed effects","textPreview":"Fixed effects","textChars":13,"textLines":1,"bbox":[120,294,206,18]}
+{"kind":"textbox","id":"sh/61032lsz","slide":11,"text":"frequency group\nsyllable length\ninteraction","textPreview":"frequency group | syllable length | interaction","textChars":43,"textLines":3,"bbox":[120,316,206,56]}
+{"kind":"shape","id":"sh/dsji5sne","slide":11,"bbox":[365,285,230,92]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":11,"text":"Random intercepts","textPreview":"Random intercepts","textChars":17,"textLines":1,"bbox":[377,294,206,18]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":11,"text":"participant variation\nitem / trial variation","textPreview":"participant variation | item / trial variation","textChars":44,"textLines":2,"bbox":[377,316,206,56]}
+{"kind":"shape","id":"sh/6tovahoz","slide":11,"bbox":[622,285,230,92]}
+{"kind":"textbox","id":"sh/epkzupwb","slide":11,"text":"RT subset","textPreview":"RT subset","textChars":9,"textLines":1,"bbox":[634,294,206,18]}
+{"kind":"textbox","id":"sh/7adsji5s","slide":11,"text":"correct real-word responses\nn = 3,306","textPreview":"correct real-word responses | n = 3,306","textChars":37,"textLines":2,"bbox":[634,316,206,56]}
+{"kind":"image","id":"im/m1cfa9w3","slide":11,"name":"","alt":"LDSL logo","bbox":[833,494,70,27]}
+{"kind":"notes","id":"nt/ygk534","slide":11,"text":"Explain the formula rather than reading coefficients. Crossed random intercepts prevent treating repeated observations as fully independent."}
+{"kind":"slide","id":"sl/da3znh","slide":12,"title":"12 | WHY LOG RT + MIXED EFFECTS","textShapes":10}
+{"kind":"shape","id":"sh/il0rqd4v","slide":12,"bbox":[793,-18,78,88]}
+{"kind":"shape","id":"sh/tcj6tova","slide":12,"bbox":[836,0,112,116]}
+{"kind":"shape","id":"sh/0rqd4vmt","slide":12,"bbox":[794,56,98,70]}
+{"kind":"shape","id":"sh/byhgn29g","slide":12,"bbox":[51,43,21,4]}
+{"kind":"textbox","id":"sh/idonyd0z","slide":12,"text":"12 | WHY LOG RT + MIXED EFFECTS","textPreview":"12 | WHY LOG RT + MIXED EFFECTS","textChars":31,"textLines":1,"bbox":[80,34,520,17]}
+{"kind":"textbox","id":"sh/t47y1kre","slide":12,"text":"RT data and repeated-measures design motivate the modeling choices.","textPreview":"RT data and repeated-measures design motivate the modeling choices.","textChars":67,"textLines":1,"bbox":[50,58,780,50]}
+{"kind":"textbox","id":"sh/0je9cvix","slide":12,"text":"Vietnamese LDT | RP2 Colloquium 2","textPreview":"Vietnamese LDT | RP2 Colloquium 2","textChars":33,"textLines":1,"bbox":[52,504,280,13]}
+{"kind":"shape","id":"sh/bulwval8","slide":12,"bbox":[50,486,820,1.5]}
+{"kind":"shape","id":"sh/0fepkzup","slide":12,"bbox":[78,142,248,176]}
+{"kind":"textbox","id":"sh/p0bi9s36","slide":12,"text":"Why log RT?","textPreview":"Why log RT?","textChars":11,"textLines":1,"bbox":[90,151,224,18]}
+{"kind":"textbox","id":"sh/i9s36hcr","slide":12,"text":"Reaction times are right-skewed. Log transformation reduces tail influence and makes model residuals more stable.","textPreview":"Reaction times are right-skewed. Log transformation reduces tail influence and makes model residuals more stable.","textChars":113,"textLines":1,"bbox":[90,173,224,140]}
+{"kind":"shape","id":"sh/bulwval8","slide":12,"bbox":[356,142,248,176]}
+{"kind":"textbox","id":"sh/032lszqt","slide":12,"text":"Why mixed effects?","textPreview":"Why mixed effects?","textChars":18,"textLines":1,"bbox":[368,151,224,18]}
+{"kind":"textbox","id":"sh/tovahoza","slide":12,"text":"Each participant responds to many items, and each item is seen by many participants. Random intercepts account for this clustering.","textPreview":"Each participant responds to many items, and each item is seen by many participants. Random intercepts account for this clustering.","textChars":131,"textLines":1,"bbox":[368,173,224,140]}
+{"kind":"shape","id":"sh/ixczed8v","slide":12,"bbox":[634,142,248,176]}
+{"kind":"textbox","id":"sh/bi9s36hc","slide":12,"text":"What it supports","textPreview":"What it supports","textChars":16,"textLines":1,"bbox":[646,151,224,18]}
+{"kind":"textbox","id":"sh/0rqd4vmt","slide":12,"text":"The model estimates condition effects while separating participant and item-level variability.","textPreview":"The model estimates condition effects while separating participant and item-level variability.","textChars":94,"textLines":1,"bbox":[646,173,224,140]}
+{"kind":"shape","id":"sh/tcj6tova","slide":12,"bbox":[86,425,790,44]}
+{"kind":"textbox","id":"sh/x0nuxc3y","slide":12,"text":"The model structure matches the experimental structure.","textPreview":"The model structure matches the experimental structure.","textChars":55,"textLines":1,"bbox":[112,436,738,22]}
+{"kind":"image","id":"im/r2p8nqxs","slide":12,"name":"","alt":"LDSL logo","bbox":[833,494,70,27]}
+{"kind":"notes","id":"nt/da3znh","slide":12,"text":"This slide gives the audience a plain-language reason for log RT and mixed effects before the result slides."}
+{"kind":"slide","id":"sl/rbzqwt","slide":13,"title":"13 | RESULTS OVERVIEW","textShapes":16}
+{"kind":"shape","id":"sh/ovahoza1","slide":13,"bbox":[793,-18,78,88]}
+{"kind":"shape","id":"sh/vahoza1g","slide":13,"bbox":[836,0,112,116]}
+{"kind":"shape","id":"sh/6tovahoz","slide":13,"bbox":[794,56,98,70]}
+{"kind":"shape","id":"sh/d8v6psfi","slide":13,"bbox":[51,43,21,4]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":13,"text":"13 | RESULTS OVERVIEW","textPreview":"13 | RESULTS OVERVIEW","textChars":21,"textLines":1,"bbox":[80,34,520,17]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":13,"text":"The preliminary pattern is clear: high frequency is faster, longer words are slower.","textPreview":"The preliminary pattern is clear: high frequency is faster, longer words are slower.","textChars":84,"textLines":1,"bbox":[50,58,780,50]}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":13,"text":"Vietnamese LDT | RP2 Colloquium 2","textPreview":"Vietnamese LDT | RP2 Colloquium 2","textChars":33,"textLines":1,"bbox":[52,504,280,13]}
+{"kind":"shape","id":"sh/d4vmtwra","slide":13,"bbox":[50,486,820,1.5]}
+{"kind":"shape","id":"sh/2x4nap4r","slide":13,"bbox":[80,140,170,70]}
+{"kind":"textbox","id":"sh/vixczed8","slide":13,"text":"510 ms","textPreview":"510 ms","textChars":6,"textLines":1,"bbox":[88,148,154,24]}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":13,"text":"high-frequency mean RT","textPreview":"high-frequency mean RT","textChars":22,"textLines":1,"bbox":[88,175,154,18]}
+{"kind":"shape","id":"sh/donyd0z6","slide":13,"bbox":[280,140,170,70]}
+{"kind":"textbox","id":"sh/6psfil0r","slide":13,"text":"668 ms","textPreview":"668 ms","textChars":6,"textLines":1,"bbox":[288,148,154,24]}
+{"kind":"textbox","id":"sh/val87ed8","slide":13,"text":"low-frequency mean RT","textPreview":"low-frequency mean RT","textChars":21,"textLines":1,"bbox":[288,175,154,18]}
+{"kind":"shape","id":"sh/kre1w7mp","slide":13,"bbox":[510,140,170,70]}
+{"kind":"textbox","id":"sh/dcbulwva","slide":13,"text":"441 ms","textPreview":"441 ms","textChars":6,"textLines":1,"bbox":[518,148,154,24]}
+{"kind":"textbox","id":"sh/2lszqtcj","slide":13,"text":"1-syllable mean RT","textPreview":"1-syllable mean RT","textChars":18,"textLines":1,"bbox":[518,175,154,18]}
+{"kind":"shape","id":"sh/v6psfil0","slide":13,"bbox":[710,140,170,70]}
+{"kind":"textbox","id":"sh/nuxc3ylc","slide":13,"text":"748 ms","textPreview":"748 ms","textChars":6,"textLines":1,"bbox":[718,148,154,24]}
+{"kind":"textbox","id":"sh/y90je9cv","slide":13,"text":"4-syllable mean RT","textPreview":"4-syllable mean RT","textChars":18,"textLines":1,"bbox":[718,175,154,18]}
+{"kind":"shape","id":"sh/5wjudg7a","slide":13,"bbox":[115,292,300,96]}
+{"kind":"textbox","id":"sh/gbq1oryt","slide":13,"text":"Frequency direction","textPreview":"Frequency direction","textChars":19,"textLines":1,"bbox":[127,301,276,18]}
+{"kind":"textbox","id":"sh/n29gr2p8","slide":13,"text":"High-frequency real words are faster than low-frequency real words.","textPreview":"High-frequency real words are faster than low-frequency real words.","textChars":67,"textLines":1,"bbox":[127,323,276,60]}
+{"kind":"shape","id":"sh/yhgn29gr","slide":13,"bbox":[525,292,300,96]}
+{"kind":"textbox","id":"sh/58z25kb6","slide":13,"text":"Length direction","textPreview":"Length direction","textChars":16,"textLines":1,"bbox":[537,301,276,18]}
+{"kind":"textbox","id":"sh/gn29gr2p","slide":13,"text":"Reaction time increases steadily from 1 to 4 syllables.","textPreview":"Reaction time increases steadily from 1 to 4 syllables.","textChars":55,"textLines":1,"bbox":[537,323,276,60]}
+{"kind":"shape","id":"sh/neloj2t8","slide":13,"bbox":[86,425,790,44]}
+{"kind":"textbox","id":"sh/ytsvu9kn","slide":13,"text":"The descriptive results already match H1 and H2.","textPreview":"The descriptive results already match H1 and H2.","textChars":48,"textLines":1,"bbox":[112,436,738,22]}
+{"kind":"image","id":"im/xczed8v6","slide":13,"name":"","alt":"LDSL logo","bbox":[833,494,70,27]}
+{"kind":"notes","id":"nt/rbzqwt","slide":13,"text":"Use this as the transition into the figure-first result section. Do not overclaim model causality."}
+{"kind":"slide","id":"sl/gyg19b","slide":14,"title":"14 | RESULT 1: FREQUENCY","textShapes":9}
+{"kind":"shape","id":"sh/ra5gbq1o","slide":14,"bbox":[793,-18,78,88]}
+{"kind":"shape","id":"sh/gvy90je9","slide":14,"bbox":[836,0,112,116]}
+{"kind":"shape","id":"sh/9gr2p8nq","slide":14,"bbox":[794,56,98,70]}
+{"kind":"shape","id":"sh/2hwfyxob","slide":14,"bbox":[51,43,21,4]}
+{"kind":"textbox","id":"sh/r2p8nqxs","slide":14,"text":"14 | RESULT 1: FREQUENCY","textPreview":"14 | RESULT 1: FREQUENCY","textChars":24,"textLines":1,"bbox":[80,34,520,17]}
+{"kind":"textbox","id":"sh/kjm1cfa9","slide":14,"text":"High-frequency words are recognized faster than low-frequency words.","textPreview":"High-frequency words are recognized faster than low-frequency words.","textChars":68,"textLines":1,"bbox":[50,58,780,50]}
+{"kind":"textbox","id":"sh/94fu18jq","slide":14,"text":"R output: rt_by_frequency_group_boxplot_v2.png","textPreview":"R output: rt_by_frequency_group_boxplot_v2.png","textChars":46,"textLines":1,"bbox":[52,474,700,15]}
+{"kind":"textbox","id":"sh/25kb6xkf","slide":14,"text":"Vietnamese LDT | RP2 Colloquium 2","textPreview":"Vietnamese LDT | RP2 Colloquium 2","textChars":33,"textLines":1,"bbox":[52,504,280,13]}
+{"kind":"shape","id":"sh/rqd4vmtw","slide":14,"bbox":[50,486,820,1.5]}
+{"kind":"shape","id":"sh/1orytsvu","slide":14,"bbox":[660,134,210,96]}
+{"kind":"textbox","id":"sh/c7u54zid","slide":14,"text":"Descriptive contrast","textPreview":"Descriptive contrast","textChars":20,"textLines":1,"bbox":[672,143,186,18]}
+{"kind":"textbox","id":"sh/judg7ads","slide":14,"text":"high: 510 ms\nlow: 668 ms\nabout 157 ms faster","textPreview":"high: 510 ms | low: 668 ms | about 157 ms faster","textChars":44,"textLines":3,"bbox":[672,165,186,60]}
+{"kind":"shape","id":"sh/u9knih4b","slide":14,"bbox":[660,258,210,118]}
+{"kind":"textbox","id":"sh/1032lszq","slide":14,"text":"Model interpretation","textPreview":"Model interpretation","textChars":20,"textLines":1,"bbox":[672,267,186,18]}
+{"kind":"textbox","id":"sh/cfa9w3m9","slide":14,"text":"The high-frequency coefficient is negative on log RT. In plain terms, frequent words require less decision time.","textPreview":"The high-frequency coefficient is negative on log RT. In plain terms, frequent words require less decision time.","textChars":112,"textLines":1,"bbox":[672,289,186,82]}
+{"kind":"textbox","id":"sh/nyd0z610","slide":14,"text":"Correct real-word RTs; descriptive plot from R analysis outputs.","textPreview":"Correct real-word RTs; descriptive plot from R analysis outputs.","textChars":64,"textLines":1,"bbox":[105,452,480,18]}
+{"kind":"image","id":"im/c7u54zid","slide":14,"name":"","alt":"LDSL logo","bbox":[833,494,70,27]}
+{"kind":"image","id":"im/1orytsvu","slide":14,"name":"","alt":"RT by frequency group R plot","bbox":[65,118,560,330]}
+{"kind":"notes","id":"nt/gyg19b","slide":14,"text":"Make the direction clear. High frequency is faster than low frequency by about 158 ms descriptively. In the mixed model, the negative high-frequency coefficient means lower log RT relative to low frequency. Mid frequency is less clearly separated, so the strongest frequency statement is high versus low."}
+{"kind":"slide","id":"sl/ziinoc","slide":15,"title":"15 | RESULT 2: SYLLABLE LENGTH","textShapes":9}
+{"kind":"shape","id":"sh/u18jqh0f","slide":15,"bbox":[793,-18,78,88]}
+{"kind":"shape","id":"sh/1orytsvu","slide":15,"bbox":[836,0,112,116]}
+{"kind":"shape","id":"sh/c7u54zid","slide":15,"bbox":[794,56,98,70]}
+{"kind":"shape","id":"sh/judg7ads","slide":15,"bbox":[51,43,21,4]}
+{"kind":"textbox","id":"sh/u9knih4b","slide":15,"text":"15 | RESULT 2: SYLLABLE LENGTH","textPreview":"15 | RESULT 2: SYLLABLE LENGTH","textChars":30,"textLines":1,"bbox":[80,34,520,17]}
+{"kind":"textbox","id":"sh/1032lszq","slide":15,"text":"Longer syllable length is associated with slower responses.","textPreview":"Longer syllable length is associated with slower responses.","textChars":59,"textLines":1,"bbox":[50,58,780,50]}
+{"kind":"textbox","id":"sh/cfa9w3m9","slide":15,"text":"R output: rt_by_syllable_length_boxplot_v2.png","textPreview":"R output: rt_by_syllable_length_boxplot_v2.png","textChars":46,"textLines":1,"bbox":[52,474,700,15]}
+{"kind":"textbox","id":"sh/nyd0z610","slide":15,"text":"Vietnamese LDT | RP2 Colloquium 2","textPreview":"Vietnamese LDT | RP2 Colloquium 2","textChars":33,"textLines":1,"bbox":[52,504,280,13]}
+{"kind":"shape","id":"sh/udg7adsj","slide":15,"bbox":[50,486,820,1.5]}
+{"kind":"shape","id":"sh/ytsvu9kn","slide":15,"bbox":[660,136,210,100]}
+{"kind":"textbox","id":"sh/neloj2t8","slide":15,"text":"Descriptive slope","textPreview":"Descriptive slope","textChars":17,"textLines":1,"bbox":[672,145,186,18]}
+{"kind":"textbox","id":"sh/cbulwval","slide":15,"text":"1 syllable: 441 ms\n4 syllables: 748 ms\nabout 307 ms slower","textPreview":"1 syllable: 441 ms | 4 syllables: 748 ms | about 307 ms slower","textChars":58,"textLines":3,"bbox":[672,167,186,64]}
+{"kind":"shape","id":"sh/5sneloj2","slide":15,"bbox":[660,265,210,112]}
+{"kind":"textbox","id":"sh/u54zidon","slide":15,"text":"Fixed effects","textPreview":"Fixed effects","textChars":13,"textLines":1,"bbox":[672,274,186,18]}
+{"kind":"textbox","id":"sh/nqxs72x4","slide":15,"text":"Length 2, 3, and 4 all have positive coefficients relative to 1 syllable, so length is the strongest model step.","textPreview":"Length 2, 3, and 4 all have positive coefficients relative to 1 syllable, so length is the strongest model step.","textChars":112,"textLines":1,"bbox":[672,296,186,76]}
+{"kind":"textbox","id":"sh/gbq1oryt","slide":15,"text":"Correct real-word RTs; descriptive plot from R analysis outputs.","textPreview":"Correct real-word RTs; descriptive plot from R analysis outputs.","textChars":64,"textLines":1,"bbox":[105,452,480,18]}
+{"kind":"image","id":"im/bm58z25k","slide":15,"name":"","alt":"LDSL logo","bbox":[833,494,70,27]}
+{"kind":"image","id":"im/m1cfa9w3","slide":15,"name":"","alt":"RT by syllable length R plot","bbox":[65,118,560,330]}
+{"kind":"notes","id":"nt/ziinoc","slide":15,"text":"This is the strongest descriptive effect. Mean RT rises from about 441 ms for one-syllable words to about 748 ms for four-syllable words. The model comparison supports this: adding syllable length gives the largest improvement in model fit."}
+{"kind":"slide","id":"sl/upifhv","slide":16,"title":"16 | 3 x 4 CONDITION PATTERN","textShapes":27}
+{"kind":"shape","id":"sh/6tovahoz","slide":16,"bbox":[793,-18,78,88]}
+{"kind":"shape","id":"sh/dg7adsji","slide":16,"bbox":[836,0,112,116]}
+{"kind":"shape","id":"sh/ovahoza1","slide":16,"bbox":[794,56,98,70]}
+{"kind":"shape","id":"sh/z25kb6xk","slide":16,"bbox":[51,43,21,4]}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":16,"text":"16 | 3 x 4 CONDITION PATTERN","textPreview":"16 | 3 x 4 CONDITION PATTERN","textChars":28,"textLines":1,"bbox":[80,34,520,17]}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":16,"text":"The full condition-level pattern combines frequency and length.","textPreview":"The full condition-level pattern combines frequency and length.","textChars":63,"textLines":1,"bbox":[50,58,780,50]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":16,"text":"Vietnamese LDT | RP2 Colloquium 2","textPreview":"Vietnamese LDT | RP2 Colloquium 2","textChars":33,"textLines":1,"bbox":[52,504,280,13]}
+{"kind":"shape","id":"sh/vy90je9c","slide":16,"bbox":[50,486,820,1.5]}
+{"kind":"textbox","id":"sh/4zidonyd","slide":16,"text":"Mean RT by frequency x syllable length","textPreview":"Mean RT by frequency x syllable length","textChars":38,"textLines":1,"bbox":[105,136,420,22]}
+{"kind":"textbox","id":"sh/xkf6dcbu","slide":16,"text":"1 syl.","textPreview":"1 syl.","textChars":6,"textLines":1,"bbox":[191,164,82,20]}
+{"kind":"textbox","id":"sh/mtwra5gb","slide":16,"text":"2 syl.","textPreview":"2 syl.","textChars":6,"textLines":1,"bbox":[273,164,82,20]}
+{"kind":"textbox","id":"sh/fepkzupw","slide":16,"text":"3 syl.","textPreview":"3 syl.","textChars":6,"textLines":1,"bbox":[355,164,82,20]}
+{"kind":"textbox","id":"sh/4r65wjud","slide":16,"text":"4 syl.","textPreview":"4 syl.","textChars":6,"textLines":1,"bbox":[437,164,82,20]}
+{"kind":"textbox","id":"sh/xc3ylc7u","slide":16,"text":"low","textPreview":"low","textChars":3,"textLines":1,"bbox":[105,188,74,47]}
+{"kind":"shape","id":"sh/mlkjm1cf","slide":16,"bbox":[189,186,79,44]}
+{"kind":"textbox","id":"sh/f6dcbulw","slide":16,"text":"468 ms","textPreview":"468 ms","textChars":6,"textLines":1,"bbox":[192,198,72,18]}
+{"kind":"shape","id":"sh/4fu18jqh","slide":16,"bbox":[271,186,79,44]}
+{"kind":"textbox","id":"sh/x0nuxc3y","slide":16,"text":"605 ms","textPreview":"605 ms","textChars":6,"textLines":1,"bbox":[274,198,72,18]}
+{"kind":"shape","id":"sh/h4byhgn2","slide":16,"bbox":[353,186,79,44]}
+{"kind":"textbox","id":"sh/sji5snel","slide":16,"text":"762 ms","textPreview":"762 ms","textChars":6,"textLines":1,"bbox":[356,198,72,18]}
+{"kind":"shape","id":"sh/3ylc7u54","slide":16,"bbox":[435,186,79,44]}
+{"kind":"textbox","id":"sh/adsji5sn","slide":16,"text":"840 ms","textPreview":"840 ms","textChars":6,"textLines":1,"bbox":[438,198,72,18]}
+{"kind":"textbox","id":"sh/lszqtcj6","slide":16,"text":"mid","textPreview":"mid","textChars":3,"textLines":1,"bbox":[105,235,74,47]}
+{"kind":"shape","id":"sh/s72x4nap","slide":16,"bbox":[189,233,79,44]}
+{"kind":"textbox","id":"sh/3m94fu18","slide":16,"text":"466 ms","textPreview":"466 ms","textChars":6,"textLines":1,"bbox":[192,245,72,18]}
+{"kind":"shape","id":"sh/a5gbq1or","slide":16,"bbox":[271,233,79,44]}
+{"kind":"textbox","id":"sh/hoza1gvy","slide":16,"text":"537 ms","textPreview":"537 ms","textChars":6,"textLines":1,"bbox":[274,245,72,18]}
+{"kind":"shape","id":"sh/s36hcrmh","slide":16,"bbox":[353,233,79,44]}
+{"kind":"textbox","id":"sh/2x4nap4r","slide":16,"text":"712 ms","textPreview":"712 ms","textChars":6,"textLines":1,"bbox":[356,245,72,18]}
+{"kind":"shape","id":"sh/vixczed8","slide":16,"bbox":[435,233,79,44]}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":16,"text":"762 ms","textPreview":"762 ms","textChars":6,"textLines":1,"bbox":[438,245,72,18]}
+{"kind":"textbox","id":"sh/donyd0z6","slide":16,"text":"high","textPreview":"high","textChars":4,"textLines":1,"bbox":[105,282,74,47]}
+{"kind":"shape","id":"sh/6psfil0r","slide":16,"bbox":[189,280,79,44]}
+{"kind":"textbox","id":"sh/val87ed8","slide":16,"text":"388 ms","textPreview":"388 ms","textChars":6,"textLines":1,"bbox":[192,292,72,18]}
+{"kind":"shape","id":"sh/kre1w7mp","slide":16,"bbox":[271,280,79,44]}
+{"kind":"textbox","id":"sh/dcbulwva","slide":16,"text":"442 ms","textPreview":"442 ms","textChars":6,"textLines":1,"bbox":[274,292,72,18]}
+{"kind":"shape","id":"sh/2lszqtcj","slide":16,"bbox":[353,280,79,44]}
+{"kind":"textbox","id":"sh/v6psfil0","slide":16,"text":"574 ms","textPreview":"574 ms","textChars":6,"textLines":1,"bbox":[356,292,72,18]}
+{"kind":"shape","id":"sh/b2hwfyxo","slide":16,"bbox":[435,280,79,44]}
+{"kind":"textbox","id":"sh/mhk3q5o7","slide":16,"text":"643 ms","textPreview":"643 ms","textChars":6,"textLines":1,"bbox":[438,292,72,18]}
+{"kind":"shape","id":"sh/4nap4r65","slide":16,"bbox":[100,368,360,62]}
+{"kind":"textbox","id":"sh/bq1oryts","slide":16,"text":"Pattern","textPreview":"Pattern","textChars":7,"textLines":1,"bbox":[112,377,336,18]}
+{"kind":"textbox","id":"sh/m58z25kb","slide":16,"text":"Fastest cell: high-frequency 1-syllable words. Slowest cell: low-frequency 4-syllable words.","textPreview":"Fastest cell: high-frequency 1-syllable words. Slowest cell: low-frequency 4-syllable words.","textChars":92,"textLines":1,"bbox":[112,399,336,26]}
+{"kind":"shape","id":"sh/twra5gbq","slide":16,"bbox":[548,396,334,56]}
+{"kind":"textbox","id":"sh/4byhgn29","slide":16,"text":"Caution","textPreview":"Caution","textChars":7,"textLines":1,"bbox":[560,405,310,18]}
+{"kind":"textbox","id":"sh/bm58z25k","slide":16,"text":"The lines are not perfectly parallel, but the interaction is a secondary pattern.","textPreview":"The lines are not perfectly parallel, but the interaction is a secondary pattern.","textChars":81,"textLines":1,"bbox":[560,427,310,20]}
+{"kind":"image","id":"im/fepkzupw","slide":16,"name":"","alt":"LDSL logo","bbox":[833,494,70,27]}
+{"kind":"image","id":"im/y90je9cv","slide":16,"name":"","alt":"Frequency by syllable length interaction R plot","bbox":[555,130,330,260]}
+{"kind":"notes","id":"nt/upifhv","slide":16,"text":"This slide satisfies the 3 by 4 table and heatmap requirement. It makes the cell-level pattern visible before the model comparison. Present the table first, then the line plot: both show frequency and syllable length moving in the expected directions, while the non-parallelism is modest."}
+{"kind":"slide","id":"sl/9jkmga","slide":17,"title":"17 | MODEL COMPARISON","textShapes":34}
+{"kind":"shape","id":"sh/7mp0bi9s","slide":17,"bbox":[793,-18,78,88]}
+{"kind":"shape","id":"sh/w7mp0bi9","slide":17,"bbox":[836,0,112,116]}
+{"kind":"shape","id":"sh/psfil0rq","slide":17,"bbox":[794,56,98,70]}
+{"kind":"shape","id":"sh/epkzupwb","slide":17,"bbox":[51,43,21,4]}
+{"kind":"textbox","id":"sh/7adsji5s","slide":17,"text":"17 | MODEL COMPARISON","textPreview":"17 | MODEL COMPARISON","textChars":21,"textLines":1,"bbox":[80,34,520,17]}
+{"kind":"textbox","id":"sh/wval87ed","slide":17,"text":"Frequency and syllable length improve fit; the interaction adds only a modest increment.","textPreview":"Frequency and syllable length improve fit; the interaction adds only a modest increment.","textChars":88,"textLines":1,"bbox":[50,58,780,50]}
+{"kind":"textbox","id":"sh/pg3ex0nu","slide":17,"text":"Vietnamese LDT | RP2 Colloquium 2","textPreview":"Vietnamese LDT | RP2 Colloquium 2","textChars":33,"textLines":1,"bbox":[52,504,280,13]}
+{"kind":"shape","id":"sh/eloj2t83","slide":17,"bbox":[50,486,820,1.5]}
+{"kind":"shape","id":"sh/fil0rqd4","slide":17,"bbox":[72,142,62,34]}
+{"kind":"textbox","id":"sh/qxs72x4n","slide":17,"text":"Model","textPreview":"Model","textChars":5,"textLines":1,"bbox":[77,148,52,26]}
+{"kind":"shape","id":"sh/xobm58z2","slide":17,"bbox":[134,142,196,34]}
+{"kind":"textbox","id":"sh/83itgfml","slide":17,"text":"Added predictors","textPreview":"Added predictors","textChars":16,"textLines":1,"bbox":[139,148,186,26]}
+{"kind":"shape","id":"sh/fu18jqh0","slide":17,"bbox":[330,142,82,34]}
+{"kind":"textbox","id":"sh/m94fu18j","slide":17,"text":"AIC","textPreview":"AIC","textChars":3,"textLines":1,"bbox":[335,148,72,26]}
+{"kind":"shape","id":"sh/x0nuxc3y","slide":17,"bbox":[412,142,78,34]}
+{"kind":"textbox","id":"sh/4fu18jqh","slide":17,"text":"Chisq","textPreview":"Chisq","textChars":5,"textLines":1,"bbox":[417,148,68,26]}
+{"kind":"shape","id":"sh/f6dcbulw","slide":17,"bbox":[490,142,70,34]}
+{"kind":"textbox","id":"sh/mlkjm1cf","slide":17,"text":"p","textPreview":"p","textChars":1,"textLines":1,"bbox":[495,148,60,26]}
+{"kind":"shape","id":"sh/upwb2hwf","slide":17,"bbox":[72,176,62,34]}
+{"kind":"textbox","id":"sh/nap4r65w","slide":17,"text":"M0","textPreview":"M0","textChars":2,"textLines":1,"bbox":[77,182,52,26]}
+{"kind":"shape","id":"sh/cvixczed","slide":17,"bbox":[134,176,196,34]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":17,"text":"random intercepts","textPreview":"random intercepts","textChars":17,"textLines":1,"bbox":[139,182,186,26]}
+{"kind":"shape","id":"sh/udg7adsj","slide":17,"bbox":[330,176,82,34]}
+{"kind":"textbox","id":"sh/nyd0z610","slide":17,"text":"-286.3","textPreview":"-286.3","textChars":6,"textLines":1,"bbox":[335,182,72,26]}
+{"kind":"shape","id":"sh/cj6tovah","slide":17,"bbox":[412,176,78,34]}
+{"kind":"textbox","id":"sh/54zidony","slide":17,"text":"-","textPreview":"-","textChars":1,"textLines":1,"bbox":[417,182,68,26]}
+{"kind":"shape","id":"sh/u9knih4b","slide":17,"bbox":[490,176,70,34]}
+{"kind":"textbox","id":"sh/judg7ads","slide":17,"text":"-","textPreview":"-","textChars":1,"textLines":1,"bbox":[495,182,60,26]}
+{"kind":"shape","id":"sh/9w3m94fu","slide":17,"bbox":[72,210,62,34]}
+{"kind":"textbox","id":"sh/kb6xkf6d","slide":17,"text":"M1","textPreview":"M1","textChars":2,"textLines":1,"bbox":[77,216,52,26]}
+{"kind":"shape","id":"sh/rqd4vmtw","slide":17,"bbox":[134,210,196,34]}
+{"kind":"textbox","id":"sh/25kb6xkf","slide":17,"text":"+ frequency","textPreview":"+ frequency","textChars":11,"textLines":1,"bbox":[139,216,186,26]}
+{"kind":"shape","id":"sh/9knih4by","slide":17,"bbox":[330,210,82,34]}
+{"kind":"textbox","id":"sh/kzupwb2h","slide":17,"text":"-299.2","textPreview":"-299.2","textChars":6,"textLines":1,"bbox":[335,216,72,26]}
+{"kind":"shape","id":"sh/re1w7mp0","slide":17,"bbox":[412,210,78,34]}
+{"kind":"textbox","id":"sh/2t83itgf","slide":17,"text":"17.0","textPreview":"17.0","textChars":4,"textLines":1,"bbox":[417,216,68,26]}
+{"kind":"shape","id":"sh/9gr2p8nq","slide":17,"bbox":[490,210,70,34]}
+{"kind":"textbox","id":"sh/gvy90je9","slide":17,"text":"< .001","textPreview":"< .001","textChars":6,"textLines":1,"bbox":[495,216,60,26]}
+{"kind":"shape","id":"sh/onyd0z61","slide":17,"bbox":[72,244,62,34]}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":17,"text":"M2","textPreview":"M2","textChars":2,"textLines":1,"bbox":[77,250,52,26]}
+{"kind":"shape","id":"sh/6hcrmhk3","slide":17,"bbox":[134,244,196,34]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":17,"text":"+ syllable length","textPreview":"+ syllable length","textChars":17,"textLines":1,"bbox":[139,250,186,26]}
+{"kind":"shape","id":"sh/ovahoza1","slide":17,"bbox":[330,244,82,34]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":17,"text":"-511.0","textPreview":"-511.0","textChars":6,"textLines":1,"bbox":[335,250,72,26]}
+{"kind":"shape","id":"sh/6tovahoz","slide":17,"bbox":[412,244,78,34]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":17,"text":"217.8","textPreview":"217.8","textChars":5,"textLines":1,"bbox":[417,250,68,26]}
+{"kind":"shape","id":"sh/o7qpg3ex","slide":17,"bbox":[490,244,70,34]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":17,"text":"< .001","textPreview":"< .001","textChars":6,"textLines":1,"bbox":[495,250,60,26]}
+{"kind":"shape","id":"sh/3q5o7qpg","slide":17,"bbox":[72,278,62,34]}
+{"kind":"textbox","id":"sh/e9cvixcz","slide":17,"text":"M3","textPreview":"M3","textChars":2,"textLines":1,"bbox":[77,284,52,26]}
+{"kind":"shape","id":"sh/lwval87e","slide":17,"bbox":[134,278,196,34]}
+{"kind":"textbox","id":"sh/wb2hwfyx","slide":17,"text":"+ interaction","textPreview":"+ interaction","textChars":13,"textLines":1,"bbox":[139,284,186,26]}
+{"kind":"shape","id":"sh/3itgfmlk","slide":17,"bbox":[330,278,82,34]}
+{"kind":"textbox","id":"sh/ex0nuxc3","slide":17,"text":"-511.9","textPreview":"-511.9","textChars":6,"textLines":1,"bbox":[335,284,72,26]}
+{"kind":"shape","id":"sh/loj2t83i","slide":17,"bbox":[412,278,78,34]}
+{"kind":"textbox","id":"sh/w3m94fu1","slide":17,"text":"12.9","textPreview":"12.9","textChars":4,"textLines":1,"bbox":[417,284,68,26]}
+{"kind":"shape","id":"sh/3ex0nuxc","slide":17,"bbox":[490,278,70,34]}
+{"kind":"textbox","id":"sh/at47y1kr","slide":17,"text":".045","textPreview":".045","textChars":4,"textLines":1,"bbox":[495,284,60,26]}
+{"kind":"shape","id":"sh/ixczed8v","slide":17,"bbox":[620,140,240,76]}
+{"kind":"textbox","id":"sh/bi9s36hc","slide":17,"text":"Frequency improves fit","textPreview":"Frequency improves fit","textChars":22,"textLines":1,"bbox":[632,149,216,18]}
+{"kind":"textbox","id":"sh/032lszqt","slide":17,"text":"M1 vs M0: Chisq = 17.0, p < .001","textPreview":"M1 vs M0: Chisq = 17.0, p < .001","textChars":32,"textLines":1,"bbox":[632,171,216,40]}
+{"kind":"shape","id":"sh/tovahoza","slide":17,"bbox":[620,236,240,76]}
+{"kind":"textbox","id":"sh/i9s36hcr","slide":17,"text":"Largest step","textPreview":"Largest step","textChars":12,"textLines":1,"bbox":[632,245,216,18]}
+{"kind":"textbox","id":"sh/bulwval8","slide":17,"text":"Adding syllable length gives the largest improvement: Chisq = 217.8","textPreview":"Adding syllable length gives the largest improvement: Chisq = 217.8","textChars":67,"textLines":1,"bbox":[632,267,216,40]}
+{"kind":"shape","id":"sh/0fepkzup","slide":17,"bbox":[620,332,240,76]}
+{"kind":"textbox","id":"sh/p0bi9s36","slide":17,"text":"Smallest step","textPreview":"Smallest step","textChars":13,"textLines":1,"bbox":[632,341,216,18]}
+{"kind":"textbox","id":"sh/idonyd0z","slide":17,"text":"Interaction improves fit only modestly: Chisq = 12.9, p = .045","textPreview":"Interaction improves fit only modestly: Chisq = 12.9, p = .045","textChars":62,"textLines":1,"bbox":[632,363,216,40]}
+{"kind":"image","id":"im/mlkjm1cf","slide":17,"name":"","alt":"LDSL logo","bbox":[833,494,70,27]}
+{"kind":"notes","id":"nt/9jkmga","slide":17,"text":"Read this as a sequence: frequency matters, length matters more strongly, and interaction is statistically present but modest. The model comparison is important because it prevents the interpretation from relying only on visual trends."}
+{"kind":"slide","id":"sl/4ro3nb","slide":18,"title":"18 | FIXED EFFECTS","textShapes":29}
+{"kind":"shape","id":"sh/yxobm58z","slide":18,"bbox":[793,-18,78,88]}
+{"kind":"shape","id":"sh/5o7qpg3e","slide":18,"bbox":[836,0,112,116]}
+{"kind":"shape","id":"sh/g3ex0nux","slide":18,"bbox":[794,56,98,70]}
+{"kind":"shape","id":"sh/r65wjudg","slide":18,"bbox":[51,43,21,4]}
+{"kind":"textbox","id":"sh/ylc7u54z","slide":18,"text":"18 | FIXED EFFECTS","textPreview":"18 | FIXED EFFECTS","textChars":18,"textLines":1,"bbox":[80,34,520,17]}
+{"kind":"textbox","id":"sh/9cvixcze","slide":18,"text":"Coefficient direction matches the descriptive pattern.","textPreview":"Coefficient direction matches the descriptive pattern.","textChars":54,"textLines":1,"bbox":[50,58,780,50]}
+{"kind":"textbox","id":"sh/gr2p8nqx","slide":18,"text":"Vietnamese LDT | RP2 Colloquium 2","textPreview":"Vietnamese LDT | RP2 Colloquium 2","textChars":33,"textLines":1,"bbox":[52,504,280,13]}
+{"kind":"shape","id":"sh/rytsvu9k","slide":18,"bbox":[50,486,820,1.5]}
+{"kind":"shape","id":"sh/wb2hwfyx","slide":18,"bbox":[70,132,130,39]}
+{"kind":"textbox","id":"sh/lwval87e","slide":18,"text":"Term","textPreview":"Term","textChars":4,"textLines":1,"bbox":[75,138,120,31]}
+{"kind":"shape","id":"sh/e9cvixcz","slide":18,"bbox":[200,132,95,39]}
+{"kind":"textbox","id":"sh/3q5o7qpg","slide":18,"text":"Estimate","textPreview":"Estimate","textChars":8,"textLines":1,"bbox":[205,138,85,31]}
+{"kind":"shape","id":"sh/w3m94fu1","slide":18,"bbox":[295,132,100,39]}
+{"kind":"textbox","id":"sh/loj2t83i","slide":18,"text":"Direction","textPreview":"Direction","textChars":9,"textLines":1,"bbox":[300,138,90,31]}
+{"kind":"shape","id":"sh/ex0nuxc3","slide":18,"bbox":[395,132,420,39]}
+{"kind":"textbox","id":"sh/3itgfmlk","slide":18,"text":"Interpretation","textPreview":"Interpretation","textChars":14,"textLines":1,"bbox":[400,138,410,31]}
+{"kind":"shape","id":"sh/szqtcj6t","slide":18,"bbox":[70,171,130,39]}
+{"kind":"textbox","id":"sh/lkjm1cfa","slide":18,"text":"high vs low","textPreview":"high vs low","textChars":11,"textLines":1,"bbox":[75,177,120,31]}
+{"kind":"shape","id":"sh/lc7u54zi","slide":18,"bbox":[200,171,95,39]}
+{"kind":"textbox","id":"sh/wra5gbq1","slide":18,"text":"-0.200","textPreview":"-0.200","textChars":6,"textLines":1,"bbox":[205,177,85,31]}
+{"kind":"shape","id":"sh/36hcrmhk","slide":18,"bbox":[295,171,100,39]}
+{"kind":"textbox","id":"sh/eloj2t83","slide":18,"text":"faster","textPreview":"faster","textChars":6,"textLines":1,"bbox":[300,177,90,31]}
+{"kind":"shape","id":"sh/l0rqd4vm","slide":18,"bbox":[395,171,420,39]}
+{"kind":"textbox","id":"sh/wfyxobm5","slide":18,"text":"high-frequency words reduce log RT","textPreview":"high-frequency words reduce log RT","textChars":34,"textLines":1,"bbox":[400,177,410,31]}
+{"kind":"shape","id":"sh/7u54zido","slide":18,"bbox":[70,210,130,39]}
+{"kind":"textbox","id":"sh/ed8bat47","slide":18,"text":"length 2","textPreview":"length 2","textChars":8,"textLines":1,"bbox":[75,216,120,31]}
+{"kind":"shape","id":"sh/psfil0rq","slide":18,"bbox":[200,210,95,39]}
+{"kind":"textbox","id":"sh/w7mp0bi9","slide":18,"text":"+0.257","textPreview":"+0.257","textChars":6,"textLines":1,"bbox":[205,216,85,31]}
+{"kind":"shape","id":"sh/65wjudg7","slide":18,"bbox":[295,210,100,39]}
+{"kind":"textbox","id":"sh/zqtcj6to","slide":18,"text":"slower","textPreview":"slower","textChars":6,"textLines":1,"bbox":[300,216,90,31]}
+{"kind":"shape","id":"sh/obm58z25","slide":18,"bbox":[395,210,420,39]}
+{"kind":"textbox","id":"sh/hwfyxobm","slide":18,"text":"2 syllables slower than 1","textPreview":"2 syllables slower than 1","textChars":25,"textLines":1,"bbox":[400,216,410,31]}
+{"kind":"shape","id":"sh/6xkf6dcb","slide":18,"bbox":[70,249,130,39]}
+{"kind":"textbox","id":"sh/zed8v6ps","slide":18,"text":"length 3","textPreview":"length 3","textChars":8,"textLines":1,"bbox":[75,255,120,31]}
+{"kind":"shape","id":"sh/oza1gvy9","slide":18,"bbox":[200,249,95,39]}
+{"kind":"textbox","id":"sh/hk3q5o7q","slide":18,"text":"+0.480","textPreview":"+0.480","textChars":6,"textLines":1,"bbox":[205,255,85,31]}
+{"kind":"shape","id":"sh/al87ed8b","slide":18,"bbox":[295,249,100,39]}
+{"kind":"textbox","id":"sh/z61032ls","slide":18,"text":"slower","textPreview":"slower","textChars":6,"textLines":1,"bbox":[300,255,90,31]}
+{"kind":"shape","id":"sh/fa9w3m94","slide":18,"bbox":[395,249,420,39]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":18,"text":"3 syllables slower than 1","textPreview":"3 syllables slower than 1","textChars":25,"textLines":1,"bbox":[400,255,410,31]}
+{"kind":"shape","id":"sh/xczed8v6","slide":18,"bbox":[70,288,130,39]}
+{"kind":"textbox","id":"sh/8v6psfil","slide":18,"text":"length 4","textPreview":"length 4","textChars":8,"textLines":1,"bbox":[75,294,120,31]}
+{"kind":"shape","id":"sh/fyxobm58","slide":18,"bbox":[200,288,95,39]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":18,"text":"+0.585","textPreview":"+0.585","textChars":6,"textLines":1,"bbox":[205,294,85,31]}
+{"kind":"shape","id":"sh/x4nap4r6","slide":18,"bbox":[295,288,100,39]}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":18,"text":"slower","textPreview":"slower","textChars":6,"textLines":1,"bbox":[300,294,90,31]}
+{"kind":"shape","id":"sh/fmlkjm1c","slide":18,"bbox":[395,288,420,39]}
+{"kind":"textbox","id":"sh/q1orytsv","slide":18,"text":"4 syllables slowest","textPreview":"4 syllables slowest","textChars":19,"textLines":1,"bbox":[400,294,410,31]}
+{"kind":"shape","id":"sh/kjm1cfa9","slide":18,"bbox":[70,327,130,39]}
+{"kind":"textbox","id":"sh/94fu18jq","slide":18,"text":"interaction","textPreview":"interaction","textChars":11,"textLines":1,"bbox":[75,333,120,31]}
+{"kind":"shape","id":"sh/2hwfyxob","slide":18,"bbox":[200,327,95,39]}
+{"kind":"textbox","id":"sh/r2p8nqxs","slide":18,"text":"mixed","textPreview":"mixed","textChars":5,"textLines":1,"bbox":[205,333,85,31]}
+{"kind":"shape","id":"sh/gvy90je9","slide":18,"bbox":[295,327,100,39]}
+{"kind":"textbox","id":"sh/9gr2p8nq","slide":18,"text":"modest","textPreview":"modest","textChars":6,"textLines":1,"bbox":[300,333,90,31]}
+{"kind":"shape","id":"sh/2p8nqxs7","slide":18,"bbox":[395,327,420,39]}
+{"kind":"textbox","id":"sh/ra5gbq1o","slide":18,"text":"some deviations from parallel lines","textPreview":"some deviations from parallel lines","textChars":35,"textLines":1,"bbox":[400,333,410,31]}
+{"kind":"shape","id":"sh/kzupwb2h","slide":18,"bbox":[190,404,560,56]}
+{"kind":"textbox","id":"sh/9knih4by","slide":18,"text":"Plain-language reading","textPreview":"Plain-language reading","textChars":22,"textLines":1,"bbox":[202,413,536,18]}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":18,"text":"High frequency speeds lexical decisions; syllable length slows them; the interaction should be described cautiously.","textPreview":"High frequency speeds lexical decisions; syllable length slows them; the interaction should be described cautiously.","textChars":116,"textLines":1,"bbox":[202,435,536,20]}
+{"kind":"image","id":"im/7qpg3ex0","slide":18,"name":"","alt":"LDSL logo","bbox":[833,494,70,27]}
+{"kind":"notes","id":"nt/4ro3nb","slide":18,"text":"Do not read every p-value. This slide is about coefficient direction and interpretation: negative coefficients mean faster RT, positive coefficients mean slower RT. The strongest stable message is the main effect of syllable length plus the high-frequency advantage."}
+{"kind":"slide","id":"sl/u3hhky","slide":19,"title":"19 | PREDICTED EFFECTS","textShapes":8}
+{"kind":"shape","id":"sh/e9cvixcz","slide":19,"bbox":[793,-18,78,88]}
+{"kind":"shape","id":"sh/lwval87e","slide":19,"bbox":[836,0,112,116]}
+{"kind":"shape","id":"sh/wb2hwfyx","slide":19,"bbox":[794,56,98,70]}
+{"kind":"shape","id":"sh/3itgfmlk","slide":19,"bbox":[51,43,21,4]}
+{"kind":"textbox","id":"sh/ex0nuxc3","slide":19,"text":"19 | PREDICTED EFFECTS","textPreview":"19 | PREDICTED EFFECTS","textChars":22,"textLines":1,"bbox":[80,34,520,17]}
+{"kind":"textbox","id":"sh/loj2t83i","slide":19,"text":"Model-based predicted means preserve the same main pattern.","textPreview":"Model-based predicted means preserve the same main pattern.","textChars":59,"textLines":1,"bbox":[50,58,780,50]}
+{"kind":"textbox","id":"sh/w3m94fu1","slide":19,"text":"R output: model3_predicted_interaction_v2.png","textPreview":"R output: model3_predicted_interaction_v2.png","textChars":45,"textLines":1,"bbox":[52,474,700,15]}
+{"kind":"textbox","id":"sh/3ex0nuxc","slide":19,"text":"Vietnamese LDT | RP2 Colloquium 2","textPreview":"Vietnamese LDT | RP2 Colloquium 2","textChars":33,"textLines":1,"bbox":[52,504,280,13]}
+{"kind":"shape","id":"sh/at47y1kr","slide":19,"bbox":[50,486,820,1.5]}
+{"kind":"shape","id":"sh/2lszqtcj","slide":19,"bbox":[704,150,160,122]}
+{"kind":"textbox","id":"sh/v6psfil0","slide":19,"text":"Estimated pattern","textPreview":"Estimated pattern","textChars":17,"textLines":1,"bbox":[716,159,136,18]}
+{"kind":"textbox","id":"sh/kf6dcbul","slide":19,"text":"Predictions show increasing RT with syllable length and lower RT for high-frequency words.","textPreview":"Predictions show increasing RT with syllable length and lower RT for high-frequency words.","textChars":90,"textLines":1,"bbox":[716,181,136,86]}
+{"kind":"shape","id":"sh/d0z61032","slide":19,"bbox":[704,302,160,96]}
+{"kind":"textbox","id":"sh/29gr2p8n","slide":19,"text":"Why useful","textPreview":"Why useful","textChars":10,"textLines":1,"bbox":[716,311,136,18]}
+{"kind":"textbox","id":"sh/vu9knih4","slide":19,"text":"Predicted means connect raw descriptive plots to the mixed-effects model.","textPreview":"Predicted means connect raw descriptive plots to the mixed-effects model.","textChars":73,"textLines":1,"bbox":[716,333,136,60]}
+{"kind":"image","id":"im/z61032ls","slide":19,"name":"","alt":"LDSL logo","bbox":[833,494,70,27]}
+{"kind":"image","id":"im/al87ed8b","slide":19,"name":"","alt":"Model predicted interaction R plot","bbox":[80,112,595,340]}
+{"kind":"notes","id":"nt/u3hhky","slide":19,"text":"Use this slide to connect model estimates back to the plotted pattern. The predicted means are useful because they show the condition pattern after the model has accounted for participant and item variability."}
+{"kind":"slide","id":"sl/s8wfpy","slide":20,"title":"20 | INTERACTION","textShapes":9}
+{"kind":"shape","id":"sh/tsvu9kni","slide":20,"bbox":[793,-18,78,88]}
+{"kind":"shape","id":"sh/m1cfa9w3","slide":20,"bbox":[836,0,112,116]}
+{"kind":"shape","id":"sh/bm58z25k","slide":20,"bbox":[794,56,98,70]}
+{"kind":"shape","id":"sh/4vmtwra5","slide":20,"bbox":[51,43,21,4]}
+{"kind":"textbox","id":"sh/tgfmlkjm","slide":20,"text":"20 | INTERACTION","textPreview":"20 | INTERACTION","textChars":16,"textLines":1,"bbox":[80,34,520,17]}
+{"kind":"textbox","id":"sh/mp0bi9s3","slide":20,"text":"The interaction is visible but should be reported cautiously.","textPreview":"The interaction is visible but should be reported cautiously.","textChars":61,"textLines":1,"bbox":[50,58,780,50]}
+{"kind":"textbox","id":"sh/bat47y1k","slide":20,"text":"Vietnamese LDT | RP2 Colloquium 2","textPreview":"Vietnamese LDT | RP2 Colloquium 2","textChars":33,"textLines":1,"bbox":[52,504,280,13]}
+{"kind":"shape","id":"sh/4nap4r65","slide":20,"bbox":[50,486,820,1.5]}
+{"kind":"shape","id":"sh/gvy90je9","slide":20,"bbox":[660,128,210,90]}
+{"kind":"textbox","id":"sh/ra5gbq1o","slide":20,"text":"What it suggests","textPreview":"What it suggests","textChars":16,"textLines":1,"bbox":[672,137,186,18]}
+{"kind":"textbox","id":"sh/2p8nqxs7","slide":20,"text":"Frequency advantage is present across lengths, but line spacing varies.","textPreview":"Frequency advantage is present across lengths, but line spacing varies.","textChars":71,"textLines":1,"bbox":[672,159,186,54]}
+{"kind":"shape","id":"sh/94fu18jq","slide":20,"bbox":[660,242,210,96]}
+{"kind":"textbox","id":"sh/kjm1cfa9","slide":20,"text":"Why cautious","textPreview":"Why cautious","textChars":12,"textLines":1,"bbox":[672,251,186,18]}
+{"kind":"textbox","id":"sh/r2p8nqxs","slide":20,"text":"The improvement from adding interaction is modest, and the sample is still preliminary.","textPreview":"The improvement from adding interaction is modest, and the sample is still preliminary.","textChars":87,"textLines":1,"bbox":[672,273,186,60]}
+{"kind":"shape","id":"sh/2hwfyxob","slide":20,"bbox":[660,365,210,66]}
+{"kind":"textbox","id":"sh/9w3m94fu","slide":20,"text":"Reporting stance","textPreview":"Reporting stance","textChars":16,"textLines":1,"bbox":[672,374,186,18]}
+{"kind":"textbox","id":"sh/kb6xkf6d","slide":20,"text":"Treat as a pattern to revisit, not a final theoretical claim.","textPreview":"Treat as a pattern to revisit, not a final theoretical claim.","textChars":61,"textLines":1,"bbox":[672,396,186,30]}
+{"kind":"image","id":"im/0z61032l","slide":20,"name":"","alt":"LDSL logo","bbox":[833,494,70,27]}
+{"kind":"image","id":"im/qpg3ex0n","slide":20,"name":"","alt":"Descriptive interaction R plot","bbox":[85,120,530,326]}
+{"kind":"notes","id":"nt/s8wfpy","slide":20,"text":"This is the anti-overclaim slide. The interaction is not ignored, but it is not sold as the main story. Say that the lines suggest possible frequency by length differences, but the evidence is weaker than the main effects."}
+{"kind":"slide","id":"sl/gf2xzn","slide":21,"title":"21 | ACCURACY + TASK QUALITY","textShapes":15}
+{"kind":"shape","id":"sh/z25kb6xk","slide":21,"bbox":[793,-18,78,88]}
+{"kind":"shape","id":"sh/onyd0z61","slide":21,"bbox":[836,0,112,116]}
+{"kind":"shape","id":"sh/d8v6psfi","slide":21,"bbox":[794,56,98,70]}
+{"kind":"shape","id":"sh/6tovahoz","slide":21,"bbox":[51,43,21,4]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":21,"text":"21 | ACCURACY + TASK QUALITY","textPreview":"21 | ACCURACY + TASK QUALITY","textChars":28,"textLines":1,"bbox":[80,34,520,17]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":21,"text":"Accuracy suggests participants generally performed the task seriously.","textPreview":"Accuracy suggests participants generally performed the task seriously.","textChars":70,"textLines":1,"bbox":[50,58,780,50]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":21,"text":"R output: accuracy_by_condition_barplot_v2.png","textPreview":"R output: accuracy_by_condition_barplot_v2.png","textChars":46,"textLines":1,"bbox":[52,474,700,15]}
+{"kind":"textbox","id":"sh/61032lsz","slide":21,"text":"Vietnamese LDT | RP2 Colloquium 2","textPreview":"Vietnamese LDT | RP2 Colloquium 2","textChars":33,"textLines":1,"bbox":[52,504,280,13]}
+{"kind":"shape","id":"sh/vmtwra5g","slide":21,"bbox":[50,486,820,1.5]}
+{"kind":"shape","id":"sh/t83itgfm","slide":21,"bbox":[575,132,130,70]}
+{"kind":"textbox","id":"sh/4nap4r65","slide":21,"text":"95.7%","textPreview":"95.7%","textChars":5,"textLines":1,"bbox":[583,140,114,24]}
+{"kind":"textbox","id":"sh/bq1oryts","slide":21,"text":"word accuracy","textPreview":"word accuracy","textChars":13,"textLines":1,"bbox":[583,167,114,18]}
+{"kind":"shape","id":"sh/m58z25kb","slide":21,"bbox":[735,132,130,70]}
+{"kind":"textbox","id":"sh/twra5gbq","slide":21,"text":"82.0%","textPreview":"82.0%","textChars":5,"textLines":1,"bbox":[743,140,114,24]}
+{"kind":"textbox","id":"sh/4byhgn29","slide":21,"text":"pseudoword accuracy","textPreview":"pseudoword accuracy","textChars":19,"textLines":1,"bbox":[743,167,114,18]}
+{"kind":"shape","id":"sh/bm58z25k","slide":21,"bbox":[575,236,130,70]}
+{"kind":"textbox","id":"sh/m1cfa9w3","slide":21,"text":"0","textPreview":"0","textChars":1,"textLines":1,"bbox":[583,244,114,24]}
+{"kind":"textbox","id":"sh/q5o7qpg3","slide":21,"text":"participants flagged","textPreview":"participants flagged","textChars":20,"textLines":1,"bbox":[583,271,114,18]}
+{"kind":"shape","id":"sh/jqh0fepk","slide":21,"bbox":[735,236,130,70]}
+{"kind":"textbox","id":"sh/8bat47y1","slide":21,"text":"45","textPreview":"45","textChars":2,"textLines":1,"bbox":[743,244,114,24]}
+{"kind":"textbox","id":"sh/1w7mp0bi","slide":21,"text":"timeouts","textPreview":"timeouts","textChars":8,"textLines":1,"bbox":[743,271,114,18]}
+{"kind":"textbox","id":"sh/qh0fepkz","slide":21,"text":"of 5,760","textPreview":"of 5,760","textChars":8,"textLines":1,"bbox":[743,289,114,12]}
+{"kind":"shape","id":"sh/j2t83itg","slide":21,"bbox":[575,350,292,70]}
+{"kind":"textbox","id":"sh/8nqxs72x","slide":21,"text":"Interpretation","textPreview":"Interpretation","textChars":14,"textLines":1,"bbox":[587,359,268,18]}
+{"kind":"textbox","id":"sh/18jqh0fe","slide":21,"text":"Pseudoword accuracy is lower than word accuracy, but still high enough to support task quality.","textPreview":"Pseudoword accuracy is lower than word accuracy, but still high enough to support task quality.","textChars":95,"textLines":1,"bbox":[587,381,268,34]}
+{"kind":"image","id":"im/kjm1cfa9","slide":21,"name":"","alt":"LDSL logo","bbox":[833,494,70,27]}
+{"kind":"image","id":"im/94fu18jq","slide":21,"name":"","alt":"Accuracy by condition R plot","bbox":[70,118,440,310]}
+{"kind":"notes","id":"nt/gf2xzn","slide":21,"text":"Accuracy is not the main RT model outcome, but it supports the validity of the task and data collection."}
+{"kind":"slide","id":"sl/6qzy6z","slide":22,"title":"22 | DIAGNOSTICS","textShapes":9}
+{"kind":"shape","id":"sh/qxs72x4n","slide":22,"bbox":[793,-18,78,88]}
+{"kind":"shape","id":"sh/xobm58z2","slide":22,"bbox":[836,0,112,116]}
+{"kind":"shape","id":"sh/83itgfml","slide":22,"bbox":[794,56,98,70]}
+{"kind":"shape","id":"sh/fu18jqh0","slide":22,"bbox":[51,43,21,4]}
+{"kind":"textbox","id":"sh/m94fu18j","slide":22,"text":"22 | DIAGNOSTICS","textPreview":"22 | DIAGNOSTICS","textChars":16,"textLines":1,"bbox":[80,34,520,17]}
+{"kind":"textbox","id":"sh/x0nuxc3y","slide":22,"text":"Diagnostics support cautious preliminary reporting.","textPreview":"Diagnostics support cautious preliminary reporting.","textChars":51,"textLines":1,"bbox":[50,58,780,50]}
+{"kind":"textbox","id":"sh/4fu18jqh","slide":22,"text":"Vietnamese LDT | RP2 Colloquium 2","textPreview":"Vietnamese LDT | RP2 Colloquium 2","textChars":33,"textLines":1,"bbox":[52,504,280,13]}
+{"kind":"shape","id":"sh/f6dcbulw","slide":22,"bbox":[50,486,820,1.5]}
+{"kind":"shape","id":"sh/nuxc3ylc","slide":22,"bbox":[82,325,210,78]}
+{"kind":"textbox","id":"sh/gn29gr2p","slide":22,"text":"Residual shape","textPreview":"Residual shape","textChars":14,"textLines":1,"bbox":[94,334,186,18]}
+{"kind":"textbox","id":"sh/58z25kb6","slide":22,"text":"No catastrophic pattern, but RT residuals still show tail behavior.","textPreview":"No catastrophic pattern, but RT residuals still show tail behavior.","textChars":67,"textLines":1,"bbox":[94,356,186,42]}
+{"kind":"shape","id":"sh/yhgn29gr","slide":22,"bbox":[374,325,210,78]}
+{"kind":"textbox","id":"sh/n29gr2p8","slide":22,"text":"QQ plot","textPreview":"QQ plot","textChars":7,"textLines":1,"bbox":[386,334,186,18]}
+{"kind":"textbox","id":"sh/czed8v6p","slide":22,"text":"Extreme deviations remain, so the result should stay preliminary.","textPreview":"Extreme deviations remain, so the result should stay preliminary.","textChars":65,"textLines":1,"bbox":[386,356,186,42]}
+{"kind":"shape","id":"sh/5kb6xkf6","slide":22,"bbox":[666,325,210,78]}
+{"kind":"textbox","id":"sh/9cvixcze","slide":22,"text":"Singular fit","textPreview":"Singular fit","textChars":12,"textLines":1,"bbox":[678,334,186,18]}
+{"kind":"textbox","id":"sh/gr2p8nqx","slide":22,"text":"Checked for all model steps; no singular fits detected.","textPreview":"Checked for all model steps; no singular fits detected.","textChars":55,"textLines":1,"bbox":[678,356,186,42]}
+{"kind":"image","id":"im/zidonyd0","slide":22,"name":"","alt":"LDSL logo","bbox":[833,494,70,27]}
+{"kind":"image","id":"im/re1w7mp0","slide":22,"name":"","alt":"Residual histogram","bbox":[62,118,245,165]}
+{"kind":"image","id":"im/2t83itgf","slide":22,"name":"","alt":"Residual QQ plot","bbox":[344,118,245,165]}
+{"kind":"image","id":"im/9knih4by","slide":22,"name":"","alt":"Residuals by length","bbox":[626,118,245,165]}
+{"kind":"notes","id":"nt/6qzy6z","slide":22,"text":"Mention explicitly that singular fit was checked. The diagnostics are acceptable for preliminary reporting, but not a license to overclaim. The histogram is broadly centered, the QQ plot shows tail deviations, and the residuals-by-length plot does not show a catastrophic length-specific failure."}
+{"kind":"slide","id":"sl/q8eihj","slide":23,"title":"23 | MAIN INTERPRETATION","textShapes":10}
+{"kind":"shape","id":"sh/d8v6psfi","slide":23,"bbox":[793,-18,78,88]}
+{"kind":"shape","id":"sh/6hcrmhk3","slide":23,"bbox":[836,0,112,116]}
+{"kind":"shape","id":"sh/z25kb6xk","slide":23,"bbox":[794,56,98,70]}
+{"kind":"shape","id":"sh/ovahoza1","slide":23,"bbox":[51,43,21,4]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":23,"text":"23 | MAIN INTERPRETATION","textPreview":"23 | MAIN INTERPRETATION","textChars":24,"textLines":1,"bbox":[80,34,520,17]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":23,"text":"The strongest preliminary story is frequency plus syllable length.","textPreview":"The strongest preliminary story is frequency plus syllable length.","textChars":66,"textLines":1,"bbox":[50,58,780,50]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":23,"text":"Vietnamese LDT | RP2 Colloquium 2","textPreview":"Vietnamese LDT | RP2 Colloquium 2","textChars":33,"textLines":1,"bbox":[52,504,280,13]}
+{"kind":"shape","id":"sh/o7qpg3ex","slide":23,"bbox":[50,486,820,1.5]}
+{"kind":"shape","id":"sh/pwb2hwfy","slide":23,"bbox":[85,132,238,132]}
+{"kind":"textbox","id":"sh/0bi9s36h","slide":23,"text":"1. Frequency","textPreview":"1. Frequency","textChars":12,"textLines":1,"bbox":[97,141,214,18]}
+{"kind":"textbox","id":"sh/7qpg3ex0","slide":23,"text":"High-frequency real words are recognized faster than low-frequency words.","textPreview":"High-frequency real words are recognized faster than low-frequency words.","textChars":73,"textLines":1,"bbox":[97,163,214,96]}
+{"kind":"shape","id":"sh/i5sneloj","slide":23,"bbox":[362,132,238,132]}
+{"kind":"textbox","id":"sh/p4r65wju","slide":23,"text":"2. Syllable length","textPreview":"2. Syllable length","textChars":18,"textLines":1,"bbox":[374,141,214,18]}
+{"kind":"textbox","id":"sh/wjudg7ad","slide":23,"text":"Longer Vietnamese words show slower lexical-decision responses.","textPreview":"Longer Vietnamese words show slower lexical-decision responses.","textChars":63,"textLines":1,"bbox":[374,163,214,96]}
+{"kind":"shape","id":"sh/7y1kre1w","slide":23,"bbox":[639,132,238,132]}
+{"kind":"textbox","id":"sh/ed8v6psf","slide":23,"text":"3. Interaction","textPreview":"3. Interaction","textChars":14,"textLines":1,"bbox":[651,141,214,18]}
+{"kind":"textbox","id":"sh/p8nqxs72","slide":23,"text":"There is evidence of a modest interaction, but it remains a secondary result.","textPreview":"There is evidence of a modest interaction, but it remains a secondary result.","textChars":77,"textLines":1,"bbox":[651,163,214,96]}
+{"kind":"shape","id":"sh/0nuxc3yl","slide":23,"bbox":[86,350,790,44]}
+{"kind":"textbox","id":"sh/wval87ed","slide":23,"text":"Cautious interpretation: lexical decision RT reflects both lexical processing and task decision processes, so the results should not be reduced to pure lexical access.","textPreview":"Cautious interpretation: lexical decision RT reflects both lexical processing and task decision processes, so the results should not be r...","textChars":167,"textLines":1,"bbox":[112,361,738,22]}
+{"kind":"image","id":"im/sfil0rqd","slide":23,"name":"","alt":"LDSL logo","bbox":[833,494,70,27]}
+{"kind":"notes","id":"nt/q8eihj","slide":23,"text":"This is the main conclusion slide. It should sound careful and academically defensible."}
+{"kind":"slide","id":"sl/sppo9x","slide":24,"title":"24 | LIMITATIONS","textShapes":8}
+{"kind":"shape","id":"sh/7mp0bi9s","slide":24,"bbox":[793,-18,78,88]}
+{"kind":"shape","id":"sh/w7mp0bi9","slide":24,"bbox":[836,0,112,116]}
+{"kind":"shape","id":"sh/psfil0rq","slide":24,"bbox":[794,56,98,70]}
+{"kind":"shape","id":"sh/epkzupwb","slide":24,"bbox":[51,43,21,4]}
+{"kind":"textbox","id":"sh/7adsji5s","slide":24,"text":"24 | LIMITATIONS","textPreview":"24 | LIMITATIONS","textChars":16,"textLines":1,"bbox":[80,34,520,17]}
+{"kind":"textbox","id":"sh/wval87ed","slide":24,"text":"The current analysis is promising, but not yet a final thesis conclusion.","textPreview":"The current analysis is promising, but not yet a final thesis conclusion.","textChars":73,"textLines":1,"bbox":[50,58,780,50]}
+{"kind":"textbox","id":"sh/pg3ex0nu","slide":24,"text":"Vietnamese LDT | RP2 Colloquium 2","textPreview":"Vietnamese LDT | RP2 Colloquium 2","textChars":33,"textLines":1,"bbox":[52,504,280,13]}
+{"kind":"shape","id":"sh/eloj2t83","slide":24,"bbox":[50,486,820,1.5]}
+{"kind":"shape","id":"sh/fil0rqd4","slide":24,"bbox":[100,136,6,6]}
+{"kind":"textbox","id":"sh/qxs72x4n","slide":24,"text":"N = 48 reaches the project minimum, but is still a modest sample.","textPreview":"N = 48 reaches the project minimum, but is still a modest sample.","textChars":65,"textLines":1,"bbox":[116,130,704,56]}
+{"kind":"shape","id":"sh/xobm58z2","slide":24,"bbox":[100,184,6,6]}
+{"kind":"textbox","id":"sh/83itgfml","slide":24,"text":"Pseudoword design should be reviewed for plausibility and matching.","textPreview":"Pseudoword design should be reviewed for plausibility and matching.","textChars":67,"textLines":1,"bbox":[116,178,704,56]}
+{"kind":"shape","id":"sh/fu18jqh0","slide":24,"bbox":[100,232,6,6]}
+{"kind":"textbox","id":"sh/m94fu18j","slide":24,"text":"Frequency source and item matching may need dispersion/register checks.","textPreview":"Frequency source and item matching may need dispersion/register checks.","textChars":71,"textLines":1,"bbox":[116,226,704,56]}
+{"kind":"shape","id":"sh/x0nuxc3y","slide":24,"bbox":[100,280,6,6]}
+{"kind":"textbox","id":"sh/4fu18jqh","slide":24,"text":"Current model uses random intercepts; richer structures can be tested if stable.","textPreview":"Current model uses random intercepts; richer structures can be tested if stable.","textChars":80,"textLines":1,"bbox":[116,274,704,56]}
+{"kind":"shape","id":"sh/f6dcbulw","slide":24,"bbox":[100,328,6,6]}
+{"kind":"textbox","id":"sh/mlkjm1cf","slide":24,"text":"Interpretation of the interaction requires follow-up robustness checks.","textPreview":"Interpretation of the interaction requires follow-up robustness checks.","textChars":71,"textLines":1,"bbox":[116,322,704,56]}
+{"kind":"image","id":"im/ih4byhgn","slide":24,"name":"","alt":"LDSL logo","bbox":[833,494,70,27]}
+{"kind":"notes","id":"nt/sppo9x","slide":24,"text":"Limitations make the project stronger by showing what still needs to be checked before final submission."}
+{"kind":"slide","id":"sl/k4tj0k","slide":25,"title":"25 | NEXT STEPS","textShapes":20}
+{"kind":"shape","id":"sh/6hcrmhk3","slide":25,"bbox":[793,-18,78,88]}
+{"kind":"shape","id":"sh/d8v6psfi","slide":25,"bbox":[836,0,112,116]}
+{"kind":"shape","id":"sh/onyd0z61","slide":25,"bbox":[794,56,98,70]}
+{"kind":"shape","id":"sh/vahoza1g","slide":25,"bbox":[51,43,21,4]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":25,"text":"25 | NEXT STEPS","textPreview":"25 | NEXT STEPS","textChars":15,"textLines":1,"bbox":[80,34,520,17]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":25,"text":"The next phase strengthens robustness and write-up quality.","textPreview":"The next phase strengthens robustness and write-up quality.","textChars":59,"textLines":1,"bbox":[50,58,780,50]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":25,"text":"Vietnamese LDT | RP2 Colloquium 2","textPreview":"Vietnamese LDT | RP2 Colloquium 2","textChars":33,"textLines":1,"bbox":[52,504,280,13]}
+{"kind":"shape","id":"sh/vmtwra5g","slide":25,"bbox":[50,486,820,1.5]}
+{"kind":"shape","id":"sh/wval87ed","slide":25,"bbox":[76,150,118,70]}
+{"kind":"textbox","id":"sh/pg3ex0nu","slide":25,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[84,158,102,24]}
+{"kind":"textbox","id":"sh/epkzupwb","slide":25,"text":"Re-run R Markdown","textPreview":"Re-run R Markdown","textChars":17,"textLines":1,"bbox":[84,185,102,18]}
+{"kind":"textbox","id":"sh/7adsji5s","slide":25,"text":"confirm reproducible outputs","textPreview":"confirm reproducible outputs","textChars":28,"textLines":1,"bbox":[70,232,130,34]}
+{"kind":"shape","id":"sh/w7mp0bi9","slide":25,"bbox":[242,150,118,70]}
+{"kind":"textbox","id":"sh/psfil0rq","slide":25,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[250,158,102,24]}
+{"kind":"textbox","id":"sh/e1w7mp0b","slide":25,"text":"Robustness checks","textPreview":"Robustness checks","textChars":17,"textLines":1,"bbox":[250,185,102,18]}
+{"kind":"textbox","id":"sh/7mp0bi9s","slide":25,"text":"outliers, coding, random effects","textPreview":"outliers, coding, random effects","textChars":32,"textLines":1,"bbox":[236,232,130,34]}
+{"kind":"shape","id":"sh/wfyxobm5","slide":25,"bbox":[408,150,118,70]}
+{"kind":"textbox","id":"sh/l0rqd4vm","slide":25,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[416,158,102,24]}
+{"kind":"textbox","id":"sh/pwb2hwfy","slide":25,"text":"Item review","textPreview":"Item review","textChars":11,"textLines":1,"bbox":[416,185,102,18]}
+{"kind":"textbox","id":"sh/0bi9s36h","slide":25,"text":"frequency, plausibility, matching","textPreview":"frequency, plausibility, matching","textChars":33,"textLines":1,"bbox":[402,232,130,34]}
+{"kind":"shape","id":"sh/7qpg3ex0","slide":25,"bbox":[574,150,118,70]}
+{"kind":"textbox","id":"sh/i5sneloj","slide":25,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[582,158,102,24]}
+{"kind":"textbox","id":"sh/p4r65wju","slide":25,"text":"Write results","textPreview":"Write results","textChars":13,"textLines":1,"bbox":[582,185,102,18]}
+{"kind":"textbox","id":"sh/wjudg7ad","slide":25,"text":"report model + figures carefully","textPreview":"report model + figures carefully","textChars":32,"textLines":1,"bbox":[568,232,130,34]}
+{"kind":"shape","id":"sh/7y1kre1w","slide":25,"bbox":[740,150,118,70]}
+{"kind":"textbox","id":"sh/ed8v6psf","slide":25,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[748,158,102,24]}
+{"kind":"textbox","id":"sh/p8nqxs72","slide":25,"text":"Discussion","textPreview":"Discussion","textChars":10,"textLines":1,"bbox":[748,185,102,18]}
+{"kind":"textbox","id":"sh/0nuxc3yl","slide":25,"text":"connect to Vietnamese segmentation","textPreview":"connect to Vietnamese segmentation","textChars":34,"textLines":1,"bbox":[734,232,130,34]}
+{"kind":"shape","id":"sh/q5o7qpg3","slide":25,"bbox":[160,330,640,64]}
+{"kind":"textbox","id":"sh/jqh0fepk","slide":25,"text":"Immediate priority","textPreview":"Immediate priority","textChars":18,"textLines":1,"bbox":[172,339,616,18]}
+{"kind":"textbox","id":"sh/8bat47y1","slide":25,"text":"Use the current results as preliminary evidence, then refine model robustness and theoretical interpretation.","textPreview":"Use the current results as preliminary evidence, then refine model robustness and theoretical interpretation.","textChars":109,"textLines":1,"bbox":[172,361,616,28]}
+{"kind":"image","id":"im/z25kb6xk","slide":25,"name":"","alt":"LDSL logo","bbox":[833,494,70,27]}
+{"kind":"notes","id":"nt/k4tj0k","slide":25,"text":"This slide shows the project is under control and has a clear path toward final write-up."}
+{"kind":"slide","id":"sl/jdb7hr","slide":26,"title":"26 | REFERENCES","textShapes":15}
+{"kind":"shape","id":"sh/zidonyd0","slide":26,"bbox":[793,-18,78,88]}
+{"kind":"shape","id":"sh/s36hcrmh","slide":26,"bbox":[836,0,112,116]}
+{"kind":"shape","id":"sh/hoza1gvy","slide":26,"bbox":[794,56,98,70]}
+{"kind":"shape","id":"sh/ap4r65wj","slide":26,"bbox":[51,43,21,4]}
+{"kind":"textbox","id":"sh/za1gvy90","slide":26,"text":"26 | REFERENCES","textPreview":"26 | REFERENCES","textChars":15,"textLines":1,"bbox":[80,34,520,17]}
+{"kind":"textbox","id":"sh/svu9knih","slide":26,"text":"Selected sources for orthography, lexical decision, RT modeling, and tools.","textPreview":"Selected sources for orthography, lexical decision, RT modeling, and tools.","textChars":75,"textLines":1,"bbox":[50,58,780,50]}
+{"kind":"textbox","id":"sh/hgn29gr2","slide":26,"text":"Vietnamese LDT | RP2 Colloquium 2","textPreview":"Vietnamese LDT | RP2 Colloquium 2","textChars":33,"textLines":1,"bbox":[52,504,280,13]}
+{"kind":"shape","id":"sh/adsji5sn","slide":26,"bbox":[50,486,820,1.5]}
+{"kind":"textbox","id":"sh/bat47y1k","slide":26,"text":"Baayen, R. H. (2008). Analyzing linguistic data. Cambridge University Press.","textPreview":"Baayen, R. H. (2008). Analyzing linguistic data. Cambridge University Press.","textChars":76,"textLines":1,"bbox":[58,126,390,42]}
+{"kind":"textbox","id":"sh/mp0bi9s3","slide":26,"text":"Baayen, Davidson, & Bates (2008). Mixed-effects modeling with crossed random effects. Journal of Memory and Language.","textPreview":"Baayen, Davidson, & Bates (2008). Mixed-effects modeling with crossed random effects. Journal of Memory and Language.","textChars":117,"textLines":1,"bbox":[58,178,390,42]}
+{"kind":"textbox","id":"sh/tgfmlkjm","slide":26,"text":"Bates et al. (2015). Fitting linear mixed-effects models using lme4. Journal of Statistical Software.","textPreview":"Bates et al. (2015). Fitting linear mixed-effects models using lme4. Journal of Statistical Software.","textChars":101,"textLines":1,"bbox":[58,230,390,42]}
+{"kind":"textbox","id":"sh/4vmtwra5","slide":26,"text":"Brysbaert, Mandera, & Keuleers (2018). The word frequency effect in word processing. Current Directions.","textPreview":"Brysbaert, Mandera, & Keuleers (2018). The word frequency effect in word processing. Current Directions.","textChars":104,"textLines":1,"bbox":[58,282,390,42]}
+{"kind":"textbox","id":"sh/bm58z25k","slide":26,"text":"DeFrancis (1977). Colonialism and language policy in Viet Nam. De Gruyter Mouton.","textPreview":"DeFrancis (1977). Colonialism and language policy in Viet Nam. De Gruyter Mouton.","textChars":81,"textLines":1,"bbox":[58,334,390,42]}
+{"kind":"textbox","id":"sh/m1cfa9w3","slide":26,"text":"Đinh et al. (2008). Word segmentation of Vietnamese texts. LREC.","textPreview":"Đinh et al. (2008). Word segmentation of Vietnamese texts. LREC.","textChars":64,"textLines":1,"bbox":[58,386,390,42]}
+{"kind":"textbox","id":"sh/tsvu9kni","slide":26,"text":"Keuleers & Brysbaert (2010). Wuggy: A multilingual pseudoword generator. Behavior Research Methods.","textPreview":"Keuleers & Brysbaert (2010). Wuggy: A multilingual pseudoword generator. Behavior Research Methods.","textChars":99,"textLines":1,"bbox":[478,126,390,42]}
+{"kind":"textbox","id":"sh/47y1kre1","slide":26,"text":"Pham & Baayen (2015). Vietnamese compounds and visual lexical decision. Language, Cognition and Neuroscience.","textPreview":"Pham & Baayen (2015). Vietnamese compounds and visual lexical decision. Language, Cognition and Neuroscience.","textChars":109,"textLines":1,"bbox":[478,178,390,42]}
+{"kind":"textbox","id":"sh/bq1oryts","slide":26,"text":"Pham, Tucker, & Baayen (2019). Vietnamese corpora and lexical database. Language Resources and Evaluation.","textPreview":"Pham, Tucker, & Baayen (2019). Vietnamese corpora and lexical database. Language Resources and Evaluation.","textChars":106,"textLines":1,"bbox":[478,230,390,42]}
+{"kind":"textbox","id":"sh/m58z25kb","slide":26,"text":"Ratcliff (1993). Methods for dealing with reaction time outliers. Psychological Bulletin.","textPreview":"Ratcliff (1993). Methods for dealing with reaction time outliers. Psychological Bulletin.","textChars":89,"textLines":1,"bbox":[478,282,390,42]}
+{"kind":"textbox","id":"sh/qh0fepkz","slide":26,"text":"Whelan (2008). Effective analysis of reaction time data. The Psychological Record.","textPreview":"Whelan (2008). Effective analysis of reaction time data. The Psychological Record.","textChars":82,"textLines":1,"bbox":[478,334,390,42]}
+{"kind":"textbox","id":"sh/j2t83itg","slide":26,"text":"Yap & Balota (2009). Visual word recognition of multisyllabic words. Journal of Memory and Language.","textPreview":"Yap & Balota (2009). Visual word recognition of multisyllabic words. Journal of Memory and Language.","textChars":100,"textLines":1,"bbox":[478,386,390,42]}
+{"kind":"image","id":"im/m1cfa9w3","slide":26,"name":"","alt":"LDSL logo","bbox":[833,494,70,27]}
+{"kind":"notes","id":"nt/jdb7hr","slide":26,"text":"References are included for academic completeness. Do not read this slide aloud."}
+{"kind":"slide","id":"sl/vsxzam","slide":27,"title":"Thank you.","textShapes":8}
+{"kind":"shape","id":"sh/jqh0fepk","slide":27,"bbox":[793,-18,78,88]}
+{"kind":"shape","id":"sh/8bat47y1","slide":27,"bbox":[836,0,112,116]}
+{"kind":"shape","id":"sh/1w7mp0bi","slide":27,"bbox":[794,56,98,70]}
+{"kind":"textbox","id":"sh/qh0fepkz","slide":27,"text":"Thank you.","textPreview":"Thank you.","textChars":10,"textLines":1,"bbox":[80,190,620,60]}
+{"kind":"textbox","id":"sh/j2t83itg","slide":27,"text":"Questions about design, QC, or model interpretation are welcome.","textPreview":"Questions about design, QC, or model interpretation are welcome.","textChars":64,"textLines":1,"bbox":[84,270,640,32]}
+{"kind":"shape","id":"sh/8nqxs72x","slide":27,"bbox":[82,350,145,70]}
+{"kind":"textbox","id":"sh/18jqh0fe","slide":27,"text":"48","textPreview":"48","textChars":2,"textLines":1,"bbox":[90,358,129,24]}
+{"kind":"textbox","id":"sh/ulwval87","slide":27,"text":"participants","textPreview":"participants","textChars":12,"textLines":1,"bbox":[90,385,129,18]}
+{"kind":"shape","id":"sh/j6tovaho","slide":27,"bbox":[250,350,145,70]}
+{"kind":"textbox","id":"sh/j2t83itg","slide":27,"text":"3,306","textPreview":"3,306","textChars":5,"textLines":1,"bbox":[258,358,129,24]}
+{"kind":"textbox","id":"sh/qh0fepkz","slide":27,"text":"RT model obs.","textPreview":"RT model obs.","textChars":13,"textLines":1,"bbox":[258,385,129,18]}
+{"kind":"shape","id":"sh/18jqh0fe","slide":27,"bbox":[418,350,145,70]}
+{"kind":"textbox","id":"sh/8nqxs72x","slide":27,"text":"3 x 4","textPreview":"3 x 4","textChars":5,"textLines":1,"bbox":[426,358,129,24]}
+{"kind":"textbox","id":"sh/jqh0fepk","slide":27,"text":"real-word design","textPreview":"real-word design","textChars":16,"textLines":1,"bbox":[426,385,129,18]}
+{"kind":"image","id":"im/h4byhgn2","slide":27,"name":"","alt":"LDSL logo","bbox":[833,494,70,27]}
+{"kind":"notes","id":"nt/vsxzam","slide":27,"text":"Close briefly. Invite questions especially about the model comparison, diagnostics, or interpretation of the interaction."}

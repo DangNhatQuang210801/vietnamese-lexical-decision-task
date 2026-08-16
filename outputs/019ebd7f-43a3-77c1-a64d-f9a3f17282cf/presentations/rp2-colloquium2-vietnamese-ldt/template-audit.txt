@@ -1,0 +1,28 @@
+Template source: D:\Research 2\docs\Presentation-Layout.pptx
+
+Source structure:
+- 7 slides: cover, two section divider variants, blank/content layouts, one table example, image layout, thank-you slide.
+- Visual system: white background, navy title text, lime-green accent rules, organic blue/green polygon motif, RUB/LDSL logo chrome.
+- Fonts detected: Poppins, Poppins Light, RubFlama, RUB Scala MZ, Calibri fallback families.
+
+Preserve:
+- white background, navy/lime palette, right/top polygon motif, bottom logo/chrome, restrained academic look.
+- clean hierarchy: compact kicker, claim title, one dominant proof object per slide.
+
+Improve:
+- source deck has visible placeholder/footer artifacts along the left edge after import; these must be removed from all final slides.
+- template content layouts are too sparse for detailed methodology, so final content will use editable shapes, tables, figures, and diagrams in the blank content zones.
+
+Do not imitate:
+- broken vertical text at the left edge.
+- German template instruction placeholders.
+- dense paragraphs or unedited sample tables.
+
+Brand/assets:
+- Use inherited RUB/LDSL template marks and local logo assets only.
+- Tool logos are local files in presentation/Logo.
+
+Insertion contract:
+- Duplicate mapped source slides first.
+- Delete inherited slide placeholders with zero-size or broken placement.
+- Add new editable content only within clean content zones, preserving template chrome and style.

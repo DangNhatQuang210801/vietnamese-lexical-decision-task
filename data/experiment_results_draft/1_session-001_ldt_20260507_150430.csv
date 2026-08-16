@@ -1,5 +1,0 @@
-﻿participant_id,block,trial_id,stimulus,condition,is_word,syllable_length,frequency,log_frequency,source_realword,correct_response,key_pressed,response_label,accuracy,rt
-1,practice,PRACTICE_004,tủ lảnh,pseudoword,0,4,NA,NA,tủ lạnh,nonword,j,nonword,1,0.871508
-1,practice,PRACTICE_003,ghế đá,word,1,2,NA,NA,ghế đá,word,f,word,1,0.692612
-1,practice,PRACTICE_001,mèo,word,1,1,NA,NA,mèo,word,f,word,1,0.998707
-1,practice,PRACTICE_002,mẻo,pseudoword,0,1,NA,NA,mèo,nonword,j,nonword,1,0.736904

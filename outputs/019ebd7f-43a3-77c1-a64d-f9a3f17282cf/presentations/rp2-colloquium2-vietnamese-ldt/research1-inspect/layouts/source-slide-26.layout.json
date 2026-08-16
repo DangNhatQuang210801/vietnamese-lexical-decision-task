@@ -1,0 +1,1256 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/psfil0rq",
+    "id": "psfil0rq",
+    "slide": 27,
+    "layoutId": "/ppt/slideLayouts/slideLayout9.xml",
+    "layoutName": "Headline // Tabelle",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 960,
+      "height": 540
+    }
+  },
+  "theme": {
+    "colorSchemeName": "RUB",
+    "colors": {
+      "accent1": "#FFCC00",
+      "accent2": "#EE7203",
+      "accent3": "#E6332A",
+      "accent4": "#B71E3F",
+      "accent5": "#9C5516",
+      "accent6": "#59211C",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#003560",
+      "lt2": "#8DAE10",
+      "hlink": "#000000",
+      "folHlink": "#000000"
+    },
+    "fontScheme": {
+      "name": "Arial",
+      "majorFont": {
+        "latinTypeface": "Arial"
+      },
+      "minorFont": {
+        "latinTypeface": "Arial"
+      }
+    },
+    "typefaces": [
+      "Arial",
+      "RubFlama"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout9.xml",
+      "name": "Headline // Tabelle",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "image",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout9.xml/20",
+          "id": "20",
+          "name": "Grafik 17",
+          "bbox": [
+            744.6,
+            0,
+            215.4,
+            220.42
+          ],
+          "contentType": "image/png",
+          "imageCrop": {
+            "left": 0,
+            "top": 0.40753,
+            "right": 0.42388,
+            "bottom": 0
+          },
+          "asset": {
+            "assetId": "/ppt/media/image7.png",
+            "contentType": "image/png",
+            "byteLength": 22347
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image7.png",
+            "contentType": "image/png",
+            "byteLength": 22347
+          }
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout9.xml/2",
+          "id": "2",
+          "name": "Titel 1",
+          "bbox": [
+            49.13,
+            41.57,
+            793.7,
+            49.13
+          ],
+          "geometry": "rect",
+          "text": "KAPITEL | CHART-HEADLINE",
+          "textPreview": "KAPITEL | CHART-HEADLINE",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "KAPITEL | CHART-HEADLINE",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "KAPITEL | CHART-HEADLINE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout9.xml/8",
+          "id": "8",
+          "name": "Fußzeilenplatzhalter 7",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "Titel | ggf. Iitere Angaben",
+          "textPreview": "Titel | ggf. Iitere Angaben",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Titel | ggf. Iitere Angaben",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Titel | ggf. Iitere Angaben"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout9.xml/9",
+          "id": "9",
+          "name": "Foliennummernplatzhalter 8",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "‹#› ",
+          "textPreview": "‹#›",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#› ",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                },
+                {
+                  "index": 2,
+                  "text": " "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout9.xml/5",
+          "id": "5",
+          "name": "Tabellenplatzhalter 4",
+          "bbox": [
+            49.13,
+            96.38,
+            857.95,
+            353.39
+          ],
+          "geometry": "rect",
+          "text": "Tabelle durch Klicken auf Symbol hinzufügen",
+          "textPreview": "Tabelle durch Klicken auf Symbol hinzufügen",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Tabelle durch Klicken auf Symbol hinzufügen",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Tabelle durch Klicken auf Symbol hinzufügen"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout9.xml/16",
+          "id": "16",
+          "name": "Listenebenen",
+          "bbox": [
+            -275.99,
+            143.62,
+            264.65,
+            160.4
+          ],
+          "rotation": 180,
+          "horizontalFlip": true,
+          "verticalFlip": true,
+          "geometry": "rect",
+          "text": "Einfärbung einer Spalte/Zeile: \nMarkieren der Spalte/Zeile:\n Entwurf / Tabellentools > Schattierung >\n\nDie gewünschte Farbe aus den Designfarben auswählen",
+          "textPreview": "Einfärbung einer Spalte/Zeile:  | Markieren der Spalte/Zeile: |  Entwurf / Tabellentools > Schattierung > |  | Die gewünschte Farbe aus d...",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Einfärbung einer Spalte/Zeile: \nMarkieren der Spalte/Zeile:",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Einfärbung einer Spalte/Zeile: ",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1"
+                },
+                {
+                  "index": 2,
+                  "text": "\n",
+                  "alignment": "right"
+                },
+                {
+                  "index": 3,
+                  "text": "Markieren der Spalte/Zeile:",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": " Entwurf / Tabellentools > Schattierung >",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": " Entwurf / Tabellentools > Schattierung >",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Die gewünschte Farbe aus den Designfarben auswählen",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Die gewünschte Farbe aus den Designfarben auswählen",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            }
+          ],
+          "lineWidth": 1.33
+        },
+        {
+          "order": 7,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout9.xml/10",
+          "id": "10",
+          "name": "Zurücksetzen",
+          "bbox": [
+            971.34,
+            68.03,
+            204.09,
+            64.25
+          ],
+          "rotation": 180,
+          "horizontalFlip": true,
+          "verticalFlip": true,
+          "geometry": "rect",
+          "text": "Folie in Ursprungsform \nbringen über Menü:\nStart > Folien > Zurücksetzen",
+          "textPreview": "Folie in Ursprungsform  | bringen über Menü: | Start > Folien > Zurücksetzen",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Folie in Ursprungsform ",
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Folie in Ursprungsform ",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "bringen über Menü:",
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "bringen über Menü:",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Start > Folien > Zurücksetzen",
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Start > Folien > Zurücksetzen",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            }
+          ],
+          "lineWidth": 1.33
+        },
+        {
+          "order": 8,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout9.xml/11",
+          "id": "11",
+          "name": "Hilfslinien",
+          "bbox": [
+            45.33,
+            -49.13,
+            869.33,
+            37.8
+          ],
+          "rotation": 180,
+          "horizontalFlip": true,
+          "verticalFlip": true,
+          "geometry": "rect",
+          "text": "Löschen einer Spalte/Zeile: Markieren der Spalte/Zeile: Layout > Löschen > Spalte bzw. Zeile löschen",
+          "textPreview": "Löschen einer Spalte/Zeile: Markieren der Spalte/Zeile: Layout > Löschen > Spalte bzw. Zeile löschen",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "vertical": 1,
+            "verticalAlignment": "bottom",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Löschen einer Spalte/Zeile: Markieren der Spalte/Zeile: Layout > Löschen > Spalte bzw. Zeile löschen",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Löschen einer Spalte/Zeile: ",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "textTransform": "none"
+                },
+                {
+                  "index": 2,
+                  "text": "Markieren der Spalte/Zeile: Layout > Löschen > Spalte bzw. Zeile löschen",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true,
+                  "textTransform": "none"
+                }
+              ]
+            }
+          ],
+          "lineWidth": 1.33
+        },
+        {
+          "order": 9,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout9.xml/12",
+          "id": "12",
+          "name": "Fußzeile",
+          "bbox": [
+            45.33,
+            551.81,
+            869.33,
+            37.8
+          ],
+          "rotation": 180,
+          "horizontalFlip": true,
+          "verticalFlip": true,
+          "geometry": "rect",
+          "text": "Fußzeile anpassen: Einfügen > Text > Kopf- und Fußzeile",
+          "textPreview": "Fußzeile anpassen: Einfügen > Text > Kopf- und Fußzeile",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Fußzeile anpassen: Einfügen > Text > Kopf- und Fußzeile",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fußzeile anpassen: ",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1"
+                },
+                {
+                  "index": 2,
+                  "text": "Einfügen > Text > Kopf- und Fußzeile",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            }
+          ],
+          "lineWidth": 1.33
+        },
+        {
+          "order": 10,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout9.xml/13",
+          "id": "13",
+          "name": "Layoutwechsel",
+          "bbox": [
+            971.34,
+            239.77,
+            310.01,
+            109.61
+          ],
+          "rotation": 180,
+          "horizontalFlip": true,
+          "verticalFlip": true,
+          "geometry": "rect",
+          "text": "Einfügen einer Spalte/Zeile:\nMarkieren der Spalte/Zeile neben der eine Iitere eingefügt Irden soll:\nLayout > Hier die gewünschte Einfügeoption auswählen",
+          "textPreview": "Einfügen einer Spalte/Zeile: | Markieren der Spalte/Zeile neben der eine Iitere eingefügt Irden soll: | Layout > Hier die gewünschte Einf...",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Einfügen einer Spalte/Zeile:",
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Einfügen einer Spalte/Zeile:",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Markieren der Spalte/Zeile neben der eine Iitere eingefügt Irden soll:",
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Markieren der Spalte/Zeile neben der eine Iitere eingefügt Irden soll:",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Layout > Hier die gewünschte Einfügeoption auswählen",
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Layout > Hier die gewünschte Einfügeoption auswählen",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            }
+          ],
+          "lineWidth": 1.33
+        },
+        {
+          "order": 11,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout9.xml/19",
+          "id": "19",
+          "name": "Gerader Verbinder 18",
+          "bbox": [
+            0,
+            470.93,
+            960,
+            0
+          ],
+          "geometry": "line",
+          "lineColor": "bg2"
+        },
+        {
+          "order": 12,
+          "kind": "image",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout9.xml/21",
+          "id": "21",
+          "name": "Grafik 3",
+          "bbox": [
+            971.34,
+            349.37,
+            217.03,
+            90.73
+          ],
+          "contentType": "image/png",
+          "imageCrop": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0.04513
+          },
+          "asset": {
+            "assetId": "/ppt/media/image8.PNG",
+            "contentType": "image/png",
+            "byteLength": 2812
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image8.PNG",
+            "contentType": "image/png",
+            "byteLength": 2812
+          }
+        },
+        {
+          "order": 13,
+          "kind": "image",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout9.xml/22",
+          "id": "22",
+          "name": "Grafik 16",
+          "bbox": [
+            811.62,
+            479.96,
+            114.36,
+            47.89
+          ],
+          "contentType": "image/png",
+          "asset": {
+            "assetId": "/ppt/media/image3.png",
+            "contentType": "image/png",
+            "byteLength": 54415
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image3.png",
+            "contentType": "image/png",
+            "byteLength": 54415
+          }
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/4",
+          "id": "4",
+          "name": "Datumsplatzhalter 3",
+          "bbox": [
+            37.8,
+            579.96,
+            449.76,
+            18.9
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/5",
+          "id": "5",
+          "name": "Fußzeilenplatzhalter 4",
+          "bbox": [
+            75.59,
+            498.9,
+            661.42,
+            11.34
+          ],
+          "geometry": "rect",
+          "text": "Titel | ggf. Iitere Angaben",
+          "textPreview": "Titel | ggf. Iitere Angaben",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Titel | ggf. Iitere Angaben",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Titel | ggf. Iitere Angaben"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/6",
+          "id": "6",
+          "name": "Foliennummernplatzhalter 5",
+          "bbox": [
+            34.02,
+            498.9,
+            26.46,
+            11.34
+          ],
+          "geometry": "rect",
+          "text": "‹#› ",
+          "textPreview": "‹#›",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#› ",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                },
+                {
+                  "index": 2,
+                  "text": " "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qtcj6tov",
+      "id": "2",
+      "name": "Footer Placeholder 1",
+      "bbox": [
+        75.59,
+        498.9,
+        661.42,
+        11.34
+      ],
+      "text": " Challenges Expected",
+      "textPreview": "Challenges Expected",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": " Challenges Expected"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": " Challenges Expected",
+          "lineSpacingPercent": 90000,
+          "spaceAfter": 600,
+          "runs": [
+            {
+              "index": 1,
+              "text": " Challenges Expected"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/je9cvixc",
+      "id": "3",
+      "name": "Slide Number Placeholder 2",
+      "bbox": [
+        34.02,
+        498.9,
+        26.46,
+        11.34
+      ],
+      "text": "26 ",
+      "textPreview": "26",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "26"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "26 ",
+          "lineSpacingPercent": 90000,
+          "spaceAfter": 600,
+          "runs": [
+            {
+              "index": 1,
+              "text": "26"
+            },
+            {
+              "index": 2,
+              "text": " "
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8jqh0fep",
+      "id": "8",
+      "name": "Title 3",
+      "bbox": [
+        49.17,
+        41.5,
+        793.67,
+        49.17
+      ],
+      "text": "Challenges Expected\n",
+      "textPreview": "Challenges Expected |",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "fontSize": 36,
+        "typeface": "RubFlama",
+        "color": "tx2",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Challenges Expected"
+          },
+          {
+            "index": 2,
+            "text": ""
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Challenges Expected\n",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Challenges Expected",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": "\n"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8bat47y1",
+      "id": "11",
+      "name": "Rectangle 2",
+      "bbox": [
+        40.61,
+        84.94,
+        878.79,
+        348.98
+      ],
+      "geometry": "rect",
+      "text": "Theoretical\n\nConstruct validity & confounds\nPoliteness may overlap with tone, length, or difficulty\nSome items may unintentionally touch multiple constructs\n\nMitigation: length-match replies (±15%), fix the item -> Make sure Chatbot A and Chatbot B replies for the same prompt are roughly the same length, so that length does not unfairly influence ratings of politeness or clarity.\n\nAssociational (not causal) tag effects\nTags can co-vary with prompt content, which inflates correlations\n\nMitigation: treat tag effects as correlational, report CIs, and check robustness with/without certain prompts.",
+      "textPreview": "Theoretical |  | Construct validity & confounds | Politeness may overlap with tone, length, or difficulty | Some items may unintentionall...",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 13,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Theoretical"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": "Construct validity & confounds"
+          },
+          {
+            "index": 4,
+            "text": "• Politeness may overlap with tone, length, or difficulty"
+          },
+          {
+            "index": 5,
+            "text": "• Some items may unintentionally touch multiple constructs"
+          },
+          {
+            "index": 6,
+            "text": ""
+          },
+          {
+            "index": 7,
+            "text": "Mitigation: length-match replies (±15%), fix the item -> Make sure Chatbot A and Chatbot B replies for the same"
+          },
+          {
+            "index": 8,
+            "text": "prompt are roughly the same length, so that length does not unfairly influence ratings of politeness or clarity."
+          },
+          {
+            "index": 9,
+            "text": ""
+          },
+          {
+            "index": 10,
+            "text": "Associational (not causal) tag effects"
+          },
+          {
+            "index": 11,
+            "text": "Tags can co-vary with prompt content, which inflates correlations"
+          },
+          {
+            "index": 12,
+            "text": ""
+          },
+          {
+            "index": 13,
+            "text": "Mitigation: treat tag effects as correlational, report CIs, and check robustness with/without certain prompts."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Theoretical",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Theoretical",
+              "fontSize": 18.67,
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "Construct validity & confounds",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Construct validity & confounds",
+              "fontSize": 18.67,
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "Politeness may overlap with tone, length, or difficulty",
+          "bulletCharacter": "•",
+          "marginLeft": 285750,
+          "indent": -285750,
+          "runs": [
+            {
+              "index": 1,
+              "text": "Politeness may overlap with tone, length, or difficulty",
+              "fontSize": 18.67
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "text": "Some items may unintentionally touch multiple constructs",
+          "bulletCharacter": "•",
+          "marginLeft": 285750,
+          "indent": -285750,
+          "runs": [
+            {
+              "index": 1,
+              "text": "Some items may unintentionally touch multiple constructs",
+              "fontSize": 18.67
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "text": "\nMitigation: length-match replies (±15%), fix the item -> Make sure Chatbot A and Chatbot B replies for the same prompt are roughly the same length, so that length does not unfairly influence ratings of politeness or clarity.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "\n"
+            },
+            {
+              "index": 2,
+              "text": "Mitigation:",
+              "fontSize": 18.67,
+              "bold": true
+            },
+            {
+              "index": 3,
+              "text": " length-match replies (±15%), fix the item -> Make sure Chatbot A and Chatbot B replies for the same prompt are roughly the same length, so that ",
+              "fontSize": 18.67
+            },
+            {
+              "index": 4,
+              "text": "length",
+              "fontSize": 18.67,
+              "italic": true
+            },
+            {
+              "index": 5,
+              "text": " does not unfairly influence ratings of politeness or clarity.",
+              "fontSize": 18.67
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 8,
+          "text": "Associational (not causal) tag effects",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Associational (not causal) tag effects",
+              "fontSize": 18.67,
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 9,
+          "text": "Tags can co-vary with prompt content, which inflates correlations",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Tags can co-vary with prompt content, which inflates correlations",
+              "fontSize": 18.67
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 10,
+          "text": "\nMitigation: treat tag effects as correlational, report CIs, and check robustness with/without certain prompts.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "\n"
+            },
+            {
+              "index": 2,
+              "text": "Mitigation:",
+              "fontSize": 18.67,
+              "bold": true
+            },
+            {
+              "index": 3,
+              "text": " treat tag effects as correlational, report CIs, and check robustness with/without certain prompts.",
+              "fontSize": 18.67
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

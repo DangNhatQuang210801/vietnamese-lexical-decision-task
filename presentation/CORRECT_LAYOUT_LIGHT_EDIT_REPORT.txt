@@ -1,0 +1,8 @@
+﻿CORRECT_LAYOUT_LIGHT_EDIT_REPORT
+
+File edited in place: Yes - D:\Research 2\presentation\RP2_Colloquium2_Vietnamese_LDT_CORRECT_LAYOUT.pptx
+Slides reordered: Yes - final early flow is Title, Research Story, Background, Tokenization Problem, Research Question, Stimulus Data Pipeline, Experimental Design, Stimuli.
+Wording fixed: Yes - Stimulus Data Pipeline wording, n-gram caveat, frequency_group/log_frequency distinction, results caution wording, diagnostics wording.
+Notes cleaned: Yes - notes rewritten as short direct audience-facing speaking notes without I would/I should/Here I/This slide is phrasing.
+Banned wording found: No banned wording found in slides or speaker notes during final package scan.
+Remaining issue for manual review: German template/master helper text was intentionally preserved as requested. Please visually skim slide 6 and the results slides in PowerPoint before presenting.

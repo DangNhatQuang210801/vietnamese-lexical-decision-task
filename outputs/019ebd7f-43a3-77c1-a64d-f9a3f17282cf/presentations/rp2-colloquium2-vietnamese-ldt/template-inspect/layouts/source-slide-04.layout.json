@@ -1,0 +1,2491 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/val87ed8",
+    "id": "val87ed8",
+    "slide": 5,
+    "layoutId": "/ppt/slideLayouts/slideLayout9.xml",
+    "layoutName": "Headline // Tabelle",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 960,
+      "height": 540
+    }
+  },
+  "theme": {
+    "colorSchemeName": "RUB",
+    "colors": {
+      "accent1": "#FFCC00",
+      "accent2": "#EE7203",
+      "accent3": "#E6332A",
+      "accent4": "#B71E3F",
+      "accent5": "#9C5516",
+      "accent6": "#59211C",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#003560",
+      "lt2": "#8DAE10",
+      "hlink": "#000000",
+      "folHlink": "#000000"
+    },
+    "fontScheme": {
+      "name": "Arial",
+      "majorFont": {
+        "latinTypeface": "Arial"
+      },
+      "minorFont": {
+        "latinTypeface": "Arial"
+      }
+    },
+    "typefaces": [
+      "Arial",
+      "RubFlama"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout9.xml",
+      "name": "Headline // Tabelle",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "image",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout9.xml/20",
+          "id": "20",
+          "name": "Grafik 17",
+          "bbox": [
+            744.6,
+            0,
+            215.4,
+            220.42
+          ],
+          "contentType": "image/png",
+          "imageCrop": {
+            "left": 0,
+            "top": 0.40753,
+            "right": 0.42388,
+            "bottom": 0
+          },
+          "asset": {
+            "assetId": "/ppt/media/image7.png",
+            "contentType": "image/png",
+            "byteLength": 22347
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image7.png",
+            "contentType": "image/png",
+            "byteLength": 22347
+          }
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout9.xml/2",
+          "id": "2",
+          "name": "Titel 1",
+          "bbox": [
+            49.13,
+            41.57,
+            793.7,
+            49.13
+          ],
+          "geometry": "rect",
+          "text": "KAPITEL | CHART-HEADLINE",
+          "textPreview": "KAPITEL | CHART-HEADLINE",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "KAPITEL | CHART-HEADLINE",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "KAPITEL | CHART-HEADLINE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout9.xml/8",
+          "id": "8",
+          "name": "Fußzeilenplatzhalter 7",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "Titel | ggf. weitere Angaben",
+          "textPreview": "Titel | ggf. weitere Angaben",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Titel | ggf. weitere Angaben",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Titel | ggf. weitere Angaben"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout9.xml/9",
+          "id": "9",
+          "name": "Foliennummernplatzhalter 8",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "‹Nr.› ",
+          "textPreview": "‹Nr.›",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹Nr.› ",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹Nr.›"
+                },
+                {
+                  "index": 2,
+                  "text": " "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout9.xml/5",
+          "id": "5",
+          "name": "Tabellenplatzhalter 4",
+          "bbox": [
+            49.13,
+            96.38,
+            857.95,
+            353.39
+          ],
+          "geometry": "rect",
+          "text": "Tabelle durch Klicken auf Symbol hinzufügen",
+          "textPreview": "Tabelle durch Klicken auf Symbol hinzufügen",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Tabelle durch Klicken auf Symbol hinzufügen",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Tabelle durch Klicken auf Symbol hinzufügen"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout9.xml/16",
+          "id": "16",
+          "name": "Listenebenen",
+          "bbox": [
+            -275.99,
+            143.62,
+            264.65,
+            160.4
+          ],
+          "rotation": 180,
+          "horizontalFlip": true,
+          "verticalFlip": true,
+          "geometry": "rect",
+          "text": "Einfärbung einer Spalte/Zeile: \nMarkieren der Spalte/Zeile:\n Entwurf / Tabellentools > Schattierung >\n\nDie gewünschte Farbe aus den Designfarben auswählen",
+          "textPreview": "Einfärbung einer Spalte/Zeile:  | Markieren der Spalte/Zeile: |  Entwurf / Tabellentools > Schattierung > |  | Die gewünschte Farbe aus d...",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Einfärbung einer Spalte/Zeile: \nMarkieren der Spalte/Zeile:",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Einfärbung einer Spalte/Zeile: ",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1"
+                },
+                {
+                  "index": 2,
+                  "text": "\n",
+                  "alignment": "right"
+                },
+                {
+                  "index": 3,
+                  "text": "Markieren der Spalte/Zeile:",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": " Entwurf / Tabellentools > Schattierung >",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": " Entwurf / Tabellentools > Schattierung >",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Die gewünschte Farbe aus den Designfarben auswählen",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Die gewünschte Farbe aus den Designfarben auswählen",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            }
+          ],
+          "lineWidth": 1.33
+        },
+        {
+          "order": 7,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout9.xml/10",
+          "id": "10",
+          "name": "Zurücksetzen",
+          "bbox": [
+            971.34,
+            68.03,
+            204.09,
+            64.25
+          ],
+          "rotation": 180,
+          "horizontalFlip": true,
+          "verticalFlip": true,
+          "geometry": "rect",
+          "text": "Folie in Ursprungsform \nbringen über Menü:\nStart > Folien > Zurücksetzen",
+          "textPreview": "Folie in Ursprungsform  | bringen über Menü: | Start > Folien > Zurücksetzen",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Folie in Ursprungsform ",
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Folie in Ursprungsform ",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "bringen über Menü:",
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "bringen über Menü:",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Start > Folien > Zurücksetzen",
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Start > Folien > Zurücksetzen",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            }
+          ],
+          "lineWidth": 1.33
+        },
+        {
+          "order": 8,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout9.xml/11",
+          "id": "11",
+          "name": "Hilfslinien",
+          "bbox": [
+            45.33,
+            -49.13,
+            869.33,
+            37.8
+          ],
+          "rotation": 180,
+          "horizontalFlip": true,
+          "verticalFlip": true,
+          "geometry": "rect",
+          "text": "Löschen einer Spalte/Zeile: Markieren der Spalte/Zeile: Layout > Löschen > Spalte bzw. Zeile löschen",
+          "textPreview": "Löschen einer Spalte/Zeile: Markieren der Spalte/Zeile: Layout > Löschen > Spalte bzw. Zeile löschen",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "vertical": 1,
+            "verticalAlignment": "bottom",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Löschen einer Spalte/Zeile: Markieren der Spalte/Zeile: Layout > Löschen > Spalte bzw. Zeile löschen",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Löschen einer Spalte/Zeile: ",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "textTransform": "none"
+                },
+                {
+                  "index": 2,
+                  "text": "Markieren der Spalte/Zeile: Layout > Löschen > Spalte bzw. Zeile löschen",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true,
+                  "textTransform": "none"
+                }
+              ]
+            }
+          ],
+          "lineWidth": 1.33
+        },
+        {
+          "order": 9,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout9.xml/12",
+          "id": "12",
+          "name": "Fußzeile",
+          "bbox": [
+            45.33,
+            551.81,
+            869.33,
+            37.8
+          ],
+          "rotation": 180,
+          "horizontalFlip": true,
+          "verticalFlip": true,
+          "geometry": "rect",
+          "text": "Fußzeile anpassen: Einfügen > Text > Kopf- und Fußzeile",
+          "textPreview": "Fußzeile anpassen: Einfügen > Text > Kopf- und Fußzeile",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Fußzeile anpassen: Einfügen > Text > Kopf- und Fußzeile",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fußzeile anpassen: ",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1"
+                },
+                {
+                  "index": 2,
+                  "text": "Einfügen > Text > Kopf- und Fußzeile",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            }
+          ],
+          "lineWidth": 1.33
+        },
+        {
+          "order": 10,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout9.xml/13",
+          "id": "13",
+          "name": "Layoutwechsel",
+          "bbox": [
+            971.34,
+            239.77,
+            310.01,
+            109.61
+          ],
+          "rotation": 180,
+          "horizontalFlip": true,
+          "verticalFlip": true,
+          "geometry": "rect",
+          "text": "Einfügen einer Spalte/Zeile:\nMarkieren der Spalte/Zeile neben der eine weitere eingefügt werden soll:\nLayout > Hier die gewünschte Einfügeoption auswählen",
+          "textPreview": "Einfügen einer Spalte/Zeile: | Markieren der Spalte/Zeile neben der eine weitere eingefügt werden soll: | Layout > Hier die gewünschte Ei...",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Einfügen einer Spalte/Zeile:",
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Einfügen einer Spalte/Zeile:",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Markieren der Spalte/Zeile neben der eine weitere eingefügt werden soll:",
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Markieren der Spalte/Zeile neben der eine weitere eingefügt werden soll:",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Layout > Hier die gewünschte Einfügeoption auswählen",
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Layout > Hier die gewünschte Einfügeoption auswählen",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            }
+          ],
+          "lineWidth": 1.33
+        },
+        {
+          "order": 11,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout9.xml/19",
+          "id": "19",
+          "name": "Gerader Verbinder 18",
+          "bbox": [
+            0,
+            470.93,
+            960,
+            0
+          ],
+          "geometry": "line",
+          "lineColor": "bg2"
+        },
+        {
+          "order": 12,
+          "kind": "image",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout9.xml/21",
+          "id": "21",
+          "name": "Grafik 3",
+          "bbox": [
+            971.34,
+            349.37,
+            217.03,
+            90.73
+          ],
+          "contentType": "image/png",
+          "imageCrop": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0.04513
+          },
+          "asset": {
+            "assetId": "/ppt/media/image8.PNG",
+            "contentType": "image/png",
+            "byteLength": 2812
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image8.PNG",
+            "contentType": "image/png",
+            "byteLength": 2812
+          }
+        },
+        {
+          "order": 13,
+          "kind": "image",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout9.xml/22",
+          "id": "22",
+          "name": "Grafik 16",
+          "bbox": [
+            811.62,
+            479.96,
+            114.36,
+            47.89
+          ],
+          "contentType": "image/png",
+          "asset": {
+            "assetId": "/ppt/media/image3.png",
+            "contentType": "image/png",
+            "byteLength": 54415
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image3.png",
+            "contentType": "image/png",
+            "byteLength": 54415
+          }
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/4",
+          "id": "4",
+          "name": "Datumsplatzhalter 3",
+          "bbox": [
+            37.8,
+            579.96,
+            449.76,
+            18.9
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/5",
+          "id": "5",
+          "name": "Fußzeilenplatzhalter 4",
+          "bbox": [
+            75.59,
+            498.9,
+            661.42,
+            11.34
+          ],
+          "geometry": "rect",
+          "text": "Titel | ggf. weitere Angaben",
+          "textPreview": "Titel | ggf. weitere Angaben",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Titel | ggf. weitere Angaben",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Titel | ggf. weitere Angaben"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/6",
+          "id": "6",
+          "name": "Foliennummernplatzhalter 5",
+          "bbox": [
+            34.02,
+            498.9,
+            26.46,
+            11.34
+          ],
+          "geometry": "rect",
+          "text": "‹Nr.› ",
+          "textPreview": "‹Nr.›",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹Nr.› ",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹Nr.›"
+                },
+                {
+                  "index": 2,
+                  "text": " "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qtcj6tov",
+      "id": "2",
+      "name": "Titel 1",
+      "bbox": [
+        49.13,
+        41.57,
+        793.7,
+        49.13
+      ],
+      "text": "Example for table",
+      "textPreview": "Example for table",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "fontSize": 36,
+        "typeface": "RubFlama",
+        "color": "tx2",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Example for table"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Example for table",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Example"
+            },
+            {
+              "index": 2,
+              "text": " "
+            },
+            {
+              "index": 3,
+              "text": "for"
+            },
+            {
+              "index": 4,
+              "text": " "
+            },
+            {
+              "index": 5,
+              "text": "table"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/je9cvixc",
+      "id": "3",
+      "name": "Fußzeilenplatzhalter 2",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "text": "Titel | ggf. weitere Angaben",
+      "textPreview": "Titel | ggf. weitere Angaben",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 28,
+        "lines": [
+          {
+            "index": 1,
+            "text": "T"
+          },
+          {
+            "index": 2,
+            "text": "i"
+          },
+          {
+            "index": 3,
+            "text": "t"
+          },
+          {
+            "index": 4,
+            "text": "e"
+          },
+          {
+            "index": 5,
+            "text": "l"
+          },
+          {
+            "index": 6,
+            "text": " "
+          },
+          {
+            "index": 7,
+            "text": "|"
+          },
+          {
+            "index": 8,
+            "text": " "
+          },
+          {
+            "index": 9,
+            "text": "g"
+          },
+          {
+            "index": 10,
+            "text": "g"
+          },
+          {
+            "index": 11,
+            "text": "f"
+          },
+          {
+            "index": 12,
+            "text": "."
+          },
+          {
+            "index": 13,
+            "text": " "
+          },
+          {
+            "index": 14,
+            "text": "w"
+          },
+          {
+            "index": 15,
+            "text": "e"
+          },
+          {
+            "index": 16,
+            "text": "i"
+          },
+          {
+            "index": 17,
+            "text": "t"
+          },
+          {
+            "index": 18,
+            "text": "e"
+          },
+          {
+            "index": 19,
+            "text": "r"
+          },
+          {
+            "index": 20,
+            "text": "e"
+          },
+          {
+            "index": 21,
+            "text": " "
+          },
+          {
+            "index": 22,
+            "text": "A"
+          },
+          {
+            "index": 23,
+            "text": "n"
+          },
+          {
+            "index": 24,
+            "text": "g"
+          },
+          {
+            "index": 25,
+            "text": "a"
+          },
+          {
+            "index": 26,
+            "text": "b"
+          },
+          {
+            "index": 27,
+            "text": "e"
+          },
+          {
+            "index": 28,
+            "text": "n"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Titel | ggf. weitere Angaben",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Titel | ggf. weitere Angaben"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/87ed8bat",
+      "id": "4",
+      "name": "Foliennummernplatzhalter 3",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "text": "4 ",
+      "textPreview": "4",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "4"
+          },
+          {
+            "index": 2,
+            "text": " "
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "4 ",
+          "runs": [
+            {
+              "index": 1,
+              "text": "4"
+            },
+            {
+              "index": 2,
+              "text": " "
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "table",
+      "scope": "slide",
+      "aid": "tb/8jqh0fep",
+      "id": "5",
+      "name": "Tabellenplatzhalter 5",
+      "bbox": [
+        49.17,
+        96.33,
+        858,
+        353.67
+      ],
+      "text": "Table name\nSpalte 1 | Spalte 2 | Spalte 3 | Spalte 4\nZeile 1 | Inhalt | Inhalt | Inhalt | Inhalt\nZeile 2 | Inhalt | Inhalt | Inhalt | Inhalt\nZeile 3 | Inhalt | Inhalt | Inhalt | Inhalt\nZeile 4 | Inhalt | Inhalt\nZeile 5 | Inhalt\nZeile 6 | Inhalt\nZeile 7 | Inhalt\nSchlusszeile | Ergebnis 1 | Ergebnis 2 | Ergebnis 3 | Ergebnis 4",
+      "textPreview": "Table name | Spalte 1 | Spalte 2 | Spalte 3 | Spalte 4 | Zeile 1 | Inhalt | Inhalt | Inhalt | Inhalt | Zeile 2 | Inhalt | Inhalt | Inhalt...",
+      "rows": 10,
+      "cols": 5,
+      "cells": [
+        {
+          "index": 1,
+          "row": 1,
+          "column": 1,
+          "colSpan": 5,
+          "bbox": [
+            49.17,
+            96.33,
+            858,
+            35.37
+          ],
+          "text": "Table name",
+          "textPreview": "Table name",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Table name",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Table ",
+                  "fontSize": 20,
+                  "color": "tx2",
+                  "bold": true
+                },
+                {
+                  "index": 2,
+                  "text": "name",
+                  "fontSize": 20,
+                  "color": "tx2",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "column": 2,
+          "bbox": [
+            220.77,
+            96.33,
+            171.6,
+            35.37
+          ]
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "column": 3,
+          "bbox": [
+            392.37,
+            96.33,
+            171.6,
+            35.37
+          ]
+        },
+        {
+          "index": 4,
+          "row": 1,
+          "column": 4,
+          "bbox": [
+            563.97,
+            96.33,
+            171.6,
+            35.37
+          ]
+        },
+        {
+          "index": 5,
+          "row": 1,
+          "column": 5,
+          "bbox": [
+            735.57,
+            96.33,
+            171.6,
+            35.37
+          ]
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "column": 1,
+          "bbox": [
+            49.17,
+            131.7,
+            171.6,
+            35.37
+          ]
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "column": 2,
+          "bbox": [
+            220.77,
+            131.7,
+            171.6,
+            35.37
+          ],
+          "text": "Spalte 1",
+          "textPreview": "Spalte 1",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Spalte 1",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Spalte 1",
+                  "fontSize": 13.33,
+                  "color": "tx2",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "row": 2,
+          "column": 3,
+          "bbox": [
+            392.37,
+            131.7,
+            171.6,
+            35.37
+          ],
+          "text": "Spalte 2",
+          "textPreview": "Spalte 2",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Spalte 2",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Spalte 2",
+                  "fontSize": 13.33,
+                  "color": "tx2",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "row": 2,
+          "column": 4,
+          "bbox": [
+            563.97,
+            131.7,
+            171.6,
+            35.37
+          ],
+          "text": "Spalte 3",
+          "textPreview": "Spalte 3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Spalte 3",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Spalte 3",
+                  "fontSize": 13.33,
+                  "color": "tx2",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "row": 2,
+          "column": 5,
+          "bbox": [
+            735.57,
+            131.7,
+            171.6,
+            35.37
+          ],
+          "text": "Spalte 4",
+          "textPreview": "Spalte 4",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Spalte 4",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Spalte 4",
+                  "fontSize": 13.33,
+                  "color": "tx2",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "row": 3,
+          "column": 1,
+          "bbox": [
+            49.17,
+            167.07,
+            171.6,
+            35.37
+          ],
+          "text": "Zeile 1",
+          "textPreview": "Zeile 1",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Zeile 1",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Zeile 1",
+                  "fontSize": 13.33,
+                  "color": "tx2",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "row": 3,
+          "column": 2,
+          "bbox": [
+            220.77,
+            167.07,
+            171.6,
+            35.37
+          ],
+          "text": "Inhalt",
+          "textPreview": "Inhalt",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Inhalt",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Inhalt",
+                  "fontSize": 13.33,
+                  "color": {
+                    "type": "theme",
+                    "value": "tx1",
+                    "transform": {
+                      "lighten": 0.35
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "row": 3,
+          "column": 3,
+          "bbox": [
+            392.37,
+            167.07,
+            171.6,
+            35.37
+          ],
+          "text": "Inhalt",
+          "textPreview": "Inhalt",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Inhalt",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Inhalt",
+                  "fontSize": 13.33,
+                  "color": {
+                    "type": "theme",
+                    "value": "tx1",
+                    "transform": {
+                      "lighten": 0.35
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "row": 3,
+          "column": 4,
+          "bbox": [
+            563.97,
+            167.07,
+            171.6,
+            35.37
+          ],
+          "text": "Inhalt",
+          "textPreview": "Inhalt",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Inhalt",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Inhalt",
+                  "fontSize": 13.33,
+                  "color": {
+                    "type": "theme",
+                    "value": "tx1",
+                    "transform": {
+                      "lighten": 0.35
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "row": 3,
+          "column": 5,
+          "bbox": [
+            735.57,
+            167.07,
+            171.6,
+            35.37
+          ],
+          "text": "Inhalt",
+          "textPreview": "Inhalt",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Inhalt",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Inhalt",
+                  "fontSize": 13.33,
+                  "color": {
+                    "type": "theme",
+                    "value": "tx1",
+                    "transform": {
+                      "lighten": 0.35
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "row": 4,
+          "column": 1,
+          "bbox": [
+            49.17,
+            202.43,
+            171.6,
+            35.37
+          ],
+          "text": "Zeile 2",
+          "textPreview": "Zeile 2",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Zeile 2",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Zeile 2",
+                  "fontSize": 13.33,
+                  "color": "tx2",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "row": 4,
+          "column": 2,
+          "bbox": [
+            220.77,
+            202.43,
+            171.6,
+            35.37
+          ],
+          "text": "Inhalt",
+          "textPreview": "Inhalt",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Inhalt",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Inhalt",
+                  "fontSize": 13.33,
+                  "color": {
+                    "type": "theme",
+                    "value": "tx1",
+                    "transform": {
+                      "lighten": 0.35
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "row": 4,
+          "column": 3,
+          "bbox": [
+            392.37,
+            202.43,
+            171.6,
+            35.37
+          ],
+          "text": "Inhalt",
+          "textPreview": "Inhalt",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Inhalt",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Inhalt",
+                  "fontSize": 13.33,
+                  "color": {
+                    "type": "theme",
+                    "value": "tx1",
+                    "transform": {
+                      "lighten": 0.35
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "row": 4,
+          "column": 4,
+          "bbox": [
+            563.97,
+            202.43,
+            171.6,
+            35.37
+          ],
+          "text": "Inhalt",
+          "textPreview": "Inhalt",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Inhalt",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Inhalt",
+                  "fontSize": 13.33,
+                  "color": {
+                    "type": "theme",
+                    "value": "tx1",
+                    "transform": {
+                      "lighten": 0.35
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "row": 4,
+          "column": 5,
+          "bbox": [
+            735.57,
+            202.43,
+            171.6,
+            35.37
+          ],
+          "text": "Inhalt",
+          "textPreview": "Inhalt",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Inhalt",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Inhalt",
+                  "fontSize": 13.33,
+                  "color": {
+                    "type": "theme",
+                    "value": "tx1",
+                    "transform": {
+                      "lighten": 0.35
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "row": 5,
+          "column": 1,
+          "bbox": [
+            49.17,
+            237.8,
+            171.6,
+            35.37
+          ],
+          "text": "Zeile 3",
+          "textPreview": "Zeile 3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Zeile 3",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Zeile 3",
+                  "fontSize": 13.33,
+                  "color": "tx2",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "row": 5,
+          "column": 2,
+          "bbox": [
+            220.77,
+            237.8,
+            171.6,
+            35.37
+          ],
+          "text": "Inhalt",
+          "textPreview": "Inhalt",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Inhalt",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Inhalt",
+                  "fontSize": 13.33,
+                  "color": {
+                    "type": "theme",
+                    "value": "tx1",
+                    "transform": {
+                      "lighten": 0.35
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "row": 5,
+          "column": 3,
+          "bbox": [
+            392.37,
+            237.8,
+            171.6,
+            35.37
+          ],
+          "text": "Inhalt",
+          "textPreview": "Inhalt",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Inhalt",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Inhalt",
+                  "fontSize": 13.33,
+                  "color": {
+                    "type": "theme",
+                    "value": "tx1",
+                    "transform": {
+                      "lighten": 0.35
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "row": 5,
+          "column": 4,
+          "bbox": [
+            563.97,
+            237.8,
+            171.6,
+            35.37
+          ],
+          "text": "Inhalt",
+          "textPreview": "Inhalt",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Inhalt",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Inhalt",
+                  "fontSize": 13.33,
+                  "color": {
+                    "type": "theme",
+                    "value": "tx1",
+                    "transform": {
+                      "lighten": 0.35
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "row": 5,
+          "column": 5,
+          "bbox": [
+            735.57,
+            237.8,
+            171.6,
+            35.37
+          ],
+          "text": "Inhalt",
+          "textPreview": "Inhalt",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Inhalt",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Inhalt",
+                  "fontSize": 13.33,
+                  "color": {
+                    "type": "theme",
+                    "value": "tx1",
+                    "transform": {
+                      "lighten": 0.35
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "row": 6,
+          "column": 1,
+          "bbox": [
+            49.17,
+            273.17,
+            171.6,
+            35.37
+          ],
+          "text": "Zeile 4",
+          "textPreview": "Zeile 4",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Zeile 4",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Zeile 4",
+                  "fontSize": 13.33,
+                  "color": "tx2",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "row": 6,
+          "column": 2,
+          "bbox": [
+            220.77,
+            273.17,
+            171.6,
+            35.37
+          ],
+          "text": "Inhalt",
+          "textPreview": "Inhalt",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Inhalt",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Inhalt",
+                  "fontSize": 13.33,
+                  "color": {
+                    "type": "theme",
+                    "value": "tx1",
+                    "transform": {
+                      "lighten": 0.35
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "row": 6,
+          "column": 3,
+          "bbox": [
+            392.37,
+            273.17,
+            171.6,
+            35.37
+          ],
+          "text": "Inhalt",
+          "textPreview": "Inhalt",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Inhalt",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Inhalt",
+                  "fontSize": 13.33,
+                  "color": {
+                    "type": "theme",
+                    "value": "tx1",
+                    "transform": {
+                      "lighten": 0.35
+                    }
+                  },
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "row": 6,
+          "column": 4,
+          "bbox": [
+            563.97,
+            273.17,
+            171.6,
+            35.37
+          ]
+        },
+        {
+          "index": 30,
+          "row": 6,
+          "column": 5,
+          "bbox": [
+            735.57,
+            273.17,
+            171.6,
+            35.37
+          ]
+        },
+        {
+          "index": 31,
+          "row": 7,
+          "column": 1,
+          "bbox": [
+            49.17,
+            308.53,
+            171.6,
+            35.37
+          ],
+          "text": "Zeile 5",
+          "textPreview": "Zeile 5",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Zeile 5",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Zeile 5",
+                  "fontSize": 13.33,
+                  "color": "tx2",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "row": 7,
+          "column": 2,
+          "bbox": [
+            220.77,
+            308.53,
+            171.6,
+            35.37
+          ],
+          "text": "Inhalt",
+          "textPreview": "Inhalt",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Inhalt",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Inhalt",
+                  "fontSize": 13.33,
+                  "color": {
+                    "type": "theme",
+                    "value": "tx1",
+                    "transform": {
+                      "lighten": 0.35
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "row": 7,
+          "column": 3,
+          "bbox": [
+            392.37,
+            308.53,
+            171.6,
+            35.37
+          ]
+        },
+        {
+          "index": 34,
+          "row": 7,
+          "column": 4,
+          "bbox": [
+            563.97,
+            308.53,
+            171.6,
+            35.37
+          ]
+        },
+        {
+          "index": 35,
+          "row": 7,
+          "column": 5,
+          "bbox": [
+            735.57,
+            308.53,
+            171.6,
+            35.37
+          ]
+        },
+        {
+          "index": 36,
+          "row": 8,
+          "column": 1,
+          "bbox": [
+            49.17,
+            343.9,
+            171.6,
+            35.37
+          ],
+          "text": "Zeile 6",
+          "textPreview": "Zeile 6",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Zeile 6",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Zeile 6",
+                  "fontSize": 13.33,
+                  "color": "tx2",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "row": 8,
+          "column": 2,
+          "bbox": [
+            220.77,
+            343.9,
+            171.6,
+            35.37
+          ],
+          "text": "Inhalt",
+          "textPreview": "Inhalt",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Inhalt",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Inhalt",
+                  "fontSize": 13.33,
+                  "color": {
+                    "type": "theme",
+                    "value": "tx1",
+                    "transform": {
+                      "lighten": 0.35
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "row": 8,
+          "column": 3,
+          "bbox": [
+            392.37,
+            343.9,
+            171.6,
+            35.37
+          ]
+        },
+        {
+          "index": 39,
+          "row": 8,
+          "column": 4,
+          "bbox": [
+            563.97,
+            343.9,
+            171.6,
+            35.37
+          ]
+        },
+        {
+          "index": 40,
+          "row": 8,
+          "column": 5,
+          "bbox": [
+            735.57,
+            343.9,
+            171.6,
+            35.37
+          ]
+        },
+        {
+          "index": 41,
+          "row": 9,
+          "column": 1,
+          "bbox": [
+            49.17,
+            379.27,
+            171.6,
+            35.37
+          ],
+          "text": "Zeile 7",
+          "textPreview": "Zeile 7",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Zeile 7",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Zeile 7",
+                  "fontSize": 13.33,
+                  "color": "tx2",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "row": 9,
+          "column": 2,
+          "bbox": [
+            220.77,
+            379.27,
+            171.6,
+            35.37
+          ],
+          "text": "Inhalt",
+          "textPreview": "Inhalt",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Inhalt",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Inhalt",
+                  "fontSize": 13.33,
+                  "color": {
+                    "type": "theme",
+                    "value": "tx1",
+                    "transform": {
+                      "lighten": 0.35
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 43,
+          "row": 9,
+          "column": 3,
+          "bbox": [
+            392.37,
+            379.27,
+            171.6,
+            35.37
+          ]
+        },
+        {
+          "index": 44,
+          "row": 9,
+          "column": 4,
+          "bbox": [
+            563.97,
+            379.27,
+            171.6,
+            35.37
+          ]
+        },
+        {
+          "index": 45,
+          "row": 9,
+          "column": 5,
+          "bbox": [
+            735.57,
+            379.27,
+            171.6,
+            35.37
+          ]
+        },
+        {
+          "index": 46,
+          "row": 10,
+          "column": 1,
+          "bbox": [
+            49.17,
+            414.63,
+            171.6,
+            35.37
+          ],
+          "text": "Schlusszeile",
+          "textPreview": "Schlusszeile",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Schlusszeile",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Schlusszeile",
+                  "fontSize": 13.33,
+                  "color": "tx2",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 47,
+          "row": 10,
+          "column": 2,
+          "bbox": [
+            220.77,
+            414.63,
+            171.6,
+            35.37
+          ],
+          "text": "Ergebnis 1",
+          "textPreview": "Ergebnis 1",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Ergebnis 1",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Ergebnis 1",
+                  "fontSize": 13.33,
+                  "color": "tx2",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 48,
+          "row": 10,
+          "column": 3,
+          "bbox": [
+            392.37,
+            414.63,
+            171.6,
+            35.37
+          ],
+          "text": "Ergebnis 2",
+          "textPreview": "Ergebnis 2",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Ergebnis 2",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Ergebnis 2",
+                  "fontSize": 13.33,
+                  "color": "tx2",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 49,
+          "row": 10,
+          "column": 4,
+          "bbox": [
+            563.97,
+            414.63,
+            171.6,
+            35.37
+          ],
+          "text": "Ergebnis 3",
+          "textPreview": "Ergebnis 3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Ergebnis 3",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Ergebnis 3",
+                  "fontSize": 13.33,
+                  "color": "tx2",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 50,
+          "row": 10,
+          "column": 5,
+          "bbox": [
+            735.57,
+            414.63,
+            171.6,
+            35.37
+          ],
+          "text": "Ergebnis 4",
+          "textPreview": "Ergebnis 4",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Ergebnis 4",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Ergebnis 4",
+                  "fontSize": 13.33,
+                  "color": "tx2",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

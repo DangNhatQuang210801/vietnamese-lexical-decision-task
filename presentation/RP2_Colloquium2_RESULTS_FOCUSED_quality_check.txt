@@ -1,0 +1,43 @@
+RP2 Colloquium 2 results-focused deck quality check
+
+Output deck: D:/Research 2/presentation/RP2_Colloquium2_Vietnamese_LDT_RESULTS_FOCUSED.pptx
+Number of slides: 27
+
+Stimulus-data explanation:
+- Added a new slide explaining how corpus text became n-gram frequency tables, candidate pools, review/survey data, and final LDT stimuli.
+- Added a Python/pandas code sketch for deriving syllable length, log frequency, frequency bins, and the review sheet.
+
+Result figures added:
+- rt_by_frequency_group_boxplot_v2.png
+- rt_by_syllable_length_boxplot_v2.png
+- rt_frequency_by_length_interaction_v2.png
+- model3_predicted_interaction_v2.png
+- accuracy_by_condition_barplot_v2.png
+- model3_residual_histogram_v2.png
+- model3_residual_qqplot_v2.png
+- model3_residuals_by_length_v2.png
+- Editable 3 x 4 mean RT heatmap/table built from rt_by_frequency_group_x_syllable_length_v2.csv
+- Editable model comparison table built from model_comparison_rt_v2.csv
+
+Margins/layout:
+- Rebuilt slides with wider margins, consistent title/footer, and graph-first result layouts.
+- Results slides use one main figure plus short interpretation cards instead of dense paragraphs.
+- Typeface standardized to Arial for projector readability; result annotations and captions were enlarged.
+
+Model interpretation:
+- Expanded interpretation of frequency direction, syllable-length direction, model comparison, fixed effects, predicted effects, and interaction caution.
+- Notes explicitly say frequency improves model fit, syllable length gives the largest improvement, and interaction is modest.
+
+Diagnostics:
+- Added residual histogram, QQ plot, residuals-by-length diagnostic figures.
+- Singular fit checked: model_singularity_status_v2.txt reports FALSE for model0, model1, model2, and model3.
+
+Placeholders:
+- No intentional placeholders remain.
+
+Academic caution:
+- Interaction is reported as modest and preliminary, not as a final theoretical claim.
+- Raw data and original scripts were not modified.
+
+Embedded speaker notes:
+- Speaker notes were added to every slide.

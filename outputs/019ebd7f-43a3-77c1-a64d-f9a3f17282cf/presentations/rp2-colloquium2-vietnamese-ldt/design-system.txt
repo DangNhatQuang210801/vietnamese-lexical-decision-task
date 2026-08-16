@@ -1,0 +1,39 @@
+Slide size: 16:9, inherited template rendered at 960 x 540.
+
+Background:
+- White, inherited RUB/LDSL chrome, lime rule, organic blue/green motif.
+
+Typography:
+- Poppins for headings/body where available.
+- Navy (#003A61) for titles, charcoal (#263845) for body, muted gray (#63717A) for labels.
+- Claim titles: 27-34 px.
+- Kicker labels: 10-12 px uppercase.
+- Body: 13-17 px.
+- Table/axis labels: 9-12 px.
+
+Palette:
+- Navy #003A61 as primary.
+- Lime #8DB600 as accent.
+- Pale blue #EEF4F8 and pale green #DDECB3 as soft fills.
+- Coral #F36C64 only for low-frequency/result contrast.
+- Blue #4D8DFF and green #00A846 for result series.
+
+Chart grammar:
+- Use actual R output PNGs for inferential/result figures.
+- Use editable tables and callouts for small summaries.
+- Direct callouts should be short and cautious.
+
+Diagram grammar:
+- Horizontal pipelines and timelines with equal-role nodes.
+- Text arrows only where direction matters.
+- No decorative extra icons or random imagery.
+
+Footer/source grammar:
+- Small footer above inherited bottom rule: "Vietnamese LDT | RP2 Colloquium 2".
+- Source notes are small and placed near the lower content edge.
+
+Banned motifs:
+- Random decorative images.
+- Dense paragraph slides.
+- Overclaiming the interaction result.
+- Fabricated logos.

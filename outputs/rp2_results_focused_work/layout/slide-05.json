@@ -1,0 +1,2011 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/fshqbr",
+    "id": "fshqbr",
+    "slide": 5,
+    "layoutId": "782d1dcb-10f6-4c90-a950-886b4a13d26c",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "7fadda48-b366-4eaf-8869-0cf701e21a81",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 960,
+      "height": 540
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Arial",
+      "Consolas"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "782d1dcb-10f6-4c90-a950-886b4a13d26c",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "7fadda48-b366-4eaf-8869-0cf701e21a81",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "7fadda48-b366-4eaf-8869-0cf701e21a81",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6tovahoz",
+      "id": "1",
+      "bbox": [
+        793,
+        -18,
+        78,
+        88
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#8DB600",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dg7adsji",
+      "id": "2",
+      "bbox": [
+        836,
+        0,
+        112,
+        116
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#314654",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ovahoza1",
+      "id": "3",
+      "bbox": [
+        794,
+        56,
+        98,
+        70
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#63717A",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z25kb6xk",
+      "id": "4",
+      "bbox": [
+        51,
+        43,
+        21,
+        4
+      ],
+      "geometry": "rect",
+      "fillColor": "#8DB600",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6hcrmhk3",
+      "id": "5",
+      "bbox": [
+        80,
+        34,
+        520,
+        17
+      ],
+      "geometry": "rect",
+      "text": "05 | STIMULUS DATA PIPELINE",
+      "textPreview": "05 | STIMULUS DATA PIPELINE",
+      "resolvedFontSize": 9.51,
+      "resolvedTextStyle": {
+        "fontSize": 9.51,
+        "typeface": "Arial",
+        "color": "#63717A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "05 | STIMULUS DATA PIPELINE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "05 | STIMULUS DATA PIPELINE",
+          "runs": [
+            {
+              "index": 1,
+              "text": "05 | STIMULUS DATA PIPELINE",
+              "fontSize": 9.51,
+              "typeface": "Arial",
+              "color": "#63717A",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d8v6psfi",
+      "id": "6",
+      "bbox": [
+        50,
+        58,
+        780,
+        50
+      ],
+      "geometry": "rect",
+      "text": "How corpus text became review data and final LDT stimuli.",
+      "textPreview": "How corpus text became review data and final LDT stimuli.",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "Arial",
+        "color": "#003A61",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "How corpus text became review data and final LDT"
+          },
+          {
+            "index": 2,
+            "text": "stimuli."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "How corpus text became review data and final LDT stimuli.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "How corpus text became review data and final LDT stimuli.",
+              "fontSize": 28,
+              "typeface": "Arial",
+              "color": "#003A61",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/onyd0z61",
+      "id": "7",
+      "bbox": [
+        52,
+        504,
+        280,
+        13
+      ],
+      "geometry": "rect",
+      "text": "Vietnamese LDT | RP2 Colloquium 2",
+      "textPreview": "Vietnamese LDT | RP2 Colloquium 2",
+      "resolvedFontSize": 8,
+      "resolvedTextStyle": {
+        "fontSize": 8,
+        "typeface": "Arial",
+        "color": "#63717A",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Vietnamese LDT | RP2 Colloquium 2"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Vietnamese LDT | RP2 Colloquium 2",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Vietnamese LDT | RP2 Colloquium 2",
+              "fontSize": 8,
+              "typeface": "Arial",
+              "color": "#63717A"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vy90je9c",
+      "id": "8",
+      "bbox": [
+        50,
+        486,
+        820,
+        1.5
+      ],
+      "geometry": "rect",
+      "fillColor": "#DDECB3",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/b2hwfyxo",
+      "id": "9",
+      "bbox": [
+        833,
+        494,
+        70,
+        27
+      ],
+      "alt": "LDSL logo",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "36556e2d-fa1f-47c7-9b6d-bbad55ffb621",
+        "contentType": "image/png",
+        "byteLength": 54415
+      }
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4zidonyd",
+      "id": "10",
+      "bbox": [
+        54,
+        126,
+        144,
+        92
+      ],
+      "geometry": "rect",
+      "fillColor": "#EEF4F8",
+      "lineColor": "#DDECB3",
+      "lineWidth": 0.9
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xkf6dcbu",
+      "id": "11",
+      "bbox": [
+        66,
+        135,
+        120,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Corpus text",
+      "textPreview": "Corpus text",
+      "resolvedFontSize": 11.2,
+      "resolvedTextStyle": {
+        "fontSize": 11.2,
+        "typeface": "Arial",
+        "color": "#003A61",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Corpus text"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Corpus text",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Corpus text",
+              "fontSize": 11.2,
+              "typeface": "Arial",
+              "color": "#003A61",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mtwra5gb",
+      "id": "12",
+      "bbox": [
+        66,
+        157,
+        120,
+        56
+      ],
+      "geometry": "rect",
+      "text": "Vietnamese Corpus Data.zip",
+      "textPreview": "Vietnamese Corpus Data.zip",
+      "resolvedFontSize": 10.2,
+      "resolvedTextStyle": {
+        "fontSize": 10.2,
+        "typeface": "Arial",
+        "color": "#263845",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Vietnamese Corpus"
+          },
+          {
+            "index": 2,
+            "text": "Data.zip"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Vietnamese Corpus Data.zip",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Vietnamese Corpus Data.zip",
+              "fontSize": 10.2,
+              "typeface": "Arial",
+              "color": "#263845"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fepkzupw",
+      "id": "13",
+      "bbox": [
+        202,
+        158,
+        24,
+        24
+      ],
+      "geometry": "rect",
+      "text": "->",
+      "textPreview": "->",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "Arial",
+        "color": "#8DB600",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "->"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "->",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Arial",
+            "color": "#8DB600",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "->",
+              "fontSize": 17,
+              "typeface": "Arial",
+              "color": "#8DB600",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4r65wjud",
+      "id": "14",
+      "bbox": [
+        230,
+        126,
+        144,
+        92
+      ],
+      "geometry": "rect",
+      "fillColor": "#EEF4F8",
+      "lineColor": "#DDECB3",
+      "lineWidth": 0.9
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xc3ylc7u",
+      "id": "15",
+      "bbox": [
+        242,
+        135,
+        120,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Frequency tables",
+      "textPreview": "Frequency tables",
+      "resolvedFontSize": 11.2,
+      "resolvedTextStyle": {
+        "fontSize": 11.2,
+        "typeface": "Arial",
+        "color": "#003A61",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Frequency tables"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Frequency tables",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Frequency tables",
+              "fontSize": 11.2,
+              "typeface": "Arial",
+              "color": "#003A61",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mlkjm1cf",
+      "id": "16",
+      "bbox": [
+        242,
+        157,
+        120,
+        56
+      ],
+      "geometry": "rect",
+      "text": "1- to 4-syllable n-grams",
+      "textPreview": "1- to 4-syllable n-grams",
+      "resolvedFontSize": 10.2,
+      "resolvedTextStyle": {
+        "fontSize": 10.2,
+        "typeface": "Arial",
+        "color": "#263845",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1- to 4-syllable n-grams"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1- to 4-syllable n-grams",
+          "runs": [
+            {
+              "index": 1,
+              "text": "1- to 4-syllable n-grams",
+              "fontSize": 10.2,
+              "typeface": "Arial",
+              "color": "#263845"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/f6dcbulw",
+      "id": "17",
+      "bbox": [
+        378,
+        158,
+        24,
+        24
+      ],
+      "geometry": "rect",
+      "text": "->",
+      "textPreview": "->",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "Arial",
+        "color": "#8DB600",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "->"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "->",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Arial",
+            "color": "#8DB600",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "->",
+              "fontSize": 17,
+              "typeface": "Arial",
+              "color": "#8DB600",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4fu18jqh",
+      "id": "18",
+      "bbox": [
+        406,
+        126,
+        144,
+        92
+      ],
+      "geometry": "rect",
+      "fillColor": "#EEF4F8",
+      "lineColor": "#DDECB3",
+      "lineWidth": 0.9
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x0nuxc3y",
+      "id": "19",
+      "bbox": [
+        418,
+        135,
+        120,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Candidate pool",
+      "textPreview": "Candidate pool",
+      "resolvedFontSize": 11.2,
+      "resolvedTextStyle": {
+        "fontSize": 11.2,
+        "typeface": "Arial",
+        "color": "#003A61",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Candidate pool"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Candidate pool",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Candidate pool",
+              "fontSize": 11.2,
+              "typeface": "Arial",
+              "color": "#003A61",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h4byhgn2",
+      "id": "20",
+      "bbox": [
+        418,
+        157,
+        120,
+        56
+      ],
+      "geometry": "rect",
+      "text": "frequency, log frequency, syllable length",
+      "textPreview": "frequency, log frequency, syllable length",
+      "resolvedFontSize": 10.2,
+      "resolvedTextStyle": {
+        "fontSize": 10.2,
+        "typeface": "Arial",
+        "color": "#263845",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "frequency, log frequency,"
+          },
+          {
+            "index": 2,
+            "text": "syllable length"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "frequency, log frequency, syllable length",
+          "runs": [
+            {
+              "index": 1,
+              "text": "frequency, log frequency, syllable length",
+              "fontSize": 10.2,
+              "typeface": "Arial",
+              "color": "#263845"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sji5snel",
+      "id": "21",
+      "bbox": [
+        554,
+        158,
+        24,
+        24
+      ],
+      "geometry": "rect",
+      "text": "->",
+      "textPreview": "->",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "Arial",
+        "color": "#8DB600",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "->"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "->",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Arial",
+            "color": "#8DB600",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "->",
+              "fontSize": 17,
+              "typeface": "Arial",
+              "color": "#8DB600",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3ylc7u54",
+      "id": "22",
+      "bbox": [
+        582,
+        126,
+        144,
+        92
+      ],
+      "geometry": "rect",
+      "fillColor": "#DDECB3",
+      "lineColor": "#DDECB3",
+      "lineWidth": 0.9
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/adsji5sn",
+      "id": "23",
+      "bbox": [
+        594,
+        135,
+        120,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Review / survey",
+      "textPreview": "Review / survey",
+      "resolvedFontSize": 11.2,
+      "resolvedTextStyle": {
+        "fontSize": 11.2,
+        "typeface": "Arial",
+        "color": "#003A61",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Review / survey"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Review / survey",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Review / survey",
+              "fontSize": 11.2,
+              "typeface": "Arial",
+              "color": "#003A61",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lszqtcj6",
+      "id": "24",
+      "bbox": [
+        594,
+        157,
+        120,
+        56
+      ],
+      "geometry": "rect",
+      "text": "manual lexical validation before selection",
+      "textPreview": "manual lexical validation before selection",
+      "resolvedFontSize": 10.2,
+      "resolvedTextStyle": {
+        "fontSize": 10.2,
+        "typeface": "Arial",
+        "color": "#263845",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "manual lexical validation"
+          },
+          {
+            "index": 2,
+            "text": "before selection"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "manual lexical validation before selection",
+          "runs": [
+            {
+              "index": 1,
+              "text": "manual lexical validation before selection",
+              "fontSize": 10.2,
+              "typeface": "Arial",
+              "color": "#263845"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s72x4nap",
+      "id": "25",
+      "bbox": [
+        730,
+        158,
+        24,
+        24
+      ],
+      "geometry": "rect",
+      "text": "->",
+      "textPreview": "->",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "Arial",
+        "color": "#8DB600",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "->"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "->",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Arial",
+            "color": "#8DB600",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "->",
+              "fontSize": 17,
+              "typeface": "Arial",
+              "color": "#8DB600",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3m94fu18",
+      "id": "26",
+      "bbox": [
+        758,
+        126,
+        144,
+        92
+      ],
+      "geometry": "rect",
+      "fillColor": "#EEF4F8",
+      "lineColor": "#DDECB3",
+      "lineWidth": 0.9
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a5gbq1or",
+      "id": "27",
+      "bbox": [
+        770,
+        135,
+        120,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Final stimuli",
+      "textPreview": "Final stimuli",
+      "resolvedFontSize": 11.2,
+      "resolvedTextStyle": {
+        "fontSize": 11.2,
+        "typeface": "Arial",
+        "color": "#003A61",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Final stimuli"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Final stimuli",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Final stimuli",
+              "fontSize": 11.2,
+              "typeface": "Arial",
+              "color": "#003A61",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hoza1gvy",
+      "id": "28",
+      "bbox": [
+        770,
+        157,
+        120,
+        56
+      ],
+      "geometry": "rect",
+      "text": "72 real words + 48 pseudowords",
+      "textPreview": "72 real words + 48 pseudowords",
+      "resolvedFontSize": 10.2,
+      "resolvedTextStyle": {
+        "fontSize": 10.2,
+        "typeface": "Arial",
+        "color": "#263845",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "72 real words + 48"
+          },
+          {
+            "index": 2,
+            "text": "pseudowords"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "72 real words + 48 pseudowords",
+          "runs": [
+            {
+              "index": 1,
+              "text": "72 real words + 48 pseudowords",
+              "fontSize": 10.2,
+              "typeface": "Arial",
+              "color": "#263845"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s36hcrmh",
+      "id": "29",
+      "bbox": [
+        58,
+        242,
+        292,
+        136
+      ],
+      "geometry": "rect",
+      "fillColor": "#EEF4F8",
+      "lineColor": "#DDECB3",
+      "lineWidth": 0.9
+    },
+    {
+      "order": 30,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2x4nap4r",
+      "id": "30",
+      "bbox": [
+        70,
+        251,
+        268,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Dataset artifacts",
+      "textPreview": "Dataset artifacts",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "Arial",
+        "color": "#003A61",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Dataset artifacts"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Dataset artifacts",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Dataset artifacts",
+              "fontSize": 12,
+              "typeface": "Arial",
+              "color": "#003A61",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 31,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vixczed8",
+      "id": "31",
+      "bbox": [
+        70,
+        273,
+        268,
+        100
+      ],
+      "geometry": "rect",
+      "text": "data/processed/*grams_frequency.csv\ncandidate_shortlist_by_length.csv\nmanual_selection_sheet.csv\nfinal_ldt_stimuli_3x4_v1.csv",
+      "textPreview": "data/processed/*grams_frequency.csv | candidate_shortlist_by_length.csv | manual_selection_sheet.csv | final_ldt_stimuli_3x4_v1.csv",
+      "resolvedFontSize": 11.2,
+      "resolvedTextStyle": {
+        "fontSize": 11.2,
+        "typeface": "Arial",
+        "color": "#263845",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "data/processed/*grams_frequency.csv"
+          },
+          {
+            "index": 2,
+            "text": "candidate_shortlist_by_length.csv"
+          },
+          {
+            "index": 3,
+            "text": "manual_selection_sheet.csv"
+          },
+          {
+            "index": 4,
+            "text": "final_ldt_stimuli_3x4_v1.csv"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "data/processed/*grams_frequency.csv",
+          "runs": [
+            {
+              "index": 1,
+              "text": "data/processed/*grams_frequency.csv",
+              "fontSize": 11.2,
+              "typeface": "Arial",
+              "color": "#263845"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "candidate_shortlist_by_length.csv",
+          "runs": [
+            {
+              "index": 1,
+              "text": "candidate_shortlist_by_length.csv",
+              "fontSize": 11.2,
+              "typeface": "Arial",
+              "color": "#263845"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "manual_selection_sheet.csv",
+          "runs": [
+            {
+              "index": 1,
+              "text": "manual_selection_sheet.csv",
+              "fontSize": 11.2,
+              "typeface": "Arial",
+              "color": "#263845"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "final_ldt_stimuli_3x4_v1.csv",
+          "runs": [
+            {
+              "index": 1,
+              "text": "final_ldt_stimuli_3x4_v1.csv",
+              "fontSize": 11.2,
+              "typeface": "Arial",
+              "color": "#263845"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 32,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/k3q5o7qp",
+      "id": "32",
+      "bbox": [
+        58,
+        395,
+        292,
+        54
+      ],
+      "geometry": "rect",
+      "fillColor": "#DDECB3",
+      "lineColor": "#DDECB3",
+      "lineWidth": 0.9
+    },
+    {
+      "order": 33,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/donyd0z6",
+      "id": "33",
+      "bbox": [
+        70,
+        404,
+        268,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Key caution",
+      "textPreview": "Key caution",
+      "resolvedFontSize": 11.4,
+      "resolvedTextStyle": {
+        "fontSize": 11.4,
+        "typeface": "Arial",
+        "color": "#003A61",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Key caution"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Key caution",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Key caution",
+              "fontSize": 11.4,
+              "typeface": "Arial",
+              "color": "#003A61",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 34,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6psfil0r",
+      "id": "34",
+      "bbox": [
+        70,
+        426,
+        268,
+        18
+      ],
+      "geometry": "rect",
+      "text": "The n-gram step proposes candidates; it does not automatically solve Vietnamese word segmentation.",
+      "textPreview": "The n-gram step proposes candidates; it does not automatically solve Vietnamese word segmentation.",
+      "resolvedFontSize": 10.6,
+      "resolvedTextStyle": {
+        "fontSize": 10.6,
+        "typeface": "Arial",
+        "color": "#263845",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The n-gram step proposes candidates; it does not"
+          },
+          {
+            "index": 2,
+            "text": "automatically solve Vietnamese word segmentation."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The n-gram step proposes candidates; it does not automatically solve Vietnamese word segmentation.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "The n-gram step proposes candidates; it does not automatically solve Vietnamese word segmentation.",
+              "fontSize": 10.6,
+              "typeface": "Arial",
+              "color": "#263845"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 35,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/val87ed8",
+      "id": "35",
+      "bbox": [
+        385,
+        242,
+        500,
+        188
+      ],
+      "geometry": "rect",
+      "fillColor": "#172B36",
+      "lineColor": "#003A61",
+      "lineWidth": 0.8
+    },
+    {
+      "order": 36,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kre1w7mp",
+      "id": "36",
+      "bbox": [
+        402,
+        256,
+        460,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Python / pandas sketch used for stimulus data preparation",
+      "textPreview": "Python / pandas sketch used for stimulus data preparation",
+      "resolvedFontSize": 10.51,
+      "resolvedTextStyle": {
+        "fontSize": 10.51,
+        "typeface": "Arial",
+        "color": "#DDECB3",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Python / pandas sketch used for stimulus data preparation"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Python / pandas sketch used for stimulus data preparation",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Python / pandas sketch used for stimulus data preparation",
+              "fontSize": 10.51,
+              "typeface": "Arial",
+              "color": "#DDECB3",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 37,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dcbulwva",
+      "id": "37",
+      "bbox": [
+        404,
+        282,
+        458,
+        138
+      ],
+      "geometry": "rect",
+      "text": "files = [\"unigrams\", \"bigrams\", \"trigrams\", \"fourgrams\"]\nfreq = pd.concat(pd.read_csv(f\"{f}_frequency.csv\") for f in files)\n\ncandidates = (freq\n  .assign(\n    lexical_item=lambda d: d.lexical_item.str.strip().str.lower(),\n    syllable_length=lambda d: d.lexical_item.str.split().str.len(),\n    log_frequency=lambda d: np.log(d.frequency)\n  )\n  .query(\"1 <= syllable_length <= 4\")\n  .drop_duplicates(\"lexical_item\"))\n\ncandidates[\"freq_bin\"] = candidates.groupby(\"syllable_length\")[\n  \"log_frequency\"].transform(lambda s: pd.qcut(s.rank(method=\"first\"), 8, labels=False))\nreview_sheet = candidates.sort_values([\"syllable_length\", \"freq_bin\"])",
+      "textPreview": "files = [\"unigrams\", \"bigrams\", \"trigrams\", \"fourgrams\"] | freq = pd.concat(pd.read_csv(f\"{f}_frequency.csv\") for f in files) |  | candid...",
+      "resolvedFontSize": 8.15,
+      "resolvedTextStyle": {
+        "fontSize": 8.15,
+        "typeface": "Consolas",
+        "color": "#FFFFFF",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 15,
+        "lines": [
+          {
+            "index": 1,
+            "text": "files = [\"unigrams\", \"bigrams\", \"trigrams\", \"fourgrams\"]"
+          },
+          {
+            "index": 2,
+            "text": "freq = pd.concat(pd.read_csv(f\"{f}_frequency.csv\") for f in files)"
+          },
+          {
+            "index": 3,
+            "text": ""
+          },
+          {
+            "index": 4,
+            "text": "candidates = (freq"
+          },
+          {
+            "index": 5,
+            "text": "  .assign("
+          },
+          {
+            "index": 6,
+            "text": "    lexical_item=lambda d: d.lexical_item.str.strip().str.lower(),"
+          },
+          {
+            "index": 7,
+            "text": "    syllable_length=lambda d: d.lexical_item.str.split().str.len(),"
+          },
+          {
+            "index": 8,
+            "text": "    log_frequency=lambda d: np.log(d.frequency)"
+          },
+          {
+            "index": 9,
+            "text": "  )"
+          },
+          {
+            "index": 10,
+            "text": "  .query(\"1 <= syllable_length <= 4\")"
+          },
+          {
+            "index": 11,
+            "text": "  .drop_duplicates(\"lexical_item\"))"
+          },
+          {
+            "index": 12,
+            "text": ""
+          },
+          {
+            "index": 13,
+            "text": "candidates[\"freq_bin\"] = candidates.groupby(\"syllable_length\")["
+          },
+          {
+            "index": 14,
+            "text": "  \"log_frequency\"].transform(lambda s: pd.qcut(s.rank(method=\"first\"), 8, labels=False))"
+          },
+          {
+            "index": 15,
+            "text": "review_sheet = candidates.sort_values([\"syllable_length\", \"freq_bin\"])"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "files = [\"unigrams\", \"bigrams\", \"trigrams\", \"fourgrams\"]",
+          "runs": [
+            {
+              "index": 1,
+              "text": "files = [\"unigrams\", \"bigrams\", \"trigrams\", \"fourgrams\"]",
+              "fontSize": 8.15,
+              "typeface": "Consolas",
+              "color": "#FFFFFF"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "freq = pd.concat(pd.read_csv(f\"{f}_frequency.csv\") for f in files)",
+          "runs": [
+            {
+              "index": 1,
+              "text": "freq = pd.concat(pd.read_csv(f\"{f}_frequency.csv\") for f in files)",
+              "fontSize": 8.15,
+              "typeface": "Consolas",
+              "color": "#FFFFFF"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "candidates = (freq",
+          "runs": [
+            {
+              "index": 1,
+              "text": "candidates = (freq",
+              "fontSize": 8.15,
+              "typeface": "Consolas",
+              "color": "#FFFFFF"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "  .assign(",
+          "runs": [
+            {
+              "index": 1,
+              "text": "  .assign(",
+              "fontSize": 8.15,
+              "typeface": "Consolas",
+              "color": "#FFFFFF"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 6,
+          "text": "    lexical_item=lambda d: d.lexical_item.str.strip().str.lower(),",
+          "runs": [
+            {
+              "index": 1,
+              "text": "    lexical_item=lambda d: d.lexical_item.str.strip().str.lower(),",
+              "fontSize": 8.15,
+              "typeface": "Consolas",
+              "color": "#FFFFFF"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 7,
+          "text": "    syllable_length=lambda d: d.lexical_item.str.split().str.len(),",
+          "runs": [
+            {
+              "index": 1,
+              "text": "    syllable_length=lambda d: d.lexical_item.str.split().str.len(),",
+              "fontSize": 8.15,
+              "typeface": "Consolas",
+              "color": "#FFFFFF"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 8,
+          "text": "    log_frequency=lambda d: np.log(d.frequency)",
+          "runs": [
+            {
+              "index": 1,
+              "text": "    log_frequency=lambda d: np.log(d.frequency)",
+              "fontSize": 8.15,
+              "typeface": "Consolas",
+              "color": "#FFFFFF"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 9,
+          "text": "  )",
+          "runs": [
+            {
+              "index": 1,
+              "text": "  )",
+              "fontSize": 8.15,
+              "typeface": "Consolas",
+              "color": "#FFFFFF"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 10,
+          "text": "  .query(\"1 <= syllable_length <= 4\")",
+          "runs": [
+            {
+              "index": 1,
+              "text": "  .query(\"1 <= syllable_length <= 4\")",
+              "fontSize": 8.15,
+              "typeface": "Consolas",
+              "color": "#FFFFFF"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 11,
+          "text": "  .drop_duplicates(\"lexical_item\"))",
+          "runs": [
+            {
+              "index": 1,
+              "text": "  .drop_duplicates(\"lexical_item\"))",
+              "fontSize": 8.15,
+              "typeface": "Consolas",
+              "color": "#FFFFFF"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 13,
+          "text": "candidates[\"freq_bin\"] = candidates.groupby(\"syllable_length\")[",
+          "runs": [
+            {
+              "index": 1,
+              "text": "candidates[\"freq_bin\"] = candidates.groupby(\"syllable_length\")[",
+              "fontSize": 8.15,
+              "typeface": "Consolas",
+              "color": "#FFFFFF"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 14,
+          "text": "  \"log_frequency\"].transform(lambda s: pd.qcut(s.rank(method=\"first\"), 8, labels=False))",
+          "runs": [
+            {
+              "index": 1,
+              "text": "  \"log_frequency\"].transform(lambda s: pd.qcut(s.rank(method=\"first\"), 8, labels=False))",
+              "fontSize": 8.15,
+              "typeface": "Consolas",
+              "color": "#FFFFFF"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 15,
+          "text": "review_sheet = candidates.sort_values([\"syllable_length\", \"freq_bin\"])",
+          "runs": [
+            {
+              "index": 1,
+              "text": "review_sheet = candidates.sort_values([\"syllable_length\", \"freq_bin\"])",
+              "fontSize": 8.15,
+              "typeface": "Consolas",
+              "color": "#FFFFFF"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 38,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2lszqtcj",
+      "id": "38",
+      "bbox": [
+        385,
+        438,
+        500,
+        34
+      ],
+      "geometry": "rect",
+      "fillColor": "#DDECB3",
+      "lineColor": "#8DB600",
+      "lineWidth": 1
+    },
+    {
+      "order": 39,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/v6psfil0",
+      "id": "39",
+      "bbox": [
+        398,
+        447,
+        472,
+        16
+      ],
+      "geometry": "rect",
+      "text": "Traceable dataset: corpus frequency -> filtered candidates -> review/survey -> final stimuli.",
+      "textPreview": "Traceable dataset: corpus frequency -> filtered candidates -> review/survey -> final stimuli.",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "Arial",
+        "color": "#003A61",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Traceable dataset: corpus frequency -> filtered candidates -> review/survey -> final"
+          },
+          {
+            "index": 2,
+            "text": "stimuli."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Traceable dataset: corpus frequency -> filtered candidates -> review/survey -> final stimuli.",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Arial",
+            "color": "#003A61",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Traceable dataset: corpus frequency -> filtered candidates -> review/survey -> final stimuli.",
+              "fontSize": 12,
+              "typeface": "Arial",
+              "color": "#003A61",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

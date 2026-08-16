@@ -1,0 +1,6 @@
+Intentional deviations from copied source slides:
+- All imported broken placeholders are deleted because they render as clipped text at the left slide edge.
+- New slide content is built from editable shapes, tables, text, and local images inside the template's blank content area.
+- The table example slide is not reused as a literal table layout because its sample table is too rigid for the project narrative.
+- Tool logos are added from local files when available; R Markdown/lme4/lmerTest are represented by labeled blocks.
+- One slide contains a clean video placeholder instead of embedding video, because the requested deliverable is a PPTX and manual video insertion is safer for playback.

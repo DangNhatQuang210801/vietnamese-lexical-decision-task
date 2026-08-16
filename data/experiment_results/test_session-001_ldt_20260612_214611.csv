@@ -1,0 +1,3 @@
+﻿participant_id,block,trial_id,stimulus,condition,is_word,syllable_length,frequency_group,frequency,log_frequency,source_realword,correct_response,key_pressed,response_label,accuracy,rt
+test,practice,PRACTICE_001,mèo,word,1,1,practice,NA,NA,mèo,word,,,0,
+test,practice,PRACTICE_003,ghế đá,word,1,2,practice,NA,NA,ghế đá,word,,,0,

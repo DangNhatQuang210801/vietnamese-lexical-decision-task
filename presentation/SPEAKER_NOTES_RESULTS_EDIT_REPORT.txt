@@ -1,0 +1,8 @@
+﻿SPEAKER_NOTES_RESULTS_EDIT_REPORT
+
+File edited in place: Yes - D:\Research 2\presentation\RP2_Colloquium2_Vietnamese_LDT_CORRECT_LAYOUT.pptx
+Slide notes rewritten: 6, 7, 8, 10, 16, 17, 18, 19, 20, 21, 22, 23, 26, 27
+Analysis/results notes expanded: Yes - slides 16-23 now explain graph/table reading, model logic, diagnostics, safe conclusions, and overclaiming limits.
+Banned wording found: No.
+Disallowed note phrasing found: No.
+Remaining issue needing manual note editing: None obvious. Recommended manual check: read slides 18-21 aloud once to adjust timing for the 30-minute presentation.

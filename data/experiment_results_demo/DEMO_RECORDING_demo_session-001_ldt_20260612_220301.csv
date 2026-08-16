@@ -1,0 +1,13 @@
+﻿participant_id,block,trial_id,stimulus,condition,is_word,syllable_length,frequency_group,frequency,log_frequency,source_realword,correct_response,key_pressed,response_label,accuracy,rt
+demo,practice,PRACTICE_003,ghế đá,word,1,2,practice,NA,NA,ghế đá,word,,,0,
+demo,practice,PRACTICE_001,mèo,word,1,1,practice,NA,NA,mèo,word,f,word,1,1.205105
+demo,practice,PRACTICE_002,mẻo,pseudoword,0,1,practice,NA,NA,mèo,nonword,j,nonword,1,2.506654
+demo,practice,PRACTICE_004,tủ lảnh,pseudoword,0,2,practice,NA,NA,tủ lạnh,nonword,f,word,0,0.605615
+demo,main,LDT3X4_057,tình yêu đích thực,word,1,4,high,23,3.1354942159291497,tình yêu đích thực,word,f,word,1,0.694645
+demo,main,LDT3X4_003,cơ só sản xuất,pseudoword,0,4,control,NA,NA,cơ sở sản xuất,nonword,j,nonword,1,0.70093
+demo,main,LDT3X4_098,sọng,pseudoword,0,1,control,NA,NA,sông,nonword,j,nonword,1,0.602513
+demo,main,LDT3X4_097,côm ty,pseudoword,0,2,control,NA,NA,công ty,nonword,j,nonword,1,0.548754
+demo,main,LDT3X4_109,giá thàc,pseudoword,0,2,control,NA,NA,giá thành,nonword,j,nonword,1,0.543643
+demo,main,LDT3X4_040,măt,pseudoword,0,1,control,NA,NA,mắt,nonword,j,nonword,1,0.547268
+demo,main,LDT3X4_107,kiến trúc sủ,pseudoword,0,3,control,NA,NA,kiến trúc sư,nonword,j,nonword,1,0.698521
+demo,main,LDT3X4_010,hệ thóng,pseudoword,0,2,control,NA,NA,hệ thống,nonword,j,nonword,1,0.634404

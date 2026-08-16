@@ -1,0 +1,701 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/u3hhky",
+    "id": "u3hhky",
+    "slide": 19,
+    "layoutId": "782d1dcb-10f6-4c90-a950-886b4a13d26c",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "7fadda48-b366-4eaf-8869-0cf701e21a81",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 960,
+      "height": 540
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Arial"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "782d1dcb-10f6-4c90-a950-886b4a13d26c",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "7fadda48-b366-4eaf-8869-0cf701e21a81",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "7fadda48-b366-4eaf-8869-0cf701e21a81",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e9cvixcz",
+      "id": "1",
+      "bbox": [
+        793,
+        -18,
+        78,
+        88
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#8DB600",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lwval87e",
+      "id": "2",
+      "bbox": [
+        836,
+        0,
+        112,
+        116
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#314654",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wb2hwfyx",
+      "id": "3",
+      "bbox": [
+        794,
+        56,
+        98,
+        70
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#63717A",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3itgfmlk",
+      "id": "4",
+      "bbox": [
+        51,
+        43,
+        21,
+        4
+      ],
+      "geometry": "rect",
+      "fillColor": "#8DB600",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ex0nuxc3",
+      "id": "5",
+      "bbox": [
+        80,
+        34,
+        520,
+        17
+      ],
+      "geometry": "rect",
+      "text": "19 | PREDICTED EFFECTS",
+      "textPreview": "19 | PREDICTED EFFECTS",
+      "resolvedFontSize": 9.51,
+      "resolvedTextStyle": {
+        "fontSize": 9.51,
+        "typeface": "Arial",
+        "color": "#63717A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "19 | PREDICTED EFFECTS"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "19 | PREDICTED EFFECTS",
+          "runs": [
+            {
+              "index": 1,
+              "text": "19 | PREDICTED EFFECTS",
+              "fontSize": 9.51,
+              "typeface": "Arial",
+              "color": "#63717A",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/loj2t83i",
+      "id": "6",
+      "bbox": [
+        50,
+        58,
+        780,
+        50
+      ],
+      "geometry": "rect",
+      "text": "Model-based predicted means preserve the same main pattern.",
+      "textPreview": "Model-based predicted means preserve the same main pattern.",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "Arial",
+        "color": "#003A61",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Model-based predicted means preserve the same main"
+          },
+          {
+            "index": 2,
+            "text": "pattern."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Model-based predicted means preserve the same main pattern.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Model-based predicted means preserve the same main pattern.",
+              "fontSize": 28,
+              "typeface": "Arial",
+              "color": "#003A61",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w3m94fu1",
+      "id": "7",
+      "bbox": [
+        52,
+        474,
+        700,
+        15
+      ],
+      "geometry": "rect",
+      "text": "R output: model3_predicted_interaction_v2.png",
+      "textPreview": "R output: model3_predicted_interaction_v2.png",
+      "resolvedFontSize": 7.8,
+      "resolvedTextStyle": {
+        "fontSize": 7.8,
+        "typeface": "Arial",
+        "color": "#63717A",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "R output: model3_predicted_interaction_v2.png"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "R output: model3_predicted_interaction_v2.png",
+          "runs": [
+            {
+              "index": 1,
+              "text": "R output: model3_predicted_interaction_v2.png",
+              "fontSize": 7.8,
+              "typeface": "Arial",
+              "color": "#63717A"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3ex0nuxc",
+      "id": "8",
+      "bbox": [
+        52,
+        504,
+        280,
+        13
+      ],
+      "geometry": "rect",
+      "text": "Vietnamese LDT | RP2 Colloquium 2",
+      "textPreview": "Vietnamese LDT | RP2 Colloquium 2",
+      "resolvedFontSize": 8,
+      "resolvedTextStyle": {
+        "fontSize": 8,
+        "typeface": "Arial",
+        "color": "#63717A",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Vietnamese LDT | RP2 Colloquium 2"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Vietnamese LDT | RP2 Colloquium 2",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Vietnamese LDT | RP2 Colloquium 2",
+              "fontSize": 8,
+              "typeface": "Arial",
+              "color": "#63717A"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/at47y1kr",
+      "id": "9",
+      "bbox": [
+        50,
+        486,
+        820,
+        1.5
+      ],
+      "geometry": "rect",
+      "fillColor": "#DDECB3",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/z61032ls",
+      "id": "10",
+      "bbox": [
+        833,
+        494,
+        70,
+        27
+      ],
+      "alt": "LDSL logo",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "df120af4-2d17-4b9a-8e28-710af6ce8dfb",
+        "contentType": "image/png",
+        "byteLength": 54415
+      }
+    },
+    {
+      "order": 11,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/al87ed8b",
+      "id": "11",
+      "bbox": [
+        80,
+        112,
+        595,
+        340
+      ],
+      "alt": "Model predicted interaction R plot",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "2c42a70d-9848-482c-90ba-558cc3bb96eb",
+        "contentType": "image/png",
+        "byteLength": 116843
+      }
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2lszqtcj",
+      "id": "12",
+      "bbox": [
+        704,
+        150,
+        160,
+        122
+      ],
+      "geometry": "rect",
+      "fillColor": "#DDECB3",
+      "lineColor": "#DDECB3",
+      "lineWidth": 0.9
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/v6psfil0",
+      "id": "13",
+      "bbox": [
+        716,
+        159,
+        136,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Estimated pattern",
+      "textPreview": "Estimated pattern",
+      "resolvedFontSize": 12.31,
+      "resolvedTextStyle": {
+        "fontSize": 12.31,
+        "typeface": "Arial",
+        "color": "#003A61",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Estimated pattern"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Estimated pattern",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Estimated pattern",
+              "fontSize": 12.31,
+              "typeface": "Arial",
+              "color": "#003A61",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kf6dcbul",
+      "id": "14",
+      "bbox": [
+        716,
+        181,
+        136,
+        86
+      ],
+      "geometry": "rect",
+      "text": "Predictions show increasing RT with syllable length and lower RT for high-frequency words.",
+      "textPreview": "Predictions show increasing RT with syllable length and lower RT for high-frequency words.",
+      "resolvedFontSize": 12.2,
+      "resolvedTextStyle": {
+        "fontSize": 12.2,
+        "typeface": "Arial",
+        "color": "#263845",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Predictions show"
+          },
+          {
+            "index": 2,
+            "text": "increasing RT with"
+          },
+          {
+            "index": 3,
+            "text": "syllable length and lower"
+          },
+          {
+            "index": 4,
+            "text": "RT for high-frequency"
+          },
+          {
+            "index": 5,
+            "text": "words."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Predictions show increasing RT with syllable length and lower RT for high-frequency words.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Predictions show increasing RT with syllable length and lower RT for high-frequency words.",
+              "fontSize": 12.2,
+              "typeface": "Arial",
+              "color": "#263845"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d0z61032",
+      "id": "15",
+      "bbox": [
+        704,
+        302,
+        160,
+        96
+      ],
+      "geometry": "rect",
+      "fillColor": "#EEF4F8",
+      "lineColor": "#DDECB3",
+      "lineWidth": 0.9
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/29gr2p8n",
+      "id": "16",
+      "bbox": [
+        716,
+        311,
+        136,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Why useful",
+      "textPreview": "Why useful",
+      "resolvedFontSize": 12.31,
+      "resolvedTextStyle": {
+        "fontSize": 12.31,
+        "typeface": "Arial",
+        "color": "#003A61",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Why useful"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Why useful",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Why useful",
+              "fontSize": 12.31,
+              "typeface": "Arial",
+              "color": "#003A61",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vu9knih4",
+      "id": "17",
+      "bbox": [
+        716,
+        333,
+        136,
+        60
+      ],
+      "geometry": "rect",
+      "text": "Predicted means connect raw descriptive plots to the mixed-effects model.",
+      "textPreview": "Predicted means connect raw descriptive plots to the mixed-effects model.",
+      "resolvedFontSize": 12.2,
+      "resolvedTextStyle": {
+        "fontSize": 12.2,
+        "typeface": "Arial",
+        "color": "#263845",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Predicted means"
+          },
+          {
+            "index": 2,
+            "text": "connect raw descriptive"
+          },
+          {
+            "index": 3,
+            "text": "plots to the mixed-effects"
+          },
+          {
+            "index": 4,
+            "text": "model."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Predicted means connect raw descriptive plots to the mixed-effects model.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Predicted means connect raw descriptive plots to the mixed-effects model.",
+              "fontSize": 12.2,
+              "typeface": "Arial",
+              "color": "#263845"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

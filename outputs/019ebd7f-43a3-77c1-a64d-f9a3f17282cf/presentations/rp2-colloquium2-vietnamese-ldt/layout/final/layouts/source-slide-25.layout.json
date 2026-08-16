@@ -1,0 +1,2812 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/61032lsz",
+    "id": "61032lsz",
+    "slide": 26,
+    "layoutId": "/ppt/slideLayouts/slideLayout3.xml",
+    "layoutName": "Inhalt",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 960,
+      "height": 540
+    }
+  },
+  "theme": {
+    "colorSchemeName": "RUB",
+    "colors": {
+      "accent1": "#FFCC00",
+      "accent2": "#EE7203",
+      "accent3": "#E6332A",
+      "accent4": "#B71E3F",
+      "accent5": "#9C5516",
+      "accent6": "#59211C",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#003560",
+      "lt2": "#8DAE10",
+      "hlink": "#000000",
+      "folHlink": "#000000"
+    },
+    "fontScheme": {
+      "name": "Arial",
+      "majorFont": {
+        "latinTypeface": "Arial"
+      },
+      "minorFont": {
+        "latinTypeface": "Arial"
+      }
+    },
+    "typefaces": [
+      "Arial",
+      "Poppins"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout3.xml",
+      "name": "Inhalt",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "image",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout3.xml/12",
+          "id": "12",
+          "name": "Grafik 11",
+          "bbox": [
+            744.6,
+            0,
+            215.4,
+            220.42
+          ],
+          "contentType": "image/png",
+          "imageCrop": {
+            "left": 0,
+            "top": 0.40753,
+            "right": 0.42388,
+            "bottom": 0
+          },
+          "asset": {
+            "assetId": "/ppt/media/image7.png",
+            "contentType": "image/png",
+            "byteLength": 22347
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image7.png",
+            "contentType": "image/png",
+            "byteLength": 22347
+          }
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout3.xml/3",
+          "id": "3",
+          "name": "Fußzeilenplatzhalter 2",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "Title | Section",
+          "textPreview": "Title | Section",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Title | Section",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Title | "
+                },
+                {
+                  "index": 2,
+                  "text": "Section"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout3.xml/4",
+          "id": "4",
+          "name": "Foliennummernplatzhalter 3",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "‹Nr.› ",
+          "textPreview": "‹Nr.›",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹Nr.› ",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹Nr.›"
+                },
+                {
+                  "index": 2,
+                  "text": " "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout3.xml/10",
+          "id": "10",
+          "name": "Titel 1",
+          "bbox": [
+            49.13,
+            41.57,
+            735.47,
+            49.13
+          ],
+          "geometry": "rect",
+          "text": "KAPITEL | CHART-HEADLINE",
+          "textPreview": "KAPITEL | CHART-HEADLINE",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "KAPITEL | CHART-HEADLINE",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "KAPITEL | CHART-HEADLINE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout3.xml/11",
+          "id": "11",
+          "name": "Inhaltsplatzhalter 2",
+          "bbox": [
+            49.13,
+            96.38,
+            801.3,
+            353.39
+          ],
+          "geometry": "rect",
+          "text": "Subline first level\nText\nBullet 1\nBullet 2\nBullet 3",
+          "textPreview": "Subline first level | Text | Bullet 1 | Bullet 2 | Bullet 3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Subline first level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Subline"
+                },
+                {
+                  "index": 2,
+                  "text": " "
+                },
+                {
+                  "index": 3,
+                  "text": "first"
+                },
+                {
+                  "index": 4,
+                  "text": " "
+                },
+                {
+                  "index": 5,
+                  "text": "level"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Text",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Text"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Bullet 1",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Bullet 1"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Bullet 2",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Bullet 2"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Bullet 3",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Bullet 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/4",
+          "id": "4",
+          "name": "Datumsplatzhalter 3",
+          "bbox": [
+            37.8,
+            579.96,
+            449.76,
+            18.9
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/5",
+          "id": "5",
+          "name": "Fußzeilenplatzhalter 4",
+          "bbox": [
+            75.59,
+            498.9,
+            661.42,
+            11.34
+          ],
+          "geometry": "rect",
+          "text": "Titel | ggf. weitere Angaben",
+          "textPreview": "Titel | ggf. weitere Angaben",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Titel | ggf. weitere Angaben",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Titel | ggf. weitere Angaben"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/6",
+          "id": "6",
+          "name": "Foliennummernplatzhalter 5",
+          "bbox": [
+            34.02,
+            498.9,
+            26.46,
+            11.34
+          ],
+          "geometry": "rect",
+          "text": "‹Nr.› ",
+          "textPreview": "‹Nr.›",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹Nr.› ",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹Nr.›"
+                },
+                {
+                  "index": 2,
+                  "text": " "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/12",
+          "id": "12",
+          "name": "Text // Listenebene erhöhen",
+          "bbox": [
+            -211.65,
+            292.69,
+            98.27,
+            41.57
+          ],
+          "rotation": 0,
+          "geometry": "rect",
+          "text": "Listenebene\nerhöhen",
+          "textPreview": "Listenebene | erhöhen",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Listenebene",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Listenebene",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "erhöhen",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "erhöhen",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/13",
+          "id": "13",
+          "name": "Text // Listenebene verringern",
+          "bbox": [
+            -211.65,
+            345.6,
+            98.27,
+            41.57
+          ],
+          "rotation": 0,
+          "geometry": "rect",
+          "text": "Listenebene\nverringern",
+          "textPreview": "Listenebene | verringern",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Listenebene",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Listenebene",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "verringern",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "verringern",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/25",
+          "id": "25",
+          "name": "Listenebenen",
+          "bbox": [
+            -219.21,
+            143.62,
+            207.87,
+            86.93
+          ],
+          "rotation": 180,
+          "horizontalFlip": true,
+          "verticalFlip": true,
+          "geometry": "rect",
+          "text": "Listen erstellen\nWechseln Sie die Textebene\nim Menü über: \nStart > Absatz > Listenebene erhöhen/verringern",
+          "textPreview": "Listen erstellen | Wechseln Sie die Textebene | im Menü über:  | Start > Absatz > Listenebene erhöhen/verringern",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Listen erstellen",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Listen erstellen",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Wechseln Sie die Textebene",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Wechseln Sie die Textebene",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "im Menü über: \nStart > Absatz > Listenebene erhöhen/verringern",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "im Menü über: ",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1"
+                },
+                {
+                  "index": 2,
+                  "text": "\n",
+                  "alignment": "right"
+                },
+                {
+                  "index": 3,
+                  "text": "Start > Absatz > Listenebene erhöhen/verringern",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            }
+          ],
+          "lineWidth": 1.33
+        },
+        {
+          "order": 7,
+          "kind": "image",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/31",
+          "id": "31",
+          "name": "Bild // Listenebene verringern",
+          "bbox": [
+            -101.14,
+            345.6,
+            89.8,
+            41.57
+          ],
+          "rotation": 0,
+          "contentType": "image/png",
+          "asset": {
+            "assetId": "/ppt/media/image.png",
+            "contentType": "image/png",
+            "byteLength": 408
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image.png",
+            "contentType": "image/png",
+            "byteLength": 408
+          }
+        },
+        {
+          "order": 8,
+          "kind": "image",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/32",
+          "id": "32",
+          "name": "Bild // Listenebene erhöhen",
+          "bbox": [
+            -101.14,
+            292.69,
+            89.8,
+            41.57
+          ],
+          "rotation": 0,
+          "contentType": "image/png",
+          "asset": {
+            "assetId": "/ppt/media/image2.png",
+            "contentType": "image/png",
+            "byteLength": 400
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image2.png",
+            "contentType": "image/png",
+            "byteLength": 400
+          }
+        },
+        {
+          "order": 9,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/14",
+          "id": "14",
+          "name": "Zurücksetzen",
+          "bbox": [
+            971.34,
+            68.03,
+            204.09,
+            64.25
+          ],
+          "rotation": 180,
+          "horizontalFlip": true,
+          "verticalFlip": true,
+          "geometry": "rect",
+          "text": "Folie in Ursprungsform \nbringen über Menü:\nStart > Folien > Zurücksetzen",
+          "textPreview": "Folie in Ursprungsform  | bringen über Menü: | Start > Folien > Zurücksetzen",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Folie in Ursprungsform ",
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Folie in Ursprungsform ",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "bringen über Menü:",
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "bringen über Menü:",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Start > Folien > Zurücksetzen",
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Start > Folien > Zurücksetzen",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            }
+          ],
+          "lineWidth": 1.33
+        },
+        {
+          "order": 10,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/15",
+          "id": "15",
+          "name": "Hilfslinien",
+          "bbox": [
+            45.33,
+            -49.13,
+            869.33,
+            37.8
+          ],
+          "rotation": 180,
+          "horizontalFlip": true,
+          "verticalFlip": true,
+          "geometry": "rect",
+          "text": "Hilfslinien anzeigen über Menü: Ansicht > Anzeigen > Haken bei Führungslinien setzen",
+          "textPreview": "Hilfslinien anzeigen über Menü: Ansicht > Anzeigen > Haken bei Führungslinien setzen",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "vertical": 1,
+            "verticalAlignment": "bottom",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Hilfslinien anzeigen über Menü: Ansicht > Anzeigen > Haken bei Führungslinien setzen",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Hilfslinien anzeigen über Menü: ",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "textTransform": "none"
+                },
+                {
+                  "index": 2,
+                  "text": "Ansicht > Anzeigen > Haken bei Führungslinien setzen",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true,
+                  "textTransform": "none"
+                }
+              ]
+            }
+          ],
+          "lineWidth": 1.33
+        },
+        {
+          "order": 11,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/16",
+          "id": "16",
+          "name": "Fußzeile",
+          "bbox": [
+            45.33,
+            551.81,
+            869.33,
+            37.8
+          ],
+          "rotation": 180,
+          "horizontalFlip": true,
+          "verticalFlip": true,
+          "geometry": "rect",
+          "text": "Fußzeile anpassen: Einfügen > Text > Kopf- und Fußzeile",
+          "textPreview": "Fußzeile anpassen: Einfügen > Text > Kopf- und Fußzeile",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Fußzeile anpassen: Einfügen > Text > Kopf- und Fußzeile",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fußzeile anpassen: ",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1"
+                },
+                {
+                  "index": 2,
+                  "text": "Einfügen > Text > Kopf- und Fußzeile",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            }
+          ],
+          "lineWidth": 1.33
+        },
+        {
+          "order": 12,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/30",
+          "id": "30",
+          "name": "Layoutwechsel",
+          "bbox": [
+            971.34,
+            239.77,
+            204.09,
+            64.25
+          ],
+          "rotation": 180,
+          "horizontalFlip": true,
+          "verticalFlip": true,
+          "geometry": "rect",
+          "text": "Wechsel des Folienlayouts \nim Menü über:\nStart > Folien > Layout",
+          "textPreview": "Wechsel des Folienlayouts  | im Menü über: | Start > Folien > Layout",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Wechsel des Folienlayouts \nim Menü über:",
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Wechsel des Folienlayouts ",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1"
+                },
+                {
+                  "index": 2,
+                  "text": "\n",
+                  "alignment": "left"
+                },
+                {
+                  "index": 3,
+                  "text": "im Menü über:",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Start > Folien > Layout",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Start > Folien > Layout",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            }
+          ],
+          "lineWidth": 1.33
+        },
+        {
+          "order": 13,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/17",
+          "id": "17",
+          "name": "Gerader Verbinder 16",
+          "bbox": [
+            0,
+            470.93,
+            960,
+            0
+          ],
+          "geometry": "line",
+          "lineColor": "bg2"
+        },
+        {
+          "order": 14,
+          "kind": "image",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/33",
+          "id": "33",
+          "name": "Grafik 20",
+          "bbox": [
+            811.62,
+            479.96,
+            114.36,
+            47.89
+          ],
+          "contentType": "image/png",
+          "asset": {
+            "assetId": "/ppt/media/image3.png",
+            "contentType": "image/png",
+            "byteLength": 54415
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image3.png",
+            "contentType": "image/png",
+            "byteLength": 54415
+          }
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/byhgn29g",
+      "id": "1",
+      "bbox": [
+        50,
+        44,
+        22,
+        4
+      ],
+      "geometry": "rect",
+      "fillColor": "#8DB600"
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0je9cvix",
+      "id": "2",
+      "bbox": [
+        80,
+        35,
+        540,
+        18
+      ],
+      "geometry": "rect",
+      "text": "25 | TIMELINE",
+      "textPreview": "25 | TIMELINE",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "25 | TIMELINE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "25 | TIMELINE",
+          "runs": [
+            {
+              "index": 1,
+              "text": "25 | TIMELINE",
+              "fontSize": 10,
+              "typeface": "Poppins",
+              "color": "#63717A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t47y1kre",
+      "id": "3",
+      "bbox": [
+        50,
+        57,
+        780,
+        54
+      ],
+      "geometry": "rect",
+      "text": "The six-month plan moves from design and data collection toward final modeling and write-up.",
+      "textPreview": "The six-month plan moves from design and data collection toward final modeling and write-up.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The six-month plan moves from design and data collection"
+          },
+          {
+            "index": 2,
+            "text": "toward final modeling and write-up."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The six-month plan moves from design and data collection toward final modeling and write-up.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "The six-month plan moves from design and data collection toward final modeling and write-up.",
+              "fontSize": 29,
+              "typeface": "Poppins",
+              "color": "#003A61",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/il0rqd4v",
+      "id": "4",
+      "bbox": [
+        50,
+        500,
+        270,
+        15
+      ],
+      "geometry": "rect",
+      "text": "Vietnamese LDT | RP2 Colloquium 2",
+      "textPreview": "Vietnamese LDT | RP2 Colloquium 2",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Vietnamese LDT | RP2 Colloquium 2"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Vietnamese LDT | RP2 Colloquium 2",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Vietnamese LDT | RP2 Colloquium 2",
+              "fontSize": 8.51,
+              "typeface": "Poppins",
+              "color": "#63717A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b6xkf6dc",
+      "id": "5",
+      "bbox": [
+        108,
+        238,
+        680,
+        3
+      ],
+      "geometry": "rect",
+      "fillColor": "#8DB600"
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0rqd4vmt",
+      "id": "6",
+      "bbox": [
+        123,
+        229,
+        18,
+        18
+      ],
+      "geometry": "rect",
+      "fillColor": "#8DB600",
+      "lineColor": "#8DB600",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tcj6tova",
+      "id": "7",
+      "bbox": [
+        75,
+        170,
+        110,
+        22
+      ],
+      "geometry": "rect",
+      "text": "Month 1",
+      "textPreview": "Month 1",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Month 1"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Month 1",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Poppins",
+            "color": "#003A61",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Month 1",
+              "fontSize": 13,
+              "typeface": "Poppins",
+              "color": "#003A61",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ixczed8v",
+      "id": "8",
+      "bbox": [
+        75,
+        198,
+        110,
+        44
+      ],
+      "geometry": "rect",
+      "text": "literature\nfinal RQ",
+      "textPreview": "literature | final RQ",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "literature"
+          },
+          {
+            "index": 2,
+            "text": "final RQ"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "literature",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Poppins",
+            "color": "#263845",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "literature",
+              "fontSize": 11,
+              "typeface": "Poppins",
+              "color": "#263845"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "final RQ",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Poppins",
+            "color": "#263845",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "final RQ",
+              "fontSize": 11,
+              "typeface": "Poppins",
+              "color": "#263845"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bi9s36hc",
+      "id": "9",
+      "bbox": [
+        75,
+        270,
+        110,
+        18
+      ],
+      "geometry": "rect",
+      "text": "done / draft",
+      "textPreview": "done / draft",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "done / draft"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "done / draft",
+          "resolvedTextStyle": {
+            "fontSize": 9.51,
+            "typeface": "Poppins",
+            "color": "#8DB600",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "done / draft",
+              "fontSize": 9.51,
+              "typeface": "Poppins",
+              "color": "#8DB600",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rytsvu9k",
+      "id": "10",
+      "bbox": [
+        258,
+        229,
+        18,
+        18
+      ],
+      "geometry": "rect",
+      "fillColor": "#8DB600",
+      "lineColor": "#8DB600",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yd0z6103",
+      "id": "11",
+      "bbox": [
+        210,
+        170,
+        110,
+        22
+      ],
+      "geometry": "rect",
+      "text": "Month 2",
+      "textPreview": "Month 2",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Month 2"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Month 2",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Poppins",
+            "color": "#003A61",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Month 2",
+              "fontSize": 13,
+              "typeface": "Poppins",
+              "color": "#003A61",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/90je9cvi",
+      "id": "12",
+      "bbox": [
+        210,
+        198,
+        110,
+        44
+      ],
+      "geometry": "rect",
+      "text": "stimuli\npseudowords",
+      "textPreview": "stimuli | pseudowords",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "stimuli"
+          },
+          {
+            "index": 2,
+            "text": "pseudowords"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "stimuli",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Poppins",
+            "color": "#263845",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "stimuli",
+              "fontSize": 11,
+              "typeface": "Poppins",
+              "color": "#263845"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "pseudowords",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Poppins",
+            "color": "#263845",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "pseudowords",
+              "fontSize": 11,
+              "typeface": "Poppins",
+              "color": "#263845"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gfmlkjm1",
+      "id": "13",
+      "bbox": [
+        210,
+        270,
+        110,
+        18
+      ],
+      "geometry": "rect",
+      "text": "done / draft",
+      "textPreview": "done / draft",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "done / draft"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "done / draft",
+          "resolvedTextStyle": {
+            "fontSize": 9.51,
+            "typeface": "Poppins",
+            "color": "#8DB600",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "done / draft",
+              "fontSize": 9.51,
+              "typeface": "Poppins",
+              "color": "#8DB600",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rmhk3q5o",
+      "id": "14",
+      "bbox": [
+        393,
+        229,
+        18,
+        18
+      ],
+      "geometry": "rect",
+      "fillColor": "#8DB600",
+      "lineColor": "#8DB600",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y1kre1w7",
+      "id": "15",
+      "bbox": [
+        345,
+        170,
+        110,
+        22
+      ],
+      "geometry": "rect",
+      "text": "Month 3",
+      "textPreview": "Month 3",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Month 3"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Month 3",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Poppins",
+            "color": "#003A61",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Month 3",
+              "fontSize": 13,
+              "typeface": "Poppins",
+              "color": "#003A61",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9s36hcrm",
+      "id": "16",
+      "bbox": [
+        345,
+        198,
+        110,
+        44
+      ],
+      "geometry": "rect",
+      "text": "PsychoPy /\nPavlovia",
+      "textPreview": "PsychoPy / | Pavlovia",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "PsychoPy /"
+          },
+          {
+            "index": 2,
+            "text": "Pavlovia"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "PsychoPy /",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Poppins",
+            "color": "#263845",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "PsychoPy /",
+              "fontSize": 11,
+              "typeface": "Poppins",
+              "color": "#263845"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Pavlovia",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Poppins",
+            "color": "#263845",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Pavlovia",
+              "fontSize": 11,
+              "typeface": "Poppins",
+              "color": "#263845"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g7adsji5",
+      "id": "17",
+      "bbox": [
+        345,
+        270,
+        110,
+        18
+      ],
+      "geometry": "rect",
+      "text": "done / draft",
+      "textPreview": "done / draft",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "done / draft"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "done / draft",
+          "resolvedTextStyle": {
+            "fontSize": 9.51,
+            "typeface": "Poppins",
+            "color": "#8DB600",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "done / draft",
+              "fontSize": 9.51,
+              "typeface": "Poppins",
+              "color": "#8DB600",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nih4byhg",
+      "id": "18",
+      "bbox": [
+        528,
+        229,
+        18,
+        18
+      ],
+      "geometry": "rect",
+      "fillColor": "#8DB600",
+      "lineColor": "#8DB600",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yxobm58z",
+      "id": "19",
+      "bbox": [
+        480,
+        170,
+        110,
+        22
+      ],
+      "geometry": "rect",
+      "text": "Month 4",
+      "textPreview": "Month 4",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Month 4"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Month 4",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Poppins",
+            "color": "#003A61",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Month 4",
+              "fontSize": 13,
+              "typeface": "Poppins",
+              "color": "#003A61",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/61032lsz",
+      "id": "20",
+      "bbox": [
+        480,
+        198,
+        110,
+        44
+      ],
+      "geometry": "rect",
+      "text": "data\ncollection",
+      "textPreview": "data | collection",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "data"
+          },
+          {
+            "index": 2,
+            "text": "collection"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "data",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Poppins",
+            "color": "#263845",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "data",
+              "fontSize": 11,
+              "typeface": "Poppins",
+              "color": "#263845"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "collection",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Poppins",
+            "color": "#263845",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "collection",
+              "fontSize": 11,
+              "typeface": "Poppins",
+              "color": "#263845"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vmtwra5g",
+      "id": "21",
+      "bbox": [
+        480,
+        270,
+        110,
+        18
+      ],
+      "geometry": "rect",
+      "text": "done / draft",
+      "textPreview": "done / draft",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "done / draft"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "done / draft",
+          "resolvedTextStyle": {
+            "fontSize": 9.51,
+            "typeface": "Poppins",
+            "color": "#8DB600",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "done / draft",
+              "fontSize": 9.51,
+              "typeface": "Poppins",
+              "color": "#8DB600",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/o7qpg3ex",
+      "id": "22",
+      "bbox": [
+        663,
+        229,
+        18,
+        18
+      ],
+      "geometry": "rect",
+      "fillColor": "#8DB600",
+      "lineColor": "#8DB600",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dsji5sne",
+      "id": "23",
+      "bbox": [
+        615,
+        170,
+        110,
+        22
+      ],
+      "geometry": "rect",
+      "text": "Month 5",
+      "textPreview": "Month 5",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Month 5"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Month 5",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Poppins",
+            "color": "#003A61",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Month 5",
+              "fontSize": 13,
+              "typeface": "Poppins",
+              "color": "#003A61",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6dcbulwv",
+      "id": "24",
+      "bbox": [
+        615,
+        198,
+        110,
+        44
+      ],
+      "geometry": "rect",
+      "text": "cleaning/QC\nR Markdown",
+      "textPreview": "cleaning/QC | R Markdown",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "cleaning/QC"
+          },
+          {
+            "index": 2,
+            "text": "R Markdown"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "cleaning/QC",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Poppins",
+            "color": "#263845",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "cleaning/QC",
+              "fontSize": 11,
+              "typeface": "Poppins",
+              "color": "#263845"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "R Markdown",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Poppins",
+            "color": "#263845",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "R Markdown",
+              "fontSize": 11,
+              "typeface": "Poppins",
+              "color": "#263845"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vy90je9c",
+      "id": "25",
+      "bbox": [
+        615,
+        270,
+        110,
+        18
+      ],
+      "geometry": "rect",
+      "text": "done / draft",
+      "textPreview": "done / draft",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "done / draft"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "done / draft",
+          "resolvedTextStyle": {
+            "fontSize": 9.51,
+            "typeface": "Poppins",
+            "color": "#8DB600",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "done / draft",
+              "fontSize": 9.51,
+              "typeface": "Poppins",
+              "color": "#8DB600",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/oj2t83it",
+      "id": "26",
+      "bbox": [
+        798,
+        229,
+        18,
+        18
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#8DB600",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d4vmtwra",
+      "id": "27",
+      "bbox": [
+        750,
+        170,
+        110,
+        22
+      ],
+      "geometry": "rect",
+      "text": "Month 6",
+      "textPreview": "Month 6",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Month 6"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Month 6",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Poppins",
+            "color": "#003A61",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Month 6",
+              "fontSize": 13,
+              "typeface": "Poppins",
+              "color": "#003A61",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6hcrmhk3",
+      "id": "28",
+      "bbox": [
+        750,
+        198,
+        110,
+        44
+      ],
+      "geometry": "rect",
+      "text": "final models\nwrite-up",
+      "textPreview": "final models | write-up",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "final models"
+          },
+          {
+            "index": 2,
+            "text": "write-up"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "final models",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Poppins",
+            "color": "#263845",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "final models",
+              "fontSize": 11,
+              "typeface": "Poppins",
+              "color": "#263845"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "write-up",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Poppins",
+            "color": "#263845",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "write-up",
+              "fontSize": 11,
+              "typeface": "Poppins",
+              "color": "#263845"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z25kb6xk",
+      "id": "29",
+      "bbox": [
+        750,
+        270,
+        110,
+        18
+      ],
+      "geometry": "rect",
+      "text": "next",
+      "textPreview": "next",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "next"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "next",
+          "resolvedTextStyle": {
+            "fontSize": 9.51,
+            "typeface": "Poppins",
+            "color": "#63717A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "next",
+              "fontSize": 9.51,
+              "typeface": "Poppins",
+              "color": "#63717A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 30,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l87ed8ba",
+      "id": "30",
+      "bbox": [
+        130,
+        350,
+        635,
+        70
+      ],
+      "geometry": "rect",
+      "text": ".",
+      "textPreview": ".",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": ".",
+          "runs": [
+            {
+              "index": 1,
+              "text": ".",
+              "fontSize": 1.33,
+              "typeface": "Poppins",
+              "color": "#EEF4F8"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#EEF4F8"
+    },
+    {
+      "order": 31,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sneloj2t",
+      "id": "31",
+      "bbox": [
+        142,
+        360,
+        611,
+        20
+      ],
+      "geometry": "rect",
+      "text": "Current position",
+      "textPreview": "Current position",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Current position"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Current position",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Current position",
+              "fontSize": 12,
+              "typeface": "Poppins",
+              "color": "#003A61",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 32,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/32lszqtc",
+      "id": "32",
+      "bbox": [
+        142,
+        384,
+        611,
+        28
+      ],
+      "geometry": "rect",
+      "text": "Data collection, cleaning, first R Markdown analysis, figures, tables, and diagnostics are ready. Final interpretation and write-up still need review.",
+      "textPreview": "Data collection, cleaning, first R Markdown analysis, figures, tables, and diagnostics are ready. Final interpretation and write-up still...",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Data collection, cleaning, first R Markdown analysis, figures, tables, and diagnostics are ready. Final interpretation"
+          },
+          {
+            "index": 2,
+            "text": "and write-up still need review."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Data collection, cleaning, first R Markdown analysis, figures, tables, and diagnostics are ready. Final interpretation and write-up still need review.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Data collection, cleaning, first R Markdown analysis, figures, tables, and diagnostics are ready. Final interpretation and write-up still need review.",
+              "fontSize": 13,
+              "typeface": "Poppins",
+              "color": "#263845"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

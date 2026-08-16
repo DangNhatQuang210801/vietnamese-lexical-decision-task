@@ -1,0 +1,1363 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/pg3ex0nu",
+    "id": "pg3ex0nu",
+    "slide": 3,
+    "layoutId": "/ppt/slideLayouts/slideLayout2.xml",
+    "layoutName": "Headline // Inhalt",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 960,
+      "height": 540
+    }
+  },
+  "theme": {
+    "colorSchemeName": "RUB",
+    "colors": {
+      "accent1": "#FFCC00",
+      "accent2": "#EE7203",
+      "accent3": "#E6332A",
+      "accent4": "#B71E3F",
+      "accent5": "#9C5516",
+      "accent6": "#59211C",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#003560",
+      "lt2": "#8DAE10",
+      "hlink": "#000000",
+      "folHlink": "#000000"
+    },
+    "fontScheme": {
+      "name": "Arial",
+      "majorFont": {
+        "latinTypeface": "Arial"
+      },
+      "minorFont": {
+        "latinTypeface": "Arial"
+      }
+    },
+    "typefaces": [
+      "Arial",
+      "RUB Scala MZ",
+      "RubFlama"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout2.xml",
+      "name": "Headline // Inhalt",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "image",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/12",
+          "id": "12",
+          "name": "Grafik 11",
+          "bbox": [
+            0.09,
+            73.81,
+            222.96,
+            253.72
+          ],
+          "rotation": 12.34,
+          "contentType": "image/png",
+          "asset": {
+            "assetId": "/ppt/media/image6.png",
+            "contentType": "image/png",
+            "byteLength": 19067
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image6.png",
+            "contentType": "image/png",
+            "byteLength": 19067
+          }
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/3",
+          "id": "3",
+          "name": "Inhaltsplatzhalter 2",
+          "bbox": [
+            472.44,
+            52.91,
+            453.54,
+            396.85
+          ],
+          "geometry": "rect",
+          "text": "Subline auf erster Ebene // für weitere Ebenen >> Menü > Start > Absatz > Listenebene erhöhen \nZweite Ebene\nDritte Ebene\nVierte Ebene\nFünfte Ebene\nSechste Ebene\nSiebte Ebene\nAchte Ebene\nNeunte Ebene",
+          "textPreview": "Subline auf erster Ebene // für weitere Ebenen >> Menü > Start > Absatz > Listenebene erhöhen  | Zweite Ebene | Dritte Ebene | Vierte Ebe...",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Subline auf erster Ebene // für weitere Ebenen >> Menü > Start > Absatz > Listenebene erhöhen ",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Subline"
+                },
+                {
+                  "index": 2,
+                  "text": " auf erster Ebene // für weitere Ebenen >> Menü > Start > Absatz > Listenebene erhöhen "
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Zweite Ebene",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Zweite Ebene"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Dritte Ebene",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Dritte Ebene"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Vierte Ebene",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Vierte Ebene"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fünfte Ebene",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fünfte Ebene"
+                }
+              ]
+            },
+            {
+              "index": 6,
+              "text": "Sechste Ebene",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Sechste Ebene"
+                }
+              ]
+            },
+            {
+              "index": 7,
+              "text": "Siebte Ebene",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Siebte Ebene"
+                }
+              ]
+            },
+            {
+              "index": 8,
+              "text": "Achte Ebene",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Achte Ebene"
+                }
+              ]
+            },
+            {
+              "index": 9,
+              "text": "Neunte Ebene",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Neunte Ebene"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/8",
+          "id": "8",
+          "name": "Fußzeilenplatzhalter 7",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "Title | Section",
+          "textPreview": "Title | Section",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Title | Section",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Title | "
+                },
+                {
+                  "index": 2,
+                  "text": "Section"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/9",
+          "id": "9",
+          "name": "Foliennummernplatzhalter 8",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "‹Nr.› ",
+          "textPreview": "‹Nr.›",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹Nr.› ",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹Nr.›"
+                },
+                {
+                  "index": 2,
+                  "text": " "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/11",
+          "id": "11",
+          "name": "Titel 1",
+          "bbox": [
+            34.02,
+            126.36,
+            181.39,
+            158.76
+          ],
+          "geometry": "rect",
+          "text": "Section Title",
+          "textPreview": "Section Title",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Section Title",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Section"
+                },
+                {
+                  "index": 2,
+                  "text": " Title"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/4",
+          "id": "4",
+          "name": "Datumsplatzhalter 3",
+          "bbox": [
+            37.8,
+            579.96,
+            449.76,
+            18.9
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/5",
+          "id": "5",
+          "name": "Fußzeilenplatzhalter 4",
+          "bbox": [
+            75.59,
+            498.9,
+            661.42,
+            11.34
+          ],
+          "geometry": "rect",
+          "text": "Titel | ggf. weitere Angaben",
+          "textPreview": "Titel | ggf. weitere Angaben",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Titel | ggf. weitere Angaben",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Titel | ggf. weitere Angaben"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/6",
+          "id": "6",
+          "name": "Foliennummernplatzhalter 5",
+          "bbox": [
+            34.02,
+            498.9,
+            26.46,
+            11.34
+          ],
+          "geometry": "rect",
+          "text": "‹Nr.› ",
+          "textPreview": "‹Nr.›",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹Nr.› ",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹Nr.›"
+                },
+                {
+                  "index": 2,
+                  "text": " "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/12",
+          "id": "12",
+          "name": "Text // Listenebene erhöhen",
+          "bbox": [
+            -211.65,
+            292.69,
+            98.27,
+            41.57
+          ],
+          "rotation": 0,
+          "geometry": "rect",
+          "text": "Listenebene\nerhöhen",
+          "textPreview": "Listenebene | erhöhen",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Listenebene",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Listenebene",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "erhöhen",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "erhöhen",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/13",
+          "id": "13",
+          "name": "Text // Listenebene verringern",
+          "bbox": [
+            -211.65,
+            345.6,
+            98.27,
+            41.57
+          ],
+          "rotation": 0,
+          "geometry": "rect",
+          "text": "Listenebene\nverringern",
+          "textPreview": "Listenebene | verringern",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Listenebene",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Listenebene",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "verringern",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "verringern",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/25",
+          "id": "25",
+          "name": "Listenebenen",
+          "bbox": [
+            -219.21,
+            143.62,
+            207.87,
+            86.93
+          ],
+          "rotation": 180,
+          "horizontalFlip": true,
+          "verticalFlip": true,
+          "geometry": "rect",
+          "text": "Listen erstellen\nWechseln Sie die Textebene\nim Menü über: \nStart > Absatz > Listenebene erhöhen/verringern",
+          "textPreview": "Listen erstellen | Wechseln Sie die Textebene | im Menü über:  | Start > Absatz > Listenebene erhöhen/verringern",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Listen erstellen",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Listen erstellen",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Wechseln Sie die Textebene",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Wechseln Sie die Textebene",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "im Menü über: \nStart > Absatz > Listenebene erhöhen/verringern",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "im Menü über: ",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1"
+                },
+                {
+                  "index": 2,
+                  "text": "\n",
+                  "alignment": "right"
+                },
+                {
+                  "index": 3,
+                  "text": "Start > Absatz > Listenebene erhöhen/verringern",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            }
+          ],
+          "lineWidth": 1.33
+        },
+        {
+          "order": 7,
+          "kind": "image",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/31",
+          "id": "31",
+          "name": "Bild // Listenebene verringern",
+          "bbox": [
+            -101.14,
+            345.6,
+            89.8,
+            41.57
+          ],
+          "rotation": 0,
+          "contentType": "image/png",
+          "asset": {
+            "assetId": "/ppt/media/image1.png",
+            "contentType": "image/png",
+            "byteLength": 408
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image1.png",
+            "contentType": "image/png",
+            "byteLength": 408
+          }
+        },
+        {
+          "order": 8,
+          "kind": "image",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/32",
+          "id": "32",
+          "name": "Bild // Listenebene erhöhen",
+          "bbox": [
+            -101.14,
+            292.69,
+            89.8,
+            41.57
+          ],
+          "rotation": 0,
+          "contentType": "image/png",
+          "asset": {
+            "assetId": "/ppt/media/image2.png",
+            "contentType": "image/png",
+            "byteLength": 400
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image2.png",
+            "contentType": "image/png",
+            "byteLength": 400
+          }
+        },
+        {
+          "order": 9,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/14",
+          "id": "14",
+          "name": "Zurücksetzen",
+          "bbox": [
+            971.34,
+            68.03,
+            204.09,
+            64.25
+          ],
+          "rotation": 180,
+          "horizontalFlip": true,
+          "verticalFlip": true,
+          "geometry": "rect",
+          "text": "Folie in Ursprungsform \nbringen über Menü:\nStart > Folien > Zurücksetzen",
+          "textPreview": "Folie in Ursprungsform  | bringen über Menü: | Start > Folien > Zurücksetzen",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Folie in Ursprungsform ",
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Folie in Ursprungsform ",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "bringen über Menü:",
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "bringen über Menü:",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Start > Folien > Zurücksetzen",
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Start > Folien > Zurücksetzen",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            }
+          ],
+          "lineWidth": 1.33
+        },
+        {
+          "order": 10,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/15",
+          "id": "15",
+          "name": "Hilfslinien",
+          "bbox": [
+            45.33,
+            -49.13,
+            869.33,
+            37.8
+          ],
+          "rotation": 180,
+          "horizontalFlip": true,
+          "verticalFlip": true,
+          "geometry": "rect",
+          "text": "Hilfslinien anzeigen über Menü: Ansicht > Anzeigen > Haken bei Führungslinien setzen",
+          "textPreview": "Hilfslinien anzeigen über Menü: Ansicht > Anzeigen > Haken bei Führungslinien setzen",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "vertical": 1,
+            "verticalAlignment": "bottom",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Hilfslinien anzeigen über Menü: Ansicht > Anzeigen > Haken bei Führungslinien setzen",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Hilfslinien anzeigen über Menü: ",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "textTransform": "none"
+                },
+                {
+                  "index": 2,
+                  "text": "Ansicht > Anzeigen > Haken bei Führungslinien setzen",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true,
+                  "textTransform": "none"
+                }
+              ]
+            }
+          ],
+          "lineWidth": 1.33
+        },
+        {
+          "order": 11,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/16",
+          "id": "16",
+          "name": "Fußzeile",
+          "bbox": [
+            45.33,
+            551.81,
+            869.33,
+            37.8
+          ],
+          "rotation": 180,
+          "horizontalFlip": true,
+          "verticalFlip": true,
+          "geometry": "rect",
+          "text": "Fußzeile anpassen: Einfügen > Text > Kopf- und Fußzeile",
+          "textPreview": "Fußzeile anpassen: Einfügen > Text > Kopf- und Fußzeile",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Fußzeile anpassen: Einfügen > Text > Kopf- und Fußzeile",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fußzeile anpassen: ",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1"
+                },
+                {
+                  "index": 2,
+                  "text": "Einfügen > Text > Kopf- und Fußzeile",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            }
+          ],
+          "lineWidth": 1.33
+        },
+        {
+          "order": 12,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/30",
+          "id": "30",
+          "name": "Layoutwechsel",
+          "bbox": [
+            971.34,
+            239.77,
+            204.09,
+            64.25
+          ],
+          "rotation": 180,
+          "horizontalFlip": true,
+          "verticalFlip": true,
+          "geometry": "rect",
+          "text": "Wechsel des Folienlayouts \nim Menü über:\nStart > Folien > Layout",
+          "textPreview": "Wechsel des Folienlayouts  | im Menü über: | Start > Folien > Layout",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Wechsel des Folienlayouts \nim Menü über:",
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Wechsel des Folienlayouts ",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1"
+                },
+                {
+                  "index": 2,
+                  "text": "\n",
+                  "alignment": "left"
+                },
+                {
+                  "index": 3,
+                  "text": "im Menü über:",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Start > Folien > Layout",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Start > Folien > Layout",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            }
+          ],
+          "lineWidth": 1.33
+        },
+        {
+          "order": 13,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/17",
+          "id": "17",
+          "name": "Gerader Verbinder 16",
+          "bbox": [
+            0,
+            470.93,
+            960,
+            0
+          ],
+          "geometry": "line",
+          "lineColor": "bg2"
+        },
+        {
+          "order": 14,
+          "kind": "image",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/33",
+          "id": "33",
+          "name": "Grafik 20",
+          "bbox": [
+            811.62,
+            479.96,
+            114.36,
+            47.89
+          ],
+          "contentType": "image/png",
+          "asset": {
+            "assetId": "/ppt/media/image3.png",
+            "contentType": "image/png",
+            "byteLength": 54415
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image3.png",
+            "contentType": "image/png",
+            "byteLength": 54415
+          }
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5o7qpg3e",
+      "id": "2",
+      "name": "Inhaltsplatzhalter 1",
+      "bbox": [
+        472.44,
+        52.91,
+        453.54,
+        396.85
+      ],
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "RUB Scala MZ",
+        "color": "tx2",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      }
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g3ex0nux",
+      "id": "3",
+      "name": "Fußzeilenplatzhalter 2",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "text": "Title | Section",
+      "textPreview": "Title | Section",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 15,
+        "lines": [
+          {
+            "index": 1,
+            "text": "T"
+          },
+          {
+            "index": 2,
+            "text": "i"
+          },
+          {
+            "index": 3,
+            "text": "t"
+          },
+          {
+            "index": 4,
+            "text": "l"
+          },
+          {
+            "index": 5,
+            "text": "e"
+          },
+          {
+            "index": 6,
+            "text": " "
+          },
+          {
+            "index": 7,
+            "text": "|"
+          },
+          {
+            "index": 8,
+            "text": " "
+          },
+          {
+            "index": 9,
+            "text": "S"
+          },
+          {
+            "index": 10,
+            "text": "e"
+          },
+          {
+            "index": 11,
+            "text": "c"
+          },
+          {
+            "index": 12,
+            "text": "t"
+          },
+          {
+            "index": 13,
+            "text": "i"
+          },
+          {
+            "index": 14,
+            "text": "o"
+          },
+          {
+            "index": 15,
+            "text": "n"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Title | Section",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Title | "
+            },
+            {
+              "index": 2,
+              "text": "Section"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r65wjudg",
+      "id": "4",
+      "name": "Foliennummernplatzhalter 3",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "text": "2 ",
+      "textPreview": "2",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2"
+          },
+          {
+            "index": 2,
+            "text": " "
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2 ",
+          "runs": [
+            {
+              "index": 1,
+              "text": "2"
+            },
+            {
+              "index": 2,
+              "text": " "
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ylc7u54z",
+      "id": "5",
+      "name": "Titel 4",
+      "bbox": [
+        26.41,
+        164.16,
+        181.44,
+        128.52
+      ],
+      "text": "Section",
+      "textPreview": "Section",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 36,
+        "typeface": "RubFlama",
+        "color": "tx2",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Section"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Section",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Section"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

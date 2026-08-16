@@ -1,0 +1,431 @@
+{
+  "sourcePptx": "D:\\Research 2\\docs\\personal_notes\\NhatQuang-Research1.pptx",
+  "workspace": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt",
+  "outDir": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect",
+  "generatedAt": "2026-06-12T20:30:10.103Z",
+  "slideCount": 31,
+  "slideArtifacts": [
+    {
+      "slide": 1,
+      "previewPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\source-slides\\source-slide-01.png",
+      "previewRelativePath": "research1-inspect/source-slides/source-slide-01.png",
+      "layoutPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\layouts\\source-slide-01.layout.json",
+      "layoutRelativePath": "research1-inspect/layouts/source-slide-01.layout.json"
+    },
+    {
+      "slide": 2,
+      "previewPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\source-slides\\source-slide-02.png",
+      "previewRelativePath": "research1-inspect/source-slides/source-slide-02.png",
+      "layoutPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\layouts\\source-slide-02.layout.json",
+      "layoutRelativePath": "research1-inspect/layouts/source-slide-02.layout.json"
+    },
+    {
+      "slide": 3,
+      "previewPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\source-slides\\source-slide-03.png",
+      "previewRelativePath": "research1-inspect/source-slides/source-slide-03.png",
+      "layoutPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\layouts\\source-slide-03.layout.json",
+      "layoutRelativePath": "research1-inspect/layouts/source-slide-03.layout.json"
+    },
+    {
+      "slide": 4,
+      "previewPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\source-slides\\source-slide-04.png",
+      "previewRelativePath": "research1-inspect/source-slides/source-slide-04.png",
+      "layoutPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\layouts\\source-slide-04.layout.json",
+      "layoutRelativePath": "research1-inspect/layouts/source-slide-04.layout.json"
+    },
+    {
+      "slide": 5,
+      "previewPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\source-slides\\source-slide-05.png",
+      "previewRelativePath": "research1-inspect/source-slides/source-slide-05.png",
+      "layoutPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\layouts\\source-slide-05.layout.json",
+      "layoutRelativePath": "research1-inspect/layouts/source-slide-05.layout.json"
+    },
+    {
+      "slide": 6,
+      "previewPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\source-slides\\source-slide-06.png",
+      "previewRelativePath": "research1-inspect/source-slides/source-slide-06.png",
+      "layoutPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\layouts\\source-slide-06.layout.json",
+      "layoutRelativePath": "research1-inspect/layouts/source-slide-06.layout.json"
+    },
+    {
+      "slide": 7,
+      "previewPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\source-slides\\source-slide-07.png",
+      "previewRelativePath": "research1-inspect/source-slides/source-slide-07.png",
+      "layoutPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\layouts\\source-slide-07.layout.json",
+      "layoutRelativePath": "research1-inspect/layouts/source-slide-07.layout.json"
+    },
+    {
+      "slide": 8,
+      "previewPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\source-slides\\source-slide-08.png",
+      "previewRelativePath": "research1-inspect/source-slides/source-slide-08.png",
+      "layoutPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\layouts\\source-slide-08.layout.json",
+      "layoutRelativePath": "research1-inspect/layouts/source-slide-08.layout.json"
+    },
+    {
+      "slide": 9,
+      "previewPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\source-slides\\source-slide-09.png",
+      "previewRelativePath": "research1-inspect/source-slides/source-slide-09.png",
+      "layoutPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\layouts\\source-slide-09.layout.json",
+      "layoutRelativePath": "research1-inspect/layouts/source-slide-09.layout.json"
+    },
+    {
+      "slide": 10,
+      "previewPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\source-slides\\source-slide-10.png",
+      "previewRelativePath": "research1-inspect/source-slides/source-slide-10.png",
+      "layoutPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\layouts\\source-slide-10.layout.json",
+      "layoutRelativePath": "research1-inspect/layouts/source-slide-10.layout.json"
+    },
+    {
+      "slide": 11,
+      "previewPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\source-slides\\source-slide-11.png",
+      "previewRelativePath": "research1-inspect/source-slides/source-slide-11.png",
+      "layoutPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\layouts\\source-slide-11.layout.json",
+      "layoutRelativePath": "research1-inspect/layouts/source-slide-11.layout.json"
+    },
+    {
+      "slide": 12,
+      "previewPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\source-slides\\source-slide-12.png",
+      "previewRelativePath": "research1-inspect/source-slides/source-slide-12.png",
+      "layoutPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\layouts\\source-slide-12.layout.json",
+      "layoutRelativePath": "research1-inspect/layouts/source-slide-12.layout.json"
+    },
+    {
+      "slide": 13,
+      "previewPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\source-slides\\source-slide-13.png",
+      "previewRelativePath": "research1-inspect/source-slides/source-slide-13.png",
+      "layoutPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\layouts\\source-slide-13.layout.json",
+      "layoutRelativePath": "research1-inspect/layouts/source-slide-13.layout.json"
+    },
+    {
+      "slide": 14,
+      "previewPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\source-slides\\source-slide-14.png",
+      "previewRelativePath": "research1-inspect/source-slides/source-slide-14.png",
+      "layoutPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\layouts\\source-slide-14.layout.json",
+      "layoutRelativePath": "research1-inspect/layouts/source-slide-14.layout.json"
+    },
+    {
+      "slide": 15,
+      "previewPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\source-slides\\source-slide-15.png",
+      "previewRelativePath": "research1-inspect/source-slides/source-slide-15.png",
+      "layoutPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\layouts\\source-slide-15.layout.json",
+      "layoutRelativePath": "research1-inspect/layouts/source-slide-15.layout.json"
+    },
+    {
+      "slide": 16,
+      "previewPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\source-slides\\source-slide-16.png",
+      "previewRelativePath": "research1-inspect/source-slides/source-slide-16.png",
+      "layoutPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\layouts\\source-slide-16.layout.json",
+      "layoutRelativePath": "research1-inspect/layouts/source-slide-16.layout.json"
+    },
+    {
+      "slide": 17,
+      "previewPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\source-slides\\source-slide-17.png",
+      "previewRelativePath": "research1-inspect/source-slides/source-slide-17.png",
+      "layoutPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\layouts\\source-slide-17.layout.json",
+      "layoutRelativePath": "research1-inspect/layouts/source-slide-17.layout.json"
+    },
+    {
+      "slide": 18,
+      "previewPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\source-slides\\source-slide-18.png",
+      "previewRelativePath": "research1-inspect/source-slides/source-slide-18.png",
+      "layoutPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\layouts\\source-slide-18.layout.json",
+      "layoutRelativePath": "research1-inspect/layouts/source-slide-18.layout.json"
+    },
+    {
+      "slide": 19,
+      "previewPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\source-slides\\source-slide-19.png",
+      "previewRelativePath": "research1-inspect/source-slides/source-slide-19.png",
+      "layoutPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\layouts\\source-slide-19.layout.json",
+      "layoutRelativePath": "research1-inspect/layouts/source-slide-19.layout.json"
+    },
+    {
+      "slide": 20,
+      "previewPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\source-slides\\source-slide-20.png",
+      "previewRelativePath": "research1-inspect/source-slides/source-slide-20.png",
+      "layoutPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\layouts\\source-slide-20.layout.json",
+      "layoutRelativePath": "research1-inspect/layouts/source-slide-20.layout.json"
+    },
+    {
+      "slide": 21,
+      "previewPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\source-slides\\source-slide-21.png",
+      "previewRelativePath": "research1-inspect/source-slides/source-slide-21.png",
+      "layoutPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\layouts\\source-slide-21.layout.json",
+      "layoutRelativePath": "research1-inspect/layouts/source-slide-21.layout.json"
+    },
+    {
+      "slide": 22,
+      "previewPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\source-slides\\source-slide-22.png",
+      "previewRelativePath": "research1-inspect/source-slides/source-slide-22.png",
+      "layoutPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\layouts\\source-slide-22.layout.json",
+      "layoutRelativePath": "research1-inspect/layouts/source-slide-22.layout.json"
+    },
+    {
+      "slide": 23,
+      "previewPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\source-slides\\source-slide-23.png",
+      "previewRelativePath": "research1-inspect/source-slides/source-slide-23.png",
+      "layoutPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\layouts\\source-slide-23.layout.json",
+      "layoutRelativePath": "research1-inspect/layouts/source-slide-23.layout.json"
+    },
+    {
+      "slide": 24,
+      "previewPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\source-slides\\source-slide-24.png",
+      "previewRelativePath": "research1-inspect/source-slides/source-slide-24.png",
+      "layoutPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\layouts\\source-slide-24.layout.json",
+      "layoutRelativePath": "research1-inspect/layouts/source-slide-24.layout.json"
+    },
+    {
+      "slide": 25,
+      "previewPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\source-slides\\source-slide-25.png",
+      "previewRelativePath": "research1-inspect/source-slides/source-slide-25.png",
+      "layoutPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\layouts\\source-slide-25.layout.json",
+      "layoutRelativePath": "research1-inspect/layouts/source-slide-25.layout.json"
+    },
+    {
+      "slide": 26,
+      "previewPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\source-slides\\source-slide-26.png",
+      "previewRelativePath": "research1-inspect/source-slides/source-slide-26.png",
+      "layoutPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\layouts\\source-slide-26.layout.json",
+      "layoutRelativePath": "research1-inspect/layouts/source-slide-26.layout.json"
+    },
+    {
+      "slide": 27,
+      "previewPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\source-slides\\source-slide-27.png",
+      "previewRelativePath": "research1-inspect/source-slides/source-slide-27.png",
+      "layoutPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\layouts\\source-slide-27.layout.json",
+      "layoutRelativePath": "research1-inspect/layouts/source-slide-27.layout.json"
+    },
+    {
+      "slide": 28,
+      "previewPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\source-slides\\source-slide-28.png",
+      "previewRelativePath": "research1-inspect/source-slides/source-slide-28.png",
+      "layoutPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\layouts\\source-slide-28.layout.json",
+      "layoutRelativePath": "research1-inspect/layouts/source-slide-28.layout.json"
+    },
+    {
+      "slide": 29,
+      "previewPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\source-slides\\source-slide-29.png",
+      "previewRelativePath": "research1-inspect/source-slides/source-slide-29.png",
+      "layoutPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\layouts\\source-slide-29.layout.json",
+      "layoutRelativePath": "research1-inspect/layouts/source-slide-29.layout.json"
+    },
+    {
+      "slide": 30,
+      "previewPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\source-slides\\source-slide-30.png",
+      "previewRelativePath": "research1-inspect/source-slides/source-slide-30.png",
+      "layoutPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\layouts\\source-slide-30.layout.json",
+      "layoutRelativePath": "research1-inspect/layouts/source-slide-30.layout.json"
+    },
+    {
+      "slide": 31,
+      "previewPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\source-slides\\source-slide-31.png",
+      "previewRelativePath": "research1-inspect/source-slides/source-slide-31.png",
+      "layoutPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\layouts\\source-slide-31.layout.json",
+      "layoutRelativePath": "research1-inspect/layouts/source-slide-31.layout.json"
+    }
+  ],
+  "inspectPath": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\template-inspect.ndjson",
+  "inspectRelativePath": "research1-inspect/template-inspect.ndjson",
+  "inspectTruncated": true,
+  "inspectMetadata": {
+    "revision": "eon9ma",
+    "target": {
+      "id": "pr/4kx4ou"
+    },
+    "kind": {
+      "requested": "slide,textbox,shape,image,table,chart",
+      "tokens": [
+        "slide",
+        "textbox",
+        "shape",
+        "image",
+        "table",
+        "chart"
+      ]
+    },
+    "include": {
+      "tokens": []
+    },
+    "exclude": {
+      "tokens": []
+    },
+    "notices": []
+  },
+  "extractedMedia": [
+    {
+      "entry": "ppt/media/image6.png",
+      "path": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\assets\\ppt\\media\\image6.png",
+      "relativePath": "research1-inspect/assets/ppt/media/image6.png",
+      "bytes": 19067
+    },
+    {
+      "entry": "ppt/media/image7.png",
+      "path": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\assets\\ppt\\media\\image7.png",
+      "relativePath": "research1-inspect/assets/ppt/media/image7.png",
+      "bytes": 22347
+    },
+    {
+      "entry": "ppt/media/image10.png",
+      "path": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\assets\\ppt\\media\\image10.png",
+      "relativePath": "research1-inspect/assets/ppt/media/image10.png",
+      "bytes": 7873
+    },
+    {
+      "entry": "ppt/media/image11.png",
+      "path": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\assets\\ppt\\media\\image11.png",
+      "relativePath": "research1-inspect/assets/ppt/media/image11.png",
+      "bytes": 133559
+    },
+    {
+      "entry": "ppt/media/image12.png",
+      "path": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\assets\\ppt\\media\\image12.png",
+      "relativePath": "research1-inspect/assets/ppt/media/image12.png",
+      "bytes": 44620
+    },
+    {
+      "entry": "ppt/media/image13.png",
+      "path": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\assets\\ppt\\media\\image13.png",
+      "relativePath": "research1-inspect/assets/ppt/media/image13.png",
+      "bytes": 141853
+    },
+    {
+      "entry": "ppt/media/image14.png",
+      "path": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\assets\\ppt\\media\\image14.png",
+      "relativePath": "research1-inspect/assets/ppt/media/image14.png",
+      "bytes": 74107
+    },
+    {
+      "entry": "ppt/media/image15.png",
+      "path": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\assets\\ppt\\media\\image15.png",
+      "relativePath": "research1-inspect/assets/ppt/media/image15.png",
+      "bytes": 114897
+    },
+    {
+      "entry": "ppt/media/image16.png",
+      "path": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\assets\\ppt\\media\\image16.png",
+      "relativePath": "research1-inspect/assets/ppt/media/image16.png",
+      "bytes": 109811
+    },
+    {
+      "entry": "ppt/media/image17.png",
+      "path": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\assets\\ppt\\media\\image17.png",
+      "relativePath": "research1-inspect/assets/ppt/media/image17.png",
+      "bytes": 55867
+    },
+    {
+      "entry": "ppt/media/image18.png",
+      "path": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\assets\\ppt\\media\\image18.png",
+      "relativePath": "research1-inspect/assets/ppt/media/image18.png",
+      "bytes": 58438
+    },
+    {
+      "entry": "ppt/media/image8.PNG",
+      "path": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\assets\\ppt\\media\\image8.PNG",
+      "relativePath": "research1-inspect/assets/ppt/media/image8.PNG",
+      "bytes": 2812
+    },
+    {
+      "entry": "ppt/media/image1.png",
+      "path": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\assets\\ppt\\media\\image1.png",
+      "relativePath": "research1-inspect/assets/ppt/media/image1.png",
+      "bytes": 408
+    },
+    {
+      "entry": "ppt/media/image2.png",
+      "path": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\assets\\ppt\\media\\image2.png",
+      "relativePath": "research1-inspect/assets/ppt/media/image2.png",
+      "bytes": 400
+    },
+    {
+      "entry": "ppt/media/image3.png",
+      "path": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\assets\\ppt\\media\\image3.png",
+      "relativePath": "research1-inspect/assets/ppt/media/image3.png",
+      "bytes": 54415
+    },
+    {
+      "entry": "ppt/media/image4.png",
+      "path": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\assets\\ppt\\media\\image4.png",
+      "relativePath": "research1-inspect/assets/ppt/media/image4.png",
+      "bytes": 566963
+    },
+    {
+      "entry": "ppt/media/image5.png",
+      "path": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\assets\\ppt\\media\\image5.png",
+      "relativePath": "research1-inspect/assets/ppt/media/image5.png",
+      "bytes": 3279
+    },
+    {
+      "entry": "ppt/media/image9.png",
+      "path": "D:\\Research 2\\outputs\\019ebd7f-43a3-77c1-a64d-f9a3f17282cf\\presentations\\rp2-colloquium2-vietnamese-ldt\\research1-inspect\\assets\\ppt\\media\\image9.png",
+      "relativePath": "research1-inspect/assets/ppt/media/image9.png",
+      "bytes": 61157
+    }
+  ],
+  "fonts": [
+    "+mj-cs",
+    "+mj-ea",
+    "+mj-lt",
+    "+mn-cs",
+    "+mn-ea",
+    "+mn-lt",
+    "Angsana New",
+    "Arial",
+    "Calibri",
+    "Calibri Light",
+    "Cordia New",
+    "DaunPenh",
+    "DokChampa",
+    "Ebrima",
+    "Estrangelo Edessa",
+    "Euphemia",
+    "Gautami",
+    "Iskoola Pota",
+    "Javanese Text",
+    "Kalinga",
+    "Kartika",
+    "Latha",
+    "Leelawadee UI",
+    "MV Boli",
+    "Mangal",
+    "Microsoft Himalaya",
+    "Microsoft JhengHei",
+    "Microsoft New Tai Lue",
+    "Microsoft Tai Le",
+    "Microsoft Uighur",
+    "Microsoft Yi Baiti",
+    "Mongolian Baiti",
+    "MoolBoran",
+    "Myanmar Text",
+    "Nirmala UI",
+    "Nyala",
+    "Phagspa",
+    "Plantagenet Cherokee",
+    "Poppins",
+    "Poppins Light",
+    "RUB Scala MZ",
+    "Raavi",
+    "RubFlama",
+    "Segoe UI",
+    "Shruti",
+    "Sylfaen",
+    "Times New Roman",
+    "Tunga",
+    "Vrinda",
+    "Wingdings",
+    "微軟正黑體",
+    "新細明體",
+    "游ゴシック",
+    "游ゴシック Light",
+    "等线",
+    "等线 Light",
+    "黑体",
+    "굴림",
+    "맑은 고딕",
+    "ＭＳ Ｐゴシック"
+  ],
+  "packageParts": {
+    "mediaCount": 18,
+    "slideXmlCount": 31,
+    "chartCount": 0,
+    "tableSlideCount": 2
+  }
+}

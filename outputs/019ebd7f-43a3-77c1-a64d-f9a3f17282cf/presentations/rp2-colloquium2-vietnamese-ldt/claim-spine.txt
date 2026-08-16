@@ -1,0 +1,37 @@
+Thesis:
+Vietnamese lexical decision is a useful, constrained way to study frequency and syllable-length effects in a writing system where spaces mark syllables rather than lexical words.
+
+Audience:
+RP2 Colloquium 2, linguistics/psycholinguistics supervisor and peers.
+
+One-line arc:
+Vietnamese orthography motivates the problem; the project narrows it to a controlled lexical-decision design; the pipeline shows clean, reproducible data handling; preliminary mixed-effects results support strong frequency and length patterns with a modest interaction.
+
+Slide claims:
+1. This RP2 tests how frequency and syllable length shape Vietnamese lexical decision.
+2. The talk follows the full research pipeline, not only results.
+3. Vietnamese writing moved from character-based systems to Latin-based Quốc ngữ, but the modern system still raises word-boundary questions.
+4. Orthographic spaces mark syllables, so spacing is not the same as lexical-word segmentation.
+5. The project deliberately narrows tokenization to a psycholinguistic test of frequency and syllable length.
+6. The hypotheses predict faster high-frequency responses and slower longer-word responses.
+7. The 3 x 4 within-participant design is balanced at the real-word cell level.
+8. Pseudowords make the task a lexical decision rather than a word-recognition-only task.
+9. The task procedure is simple, randomized, and keyboard-based.
+10. Bias controls reduce and monitor common task artifacts without overclaiming.
+11. A demo slide is reserved for the PsychoPy experiment video.
+12. The methodology pipeline makes the project reproducible from experiment to model.
+13. Cleaning/QC checks protect the analysis against file, mapping, RT, and stimulus problems.
+14. QC suggests the data are ready for cautious preliminary analysis.
+15. Reproducibility is built through preserved raw data, scripts, cleaned outputs, and R Markdown.
+16. Log RT and mixed-effects modeling match the structure of repeated lexical-decision data.
+17. The model estimates frequency and syllable-length effects while accounting for participants and items.
+18. Descriptively, high-frequency words are faster and longer words are slower.
+19. The interaction pattern is visible but should be treated as modest.
+20. Model comparison supports adding frequency and length; the interaction improves fit only weakly.
+21. Diagnostics do not show a singularity problem, but RT assumptions still need care.
+22. Accuracy and response QC suggest participants generally performed the task seriously.
+23. The main conclusion is promising but preliminary.
+24. The limitations define what must be improved before final reporting.
+25. The six-month plan moves from design and collection toward final modeling and write-up.
+26. References ground the orthography, LDT, methods, and software claims.
+27. Closing.

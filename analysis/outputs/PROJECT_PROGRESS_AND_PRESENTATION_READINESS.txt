@@ -1,0 +1,146 @@
+RP2 PROJECT PROGRESS AND PRESENTATION READINESS REPORT
+Report date: 2026-06-12
+Project root: D:\Research 2
+
+1. CURRENT PROJECT STAGE
+
+The project is now past proposal/design, stimulus preparation, data collection, data cleaning, and first analysis. It is currently in the transition from preliminary analysis to presentation preparation for Colloquium 2.
+
+The project is ready to enter the presentation-preparation stage, but the interpretation should still be written carefully as preliminary analysis rather than as final thesis conclusions.
+
+2. COMPLETED WORK
+
+Experimental design:
+The final design is a within-participant Vietnamese lexical decision task. The core real-word design is 3 x 4, with frequency_group low, mid, high and syllable_length 1, 2, 3, 4. The design contains 72 real-word items and 48 pseudowords, for 120 main trials per participant.
+
+Stimulus preparation:
+The final stimulus file exists at data\stimuli\final\final_ldt_stimuli_3x4_v1.csv. The diagnostics file confirms 72 real words, 48 pseudowords, 6 real words per frequency x length cell, and 12 pseudowords per syllable length.
+
+Data collection:
+The current raw data folder data\experiment_results contains 48 participant CSV files. The minimum target N = 48 has been reached.
+
+Python cleaning and QC:
+The first official cleaning script exists at analysis\01_prepare_clean_data.py. It creates cleaned analysis copies and QC summaries without modifying raw data.
+
+Stimulus validation:
+Stimulus validation passed. The cleaned data contain exactly the expected 120 main trial_id values, and each trial_id has 48 presentations.
+
+R Markdown analysis:
+The main analysis draft exists at analysis\RP2_final_analysis_v2.Rmd. A rendered HTML file exists at analysis\outputs\r_analysis\RP2_final_analysis_v2.html.
+
+Preliminary results:
+Descriptive tables, plots, mixed-effects models, model comparison, model summaries, VIF output, and diagnostic plots exist in analysis\outputs\r_analysis.
+
+Professor feedback status:
+The available files show that the proposal was revised to define the final 3 x 4 design more clearly. Professor Kiss course materials are present in docs\professor_Kiss_materials and were used as a style guide for the step-by-step analysis structure.
+
+3. DATA STATUS
+
+Participant files: 48
+Unique participants: 48
+Flagged participants: 0
+Minimum N = 48 reached: yes
+Total main trials: 5760
+Valid RTs: 5715
+RT real-word correct rows: 3306
+Each trial_id has 48 presentations: yes
+All stimulus validation checks passed: yes
+Cleaned data ready for R analysis: yes
+
+Important cleaned outputs:
+analysis\outputs\cleaned_data\all_trials_clean.csv
+analysis\outputs\cleaned_data\main_trials_clean.csv
+analysis\outputs\cleaned_data\rt_realword_correct.csv
+analysis\outputs\cleaned_data\accuracy_main_trials.csv
+
+Important QC outputs:
+analysis\outputs\qc\processing_log.txt
+analysis\outputs\qc\stimulus_validation_summary.csv
+analysis\outputs\qc\participant_qc_summary.csv
+analysis\outputs\qc\item_qc_by_trial_id.csv
+
+4. ANALYSIS STATUS
+
+R Markdown analysis exists: yes
+Rendered HTML exists: yes
+Descriptive tables exist: yes
+Descriptive plots exist: yes
+Mixed-effects RT models were run: yes
+Diagnostics were included: yes
+Model singularity reported: yes
+Major singularity issue: no
+
+The singularity output reports FALSE for model0, model1, model2, and model3.
+
+The analysis should still be treated as preliminary. The models and plots are ready for presentation discussion, but the final written interpretation for a thesis/report still needs polishing after careful review of diagnostics.
+
+5. PRELIMINARY FINDINGS
+
+Frequency effect:
+Descriptively, high-frequency words are faster than low-frequency words. Mean RTs in the current RT table are:
+low = 0.668 s
+mid = 0.618 s
+high = 0.510 s
+
+The model comparison indicates that adding frequency_group improves model fit compared with the baseline model.
+
+Syllable length effect:
+Descriptively, RT increases with syllable length. Mean RTs are:
+1 syllable = 0.441 s
+2 syllables = 0.528 s
+3 syllables = 0.684 s
+4 syllables = 0.748 s
+
+The model comparison indicates that adding syllable_length strongly improves model fit.
+
+Interaction effect:
+The interaction model improves over the additive model, but the improvement is modest. The model comparison for model3 gives p = 0.0449. This should be presented cautiously as evidence that the frequency effect may vary by syllable length, not as a large or final conclusion.
+
+Accuracy and task quality:
+Accuracy suggests that participants generally performed the lexical decision task seriously. Accuracy by condition is:
+word = 95.7%
+pseudoword = 82.0%
+
+No participants were flagged by the current QC rules.
+
+6. PRESENTATION READINESS
+
+Estimated Colloquium 2 readiness: 85%
+
+The project is ready to move into slide preparation. The main materials needed for a presentation already exist: final design, validated data, cleaned analysis files, descriptive plots, mixed-effects model output, and diagnostic plots.
+
+The remaining 15% is mainly presentation work: selecting the clearest graphs, simplifying the interpretation, preparing a clear methods explanation, and deciding how much model detail to show.
+
+7. REMAINING TASKS BEFORE COLLOQUIUM 2
+
+Practical next steps:
+1. Select 3 to 5 key graphs for the presentation.
+2. Prepare a simple slide structure: research question, design, data status, analysis plan, main results, limitations, next steps.
+3. Explain the 3 x 4 design clearly and briefly.
+4. Explain why Vietnamese length is measured by syllable count.
+5. Prepare a short explanation of mixed-effects models: participants and items as random effects.
+6. Prepare a careful explanation of log RT.
+7. Decide how to present the modest interaction effect without overclaiming.
+8. Review diagnostic plots and prepare one slide or backup slide for model assumptions.
+9. Write limitations and next steps.
+10. Prepare answers for possible questions about N = 48, pseudowords, diagnostics, and interaction interpretation.
+
+8. RISKS AND CONCERNS
+
+The interaction effect appears modest and should be described carefully.
+
+Diagnostics need careful explanation. The project has residual plots, QQ plots, histograms, VIF output, and singularity checks, but these should be summarized in a simple way for a presentation.
+
+N = 48 reaches the minimum target and is acceptable for moving forward, but it is still the minimum rather than the preferred 50 to 60 range.
+
+The current R analysis is a strong draft, not final thesis prose. Final claims should be written only after reviewing the model output and diagnostics one more time.
+
+The data and outputs are ready for presentation, but the story needs to be polished so that the presentation does not become too technical.
+
+9. RECOMMENDATION
+
+Start preparing presentation slides now: yes.
+
+First slide-preparation task:
+Create a presentation outline with 8 to 10 slides, starting with the research question and the finalized 3 x 4 experimental design. After that, choose the clearest RT plots for frequency group, syllable length, and the frequency x length interaction.
+

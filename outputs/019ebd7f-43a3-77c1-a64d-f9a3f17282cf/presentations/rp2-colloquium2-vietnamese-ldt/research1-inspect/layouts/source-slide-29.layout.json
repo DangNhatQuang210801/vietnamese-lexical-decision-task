@@ -1,0 +1,2471 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/a1gvy90j",
+    "id": "a1gvy90j",
+    "slide": 30,
+    "layoutId": "/ppt/slideLayouts/slideLayout6.xml",
+    "layoutName": "Headline / Text / Bild inkl. Bildunterzeile",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 960,
+      "height": 540
+    }
+  },
+  "theme": {
+    "colorSchemeName": "RUB",
+    "colors": {
+      "accent1": "#FFCC00",
+      "accent2": "#EE7203",
+      "accent3": "#E6332A",
+      "accent4": "#B71E3F",
+      "accent5": "#9C5516",
+      "accent6": "#59211C",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#003560",
+      "lt2": "#8DAE10",
+      "hlink": "#000000",
+      "folHlink": "#000000"
+    },
+    "fontScheme": {
+      "name": "Arial",
+      "majorFont": {
+        "latinTypeface": "Arial"
+      },
+      "minorFont": {
+        "latinTypeface": "Arial"
+      }
+    },
+    "typefaces": [
+      "Arial",
+      "RubFlama"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout6.xml",
+      "name": "Headline / Text / Bild inkl. Bildunterzeile",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "image",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/11",
+          "id": "11",
+          "name": "Grafik 10",
+          "bbox": [
+            744.6,
+            0,
+            215.4,
+            220.42
+          ],
+          "contentType": "image/png",
+          "imageCrop": {
+            "left": 0,
+            "top": 0.40753,
+            "right": 0.42388,
+            "bottom": 0
+          },
+          "asset": {
+            "assetId": "/ppt/media/image7.png",
+            "contentType": "image/png",
+            "byteLength": 22347
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image7.png",
+            "contentType": "image/png",
+            "byteLength": 22347
+          }
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/2",
+          "id": "2",
+          "name": "Titel 1",
+          "bbox": [
+            49.13,
+            41.57,
+            793.7,
+            49.13
+          ],
+          "geometry": "rect",
+          "text": "KAPITEL | CHART-HEADLINE",
+          "textPreview": "KAPITEL | CHART-HEADLINE",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "KAPITEL | CHART-HEADLINE",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "KAPITEL | CHART-HEADLINE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/3",
+          "id": "3",
+          "name": "Inhaltsplatzhalter 2",
+          "bbox": [
+            49.13,
+            96.38,
+            430.87,
+            353.39
+          ],
+          "geometry": "rect",
+          "text": "Subline auf erster Ebene // für weitere Ebenen >> Menü > Start > Absatz > Listenebene erhöhen \nZweite Ebene\nDritte Ebene\nVierte Ebene\nFünfte Ebene\nSechste Ebene\nSiebte Ebene\nAchte Ebene\nNeunte Ebene",
+          "textPreview": "Subline auf erster Ebene // für weitere Ebenen >> Menü > Start > Absatz > Listenebene erhöhen  | Zweite Ebene | Dritte Ebene | Vierte Ebe...",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Subline auf erster Ebene // für weitere Ebenen >> Menü > Start > Absatz > Listenebene erhöhen ",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Subline"
+                },
+                {
+                  "index": 2,
+                  "text": " auf erster Ebene // für weitere Ebenen >> Menü > Start > Absatz > Listenebene erhöhen "
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Zweite Ebene",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Zweite Ebene"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Dritte Ebene",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Dritte Ebene"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Vierte Ebene",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Vierte Ebene"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fünfte Ebene",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fünfte Ebene"
+                }
+              ]
+            },
+            {
+              "index": 6,
+              "text": "Sechste Ebene",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Sechste Ebene"
+                }
+              ]
+            },
+            {
+              "index": 7,
+              "text": "Siebte Ebene",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Siebte Ebene"
+                }
+              ]
+            },
+            {
+              "index": 8,
+              "text": "Achte Ebene",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Achte Ebene"
+                }
+              ]
+            },
+            {
+              "index": 9,
+              "text": "Neunte Ebene",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Neunte Ebene"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/8",
+          "id": "8",
+          "name": "Fußzeilenplatzhalter 7",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": " Chapter",
+          "textPreview": "Chapter",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": " Chapter",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": " Chapter"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/9",
+          "id": "9",
+          "name": "Foliennummernplatzhalter 8",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "‹#› ",
+          "textPreview": "‹#›",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#› ",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                },
+                {
+                  "index": 2,
+                  "text": " "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/5",
+          "id": "5",
+          "name": "Bildplatzhalter 4",
+          "bbox": [
+            491.34,
+            100.16,
+            415.75,
+            277.8
+          ],
+          "geometry": "rect",
+          "text": "Bild durch Klicken auf Symbol hinzufügen",
+          "textPreview": "Bild durch Klicken auf Symbol hinzufügen",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Bild durch Klicken auf Symbol hinzufügen",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Bild durch Klicken auf Symbol hinzufügen"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/10",
+          "id": "10",
+          "name": "Textplatzhalter 5",
+          "bbox": [
+            491.34,
+            389.29,
+            415.75,
+            60.47
+          ],
+          "geometry": "rect",
+          "text": "Bildunterzeile // für weitere Ebenen (Text)  >> Menü > Start > Absatz > Listenebene erhöhen \n\nZweite Ebene",
+          "textPreview": "Bildunterzeile // für weitere Ebenen (Text)  >> Menü > Start > Absatz > Listenebene erhöhen  |  | Zweite Ebene",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Bildunterzeile // für weitere Ebenen (Text)  >> Menü > Start > Absatz > Listenebene erhöhen ",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Bildunterzeile // für weitere Ebenen (Text)  >> Menü > Start > Absatz > Listenebene erhöhen "
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Zweite Ebene",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Zweite Ebene"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/4",
+          "id": "4",
+          "name": "Datumsplatzhalter 3",
+          "bbox": [
+            37.8,
+            579.96,
+            449.76,
+            18.9
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/5",
+          "id": "5",
+          "name": "Fußzeilenplatzhalter 4",
+          "bbox": [
+            75.59,
+            498.9,
+            661.42,
+            11.34
+          ],
+          "geometry": "rect",
+          "text": "Titel | ggf. Iitere Angaben",
+          "textPreview": "Titel | ggf. Iitere Angaben",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Titel | ggf. Iitere Angaben",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Titel | ggf. Iitere Angaben"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/6",
+          "id": "6",
+          "name": "Foliennummernplatzhalter 5",
+          "bbox": [
+            34.02,
+            498.9,
+            26.46,
+            11.34
+          ],
+          "geometry": "rect",
+          "text": "‹#› ",
+          "textPreview": "‹#›",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#› ",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                },
+                {
+                  "index": 2,
+                  "text": " "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/12",
+          "id": "12",
+          "name": "Text // Listenebene erhöhen",
+          "bbox": [
+            -211.65,
+            292.69,
+            98.27,
+            41.57
+          ],
+          "rotation": 0,
+          "geometry": "rect",
+          "text": "Listenebene\nerhöhen",
+          "textPreview": "Listenebene | erhöhen",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Listenebene",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Listenebene",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "erhöhen",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "erhöhen",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/13",
+          "id": "13",
+          "name": "Text // Listenebene verringern",
+          "bbox": [
+            -211.65,
+            345.6,
+            98.27,
+            41.57
+          ],
+          "rotation": 0,
+          "geometry": "rect",
+          "text": "Listenebene\nverringern",
+          "textPreview": "Listenebene | verringern",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Listenebene",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Listenebene",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "verringern",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "verringern",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/25",
+          "id": "25",
+          "name": "Listenebenen",
+          "bbox": [
+            -219.21,
+            143.62,
+            207.87,
+            86.93
+          ],
+          "rotation": 180,
+          "horizontalFlip": true,
+          "verticalFlip": true,
+          "geometry": "rect",
+          "text": "Listen erstellen\nIchseln Sie die Textebene\nim Menü über: \nStart > Absatz > Listenebene erhöhen/verringern",
+          "textPreview": "Listen erstellen | Ichseln Sie die Textebene | im Menü über:  | Start > Absatz > Listenebene erhöhen/verringern",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Listen erstellen",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Listen erstellen",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Ichseln Sie die Textebene",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Ichseln Sie die Textebene",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "im Menü über: \nStart > Absatz > Listenebene erhöhen/verringern",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "im Menü über: ",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1"
+                },
+                {
+                  "index": 2,
+                  "text": "\n",
+                  "alignment": "right"
+                },
+                {
+                  "index": 3,
+                  "text": "Start > Absatz > Listenebene erhöhen/verringern",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            }
+          ],
+          "lineWidth": 1.33
+        },
+        {
+          "order": 7,
+          "kind": "image",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/31",
+          "id": "31",
+          "name": "Bild // Listenebene verringern",
+          "bbox": [
+            -101.14,
+            345.6,
+            89.8,
+            41.57
+          ],
+          "rotation": 0,
+          "contentType": "image/png",
+          "asset": {
+            "assetId": "/ppt/media/image1.png",
+            "contentType": "image/png",
+            "byteLength": 408
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image1.png",
+            "contentType": "image/png",
+            "byteLength": 408
+          }
+        },
+        {
+          "order": 8,
+          "kind": "image",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/32",
+          "id": "32",
+          "name": "Bild // Listenebene erhöhen",
+          "bbox": [
+            -101.14,
+            292.69,
+            89.8,
+            41.57
+          ],
+          "rotation": 0,
+          "contentType": "image/png",
+          "asset": {
+            "assetId": "/ppt/media/image2.png",
+            "contentType": "image/png",
+            "byteLength": 400
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image2.png",
+            "contentType": "image/png",
+            "byteLength": 400
+          }
+        },
+        {
+          "order": 9,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/14",
+          "id": "14",
+          "name": "Zurücksetzen",
+          "bbox": [
+            971.34,
+            68.03,
+            204.09,
+            64.25
+          ],
+          "rotation": 180,
+          "horizontalFlip": true,
+          "verticalFlip": true,
+          "geometry": "rect",
+          "text": "Folie in Ursprungsform \nbringen über Menü:\nStart > Folien > Zurücksetzen",
+          "textPreview": "Folie in Ursprungsform  | bringen über Menü: | Start > Folien > Zurücksetzen",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Folie in Ursprungsform ",
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Folie in Ursprungsform ",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "bringen über Menü:",
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "bringen über Menü:",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Start > Folien > Zurücksetzen",
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Start > Folien > Zurücksetzen",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            }
+          ],
+          "lineWidth": 1.33
+        },
+        {
+          "order": 10,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/15",
+          "id": "15",
+          "name": "Hilfslinien",
+          "bbox": [
+            45.33,
+            -49.13,
+            869.33,
+            37.8
+          ],
+          "rotation": 180,
+          "horizontalFlip": true,
+          "verticalFlip": true,
+          "geometry": "rect",
+          "text": "Hilfslinien anzeigen über Menü: Ansicht > Anzeigen > Haken bei Führungslinien setzen",
+          "textPreview": "Hilfslinien anzeigen über Menü: Ansicht > Anzeigen > Haken bei Führungslinien setzen",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "vertical": 1,
+            "verticalAlignment": "bottom",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Hilfslinien anzeigen über Menü: Ansicht > Anzeigen > Haken bei Führungslinien setzen",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Hilfslinien anzeigen über Menü: ",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "textTransform": "none"
+                },
+                {
+                  "index": 2,
+                  "text": "Ansicht > Anzeigen > Haken bei Führungslinien setzen",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true,
+                  "textTransform": "none"
+                }
+              ]
+            }
+          ],
+          "lineWidth": 1.33
+        },
+        {
+          "order": 11,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/16",
+          "id": "16",
+          "name": "Fußzeile",
+          "bbox": [
+            45.33,
+            551.81,
+            869.33,
+            37.8
+          ],
+          "rotation": 180,
+          "horizontalFlip": true,
+          "verticalFlip": true,
+          "geometry": "rect",
+          "text": "Fußzeile anpassen: Einfügen > Text > Kopf- und Fußzeile",
+          "textPreview": "Fußzeile anpassen: Einfügen > Text > Kopf- und Fußzeile",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Fußzeile anpassen: Einfügen > Text > Kopf- und Fußzeile",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fußzeile anpassen: ",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1"
+                },
+                {
+                  "index": 2,
+                  "text": "Einfügen > Text > Kopf- und Fußzeile",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            }
+          ],
+          "lineWidth": 1.33
+        },
+        {
+          "order": 12,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/30",
+          "id": "30",
+          "name": "Layoutwechsel",
+          "bbox": [
+            971.34,
+            239.77,
+            204.09,
+            64.25
+          ],
+          "rotation": 180,
+          "horizontalFlip": true,
+          "verticalFlip": true,
+          "geometry": "rect",
+          "text": "Ichsel des Folienlayouts \nim Menü über:\nStart > Folien > Layout",
+          "textPreview": "Ichsel des Folienlayouts  | im Menü über: | Start > Folien > Layout",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Ichsel des Folienlayouts \nim Menü über:",
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Ichsel des Folienlayouts ",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1"
+                },
+                {
+                  "index": 2,
+                  "text": "\n",
+                  "alignment": "left"
+                },
+                {
+                  "index": 3,
+                  "text": "im Menü über:",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Start > Folien > Layout",
+              "marginLeft": 0,
+              "indent": 0,
+              "lineSpacingPercent": 100000,
+              "spaceBefore": 0,
+              "spaceAfter": 0,
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Start > Folien > Layout",
+                  "fontSize": 16,
+                  "typeface": "Arial",
+                  "color": "tx1",
+                  "bold": true
+                }
+              ]
+            }
+          ],
+          "lineWidth": 1.33
+        },
+        {
+          "order": 13,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/17",
+          "id": "17",
+          "name": "Gerader Verbinder 16",
+          "bbox": [
+            0,
+            470.93,
+            960,
+            0
+          ],
+          "geometry": "line",
+          "lineColor": "bg2"
+        },
+        {
+          "order": 14,
+          "kind": "image",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/33",
+          "id": "33",
+          "name": "Grafik 20",
+          "bbox": [
+            811.62,
+            479.96,
+            114.36,
+            47.89
+          ],
+          "contentType": "image/png",
+          "asset": {
+            "assetId": "/ppt/media/image3.png",
+            "contentType": "image/png",
+            "byteLength": 54415
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image3.png",
+            "contentType": "image/png",
+            "byteLength": 54415
+          }
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/c3ylc7u5",
+      "id": "2",
+      "name": "Titel 1",
+      "bbox": [
+        49.13,
+        41.57,
+        793.7,
+        49.13
+      ],
+      "text": "References data and code libraries ",
+      "textPreview": "References data and code libraries",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "fontSize": 36,
+        "typeface": "RubFlama",
+        "color": "tx2",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "References data and code libraries"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "References data and code libraries ",
+          "runs": [
+            {
+              "index": 1,
+              "text": "References data and code libraries "
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ulwval87",
+      "id": "4",
+      "name": "Fußzeilenplatzhalter 3",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "text": "References",
+      "textPreview": "References",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 10,
+        "lines": [
+          {
+            "index": 1,
+            "text": "R"
+          },
+          {
+            "index": 2,
+            "text": "e"
+          },
+          {
+            "index": 3,
+            "text": "f"
+          },
+          {
+            "index": 4,
+            "text": "e"
+          },
+          {
+            "index": 5,
+            "text": "r"
+          },
+          {
+            "index": 6,
+            "text": "e"
+          },
+          {
+            "index": 7,
+            "text": "n"
+          },
+          {
+            "index": 8,
+            "text": "c"
+          },
+          {
+            "index": 9,
+            "text": "e"
+          },
+          {
+            "index": 10,
+            "text": "s"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "References",
+          "runs": [
+            {
+              "index": 1,
+              "text": "References"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j6tovaho",
+      "id": "5",
+      "name": "Foliennummernplatzhalter 4",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "text": "29 ",
+      "textPreview": "29",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2"
+          },
+          {
+            "index": 2,
+            "text": "9"
+          },
+          {
+            "index": 3,
+            "text": " "
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "29 ",
+          "runs": [
+            {
+              "index": 1,
+              "text": "29"
+            },
+            {
+              "index": 2,
+              "text": " "
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1kre1w7m",
+      "id": "3",
+      "name": "Rectangle 1",
+      "bbox": [
+        47.2,
+        81,
+        863.67,
+        397.44
+      ],
+      "geometry": "rect",
+      "text": "pandas. (n.d.). pandas.read_csv — pandas documentation. PyData. https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html (Retrieved September 1, 2025). pandas.pydata.org\npandas. (n.d.). pandas.merge — pandas documentation. PyData. https://pandas.pydata.org/docs/reference/api/pandas.merge.html (Retrieved September 1, 2025). pandas.pydata.org\nPandera Developers. (n.d.). DataFrame Schemas — pandera documentation. Read the Docs. https://pandera.readthedocs.io/en/stable/dataframe_schemas.html (Retrieved September 1, 2025). pandera.readthedocs.io\nGreat Expectations. (n.d.). Great Expectations documentation. https://docs.greatexpectations.io/docs/home/ (Retrieved September 1, 2025). docs.greatexpectations.io\nSciPy. (n.d.). ttest_ind — SciPy v1.16.1 Manual. https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.ttest_ind.html (Retrieved September 1, 2025). docs.scipy.org\nstatsmodels. (n.d.). statsmodels.stats.multitest.multipletests. https://www.statsmodels.org/dev/generated/statsmodels.stats.multitest.multipletests.html (Retrieved September 1, 2025). statsmodels.org\nBenjamini, Y., & Hochberg, Y. (1995). Controlling the false discovery rate: A practical and powerful approach to multiple testing. Journal of the Royal Statistical Society: Series B, 57(1), 289–300. https://doi.org/10.1111/j.2517-6161.1995.tb02031.x rss.onlinelibrary.wiley.com\nPingouin Developers. (n.d.). compute_effsize — Pingouin 0.5.5 documentation. https://pingouin-stats.org/build/html/generated/pingouin.compute_effsize.html (Retrieved September 1, 2025). pingouin-stats.org\nPython Software Foundation. (n.d.). Regular Expression HOWTO. https://docs.python.org/3/howto/regex.html (Retrieved September 1, 2025). Python documentation\npytest-dev. (n.d.). @pytest.mark.parametrize: Parametrizing test functions. https://docs.pytest.org/en/stable/how-to/parametrize.html (Retrieved September 1, 2025). docs.pytest.org\nHypothesis. (n.d.). Hypothesis documentation. https://hypothesis.readthedocs.io/ (Retrieved September 1, 2025). hypothesis.readthedocs.io\nBlack maintainers. (n.d.). Black: The uncompromising code formatter. https://black.readthedocs.io/ (Retrieved September 1, 2025). black.readthedocs.io\nAstral. (n.d.). Ruff — Astral docs. https://docs.astral.sh/ruff/ (Retrieved September 1, 2025)",
+      "textPreview": "pandas. (n.d.). pandas.read_csv — pandas documentation. PyData. https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html (Retrie...",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 24,
+        "lines": [
+          {
+            "index": 1,
+            "text": "pandas. (n.d.). pandas.read_csv — pandas documentation. PyData. https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html"
+          },
+          {
+            "index": 2,
+            "text": "(Retrieved September 1, 2025). pandas.pydata.org"
+          },
+          {
+            "index": 3,
+            "text": "pandas. (n.d.). pandas.merge — pandas documentation. PyData. https://pandas.pydata.org/docs/reference/api/pandas.merge.html (Retrieved"
+          },
+          {
+            "index": 4,
+            "text": "September 1, 2025). pandas.pydata.org"
+          },
+          {
+            "index": 5,
+            "text": "Pandera Developers. (n.d.). DataFrame Schemas — pandera documentation. Read the Docs."
+          },
+          {
+            "index": 6,
+            "text": "https://pandera.readthedocs.io/en/stable/dataframe_schemas.html (Retrieved September 1, 2025). pandera.readthedocs.io"
+          },
+          {
+            "index": 7,
+            "text": "Great Expectations. (n.d.). Great Expectations documentation. https://docs.greatexpectations.io/docs/home/ (Retrieved September 1, 2025)."
+          },
+          {
+            "index": 8,
+            "text": "docs.greatexpectations.io"
+          },
+          {
+            "index": 9,
+            "text": "SciPy. (n.d.). ttest_ind — SciPy v1.16.1 Manual. https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.ttest_ind.html (Retrieved"
+          },
+          {
+            "index": 10,
+            "text": "September 1, 2025). docs.scipy.org"
+          },
+          {
+            "index": 11,
+            "text": "statsmodels. (n.d.). statsmodels.stats.multitest.multipletests."
+          },
+          {
+            "index": 12,
+            "text": "https://www.statsmodels.org/dev/generated/statsmodels.stats.multitest.multipletests.html (Retrieved September 1, 2025). statsmodels.org"
+          },
+          {
+            "index": 13,
+            "text": "Benjamini, Y., & Hochberg, Y. (1995). Controlling the false discovery rate: A practical and powerful approach to multiple testing. Journal of the"
+          },
+          {
+            "index": 14,
+            "text": "Royal Statistical Society: Series B, 57(1), 289–300. https://doi.org/10.1111/j.2517-6161.1995.tb02031.x rss.onlinelibrary.wiley.com"
+          },
+          {
+            "index": 15,
+            "text": "Pingouin Developers. (n.d.). compute_effsize — Pingouin 0.5.5 documentation."
+          },
+          {
+            "index": 16,
+            "text": "https://pingouin-stats.org/build/html/generated/pingouin.compute_effsize.html (Retrieved September 1, 2025). pingouin-stats.org"
+          },
+          {
+            "index": 17,
+            "text": "Python Software Foundation. (n.d.). Regular Expression HOWTO. https://docs.python.org/3/howto/regex.html (Retrieved September 1, 2025)."
+          },
+          {
+            "index": 18,
+            "text": "Python documentation"
+          },
+          {
+            "index": 19,
+            "text": "pytest-dev. (n.d.). @pytest.mark.parametrize: Parametrizing test functions. https://docs.pytest.org/en/stable/how-to/parametrize.html (Retrieved"
+          },
+          {
+            "index": 20,
+            "text": "September 1, 2025). docs.pytest.org"
+          },
+          {
+            "index": 21,
+            "text": "Hypothesis. (n.d.). Hypothesis documentation. https://hypothesis.readthedocs.io/ (Retrieved September 1, 2025). hypothesis.readthedocs.io"
+          },
+          {
+            "index": 22,
+            "text": "Black maintainers. (n.d.). Black: The uncompromising code formatter. https://black.readthedocs.io/ (Retrieved September 1, 2025)."
+          },
+          {
+            "index": 23,
+            "text": "black.readthedocs.io"
+          },
+          {
+            "index": 24,
+            "text": "Astral. (n.d.). Ruff — Astral docs. https://docs.astral.sh/ruff/ (Retrieved September 1, 2025)"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "pandas. (n.d.). pandas.read_csv — pandas documentation. PyData. https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html (Retrieved September 1, 2025). pandas.pydata.org",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "pandas. (n.d.). ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "pandas.read_csv",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "italic": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 3,
+              "text": " — pandas documentation",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "italic": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 4,
+              "text": ". ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 5,
+              "text": "PyData",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 6,
+              "text": ". ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 7,
+              "text": "https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 8,
+              "text": " (Retrieved September 1, 2025). ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 9,
+              "text": "pandas.pydata.org",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "pandas. (n.d.). pandas.merge — pandas documentation. PyData. https://pandas.pydata.org/docs/reference/api/pandas.merge.html (Retrieved September 1, 2025). pandas.pydata.org",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "pandas. (n.d.). ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "pandas.merge",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "italic": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 3,
+              "text": " — pandas documentation",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "italic": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 4,
+              "text": ". ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 5,
+              "text": "PyData",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 6,
+              "text": ". ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 7,
+              "text": "https://pandas.pydata.org/docs/reference/api/pandas.merge.html",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 8,
+              "text": " (Retrieved September 1, 2025). ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 9,
+              "text": "pandas.pydata.org",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "Pandera Developers. (n.d.). DataFrame Schemas — pandera documentation. Read the Docs. https://pandera.readthedocs.io/en/stable/dataframe_schemas.html (Retrieved September 1, 2025). pandera.readthedocs.io",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Pandera",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": " Developers. (n.d.). ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 3,
+              "text": "DataFrame",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "italic": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 4,
+              "text": " Schemas — ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "italic": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 5,
+              "text": "pandera",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "italic": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 6,
+              "text": " documentation",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "italic": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 7,
+              "text": ". Read the Docs. ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 8,
+              "text": "https://pandera.readthedocs.io/en/stable/dataframe_schemas.html",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 9,
+              "text": " (Retrieved September 1, 2025). ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 10,
+              "text": "pandera.readthedocs.io",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "Great Expectations. (n.d.). Great Expectations documentation. https://docs.greatexpectations.io/docs/home/ (Retrieved September 1, 2025). docs.greatexpectations.io",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Great Expectations. (n.d.). ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "Great Expectations documentation",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "italic": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 3,
+              "text": ". ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 4,
+              "text": "https://docs.greatexpectations.io/docs/home/",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 5,
+              "text": " (Retrieved September 1, 2025). ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 6,
+              "text": "docs.greatexpectations.io",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "text": "SciPy. (n.d.). ttest_ind — SciPy v1.16.1 Manual. https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.ttest_ind.html (Retrieved September 1, 2025). docs.scipy.org",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SciPy. (n.d.). ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "ttest_ind",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "italic": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 3,
+              "text": " — SciPy v1.16.1 Manual",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "italic": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 4,
+              "text": ". ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 5,
+              "text": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.ttest_ind.html",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 6,
+              "text": " (Retrieved September 1, 2025). ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 7,
+              "text": "docs.scipy.org",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "text": "statsmodels. (n.d.). statsmodels.stats.multitest.multipletests. https://www.statsmodels.org/dev/generated/statsmodels.stats.multitest.multipletests.html (Retrieved September 1, 2025). statsmodels.org",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "statsmodels",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": ". (n.d.). ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 3,
+              "text": "statsmodels.stats.multitest.multipletests",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "italic": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 4,
+              "text": ". ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 5,
+              "text": "https://www.statsmodels.org/dev/generated/statsmodels.stats.multitest.multipletests.html",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 6,
+              "text": " (Retrieved September 1, 2025). ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 7,
+              "text": "statsmodels.org",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "text": "Benjamini, Y., & Hochberg, Y. (1995). Controlling the false discovery rate: A practical and powerful approach to multiple testing. Journal of the Royal Statistical Society: Series B, 57(1), 289–300. https://doi.org/10.1111/j.2517-6161.1995.tb02031.x rss.onlinelibrary.wiley.com",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Benjamini",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": ", Y., & Hochberg, Y. (1995). ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 3,
+              "text": "Controlling the false discovery rate: A practical and powerful approach to multiple testing",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "italic": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 4,
+              "text": ". ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 5,
+              "text": "Journal of the Royal Statistical Society: Series B",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "italic": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 6,
+              "text": ", 57(1), 289–300. https://doi.org/10.1111/j.2517-6161.1995.tb02031.x ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 7,
+              "text": "rss.onlinelibrary.wiley.com",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "text": "Pingouin Developers. (n.d.). compute_effsize — Pingouin 0.5.5 documentation. https://pingouin-stats.org/build/html/generated/pingouin.compute_effsize.html (Retrieved September 1, 2025). pingouin-stats.org",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Pingouin",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": " Developers. (n.d.). ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 3,
+              "text": "compute_effsize",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "italic": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 4,
+              "text": " — ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "italic": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 5,
+              "text": "Pingouin",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "italic": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 6,
+              "text": " 0.5.5 documentation",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "italic": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 7,
+              "text": ". ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 8,
+              "text": "https://pingouin-stats.org/build/html/generated/pingouin.compute_effsize.html",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 9,
+              "text": " (Retrieved September 1, 2025). ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 10,
+              "text": "pingouin-stats.org",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "text": "Python Software Foundation. (n.d.). Regular Expression HOWTO. https://docs.python.org/3/howto/regex.html (Retrieved September 1, 2025). Python documentation",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Python Software Foundation. (n.d.). ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "Regular Expression HOWTO",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "italic": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 3,
+              "text": ". ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 4,
+              "text": "https://docs.python.org/3/howto/regex.html",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 5,
+              "text": " (Retrieved September 1, 2025). ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 6,
+              "text": "Python documentation",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "text": "pytest-dev. (n.d.). @pytest.mark.parametrize: Parametrizing test functions. https://docs.pytest.org/en/stable/how-to/parametrize.html (Retrieved September 1, 2025). docs.pytest.org",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "pytest",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "-dev. (n.d.). ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 3,
+              "text": "@pytest.mark.parametrize: Parametrizing test functions",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "italic": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 4,
+              "text": ". ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 5,
+              "text": "https://docs.pytest.org/en/stable/how-to/parametrize.html",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 6,
+              "text": " (Retrieved September 1, 2025). ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 7,
+              "text": "docs.pytest.org",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "text": "Hypothesis. (n.d.). Hypothesis documentation. https://hypothesis.readthedocs.io/ (Retrieved September 1, 2025). hypothesis.readthedocs.io",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Hypothesis. (n.d.). ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "Hypothesis documentation",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "italic": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 3,
+              "text": ". ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 4,
+              "text": "https://hypothesis.readthedocs.io/",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 5,
+              "text": " (Retrieved September 1, 2025). ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 6,
+              "text": "hypothesis.readthedocs.io",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "text": "Black maintainers. (n.d.). Black: The uncompromising code formatter. https://black.readthedocs.io/ (Retrieved September 1, 2025). black.readthedocs.io",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Black maintainers. (n.d.). ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "Black: The uncompromising code formatter",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "italic": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 3,
+              "text": ". ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 4,
+              "text": "https://black.readthedocs.io/",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 5,
+              "text": " (Retrieved September 1, 2025). ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 6,
+              "text": "black.readthedocs.io",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "text": "Astral. (n.d.). Ruff — Astral docs. https://docs.astral.sh/ruff/ (Retrieved September 1, 2025)",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000,
+          "spaceBefore": 0,
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Astral. (n.d.). ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "Ruff — Astral docs",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "italic": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 3,
+              "text": ". ",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 4,
+              "text": "https://docs.astral.sh/ruff/",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            },
+            {
+              "index": 5,
+              "text": " (Retrieved September 1, 2025)",
+              "fontSize": 13.33,
+              "typeface": "Arial",
+              "color": "tx1",
+              "textTransform": "none"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

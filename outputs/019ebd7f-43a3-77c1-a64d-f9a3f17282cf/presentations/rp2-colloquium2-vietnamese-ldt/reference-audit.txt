@@ -1,0 +1,18 @@
+Reference decks/files:
+- NhatQuang-Research1.pptx: 31-slide prior high-scoring deck. Useful patterns: explicit project aims, methodology steps, workflow/tool slides, annotated screenshots/figures, timeline and references.
+- RP2_Neguliaeva_colloquium.pdf: strong RP2 reference. Text audit shows a clear arc: background, problem-setting, theory, research question/goals, timeline, study design, setup, evaluation, conclusions/limitations.
+
+Applied lessons:
+- Keep a research story rather than a short topic overview.
+- Use methodology and QC as the deck's strongest middle section.
+- Show concrete artifacts: scripts, CSV outputs, R Markdown, model formula, plots, diagnostics.
+- Present preliminary results cautiously and reserve space for limitations and next steps.
+
+Reference still wins:
+- The PDF reference likely has more mature section pacing and many slides for background.
+
+This deck should win for this project by:
+- making the Vietnamese orthography/tokenization motivation specific,
+- showing the full data-cleaning and reproducibility path,
+- using actual project outputs rather than generic methods prose,
+- embedding concise speaker notes.

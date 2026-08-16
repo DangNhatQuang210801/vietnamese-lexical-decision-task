@@ -1,0 +1,36 @@
+Task mode: template-following, with new analytical content inserted into duplicated template slides.
+Primary deck-profile: template-following.
+Secondary gates: academic research narrative, data/QC transparency, cautious results interpretation.
+
+Required proof objects:
+- Vietnamese writing-system timeline.
+- Vietnamese spacing/tokenization diagram.
+- 3 x 4 within-participant design matrix.
+- task procedure and bias-control diagram.
+- methodology pipeline from PsychoPy/Pavlovia to Python/pandas to R Markdown and lme4/lmerTest.
+- QC summary using participant/trial/stimulus checks.
+- model formula and rationale for log RT and mixed-effects modeling.
+- R figures, model comparison table, diagnostics, accuracy summary.
+- six-month timeline and references.
+
+Source/asset requirements:
+- Source template: docs/Presentation-Layout.pptx.
+- Reference deck: docs/personal_notes/NhatQuang-Research1.pptx.
+- Quality reference PDF: docs/personal_notes/RP2_Neguliaeva_colloquium.pdf.
+- Project outputs: analysis/outputs, analysis/RP2_final_analysis_v2.Rmd, analysis/01_prepare_clean_data.py.
+- Logos from presentation/Logo when available; otherwise labeled blocks.
+
+Brand authenticity constraints:
+- Preserve template RUB/LDSL chrome inherited from the template.
+- Use only local provided tool logos; do not invent tool logos.
+- Use labeled blocks for R Markdown, lme4, and lmerTest.
+
+Known missing inputs:
+- No direct video embedding tool was used; one slide is reserved for manually inserting presentation/Demo.mov.
+- PDF reference could be text-extracted but not locally rendered as slide images because no PDF renderer package is available in the bundled Python runtime.
+
+Profile-specific QA gates:
+- Final deck must use template-starter.pptx imported through artifact-tool.
+- Remove or fill inherited broken placeholders visible on the left edge.
+- Speaker notes must be embedded.
+- Final PPTX and text QC must not contain forbidden wording requested by the user.

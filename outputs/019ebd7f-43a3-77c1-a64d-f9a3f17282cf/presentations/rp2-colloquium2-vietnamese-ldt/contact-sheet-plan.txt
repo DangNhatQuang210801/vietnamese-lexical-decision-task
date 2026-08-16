@@ -1,0 +1,29 @@
+Macro-layout rhythm:
+1. Cover with title and project rails.
+2. Agenda/content map.
+3. Timeline/history diagram.
+4. Tokenization example diagram.
+5. Scope/RQ/hypothesis blocks.
+6. Design matrix.
+7. Stimuli table plus examples.
+8. Procedure flow.
+9. Bias-control matrix.
+10. Video placeholder.
+11. Pipeline with tool logos.
+12. Cleaning/QC two-column system.
+13. QC metric rail and validation checklist.
+14. Reproducibility architecture.
+15. Analysis/model explanation.
+16. Model formula spotlight.
+17. Descriptive RT results.
+18. Interaction result figure.
+19. Model comparison table.
+20. Diagnostics gallery.
+21. Accuracy and response-quality summary.
+22. Cautious interpretation.
+23. Limitations.
+24. Six-month timeline.
+25-26. References.
+27. Thank-you slide.
+
+No three consecutive slides should share the same proof-object type.

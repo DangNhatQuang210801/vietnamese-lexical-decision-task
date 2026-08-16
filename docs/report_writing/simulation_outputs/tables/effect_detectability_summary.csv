@@ -1,7 +1,0 @@
-data_notice,model,expected_effect,coefficient_checked,estimate,p_value,direction_detected
-SIMULATED DATA — NOT REAL PARTICIPANT DATA,RT,Higher word frequency should lower RT,log_frequency_c,-0.0197585355162984,0.012175654837461709,TRUE
-SIMULATED DATA — NOT REAL PARTICIPANT DATA,RT,Longer syllable length should increase RT,syllable_length_c,0.08813631191597489,1.1361615700426818e-32,TRUE
-SIMULATED DATA — NOT REAL PARTICIPANT DATA,RT,Pseudowords should be slower,pseudowordpseudoword,0.12303860949784569,1.0396567066209849e-17,TRUE
-SIMULATED DATA — NOT REAL PARTICIPANT DATA,Accuracy,Higher word frequency should improve accuracy,log_frequency_c,0.04452681969673101,0.4442956869834376,TRUE
-SIMULATED DATA — NOT REAL PARTICIPANT DATA,Accuracy,Longer syllable length should reduce accuracy,syllable_length_c,-0.2540514369901922,6.308322683382093e-10,TRUE
-SIMULATED DATA — NOT REAL PARTICIPANT DATA,Accuracy,Pseudowords should be less accurate,pseudowordpseudoword,-0.5354322087304484,5.894730800776099e-9,TRUE

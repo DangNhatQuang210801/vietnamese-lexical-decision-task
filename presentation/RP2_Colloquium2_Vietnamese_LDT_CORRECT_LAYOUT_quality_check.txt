@@ -1,0 +1,37 @@
+RP2 Colloquium 2 - correct-layout QA
+
+Output deck:
+D:\Research 2\presentation\RP2_Colloquium2_Vietnamese_LDT_CORRECT_LAYOUT.pptx
+
+Template applied:
+D:\RUHR Bochum\Presentation-Layout.pptx
+
+Template verification:
+The Ruhr template file has the same SHA256 hash as the previously inspected template copy in D:\Research 2\docs\Presentation-Layout.pptx, so the existing template starter was reused.
+
+Slide count:
+27 slides.
+
+Speaker notes:
+Embedded on all 27 slides. Notes were rewritten to sound more natural and presentation-ready, with a master-student tone and cautious academic phrasing.
+
+Layout:
+Applied the Ruhr/LDSL-style slide chrome, footer, logo, and top-right visual motif through the template-based starter deck.
+
+Typography:
+Corrected all explicit slide text to Arial. Final PPTX slide XML scan reports Arial as the only explicit slide font: Arial count = 2760; non-Arial slide fonts = 0.
+
+Content update:
+Slide 5 now explains how corpus text becomes frequency tables, candidate pools, review/survey data, and final LDT stimuli. It includes a Python/pandas code sketch.
+
+PowerPoint visual QA:
+Exported all 27 slides through PowerPoint to JPG for visual review. The rendered contact sheet showed the template layout applied across the deck.
+
+Placeholder QA:
+Final PPTX XML scan found 0 empty structural placeholders and 0 visible placeholder-text hits.
+
+Banned wording appears:
+No. Final PPTX XML scan found 0 hits.
+
+Ready for manual review:
+Yes. Recommended review: skim slide 5 code legibility and references slide density before presenting.

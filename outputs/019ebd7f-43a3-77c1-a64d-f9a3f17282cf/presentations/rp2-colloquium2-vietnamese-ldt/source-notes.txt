@@ -1,0 +1,23 @@
+Local project sources used:
+- docs/Presentation-Layout.pptx: template and visual chrome.
+- docs/personal_notes/NhatQuang-Research1.pptx: reference for methodology rhythm.
+- docs/personal_notes/RP2_Neguliaeva_colloquium.pdf: reference for RP2 story arc.
+- analysis/outputs/PROJECT_PROGRESS_AND_PRESENTATION_READINESS.txt: project status and key numbers.
+- analysis/outputs/qc/processing_log.txt: file/trial/participant counts and raw-data preservation statement.
+- analysis/01_prepare_clean_data.py: cleaning/QC step definitions.
+- analysis/RP2_final_analysis_v2.Rmd: R Markdown workflow, model formula, log RT and mixed-model rationale.
+- analysis/outputs/r_analysis/tables/*.csv: descriptive tables and model comparison.
+- analysis/outputs/r_analysis/models/*.txt: model summary, VIF and singularity checks.
+- analysis/outputs/r_analysis/figures/*.png: RT, accuracy, model and diagnostic figures.
+- data/stimuli/final/final_ldt_stimuli_3x4_v1.csv: final stimulus balance and examples.
+- scripts/online_pavlovia/docs/validation_report.md: task trial counts and response mapping.
+- presentation/Logo/*.png: local tool logos.
+
+External sources checked for writing-system history:
+- Encyclopaedia Britannica, "Quoc-ngu": Portuguese missionaries devised the system in the mid-17th century; Alexandre de Rhodes further modified it; compulsory under French administration in 1910.
+- Fernandes & Assunção (2017), Persée/HEL: first codification by 17th-century missionaries and Portuguese influence on Vietnamese orthography.
+- Local verified reference file: docs/report_writing/references_vietnamese_orthography_verified.md.
+
+Identity assets:
+- RUB/LDSL marks are inherited from the user-provided template.
+- Tool logos are local user-provided assets, not recreated.

@@ -1,0 +1,43 @@
+RP2 Colloquium 2 - Vietnamese Lexical Decision Task
+Quality check
+
+Main output:
+D:\Research 2\presentation\RP2_Colloquium2_Vietnamese_LDT.pptx
+
+Tools, files, template:
+Sufficient. The deck used the provided PowerPoint template, the strong RP2 reference deck, the high-scoring Research 1 deck, project status notes, stimulus metadata, cleaning/QC information, R outputs, model outputs, local logos, and rendered R figures.
+
+Slide count:
+27 slides.
+
+Speaker notes:
+Embedded on all 27 slides.
+
+Figures, tables, and model outputs used:
+- Local logos/blocks for PsychoPy, Pavlovia, Python, pandas, R, R Markdown, and lme4/lmerTest.
+- Design matrix for the 3 x 4 within-participant structure.
+- Stimulus and pseudoword summary tables.
+- Cleaning/QC workflow blocks and QC status metrics.
+- R figures: RT by frequency group, RT by syllable length, predicted interaction, residual histogram, residual QQ plot, residuals by length, and accuracy by condition.
+- Model output tables: random effects, model status, and model comparison.
+- Timeline diagram for the six-month project plan.
+
+Placeholders remaining:
+One intentional placeholder remains on slide 11 for inserting the PsychoPy demo video from:
+D:\Research 2\presentation\Demo.mov
+No unresolved template placeholders were detected by the template fidelity check.
+
+Banned wording appears:
+No. The final PPTX scan found 0 hits in slides, notes, relationships, and metadata XML.
+
+Methodology strength:
+Strong. The deck clearly presents the experimental design, task procedure, bias controls, PsychoPy/Pavlovia data collection, CSV export, Python/pandas cleaning and QC, cleaned datasets, R Markdown analysis, log RT rationale, and mixed-effects model.
+
+Results caution:
+Yes. The deck treats results as preliminary, highlights frequency and syllable-length effects carefully, and frames the interaction as modest and requiring follow-up checks.
+
+Template and visual QA:
+Passed. Template frame map validation passed, final template fidelity check passed, and rendered contact-sheet review showed no obvious blank plots, missing figures, or major overlap.
+
+Ready for manual review:
+Yes. Recommended manual review items: insert or link the video demo on slide 11 if needed, confirm pronunciation/wording for spoken delivery, and skim references for any lecturer-preferred citation style.

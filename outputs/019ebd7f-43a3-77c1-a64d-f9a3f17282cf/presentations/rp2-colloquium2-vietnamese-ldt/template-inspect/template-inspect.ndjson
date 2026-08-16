@@ -1,0 +1,38 @@
+{"kind":"slide","id":"sl/2x4nap4r","slide":2,"title":"Subtitle /Prof. Dr. Tibor Kiss","textShapes":3}
+{"kind":"textbox","id":"sh/cvixczed","slide":2,"name":"Untertitel 1","placeholder":"subtitle","text":"Subtitle /Prof. Dr. Tibor Kiss","textPreview":"Subtitle /Prof. Dr. Tibor Kiss","textChars":30,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":2,"name":"Titel 2","placeholder":"title","text":"Title of presentation","textPreview":"Title of presentation","textChars":21,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/udg7adsj","slide":2,"name":"Textplatzhalter 3","placeholder":"body","bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/nyd0z610","slide":2,"name":"Textplatzhalter 4","placeholder":"body","text":"Date","textPreview":"Date","textChars":4,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"slide","id":"sl/pg3ex0nu","slide":3,"title":"Title | Section","textShapes":3}
+{"kind":"shape","id":"sh/5o7qpg3e","slide":3,"name":"Inhaltsplatzhalter 1","bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":3,"name":"Fußzeilenplatzhalter 2","text":"Title | Section","textPreview":"Title | Section","textChars":15,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/r65wjudg","slide":3,"name":"Foliennummernplatzhalter 3","text":"2 ","textPreview":"2","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/ylc7u54z","slide":3,"name":"Titel 4","placeholder":"title","text":"Section","textPreview":"Section","textChars":7,"textLines":1,"bbox":[26.41,164.16,181.44,128.52]}
+{"kind":"slide","id":"sl/s72x4nap","slide":4,"title":"Titel | ggf. weitere Angaben","textShapes":2}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":4,"name":"Fußzeilenplatzhalter 1","text":"Titel | ggf. weitere Angaben","textPreview":"Titel | ggf. weitere Angaben","textChars":28,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":4,"name":"Foliennummernplatzhalter 2","text":"3 ","textPreview":"3","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/6dcbulwv","slide":4,"name":"Titel 3","placeholder":"title","bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/vy90je9c","slide":4,"name":"Inhaltsplatzhalter 4","bbox":[0,0,0,0]}
+{"kind":"slide","id":"sl/val87ed8","slide":5,"title":"Example for table","textShapes":3}
+{"kind":"textbox","id":"sh/qtcj6tov","slide":5,"name":"Titel 1","placeholder":"title","text":"Example for table","textPreview":"Example for table","textChars":17,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/je9cvixc","slide":5,"name":"Fußzeilenplatzhalter 2","text":"Titel | ggf. weitere Angaben","textPreview":"Titel | ggf. weitere Angaben","textChars":28,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/87ed8bat","slide":5,"name":"Foliennummernplatzhalter 3","text":"4 ","textPreview":"4","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"table","id":"tb/8jqh0fep","slide":5,"name":"Tabellenplatzhalter 5","rows":10,"cols":5,"preview":"Table name","bbox":[49.17,96.33,858,353.67]}
+{"kind":"slide","id":"sl/mlkjm1cf","slide":6,"title":"Titel | ggf. weitere Angaben","textShapes":3}
+{"kind":"shape","id":"sh/ovahoza1","slide":6,"name":"Inhaltsplatzhalter 1","bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":6,"name":"Fußzeilenplatzhalter 2","text":"Titel | ggf. weitere Angaben","textPreview":"Titel | ggf. weitere Angaben","textChars":28,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":6,"name":"Foliennummernplatzhalter 3","text":"5 ","textPreview":"5","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":6,"name":"Titel 4","placeholder":"title","text":"Section","textPreview":"Section","textChars":7,"textLines":1,"bbox":[46.36,149.04,146.36,128.52]}
+{"kind":"slide","id":"sl/58z25kb6","slide":7,"title":"Titel | ggf. weitere Angaben","textShapes":2}
+{"kind":"shape","id":"sh/ylc7u54z","slide":7,"name":"Titel 1","placeholder":"title","bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/r65wjudg","slide":7,"name":"Inhaltsplatzhalter 2","bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":7,"name":"Fußzeilenplatzhalter 3","text":"Titel | ggf. weitere Angaben","textPreview":"Titel | ggf. weitere Angaben","textChars":28,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":7,"name":"Foliennummernplatzhalter 4","text":"6 ","textPreview":"6","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/nih4byhg","slide":7,"name":"Textplatzhalter 6","placeholder":"body","bbox":[0,0,0,0]}
+{"kind":"image","id":"im/nqxs72x4","slide":7,"name":"Bildplatzhalter 5","bbox":[0,0,0,0]}
+{"kind":"slide","id":"sl/0z61032l","slide":8,"title":"Titel | ggf. weitere Angaben","textShapes":3}
+{"kind":"textbox","id":"sh/x4nap4r6","slide":8,"name":"Fußzeilenplatzhalter 1","text":"Titel | ggf. weitere Angaben","textPreview":"Titel | ggf. weitere Angaben","textChars":28,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":8,"name":"Foliennummernplatzhalter 2","text":"7 ","textPreview":"7","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":8,"name":"Titel 3","placeholder":"title","text":"Thank you for your attention","textPreview":"Thank you for your attention","textChars":28,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/qpg3ex0n","slide":8,"name":"Untertitel 4","placeholder":"subtitle","bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/xczed8v6","slide":8,"name":"Textplatzhalter 5","placeholder":"body","bbox":[0,0,0,0]}

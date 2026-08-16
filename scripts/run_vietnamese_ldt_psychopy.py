@@ -27,6 +27,15 @@ from psychopy import core, event, gui, visual
 ROOT = Path(__file__).resolve().parents[1]
 STIMULUS_FILE = ROOT / "data" / "stimuli" / "final" / "final_ldt_stimuli_3x4_v1.csv"
 RESULTS_DIR = ROOT / "data" / "experiment_results"
+DEMO_RESULTS_DIR = ROOT / "data" / "experiment_results_demo"
+
+# Demo mode is only for screen recording the task for presentations.
+# Use fullscreen real mode for data collection because timing is more controlled.
+DEMO_RECORDING_MODE = True
+DEMO_WINDOW_SIZE = "desktop"
+DEMO_WINDOW_SIZE_FALLBACK = (1280, 720)
+DEMO_MAIN_TRIAL_COUNT = 8
+DEMO_WINDOW_TITLE = "Vietnamese LDT Demo"
 
 FIXATION_SECONDS = 0.5
 TIMEOUT_SECONDS = 3.0
@@ -168,13 +177,13 @@ def read_stimuli(path: Path) -> List[Dict[str, str]]:
 
 def participant_dialog() -> Optional[Dict[str, Any]]:
     info = {
-        "participant_id": "",
+        "participant_id": "demo" if DEMO_RECORDING_MODE else "",
         "session": "001",
-        "full_screen": True,
+        "full_screen": not DEMO_RECORDING_MODE,
     }
     dialog = gui.DlgFromDict(
         dictionary=info,
-        title="RP2 Vietnamese Lexical Decision Task",
+        title="RP2 Vietnamese Lexical Decision Task" + (" DEMO" if DEMO_RECORDING_MODE else ""),
         order=["participant_id", "session", "full_screen"],
     )
     if not dialog.OK:
@@ -188,6 +197,70 @@ def participant_dialog() -> Optional[Dict[str, Any]]:
 def safe_filename_part(text: str) -> str:
     cleaned = re.sub(r"[^A-Za-z0-9_.-]+", "_", text.strip())
     return cleaned.strip("._") or "anonymous"
+
+
+def set_window_title(win: visual.Window, title: str) -> None:
+    # Window title is useful for OBS/Windows screen recording in demo mode.
+    handle = getattr(win, "winHandle", None)
+    for method_name in ["set_caption", "setTitle", "setWindowTitle"]:
+        method = getattr(handle, method_name, None)
+        if callable(method):
+            try:
+                method(title)
+                return
+            except Exception:
+                pass
+
+
+def create_window(info: Dict[str, Any]) -> visual.Window:
+    if DEMO_RECORDING_MODE:
+        # Windowed demo mode makes recording easier; it is not for real data collection.
+        win = visual.Window(
+            size=demo_window_size(),
+            fullscr=False,
+            allowGUI=True,
+            color="white",
+            units="height",
+        )
+        set_window_title(win, DEMO_WINDOW_TITLE)
+        return win
+
+    return visual.Window(
+        fullscr=bool(info["full_screen"]),
+        allowGUI=False,
+        color="white",
+        units="height",
+    )
+
+
+def demo_window_size() -> tuple[int, int]:
+    # Match the desktop size for easier screen recording; fall back if unavailable.
+    if DEMO_WINDOW_SIZE != "desktop":
+        return DEMO_WINDOW_SIZE
+    try:
+        import ctypes
+
+        user32 = ctypes.windll.user32
+        try:
+            user32.SetProcessDPIAware()
+        except Exception:
+            pass
+        width = int(user32.GetSystemMetrics(0))
+        height = int(user32.GetSystemMetrics(1))
+        if width > 0 and height > 0:
+            return (width, height)
+    except Exception:
+        pass
+    return DEMO_WINDOW_SIZE_FALLBACK
+
+
+def output_path_for_run(participant_id: str, session: str, timestamp: str) -> Path:
+    base_name = (
+        f"{safe_filename_part(participant_id)}_session-{safe_filename_part(session)}_ldt_{timestamp}.csv"
+    )
+    if DEMO_RECORDING_MODE:
+        return DEMO_RESULTS_DIR / f"DEMO_RECORDING_{base_name}"
+    return RESULTS_DIR / base_name
 
 
 def show_text(
@@ -306,7 +379,7 @@ def show_practice_feedback(
 
 
 def save_results(path: Path, rows: List[Dict[str, Any]]) -> None:
-    RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+    path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8-sig", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=OUTPUT_COLUMNS)
         writer.writeheader()
@@ -320,6 +393,12 @@ def main() -> int:
         print(exc, file=sys.stderr)
         return 1
 
+    if DEMO_RECORDING_MODE:
+        print(
+            "DEMO_RECORDING_MODE is ON. This run is for presentation recording only "
+            "and must not be used as real data."
+        )
+
     info = participant_dialog()
     if info is None:
         return 0
@@ -327,19 +406,15 @@ def main() -> int:
     participant_id = str(info["participant_id"])
     session = str(info["session"]).strip() or "001"
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    output_path = RESULTS_DIR / (
-        f"{safe_filename_part(participant_id)}_session-{safe_filename_part(session)}_ldt_{timestamp}.csv"
-    )
+    output_path = output_path_for_run(participant_id, session, timestamp)
 
     random.shuffle(stimuli)
+    if DEMO_RECORDING_MODE:
+        stimuli = stimuli[:DEMO_MAIN_TRIAL_COUNT]
     practice_trials = PRACTICE_TRIALS.copy()
     random.shuffle(practice_trials)
 
-    win = visual.Window(
-        fullscr=bool(info["full_screen"]),
-        color="white",
-        units="height",
-    )
+    win = create_window(info)
     instruction_text = visual.TextStim(
         win,
         color="black",

@@ -1,0 +1,67 @@
+PSYCHOPY DEMO MODE CHANGE REPORT
+Report date: 2026-06-12
+
+File changed:
+scripts\run_vietnamese_ldt_psychopy.py
+
+What was changed:
+- Added DEMO_RECORDING_MODE near the top of the script.
+- When DEMO_RECORDING_MODE is True, the experiment runs in a desktop-sized window instead of fullscreen.
+- The demo window uses the current desktop size when available, with 1280 x 720 as a fallback.
+- Demo mode uses allowGUI=True and tries to set the window title to "Vietnamese LDT Demo".
+- Demo mode keeps the 4 practice trials and runs only 8 main trials for screen recording.
+- Demo output is saved separately from real participant data.
+- The script prints this warning before the participant dialog:
+  "DEMO_RECORDING_MODE is ON. This run is for presentation recording only and must not be used as real data."
+
+Where DEMO_RECORDING_MODE is located:
+At the top of scripts\run_vietnamese_ldt_psychopy.py, near STIMULUS_FILE and RESULTS_DIR.
+
+How to turn demo mode on or off:
+- For recording a presentation demo:
+  DEMO_RECORDING_MODE = True
+
+- For real data collection:
+  DEMO_RECORDING_MODE = False
+
+Where demo output is saved:
+data\experiment_results_demo
+
+Demo filenames begin with:
+DEMO_RECORDING_
+
+Real experiment mode:
+When DEMO_RECORDING_MODE is False, the script keeps the original full-trial experiment behavior:
+- full stimulus file is used
+- full main trial count is used
+- fullscreen remains available through the participant dialog
+- output format and columns are unchanged
+- response mapping is unchanged
+
+Response mapping:
+F = word
+J = nonword
+
+Manual testing steps before recording:
+1. Open a terminal from the project root:
+   cd /d "D:\Research 2"
+
+2. Run:
+   python scripts\run_vietnamese_ldt_psychopy.py
+
+3. Confirm that the terminal prints the demo-mode warning.
+
+4. Confirm that the PsychoPy window opens in windowed mode at approximately the desktop size.
+
+5. Start OBS or Windows screen recording and select the PsychoPy demo window.
+
+6. Run through the 4 practice trials and 8 main demo trials.
+
+7. Confirm that a demo CSV appears in:
+   data\experiment_results_demo
+
+8. Before real data collection, set:
+   DEMO_RECORDING_MODE = False
+
+Syntax check:
+The script passed Python syntax compilation after editing.
